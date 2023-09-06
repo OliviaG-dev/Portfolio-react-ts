@@ -1,0 +1,21 @@
+header {
+    background-color: var(--main-color);
+    height: 8.12rem;
+    width: 100vw;
+}
+
+.header_container {
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header_list {
+    color: var(--bg-color);
+    display: flex;
+    gap: 5rem;
+    align-items: end;
+    cursor: pointer;
+    padding: 5rem;
+}

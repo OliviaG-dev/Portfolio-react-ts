@@ -1,0 +1,9 @@
+.footer {
+    background-color: var(--main-color);
+    width: 100vw;
+    height: 8.12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg-color);
+}
