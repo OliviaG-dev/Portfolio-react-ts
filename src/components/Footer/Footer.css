@@ -1,9 +1,25 @@
-.footer {
+footer {
     background-color: var(--main-color);
     width: 100vw;
     height: 8.12rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.footer_container {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     color: var(--bg-color);
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    left: 0;
+    background-color:  var(--main-color);
+    width: 100vw;
+    height: 0.3rem;
 }

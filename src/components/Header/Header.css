@@ -2,13 +2,20 @@ header {
     background-color: var(--main-color);
     height: 8.12rem;
     width: 100vw;
+    position: relative;
 }
 
 .header_container {
-    padding: 1rem 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 100%;
+    position: relative;
+}
+
+.header_img {
+    position: absolute;
+    left: 5rem;
+    top: 1.3rem;
 }
 
 .header_list {
@@ -18,4 +25,15 @@ header {
     align-items: end;
     cursor: pointer;
     padding: 5rem;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    background-color:  var(--main-color);
+    width: 100vw;
+    height: 0.3rem;
+    z-index: -10;
 }
