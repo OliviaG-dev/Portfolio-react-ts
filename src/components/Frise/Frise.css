@@ -1,50 +1,76 @@
 .Frise {
-    padding-top: 8rem;
+    padding-top: 4rem;
     
 }
 
 .Frise_rect {
     background-color: var(--main-color);
     height: 4.68rem;
-    position: relative;
+    
 }
 
-.Frise_rect > span {
-    width: 299px;
-    height: 116px;
-    border-radius: 50%;
+.rect_round {
+    margin-bottom: -2.5rem;
+    height: 7.25rem;
+    display: flex;
+    overflow: hidden;
 }
+
 
 .Frise_round_one {
-    position: absolute;
-    top: -3rem;
+    margin-left: -0.5rem;
+    width: 28rem;
+    height: 7.25rem;
+    border-radius: 50%;
     background-color: var(--main-color);
 }
 
 .Frise_round_two {
-    position: absolute;
-    top: -5rem;
-    left: 17rem;
+    margin-left: -1rem;
+    width: 20rem;
+    height: 7.25rem;
+    border-radius: 50%;
     background-color: var(--bg-color);
 }
 
 .Frise_round_three {
-    position: absolute;
-    top: -3rem;
-    left: 34rem;
+    margin-left: -1rem;
+    width: 28rem;
+    height: 7.25rem;
+    border-radius: 50%;
     background-color: var(--main-color);
 }
 
 .Frise_round_for { 
-    position: absolute;
-    top: -5rem;
-    left: 51rem;
+    margin-left: -1rem;
+    width: 20rem;
+    height: 7.25rem;
+    border-radius: 50%;
     background-color: var(--bg-color);
 }
 
-.Frise_round_five{
-    position: absolute;
-    top: -3rem;
-    left: 68rem;
+.Frise_round_five {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: 28rem;
+    height: 7.25rem;
+    border-radius: 50%;
     background-color: var(--main-color);
 }
+
+/* .Frise_round_six { 
+    margin-left: -1rem;
+    width: 20rem;
+    height: 7.25rem;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+}
+
+.Frise_round_seven { 
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: 25rem;
+    height: 7.25rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+} */
