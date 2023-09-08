@@ -1,8 +1,10 @@
 import './Frise.css';
+import { FriseProps } from '../../utils/inteface';
 
-function Frise() {
+const Frise: React.FC<FriseProps> = ({rotation}) => {
+    const friseClasses = rotation ? 'Frise_rotate' : 'Frise';
   return (
-    <div className="Frise">
+    <div className={friseClasses}>
       <div className="rect_round">
         <span className="Frise_round_one"></span>
         <span className="Frise_round_two"></span>

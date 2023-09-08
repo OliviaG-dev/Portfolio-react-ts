@@ -58,3 +58,13 @@
     width: 65%;
     line-height: 1.6;
 }
+
+.home_project {
+    height: 64rem;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.home_contact {
+    height: 35rem;
+}

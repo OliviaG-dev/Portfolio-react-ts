@@ -45,8 +45,18 @@ function Home() {
           </p>
         </div>
         
-        <Frise/>
+        <Frise rotation={false} />
+
+        <section className='home_project'>
+
+        </section>
+
+
+        <Frise rotation/>
         
+        <section className='home_contact'></section>
+
+
       </main>
       <Footer />
     </>

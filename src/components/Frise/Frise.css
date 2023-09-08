@@ -1,12 +1,15 @@
 .Frise {
     padding-top: 4rem;
-    
+}
+
+.Frise_rotate {
+    padding-top: 4rem;
+    transform : rotate(-180deg);
 }
 
 .Frise_rect {
     background-color: var(--main-color);
     height: 4.68rem;
-    
 }
 
 .rect_round {
@@ -74,3 +77,4 @@
     border-radius: 50%;
     background-color: var(--main-color);
 } */
+
