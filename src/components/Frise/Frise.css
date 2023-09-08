@@ -1,0 +1,50 @@
+.Frise {
+    padding-top: 8rem;
+    
+}
+
+.Frise_rect {
+    background-color: var(--main-color);
+    height: 4.68rem;
+    position: relative;
+}
+
+.Frise_rect > span {
+    width: 299px;
+    height: 116px;
+    border-radius: 50%;
+}
+
+.Frise_round_one {
+    position: absolute;
+    top: -3rem;
+    background-color: var(--main-color);
+}
+
+.Frise_round_two {
+    position: absolute;
+    top: -5rem;
+    left: 17rem;
+    background-color: var(--bg-color);
+}
+
+.Frise_round_three {
+    position: absolute;
+    top: -3rem;
+    left: 34rem;
+    background-color: var(--main-color);
+}
+
+.Frise_round_for { 
+    position: absolute;
+    top: -5rem;
+    left: 51rem;
+    background-color: var(--bg-color);
+}
+
+.Frise_round_five{
+    position: absolute;
+    top: -3rem;
+    left: 68rem;
+    background-color: var(--main-color);
+}

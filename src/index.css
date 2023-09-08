@@ -47,11 +47,16 @@ table {
 }
 
 :root {
-  box-sizing: border-box;
+    
   font-family: 'K2D', sans-serif;
   --main-color: #50067A;
   --sc-color: #30BEB0;
   --bg-color: #FFFADE;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'K2D', sans-serif;
 }
 
 body {
