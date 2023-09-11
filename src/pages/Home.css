@@ -67,4 +67,7 @@
 
 .home_contact {
     height: 35rem;
+    display: flex;
+    width: 100%;
+    padding: 0 4rem;
 }

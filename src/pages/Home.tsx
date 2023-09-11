@@ -2,6 +2,10 @@ import './Home.css';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Frise from '../components/Frise/Frise';
+import Icon_email from '../assets/images/Icons/Icon_email.svg';
+import Icon_github from '../assets/images/Icons/Icon_github.svg';
+import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
+import Icon_localisation from '../assets/images/Icons/Icon_localisation.svg';
 
 function Home() {
   return (
@@ -44,19 +48,32 @@ function Home() {
             entourage proche que j'ai été happée par l'univers du web.
           </p>
         </div>
-        
+
         <Frise rotation={false} />
 
-        <section className='home_project'>
+        <section className="home_project"></section>
 
+        <Frise rotation />
+
+        <section className="home_contact">
+          <div className="contact_text">
+            <div>
+              <img src={Icon_linkedin} alt="icone linkedin" />
+            </div>
+            <div>
+              <img src={Icon_github} alt="icone github" />
+            </div>
+            <h2>
+              <img src={Icon_email} alt="icone email" />
+            </h2>
+            <div>
+              <img src={Icon_localisation} alt="icone localisation" />
+            </div>
+          </div>
+          <div className="home_tag">
+            <p>CONTACT</p>
+          </div>
         </section>
-
-
-        <Frise rotation/>
-        
-        <section className='home_contact'></section>
-
-
       </main>
       <Footer />
     </>
