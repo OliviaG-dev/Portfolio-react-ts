@@ -10,10 +10,11 @@
 .Frise_rect {
     background-color: var(--main-color);
     height: 4.68rem;
+    margin-top: -3rem;
 }
 
 .rect_round {
-    margin-bottom: -2.5rem;
+    margin-bottom: -2.8rem;
     height: 7.25rem;
     display: flex;
     overflow: hidden;
