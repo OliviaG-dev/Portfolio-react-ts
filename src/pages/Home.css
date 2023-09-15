@@ -188,6 +188,7 @@
     width: 25rem;
     height: 10rem;
     border-radius: 90px 0 0 0;
+    object-fit:contain;
 }
 
 .article_text {

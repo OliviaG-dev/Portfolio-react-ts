@@ -1,5 +1,6 @@
 import './Home.css';
 //import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Frise from '../components/Frise/Frise';
@@ -7,9 +8,16 @@ import Icon_email from '../assets/images/Icons/Icon_email.svg';
 import Icon_github from '../assets/images/Icons/Icon_github.svg';
 import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
 import Icon_localisation from '../assets/images/Icons/Icon_localisation.svg';
-import phototest from '../assets/phototest.png';
+import Data from '../services/data';
+import { DataProjects } from '../services/inteface';
 
 function Home() {
+  const data = new Data();
+  const dataProjects = data.getDataProjects();
+
+  console.log(dataProjects);
+  const [showModal, setShowModal] = useState(false);
+  
   return (
     <>
       <Header />
@@ -41,7 +49,7 @@ function Home() {
             <p className="presentation_text">
               Hey ! 👋 <br />
               Je suis une geek passionnée 🎮 et une développeuse front-end
-              enthousiaste 🌸. Le web, c'est vraiment ma tasse de thé ! 🍵 Mais
+              enthousiaste 🌸. <br /> Le web, c'est vraiment ma tasse de thé ! 🍵 Mais
               avant d'en arriver là, j'ai fait mes armes dans le monde trépidant
               de l'hôtellerie-restauration. J'ai développée un sacré sens du
               service et une relation client aux petits oignons. Mais entre
@@ -71,103 +79,20 @@ function Home() {
 
           <div className="project_container">
 
-            <article className="project_article">
+            {dataProjects.length === 0 ? (
+              <p>Je n'ai pas de project</p>
+            ) : (
+              dataProjects.map((project: DataProjects) => (
+                <article className="project_article" key={project.id}>
               <div className="article_image">
-                <img src={phototest} alt="test" />
+                <img src={project.imagePortrait} alt={project.title} />
               </div>
               <div className="article_text">
                 <span>
-                  <ul className="article_list">
-                    <li>#HTML</li>
-                    <li>#CSS</li>
-                    <li>#REACT</li>
-                    <li>#JAVASCRIPT</li>
-                    <li>#BOOTSTRAP</li>
-                  </ul>
-                </span>
-              </div>
-            </article>
-
-            <article className="project_article">
-              <div className="article_image">
-                <img src={phototest} alt="test" />
-              </div>
-              <div className="article_text">
-                <span>
-                  <ul className="article_list">
-                    <li>#HTML</li>
-                    <li>#CSS</li>
-                    <li>#REACT</li>
-                    <li>#JAVASCRIPT</li>
-                    <li>#BOOTSTRAP</li>
-                  </ul>
-                </span>
-              </div>
-            </article>
-
-            <article className="project_article">
-              <div className="article_image">
-                <img src={phototest} alt="test" />
-              </div>
-              <div className="article_text">
-                <span>
-                  <ul className="article_list">
-                    <li>#HTML</li>
-                    <li>#CSS</li>
-                    <li>#REACT</li>
-                    <li>#JAVASCRIPT</li>
-                    <li>#BOOTSTRAP</li>
-                  </ul>
-                </span>
-              </div>
-            </article>
-
-            <article className="project_article">
-              <div className="article_image">
-                <img src={phototest} alt="test" />
-              </div>
-              <div className="article_text">
-                <span>
-                  <ul className="article_list">
-                    <li>#HTML</li>
-                    <li>#CSS</li>
-                    <li>#REACT</li>
-                    <li>#JAVASCRIPT</li>
-                    <li>#BOOTSTRAP</li>
-                  </ul>
-                </span>
-              </div>
-            </article>
-
-            <article className="project_article">
-              <div className="article_image">
-                <img src={phototest} alt="test" />
-              </div>
-              <div className="article_text">
-                <span>
-                  <ul className="article_list">
-                    <li>#HTML</li>
-                    <li>#CSS</li>
-                    <li>#REACT</li>
-                    <li>#JAVASCRIPT</li>
-                    <li>#BOOTSTRAP</li>
-                  </ul>
-                </span>
-              </div>
-            </article>
-
-            <article className="project_article">
-              <div className="article_image">
-                <img src={phototest} alt="test" />
-              </div>
-              <div className="article_text">
-                <span>
-                  <ul className="article_list">
-                    <li>#HTML</li>
-                    <li>#CSS</li>
-                    <li>#REACT</li>
-                    <li>#JAVASCRIPT</li>
-                    <li>#BOOTSTRAP</li>
+                  <ul className="article_list" >
+                    {project.tags.map(tag => (
+                      <li key={tag.item} style={{ color: tag.style }}>{tag.item}</li>
+                    ))}
                   </ul>
                 </span>
               </div>
@@ -175,11 +100,8 @@ function Home() {
 
 
 
-
-
-
-
-
+              ))
+            )}
 
 
 
