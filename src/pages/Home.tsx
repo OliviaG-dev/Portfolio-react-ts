@@ -7,6 +7,7 @@ import Icon_email from '../assets/images/Icons/Icon_email.svg';
 import Icon_github from '../assets/images/Icons/Icon_github.svg';
 import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
 import Icon_localisation from '../assets/images/Icons/Icon_localisation.svg';
+import phototest from '../assets/phototest.png';
 
 function Home() {
   return (
@@ -52,7 +53,138 @@ function Home() {
 
         <Frise rotation={false} />
 
-        <section className="home_project"></section>
+        <section className="home_project">
+          <div className="project_tag_container">
+            <div className="button_container">
+              <button className="button_tag black">HTML</button>
+              <button className="button_tag red">CSS</button>
+              <button className="button_tag blue">JAVASCRIPT</button>
+              <button className="button_tag green">REACT</button>
+              <button className="button_tag violet">BOOTSTRAP</button>
+              <button className="button_tag orange">TAILWIND</button>
+              <button className="button_tag pink">VUEJS</button>
+            </div>
+            <div className="project_tag">
+              <p>PROJECTS</p>
+            </div>
+          </div>
+
+          <div className="project_container">
+
+            <article className="project_article">
+              <div className="article_image">
+                <img src={phototest} alt="test" />
+              </div>
+              <div className="article_text">
+                <span>
+                  <ul className="article_list">
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#REACT</li>
+                    <li>#JAVASCRIPT</li>
+                    <li>#BOOTSTRAP</li>
+                  </ul>
+                </span>
+              </div>
+            </article>
+
+            <article className="project_article">
+              <div className="article_image">
+                <img src={phototest} alt="test" />
+              </div>
+              <div className="article_text">
+                <span>
+                  <ul className="article_list">
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#REACT</li>
+                    <li>#JAVASCRIPT</li>
+                    <li>#BOOTSTRAP</li>
+                  </ul>
+                </span>
+              </div>
+            </article>
+
+            <article className="project_article">
+              <div className="article_image">
+                <img src={phototest} alt="test" />
+              </div>
+              <div className="article_text">
+                <span>
+                  <ul className="article_list">
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#REACT</li>
+                    <li>#JAVASCRIPT</li>
+                    <li>#BOOTSTRAP</li>
+                  </ul>
+                </span>
+              </div>
+            </article>
+
+            <article className="project_article">
+              <div className="article_image">
+                <img src={phototest} alt="test" />
+              </div>
+              <div className="article_text">
+                <span>
+                  <ul className="article_list">
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#REACT</li>
+                    <li>#JAVASCRIPT</li>
+                    <li>#BOOTSTRAP</li>
+                  </ul>
+                </span>
+              </div>
+            </article>
+
+            <article className="project_article">
+              <div className="article_image">
+                <img src={phototest} alt="test" />
+              </div>
+              <div className="article_text">
+                <span>
+                  <ul className="article_list">
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#REACT</li>
+                    <li>#JAVASCRIPT</li>
+                    <li>#BOOTSTRAP</li>
+                  </ul>
+                </span>
+              </div>
+            </article>
+
+            <article className="project_article">
+              <div className="article_image">
+                <img src={phototest} alt="test" />
+              </div>
+              <div className="article_text">
+                <span>
+                  <ul className="article_list">
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#REACT</li>
+                    <li>#JAVASCRIPT</li>
+                    <li>#BOOTSTRAP</li>
+                  </ul>
+                </span>
+              </div>
+            </article>
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </section>
 
         <Frise rotation />
 
