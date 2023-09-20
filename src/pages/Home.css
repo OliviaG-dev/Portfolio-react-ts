@@ -65,6 +65,7 @@
     width: 100%;
     background-color: var(--main-color);
     padding: 4rem 4rem;
+    /* position: relative; */
 }
 
 .home_contact {
@@ -163,35 +164,65 @@
 }
 
 .project_container {
-    margin-top: 2rem;
+    
+    margin: 2rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.project_article {
+.project_wrapper {
+    perspective: 1000px;
+    perspective-origin: top; 
+}
+
+.project_wrapper:hover .project {
+    transform: rotateY(180deg);
+}
+
+.project {
+    position: relative;
     width: 28rem;
     height: 20rem;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.project_front, .project_back {
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.project_front {
     background-color: rgba(246, 168, 255, 0.15);
     border-radius: 90px 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 1rem 1.5rem;
-    margin-bottom: 6rem;
     cursor: pointer;
 }
 
-.article_image {
-    height: 12rem;
-}
-
-.article_image > img {
-    width: 25rem;
+.front_up {
     height: 10rem;
+    background-color: var(--bg-color);
     border-radius: 90px 0 0 0;
-    object-fit:contain;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    margin-bottom: 2rem;
 }
 
-.article_text {
+.front_title {
+    font-size: 1.5em;
+    color: #211707;
+}
+
+.up_describe {
+    font-size: 1.2em;
+    color: #211707;
+    padding-top: 3rem;
+}
+
+.front_down {
     width: auto;
     height: 5rem;
     background: var(--bg-color);
@@ -201,11 +232,36 @@
     padding-left: 1rem;
 }
 
-.article_list {
+.down_list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.article_list > li {
+.down_list > li {
     margin: 0 1.5rem 0.5rem 0;
+}
+
+.project_link {
+    font-size: 1.5em;
+    color: var(--bg-color);
+    margin: 0.5rem 0 4rem 0;
+    width: 100%;
+    display:flex;
+    justify-content: end;
+}
+
+.project_back {
+    background-color: rgba(246, 168, 255, 0.15);
+    border-radius: 90px 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.back_container > img {
+    width: 25rem;
+    height: 18rem;
+    border-radius: 90px 0 90px 0;
+    object-fit: cover;
 }

@@ -16,8 +16,16 @@ function Home() {
   const dataProjects = data.getDataProjects();
 
   console.log(dataProjects);
-  const [showModal, setShowModal] = useState(false);
-  
+  // const [showModal, setShowModal] = useState(false);
+
+  // const openModal = () => {
+  //   setShowModal(true);
+  // }
+
+  // const closeModal = () => {
+  //   setShowModal(false);
+  // }
+
   return (
     <>
       <Header />
@@ -25,11 +33,11 @@ function Home() {
         <section>
           <div className="home_container">
             <div className="home_box">
-              <div className="home_title">
+              <h1 className="home_title">
                 <span className="title_color--code">{'<h1>'}</span>
                 <span className="title_color--sec">je suis</span>
                 <br />
-                <span className="title_color--code">{"<p id='blue'>"}</span>
+                <span className="title_color--code">{"<p class='blue'>"}</span>
                 <span className="title_color--blue">Olivia Gautheron </span>
                 <span className="title_color--code">{'</p>'}</span>
                 <span className="title_color--code">{'<span>'}</span>
@@ -38,7 +46,7 @@ function Home() {
                 <br />
                 <span className="title_color--sec">et une geek !</span>
                 <span className="title_color--code">{'</h1>'}</span>
-              </div>
+              </h1>
             </div>
             <div className="home_tag">
               <p>ABOUT</p>
@@ -49,12 +57,13 @@ function Home() {
             <p className="presentation_text">
               Hey ! 👋 <br />
               Je suis une geek passionnée 🎮 et une développeuse front-end
-              enthousiaste 🌸. <br /> Le web, c'est vraiment ma tasse de thé ! 🍵 Mais
-              avant d'en arriver là, j'ai fait mes armes dans le monde trépidant
-              de l'hôtellerie-restauration. J'ai développée un sacré sens du
-              service et une relation client aux petits oignons. Mais entre
-              nous, mon cœur battait déjà pour l'informatique, et c'est grâce à
-              mon entourage proche que j'ai été happée par l'univers du web.
+              enthousiaste 🌸. <br /> Le web, c'est vraiment ma tasse de thé !
+              🍵 Mais avant d'en arriver là, j'ai fait mes armes dans le monde
+              trépidant de l'hôtellerie-restauration. J'ai développée un sacré
+              sens du service et une relation client aux petits oignons. Mais
+              entre nous, mon cœur battait déjà pour l'informatique, et c'est
+              grâce à mon entourage proche que j'ai été happée par l'univers du
+              web.
             </p>
           </div>
         </section>
@@ -64,8 +73,8 @@ function Home() {
         <section className="home_project">
           <div className="project_tag_container">
             <div className="button_container">
-              <button className="button_tag black">HTML</button>
-              <button className="button_tag red">CSS</button>
+              <button className="button_tag black">HTML/CSS</button>
+              <button className="button_tag red">FIGMA</button>
               <button className="button_tag blue">JAVASCRIPT</button>
               <button className="button_tag green">REACT</button>
               <button className="button_tag violet">BOOTSTRAP</button>
@@ -78,33 +87,47 @@ function Home() {
           </div>
 
           <div className="project_container">
-
             {dataProjects.length === 0 ? (
-              <p>Je n'ai pas de project</p>
+              <p>Je n'ai pas de project...</p>
             ) : (
               dataProjects.map((project: DataProjects) => (
-                <article className="project_article" key={project.id}>
-              <div className="article_image">
-                <img src={project.imagePortrait} alt={project.title} />
-              </div>
-              <div className="article_text">
-                <span>
-                  <ul className="article_list" >
-                    {project.tags.map(tag => (
-                      <li key={tag.item} style={{ color: tag.style }}>{tag.item}</li>
-                    ))}
-                  </ul>
-                </span>
-              </div>
-            </article>
+                <>
+                  <div className="project_wrapper">
+                    <div className="project" key={project.id}>
+                      
+                      <article className="project_front">
+                        <div className="front_up">
+                          <h2 className="up_title">{project.title}</h2>
+                          <p className="up_describe">{project.describe}</p>
+                        </div>
+                        <div className="front_down">
+                          <span>
+                            <ul className="down_list">
+                              {project.tags.map((tag) => (
+                                <li key={tag.item} style={{ color: tag.style }}>
+                                  {tag.item}
+                                </li>
+                              ))}
+                            </ul>
+                          </span>
+                        </div>
+                      </article>
+                  
+                      <article className="project_back" >
+                        <div className="back_container">
+                          <img
+                            src={project.imagePortrait}
+                            alt={project.title}
+                          />
+                        </div>
+                      </article>
 
-
-
+                    </div>
+                    <div className="project_link">Voir +</div>
+                  </div>
+                </>
               ))
             )}
-
-
-
           </div>
         </section>
 
