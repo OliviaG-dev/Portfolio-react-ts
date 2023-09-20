@@ -94,7 +94,6 @@ function Home() {
                 <>
                   <div className="project_wrapper">
                     <div className="project" key={project.id}>
-                      
                       <article className="project_front">
                         <div className="front_up">
                           <h2 className="up_title">{project.title}</h2>
@@ -112,8 +111,8 @@ function Home() {
                           </span>
                         </div>
                       </article>
-                  
-                      <article className="project_back" >
+
+                      <article className="project_back">
                         <div className="back_container">
                           <img
                             src={project.imagePortrait}
@@ -121,9 +120,11 @@ function Home() {
                           />
                         </div>
                       </article>
-
                     </div>
-                    <div className="project_link">Voir +</div>
+                    <div></div>
+                    <div className="project_button">
+                      <button className="project_link">Voir +</button>
+                    </div>
                   </div>
                 </>
               ))
