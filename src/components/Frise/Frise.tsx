@@ -1,5 +1,5 @@
 import './Frise.css';
-import { FriseProps } from '../../utils/inteface';
+import { FriseProps } from '../../services/inteface';
 
 const Frise: React.FC<FriseProps> = ({rotation}) => {
     const friseClasses = rotation ? 'Frise_rotate' : 'Frise';

@@ -1,7 +1,7 @@
 [
     {
         "id": "01",
-        "imagePortrait" : "../images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
                 "src":"../images/ImagesSlide/omf/omf_slide01.png",
@@ -29,14 +29,15 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML", "style":"#000"}, {"item":"#CSS", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
         "title" : "oh my food!",
+        "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
     },
     {
         "id": "02",
-        "imagePortrait" : "../images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
                 "src":"../images/ImagesSlide/omf/omf_slide01.png",
@@ -64,14 +65,15 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML", "style":"#000"}, {"item":"#CSS", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
         "title" : "oh my food!",
+        "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
     },
     {
         "id": "03",
-        "imagePortrait" : "../images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
                 "src":"../images/ImagesSlide/omf/omf_slide01.png",
@@ -99,14 +101,15 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML", "style":"#000"}, {"item":"#CSS", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
         "title" : "oh my food!",
+        "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
     },
     {
         "id": "04",
-        "imagePortrait" : "../images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
                 "src":"../images/ImagesSlide/omf/omf_slide01.png",
@@ -134,14 +137,15 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML", "style":"#000"}, {"item":"#CSS", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
         "title" : "oh my food!",
+        "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
     },
     {
         "id": "05",
-        "imagePortrait" : "../images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
                 "src":"../images/ImagesSlide/omf/omf_slide01.png",
@@ -169,14 +173,15 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML", "style":"#000"}, {"item":"#CSS", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
         "title" : "oh my food!",
+        "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
     },
     {
         "id": "06",
-        "imagePortrait" : "../images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
                 "src":"../images/ImagesSlide/omf/omf_slide01.png",
@@ -204,78 +209,9 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML", "style":"#000"}, {"item":"#CSS", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
         "title" : "oh my food!",
-        "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
-        "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
-    },
-    {
-        "id": "07",
-        "imagePortrait" : "../images/ImagesPortrait/omf_portrait.png",
-        "imagesSlide" : [ 
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide01.png",
-                "alt":"image de mon projet ohmyfood 1"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide02.png",
-                "alt":"image de mon projet ohmyfood 2"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide03.png",
-                "alt":"image de mon projet ohmyfood 3"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide04.png",
-                "alt":"image de mon projet ohmyfood 4"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide05.png",
-                "alt":"image de mon projet ohmyfood 5"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide06.png",
-                "alt":"image de mon projet ohmyfood 6"
-            }
-            
-        ],
-        "tags" : [{"item":"#HTML", "style":"#000"}, {"item":"#CSS", "style":"#FF0000"}],
-        "title" : "oh my food!",
-        "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
-        "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
-    },
-    {
-        "id": "08",
-        "imagePortrait" : "../images/ImagesPortrait/omf_portrait.png",
-        "imagesSlide" : [ 
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide01.png",
-                "alt":"image de mon projet ohmyfood 1"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide02.png",
-                "alt":"image de mon projet ohmyfood 2"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide03.png",
-                "alt":"image de mon projet ohmyfood 3"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide04.png",
-                "alt":"image de mon projet ohmyfood 4"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide05.png",
-                "alt":"image de mon projet ohmyfood 5"
-            },
-            {
-                "src":"../images/ImagesSlide/omf/omf_slide06.png",
-                "alt":"image de mon projet ohmyfood 6"
-            }
-            
-        ],
-        "tags" : [{"item":"#HTML", "style":"#000"}, {"item":"#CSS", "style":"#FF0000"}],
-        "title" : "oh my food!",
+        "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
     }
