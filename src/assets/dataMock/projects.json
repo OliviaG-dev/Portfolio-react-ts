@@ -65,7 +65,7 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}, {"item":"#JAVASCRIPT", "style":"#065973"}],
         "title" : "oh my food!",
         "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
@@ -101,7 +101,7 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}],
         "title" : "oh my food!",
         "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
@@ -137,7 +137,7 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#BOOTSTRAP", "style":"#9F1066"}, {"item":"#VUEJS", "style":"#e9503f"}, {"item":"#FIGMA", "style":"#FF0000"}],
         "title" : "oh my food!",
         "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
@@ -173,7 +173,7 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
+        "tags" : [{"item":"#FIGMA", "style":"#FF0000"},{"item":"#TAILWIND", "style":"#be8110"},{"item":"#BOOTSTRAP", "style":"#9F1066"}],
         "title" : "oh my food!",
         "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
@@ -209,7 +209,7 @@
             }
             
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}],
         "title" : "oh my food!",
         "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
