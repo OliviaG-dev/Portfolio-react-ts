@@ -120,12 +120,16 @@
     align-items: center;
 }
 
-.button_tag {
+
+.button_tag, .active_tag {
     border-radius: 15px;
     cursor: pointer;
     padding: 0.5rem 1rem;
     font-size: 1em;
-    border: none;
+}
+
+.active_tag {
+    background-color: rgba(238, 153, 247, 0);
 }
 
 .black {
@@ -154,8 +158,8 @@
 }
 
 .orange {
-    color: orange;
-    border: orange solid 2px;
+    color: #be8110;
+    border: #be8110 solid 2px;
 }
 
 .pink {

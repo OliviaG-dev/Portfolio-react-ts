@@ -1,5 +1,4 @@
 import './Home.css';
-//import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
@@ -16,6 +15,7 @@ function Home() {
   const dataProjects = data.getDataProjects();
 
   console.log(dataProjects);
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
   // const [showModal, setShowModal] = useState(false);
 
   // const openModal = () => {
@@ -25,6 +25,37 @@ function Home() {
   // const closeModal = () => {
   //   setShowModal(false);
   // }
+
+
+  const filterProjectsByTags = () => {
+    if (selectedTags.length === 0) {
+      return dataProjects;
+    }
+  
+    const filteredProjects = dataProjects.filter(project => {
+      return project.tags.some(tag => selectedTags.includes(tag.item));
+    });
+  
+    return filteredProjects;
+  };
+
+  const handleTagClick = (tag: string) => {
+    console.log(tag);
+    // const tags = document.querySelectorAll('.button_tag'); // Sélectionne tous les tags
+    // tags.forEach(tagElement => {
+    //   if (tagElement.textContent === tag) {
+    //     tagElement.classList.toggle('active_tag'); // Ajoute ou retire la classe .activeTag
+    //   }
+    // });
+
+    if (selectedTags.includes(tag)) {
+      setSelectedTags(selectedTags.filter(item => item !== tag));
+    } else {
+      setSelectedTags([...selectedTags, tag]);
+    }
+  };
+
+  const filteredProjects = filterProjectsByTags();
 
   return (
     <>
@@ -73,13 +104,13 @@ function Home() {
         <section className="home_project">
           <div className="project_tag_container">
             <div className="button_container">
-              <button className="button_tag black">HTML/CSS</button>
-              <button className="button_tag red">FIGMA</button>
-              <button className="button_tag blue">JAVASCRIPT</button>
-              <button className="button_tag green">REACT</button>
-              <button className="button_tag violet">BOOTSTRAP</button>
-              <button className="button_tag orange">TAILWIND</button>
-              <button className="button_tag pink">VUEJS</button>
+              <button className={`black ${selectedTags.includes("#HTML/CSS") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#HTML/CSS")}>HTML/CSS</button>
+              <button className={`red ${selectedTags.includes("#FIGMA") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#FIGMA")}>FIGMA</button>
+              <button className={`blue ${selectedTags.includes("#JAVASCRIPT") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#JAVASCRIPT")}>JAVASCRIPT</button>
+              <button className={`green ${selectedTags.includes("#REACT") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#REACT")}>REACT</button>
+              <button className={`violet ${selectedTags.includes("#BOOTSTRAP") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#BOOTSTRAP")}>BOOTSTRAP</button>
+              <button className={`orange ${selectedTags.includes("#TAILWIND") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#TAILWIND")}>TAILWIND</button>
+              <button className={`pink ${selectedTags.includes("#VUEJS") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#VUEJS")}>VUEJS</button>
             </div>
             <div className="project_tag">
               <p>PROJECTS</p>
@@ -87,13 +118,14 @@ function Home() {
           </div>
 
           <div className="project_container">
-            {dataProjects.length === 0 ? (
+            {filteredProjects.length === 0 ? (
               <p>Je n'ai pas de project...</p>
             ) : (
-              dataProjects.map((project: DataProjects) => (
-                <>
-                  <div className="project_wrapper">
-                    <div className="project" key={project.id}>
+              filteredProjects.map((project: DataProjects) => (
+                
+                  <div className="project_wrapper" key={project.id}>
+                    <div className="project">
+
                       <article className="project_front">
                         <div className="front_up">
                           <h2 className="up_title">{project.title}</h2>
@@ -126,7 +158,7 @@ function Home() {
                       <button className="project_link">Voir +</button>
                     </div>
                   </div>
-                </>
+                
               ))
             )}
           </div>
