@@ -14,6 +14,6 @@ export interface DataProjects {
 }
 
 export interface ModalProps {
-    showModal: boolean;
-    onClose: () => void;
+    closeModal: () => void;
+    project: DataProjects | null;
 }

@@ -1,13 +1,18 @@
 import './Modal.css';
 import { ModalProps } from '../../services/inteface'
 
-const Modal: React.FC<ModalProps> = ({ closeModal }) => {
+
+const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
+  const handleClose = () => {
+    closeModal();
+  }
     return (
-      <div className="modal">
-        <div className="modal_content">
-          <span className="close" onClick={closeModal}>&times;</span>
-          <h2>Modal Title</h2>
-          <p>Modal Content</p>
+      <div className="modal" onClick={handleClose}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <span className="close" onClick={closeModal}>&times;</span>
+
+          {project && <h2>{project.title}</h2>}
+          {project && <p>{project.id}</p>}
         </div>
       </div>
     );
