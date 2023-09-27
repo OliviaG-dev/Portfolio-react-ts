@@ -23,12 +23,10 @@ function Home() {
   const openModal = (project: DataProjects) => {
     setSelectedProject(project);
     setShowModal(true);
-    console.log('Modal ouverte. showModal est maintenant true');
   }
 
   const closeModal = () => {
     setShowModal(false);
-    console.log('Modal fermée. showModal est maintenant false');
   }
 
 

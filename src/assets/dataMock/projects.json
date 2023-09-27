@@ -4,30 +4,29 @@
         "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"../images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
-            
         ],
         "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
         "title" : "oh my food!",
@@ -40,30 +39,29 @@
         "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"../images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
-            
         ],
         "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}, {"item":"#JAVASCRIPT", "style":"#065973"}],
         "title" : "oh my food!",
@@ -76,30 +74,29 @@
         "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"../images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
-            
         ],
         "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}],
         "title" : "oh my food!",
@@ -112,30 +109,29 @@
         "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"../images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
-            
         ],
         "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#BOOTSTRAP", "style":"#9F1066"}, {"item":"#VUEJS", "style":"#e9503f"}, {"item":"#FIGMA", "style":"#FF0000"}],
         "title" : "oh my food!",
@@ -148,30 +144,29 @@
         "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"../images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
-            
         ],
         "tags" : [{"item":"#FIGMA", "style":"#FF0000"},{"item":"#TAILWIND", "style":"#be8110"},{"item":"#BOOTSTRAP", "style":"#9F1066"}],
         "title" : "oh my food!",
@@ -184,30 +179,29 @@
         "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"../images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"../images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
-            
         ],
         "tags" : [{"item":"#HTML/CSS", "style":"#000"}],
         "title" : "oh my food!",

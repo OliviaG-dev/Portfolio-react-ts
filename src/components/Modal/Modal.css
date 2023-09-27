@@ -1,52 +1,88 @@
-/* Modal Container */
+
 .modal {
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     overflow: auto;
-    background-color:var(--main-color);
+    background-color:#3C214B;
 }
 
-  /* Contenu de la Modal */
-.modal-content {
-    background-color: #fefefe;
+.modal_content {
+    background-color:#d78dff8c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
-    max-width: 600px;
+    width: 50%;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    animation: modal-enter 0.3s;
+    overflow: auto;
 }
 
-  /* Bouton de fermeture */
-.close {
+.modal_slider {
+  display: flex;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.slider{
+  width: 80%;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.slider_img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.slider_dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.modal_close {
     position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 24px;
+    top: -1rem;
+    right: 0.2rem;
+    font-size: 3em;
+    color: #211707;
     cursor: pointer;
 }
 
-  /* Style du contenu de la modal */
-.modal-content h2 {
-    margin-bottom: 10px;
+
+.modal_text {
+    height: 20rem;
+    font-size: 1.8em;
+    background-color: aquamarine;
 }
 
-.modal-content p {
-    margin-bottom: 20px;
-}
-
-  /* Animation d'entrée */
 @keyframes modal-enter {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
-  /* Appliquer l'animation d'entrée */
-.modal-content {
-    animation: modal-enter 0.3s;
-}
