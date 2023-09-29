@@ -9,22 +9,25 @@ import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
 import Icon_localisation from '../assets/images/Icons/Icon_localisation.svg';
 import Data from '../services/data';
 import { DataProjects } from '../services/inteface';
+import Modal from '../components/Modal/Modal';
 
 function Home() {
   const data = new Data();
   const dataProjects = data.getDataProjects();
 
   console.log(dataProjects);
+  const [selectedProject, setSelectedProject] = useState<DataProjects | null>(null);
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
-  // const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
-  // const openModal = () => {
-  //   setShowModal(true);
-  // }
+  const openModal = (project: DataProjects) => {
+    setSelectedProject(project);
+    setShowModal(true);
+  }
 
-  // const closeModal = () => {
-  //   setShowModal(false);
-  // }
+  const closeModal = () => {
+    setShowModal(false);
+  }
 
 
   const filterProjectsByTags = () => {
@@ -40,14 +43,6 @@ function Home() {
   };
 
   const handleTagClick = (tag: string) => {
-    console.log(tag);
-    // const tags = document.querySelectorAll('.button_tag'); // Sélectionne tous les tags
-    // tags.forEach(tagElement => {
-    //   if (tagElement.textContent === tag) {
-    //     tagElement.classList.toggle('active_tag'); // Ajoute ou retire la classe .activeTag
-    //   }
-    // });
-
     if (selectedTags.includes(tag)) {
       setSelectedTags(selectedTags.filter(item => item !== tag));
     } else {
@@ -155,13 +150,14 @@ function Home() {
                     </div>
                     <div></div>
                     <div className="project_button">
-                      <button className="project_link">Voir +</button>
+                      <button className="project_link" onClick={() => openModal(project)}>Voir +</button>
                     </div>
                   </div>
                 
               ))
             )}
           </div>
+          {showModal && <Modal closeModal={closeModal} project={selectedProject} />}
         </section>
 
         <Frise rotation />

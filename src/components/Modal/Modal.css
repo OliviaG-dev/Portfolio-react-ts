@@ -1,0 +1,129 @@
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    overflow: auto;
+    background-color:#4f067a;
+}
+
+.modal_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 15% auto;
+    padding: 2rem;
+    width: 70%;
+    position: relative;
+    animation: modal-enter 0.3s;
+    overflow: auto;
+}
+
+@keyframes modal-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+.modal_slider {
+  display: flex;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.modal_slider > button {
+  background-color: inherit;
+  border: none;
+  color: var(--sc-color);
+  font-size: 3em ;
+  padding: 1rem;
+}
+
+.slider{
+  width: 90%;
+  height: 30rem;
+  overflow: hidden;
+  border-radius: 15px;
+  
+}
+
+.slider_img {
+  width: 100%;
+}
+
+.slider_dots {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.dot {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: none;
+  border: var(--sc-color) solid 2px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: var(--sc-color);
+  position: relative;
+}
+
+.dot.active::after{
+  content: "";
+  position: absolute;
+  width: 1.6rem;
+  height: 1.6rem;
+  left: -0.25rem;
+  top: -0.35rem;
+  border-radius: 50%;
+  border: var(--sc-color) solid 2px;
+}
+
+.modal_close {
+    position: absolute;
+    top: -1rem;
+    right: 0.2rem;
+    font-size: 3em;
+    color: var(--sc-color);
+    cursor: pointer;
+}
+
+
+.modal_text {
+    background-color: var(--bg-color);
+    width: 90%;
+    line-height: 1.8;
+    font-size: 1.3em;
+    padding: 2rem;
+    border-radius: 15px;
+    color: #211707;
+}
+
+.modal_text > h2 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.text_link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_link > a {
+  text-decoration: none;
+  display: flex;
+  
+}

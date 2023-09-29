@@ -10,10 +10,11 @@ export interface DataProjects {
     title: string;
     describe: string;
     link: string;
+    linkGit: string;
     text:string;
 }
 
 export interface ModalProps {
-    showModal: boolean;
-    onClose: () => void;
+    closeModal: () => void;
+    project: DataProjects | null;
 }
