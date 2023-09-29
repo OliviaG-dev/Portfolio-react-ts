@@ -10,6 +10,7 @@ export interface DataProjects {
     title: string;
     describe: string;
     link: string;
+    linkGit: string;
     text:string;
 }
 
