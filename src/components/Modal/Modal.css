@@ -20,7 +20,7 @@
     padding: 2rem;
     width: 70%;
     position: relative;
-    animation: modal-enter 0.3s;
+    animation: modal-enter 0.8s;
     overflow: auto;
 }
 
@@ -120,10 +120,29 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  font-style: italic;
 }
 
-.text_link > a {
+.link_slide {
   text-decoration: none;
   display: flex;
-  
+  color: #211707;
+  position: relative;
+}
+
+.link_slide::before {
+  content: "";
+  position: absolute;
+  background: #211707;
+  width: 100%;
+  height: 0.15rem;
+  bottom: 0;
+  transform-origin: 100% 0;
+  transform: scaleX(0);
+  transition: transform 0.4s;
+}
+
+.link_slide:hover::before {
+  transform-origin: 0 0;
+  transform: scaleX(1);
 }

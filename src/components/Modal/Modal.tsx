@@ -80,17 +80,23 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
               <h2>{project.title}</h2>
               <div className="text_link">
                 <a
+                  className="link_slide"
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                > <img src={Icon_internet} alt="icone internet" />
+                >
+                  {' '}
+                  <img src={Icon_internet} alt="icone internet" />
                   lien
                 </a>
                 <a
+                  className="link_slide"
                   href={project.linkGit}
                   target="_blank"
                   rel="noopener noreferrer"
-                > <img src={Icon_githubnoir} alt="icone github" />
+                >
+                  {' '}
+                  <img src={Icon_githubnoir} alt="icone github" />
                   lien GitHub
                 </a>
               </div>
