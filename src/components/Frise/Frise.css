@@ -9,7 +9,7 @@
 
 .Frise_rect {
     background-color: var(--main-color);
-    height: 4.68rem;
+    height: 2rem;
     margin-top: -3rem;
 }
 
@@ -22,55 +22,55 @@
 
 
 .Frise_round_one {
-    margin-left: -0.5rem;
-    width: 28rem;
-    height: 7.25rem;
+    margin-left: -1rem;
+    width: 25%;
+    height:170%;
     border-radius: 50%;
     background-color: var(--main-color);
 }
 
 .Frise_round_two {
     margin-left: -1rem;
-    width: 20rem;
-    height: 7.25rem;
+    width: 15%;
+    height:90%;
     border-radius: 50%;
     background-color: var(--bg-color);
 }
 
 .Frise_round_three {
     margin-left: -1rem;
-    width: 28rem;
-    height: 7.25rem;
+    width: 25%;
+    height:170%;
     border-radius: 50%;
     background-color: var(--main-color);
 }
 
 .Frise_round_for { 
     margin-left: -1rem;
-    width: 20rem;
-    height: 7.25rem;
+    width: 15%;
+    height:90%;
     border-radius: 50%;
     background-color: var(--bg-color);
 }
 
 .Frise_round_five {
     margin-left: -1rem;
-    margin-right: -1rem;
-    width: 28rem;
-    height: 7.25rem;
+    width: 25%;
+    height:170%;
     border-radius: 50%;
     background-color: var(--main-color);
 }
 
-/* .Frise_round_six { 
+.Frise_round_six { 
     margin-left: -1rem;
-    width: 20rem;
-    height: 7.25rem;
+    margin-right: -1rem;
+    width: 15%;
+    height:90%;
     border-radius: 50%;
     background-color: var(--bg-color);
 }
 
-.Frise_round_seven { 
+/* .Frise_round_seven { 
     margin-left: -1rem;
     margin-right: -1rem;
     width: 25rem;

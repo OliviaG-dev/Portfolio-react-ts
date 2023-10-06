@@ -6,7 +6,9 @@ import Frise from '../components/Frise/Frise';
 import Icon_email from '../assets/images/Icons/Icon_email.svg';
 import Icon_github from '../assets/images/Icons/Icon_github.svg';
 import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
-import Icon_localisation from '../assets/images/Icons/Icon_localisation.svg';
+import Icon_cv from '../assets/images/Icons/Icon_cv.svg';
+import Icon_date from '../assets/images/Icons/Icon_date.svg';
+import Icon_notion from '../assets/images/Icons/Icon_notion.svg';
 import Data from '../services/data';
 import { DataProjects } from '../services/inteface';
 import Modal from '../components/Modal/Modal';
@@ -16,35 +18,36 @@ function Home() {
   const dataProjects = data.getDataProjects();
 
   console.log(dataProjects);
-  const [selectedProject, setSelectedProject] = useState<DataProjects | null>(null);
+  const [selectedProject, setSelectedProject] = useState<DataProjects | null>(
+    null
+  );
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [showModal, setShowModal] = useState(false);
 
   const openModal = (project: DataProjects) => {
     setSelectedProject(project);
     setShowModal(true);
-  }
+  };
 
   const closeModal = () => {
     setShowModal(false);
-  }
-
+  };
 
   const filterProjectsByTags = () => {
     if (selectedTags.length === 0) {
       return dataProjects;
     }
-  
-    const filteredProjects = dataProjects.filter(project => {
-      return project.tags.some(tag => selectedTags.includes(tag.item));
+
+    const filteredProjects = dataProjects.filter((project) => {
+      return project.tags.some((tag) => selectedTags.includes(tag.item));
     });
-  
+
     return filteredProjects;
   };
 
   const handleTagClick = (tag: string) => {
     if (selectedTags.includes(tag)) {
-      setSelectedTags(selectedTags.filter(item => item !== tag));
+      setSelectedTags(selectedTags.filter((item) => item !== tag));
     } else {
       setSelectedTags([...selectedTags, tag]);
     }
@@ -67,7 +70,7 @@ function Home() {
                 <span className="title_color--blue">Olivia Gautheron </span>
                 <span className="title_color--code">{'</p>'}</span>
                 <span className="title_color--code">{'<span>'}</span>
-                <span className="title_color--vio">Développeuse web</span>
+                <span className="title_color--vio">Développeuse front-end</span>
                 <span className="title_color--code">{'</span>'}</span>
                 <br />
                 <span className="title_color--sec">et une geek !</span>
@@ -75,11 +78,14 @@ function Home() {
               </h1>
             </div>
             <div className="home_tag">
-              <p>ABOUT</p>
+              <p>
+                ABOUT<span className="tag_anim">_</span>
+              </p>
             </div>
           </div>
 
           <div className="home_presentation">
+            <button>Savoir +</button>
             <p className="presentation_text">
               Hey ! 👋 <br />
               Je suis une geek passionnée 🎮 et une développeuse front-end
@@ -99,16 +105,75 @@ function Home() {
         <section className="home_project">
           <div className="project_tag_container">
             <div className="button_container">
-              <button className={`black ${selectedTags.includes("#HTML/CSS") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#HTML/CSS")}>HTML/CSS</button>
-              <button className={`red ${selectedTags.includes("#FIGMA") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#FIGMA")}>FIGMA</button>
-              <button className={`blue ${selectedTags.includes("#JAVASCRIPT") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#JAVASCRIPT")}>JAVASCRIPT</button>
-              <button className={`green ${selectedTags.includes("#REACT") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#REACT")}>REACT</button>
-              <button className={`violet ${selectedTags.includes("#BOOTSTRAP") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#BOOTSTRAP")}>BOOTSTRAP</button>
-              <button className={`orange ${selectedTags.includes("#TAILWIND") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#TAILWIND")}>TAILWIND</button>
-              <button className={`pink ${selectedTags.includes("#VUEJS") ? 'active_tag' : 'button_tag'}`} onClick={() => handleTagClick("#VUEJS")}>VUEJS</button>
+              <button
+                className={`black ${
+                  selectedTags.includes('#HTML/CSS')
+                    ? 'active_tag'
+                    : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#HTML/CSS')}
+              >
+                HTML/CSS
+              </button>
+              <button
+                className={`red ${
+                  selectedTags.includes('#FIGMA') ? 'active_tag' : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#FIGMA')}
+              >
+                FIGMA
+              </button>
+              <button
+                className={`blue ${
+                  selectedTags.includes('#JAVASCRIPT')
+                    ? 'active_tag'
+                    : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#JAVASCRIPT')}
+              >
+                JAVASCRIPT
+              </button>
+              <button
+                className={`green ${
+                  selectedTags.includes('#REACT') ? 'active_tag' : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#REACT')}
+              >
+                REACT
+              </button>
+              <button
+                className={`violet ${
+                  selectedTags.includes('#BOOTSTRAP')
+                    ? 'active_tag'
+                    : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#BOOTSTRAP')}
+              >
+                BOOTSTRAP
+              </button>
+              <button
+                className={`orange ${
+                  selectedTags.includes('#TAILWIND')
+                    ? 'active_tag'
+                    : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#TAILWIND')}
+              >
+                TAILWIND
+              </button>
+              <button
+                className={`pink ${
+                  selectedTags.includes('#VUEJS') ? 'active_tag' : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#VUEJS')}
+              >
+                VUEJS
+              </button>
             </div>
             <div className="project_tag">
-              <p>PROJECTS</p>
+              <p>
+                PROJECTS<span className="tag_anim">_</span>
+              </p>
             </div>
           </div>
 
@@ -117,47 +182,48 @@ function Home() {
               <p>Je n'ai pas de project...</p>
             ) : (
               filteredProjects.map((project: DataProjects) => (
-                
-                  <div className="project_wrapper" key={project.id}>
-                    <div className="project">
+                <div className="project_wrapper" key={project.id}>
+                  <div className="project">
+                    <article className="project_front">
+                      <div className="front_up">
+                        <h2 className="up_title">{project.title}</h2>
+                        <p className="up_describe">{project.describe}</p>
+                      </div>
+                      <div className="front_down">
+                        <span>
+                          <ul className="down_list">
+                            {project.tags.map((tag) => (
+                              <li key={tag.item} style={{ color: tag.style }}>
+                                {tag.item}
+                              </li>
+                            ))}
+                          </ul>
+                        </span>
+                      </div>
+                    </article>
 
-                      <article className="project_front">
-                        <div className="front_up">
-                          <h2 className="up_title">{project.title}</h2>
-                          <p className="up_describe">{project.describe}</p>
-                        </div>
-                        <div className="front_down">
-                          <span>
-                            <ul className="down_list">
-                              {project.tags.map((tag) => (
-                                <li key={tag.item} style={{ color: tag.style }}>
-                                  {tag.item}
-                                </li>
-                              ))}
-                            </ul>
-                          </span>
-                        </div>
-                      </article>
-
-                      <article className="project_back">
-                        <div className="back_container">
-                          <img
-                            src={project.imagePortrait}
-                            alt={project.title}
-                          />
-                        </div>
-                      </article>
-                    </div>
-                    <div></div>
-                    <div className="project_button">
-                      <button className="project_link" onClick={() => openModal(project)}>Voir +</button>
-                    </div>
+                    <article className="project_back">
+                      <div className="back_container">
+                        <img src={project.imagePortrait} alt={project.title} />
+                      </div>
+                    </article>
                   </div>
-                
+                  <div></div>
+                  <div className="project_button">
+                    <button
+                      className="project_link"
+                      onClick={() => openModal(project)}
+                    >
+                      Voir +
+                    </button>
+                  </div>
+                </div>
               ))
             )}
           </div>
-          {showModal && <Modal closeModal={closeModal} project={selectedProject} />}
+          {showModal && (
+            <Modal closeModal={closeModal} project={selectedProject} />
+          )}
         </section>
 
         <Frise rotation />
@@ -165,47 +231,82 @@ function Home() {
         <section className="home_contact">
           <div className="tag_container">
             <div className="home_tag">
-              <p>CONTACT</p>
+              <p>
+                CONTACT<span className="tag_anim">_</span>
+              </p>
             </div>
           </div>
 
           <div className="contact_text">
-            <div className="contact_item">
-              <img src={Icon_linkedin} alt="icone linkedin" />
-              <a
-                className="contact_link"
-                href="https://www.linkedin.com/in/olivia-gautheron-dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://www.linkedin.com/in/olivia-gautheron-dev/
-              </a>
+            <div className="text_contain line">
+              <div className="contact_item">
+                <img src={Icon_linkedin} alt="icone linkedin" />
+                <a
+                  className="contact_link"
+                  href="https://www.linkedin.com/in/olivia-gautheron-dev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Connectons-nous sur LinkedIn !
+                </a>
+              </div>
+              <div className="contact_item">
+                <img src={Icon_github} alt="icone github" />
+                <a
+                  className="contact_link"
+                  href="https://github.com/OliviaG-dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Explorez mes projets sur GitHub !
+                </a>
+              </div>
+              <div className="contact_item">
+                <img src={Icon_email} alt="icone email" />
+                <a
+                  className="contact_link"
+                  href="mailto:oliviagautherondev@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Voici mon adresse électronique !
+                </a>
+              </div>
             </div>
-            <div className="contact_item">
-              <img src={Icon_github} alt="icone github" />
-              <a
-                className="contact_link"
-                href="https://github.com/OliviaG-dev"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://github.com/OliviaG-dev
-              </a>
-            </div>
-            <div className="contact_item">
-              <img src={Icon_email} alt="icone email" />
-              <a
-                className="contact_link"
-                href="mailto:oliviagautherondev@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                oliviagautherondev@gmail.com
-              </a>
-            </div>
-            <div className="contact_item last_item">
-              <img src={Icon_localisation} alt="icone localisation" />
-              <p className="contact_link">Auvergne-Rhône-Alpes</p>
+            <div className="text_contain">
+              <div className="contact_item">
+                <img src={Icon_notion} alt="icone notion" />
+                <a
+                  className="contact_link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visitez mon CV sur notion !
+                </a>
+              </div>
+              <div className="contact_item">
+                <img src={Icon_date} alt="icone date" />
+                <a
+                  className="contact_link"
+                  href="https://calendly.com/olivia_gautheron/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Prenez un rendez-vous !
+                </a>
+              </div>
+              <div className="contact_item">
+                <img src={Icon_cv} alt="icone cv" />
+                <a
+                  className="contact_link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Mon CV en pdf !
+                </a>
+              </div>
             </div>
           </div>
         </section>

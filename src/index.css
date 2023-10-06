@@ -49,9 +49,10 @@ table {
 :root {
     
   font-family: 'K2D', sans-serif;
-  --main-color: #50067A;
-  --sc-color: #30BEB0;
-  --bg-color: #FFFADE;
+  --main-color: #301747;
+  --sc-color: #E86A92;
+  --bg-color: #F5E9E2;
+  --txt-color: #3F3F37;
 }
 
 * {

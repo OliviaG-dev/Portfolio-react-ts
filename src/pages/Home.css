@@ -21,7 +21,7 @@
 }
 
 .title_color--code {
-    color: #f6a8ff69;
+    color: #2928282d;
 }
 
 .title_color--sec {
@@ -37,13 +37,19 @@
 }
 
 .home_tag {
+    color: #211707;
+    height: 2em;
+    letter-spacing: .2rem;
+}
+
+.tag_anim {
     color: var(--sc-color);
-    border: var(--sc-color) solid 2px;
-    border-radius: 50%;
-    height: fit-content;
-    padding: 0.9rem 0.5rem;
-    font-size: 2em;
-    width: fit-content;
+    animation: tag-pulse 1s infinite;
+}
+
+@keyframes tag-pulse {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .home_presentation{
@@ -55,7 +61,7 @@
 
 .presentation_text {
     font-size: 1.3em;
-    color: #211707;
+    color: var(--txt-color);
     width: 65%;
     line-height: 1.6;
 }
@@ -65,7 +71,6 @@
     width: 100%;
     background-color: var(--main-color);
     padding: 4rem 4rem;
-    /* position: relative; */
 }
 
 .home_contact {
@@ -77,12 +82,32 @@
     align-items: center;
 }
 
+.contact_text {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    border-right: 3px solid var(--sc-color);
+    border-radius: 5px;
+}
+
+.text_contain {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .contact_item {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
-    margin-top: 3rem;
-    width: 55rem;
 }
 
 .tag_container {
@@ -92,19 +117,15 @@
 }
 
 .contact_link {
-    color:#211707;
+    color: var(--txt-color);
     text-decoration: none;
     font-size: 2em;
 }
 
 .project_tag {
     color: var(--bg-color);
-    border: var(--bg-color) solid 2px;
-    border-radius: 50%;
-    height: fit-content;
-    padding: 1.5rem 1rem;
-    font-size: 2em;
-    width: fit-content;
+    height: 2em;
+    letter-spacing: .2rem;
 }
 
 .project_tag_container {
@@ -199,7 +220,7 @@
 }
 
 .project_front {
-    background-color: rgba(246, 168, 255, 0.15);
+    background-color:rgba(245, 233, 226, 0.05);
     border-radius: 90px 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 1rem 1.5rem;
@@ -217,12 +238,12 @@
 
 .front_title {
     font-size: 1.5em;
-    color: #211707;
+    color: var(--txt-color);
 }
 
 .up_describe {
     font-size: 1.2em;
-    color: #211707;
+    color: var(--txt-color);
     padding-top: 3rem;
 }
 
@@ -246,7 +267,7 @@
 }
 
 .project_back {
-    background-color: rgba(246, 168, 255, 0.15);
+    background-color:rgba(245, 233, 226, 0.05);
     border-radius: 90px 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 1rem 1.5rem;
