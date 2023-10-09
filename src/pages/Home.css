@@ -3,15 +3,17 @@
     
 }
 
-.home_container {
+.home_about {
     display: flex;
     width: 100%;
     padding: 0 4rem;
+    height: 35rem;
 }
 
 .home_box {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .home_title {
@@ -37,7 +39,7 @@
 }
 
 .home_tag {
-    color: #211707;
+    color: var(--txt-color);
     height: 2em;
     letter-spacing: .2rem;
 }
@@ -50,20 +52,6 @@
 @keyframes tag-pulse {
     from { opacity: 0; }
     to { opacity: 1; }
-}
-
-.home_presentation{
-    margin-top: 5rem;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.presentation_text {
-    font-size: 1.3em;
-    color: var(--txt-color);
-    width: 65%;
-    line-height: 1.6;
 }
 
 .home_project {
