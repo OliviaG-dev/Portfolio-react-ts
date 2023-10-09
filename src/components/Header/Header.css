@@ -27,6 +27,11 @@ header {
     padding: 5rem;
 }
 
+.header_item a{
+    text-decoration: none;
+    color: var(--bg-color);
+}
+
 header::after {
     content: "";
     position: absolute;

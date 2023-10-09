@@ -7,9 +7,15 @@ function Header() {
       <div className="header_container">
         <img className="header_img" src={Logo} alt="Logo de mon portfolio" />
         <ul className="header_list">
-          <li>About</li>
-          <li>Projets</li>
-          <li>Contact</li>
+          <li className="header_item">
+            <a href="#section_home">About</a>
+          </li>
+          <li className="header_item">
+            <a href="#section_projects">Projets</a>
+          </li>
+          <li className="header_item">
+            <a href="#section_contact">Contact</a>
+          </li>
         </ul>
       </div>
     </header>

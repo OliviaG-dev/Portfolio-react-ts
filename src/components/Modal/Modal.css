@@ -7,7 +7,7 @@
     width: 100vw;
     height: 100%;
     overflow: auto;
-    background-color:#4f067a;
+    background-color:var(--main-color);
 }
 
 .modal_content {
@@ -18,10 +18,12 @@
     border-radius: 5px;
     margin: 15% auto;
     padding: 2rem;
-    width: 70%;
+    width: 50%;
     position: relative;
-    animation: modal-enter 0.3s;
+    animation: modal-enter 0.8s;
     overflow: auto;
+    background-color:rgba(245, 233, 226, 0.05);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 @keyframes modal-enter {
@@ -33,9 +35,8 @@
 
 .modal_slider {
   display: flex;
-  width: 100%;
+  width: 50%;
   border-radius: 15px;
-  margin-bottom: 2rem;
   justify-content: center;
 }
 
@@ -45,6 +46,7 @@
   color: var(--sc-color);
   font-size: 3em ;
   padding: 1rem;
+  cursor: pointer;
 }
 
 .slider{
@@ -52,7 +54,6 @@
   height: 30rem;
   overflow: hidden;
   border-radius: 15px;
-  
 }
 
 .slider_img {
@@ -62,7 +63,7 @@
 .slider_dots {
   display: flex;
   justify-content: center;
-  margin: 1rem 0;
+  margin-bottom: 3rem;
 }
 
 .dot {
@@ -76,25 +77,14 @@
 }
 
 .dot.active {
-  background-color: var(--sc-color);
+  background: var(--sc-color);
   position: relative;
-}
-
-.dot.active::after{
-  content: "";
-  position: absolute;
-  width: 1.6rem;
-  height: 1.6rem;
-  left: -0.25rem;
-  top: -0.35rem;
-  border-radius: 50%;
-  border: var(--sc-color) solid 2px;
 }
 
 .modal_close {
     position: absolute;
-    top: -1rem;
-    right: 0.2rem;
+    top: 0.1rem;
+    right: 1rem;
     font-size: 3em;
     color: var(--sc-color);
     cursor: pointer;
@@ -108,7 +98,7 @@
     font-size: 1.3em;
     padding: 2rem;
     border-radius: 15px;
-    color: #211707;
+    color: var(--txt-color);
 }
 
 .modal_text > h2 {
@@ -120,10 +110,29 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  font-style: italic;
 }
 
-.text_link > a {
+.link_slide {
   text-decoration: none;
   display: flex;
-  
+  color: var(--txt-color);
+  position: relative;
+}
+
+.link_slide::before {
+  content: "";
+  position: absolute;
+  background: var(--txt-color);
+  width: 100%;
+  height: 0.15rem;
+  bottom: 0;
+  transform-origin: 100% 0;
+  transform: scaleX(0);
+  transition: transform 0.4s;
+}
+
+.link_slide:hover::before {
+  transform-origin: 0 0;
+  transform: scaleX(1);
 }
