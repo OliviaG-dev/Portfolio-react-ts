@@ -21,13 +21,13 @@ function Header() {
         <img className="header_img" src={Logo} alt="Logo de mon portfolio" />
         <ul className="header_list">
           <li className="header_item">
-            <a href="#section_home">About</a>
+            <a className="header_link" href="#section_home">About</a>
           </li>
           <li className="header_item">
-            <a href="#section_projects">Projets</a>
+            <a className="header_link" href="#section_projects">Projets</a>
           </li>
           <li className="header_item">
-            <a href="#section_contact">Contact</a>
+            <a className="header_link" href="#section_contact">Contact</a>
           </li>
         </ul>
       </div>
