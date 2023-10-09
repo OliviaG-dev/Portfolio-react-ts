@@ -10,6 +10,22 @@ header {
     justify-content: flex-end;
     height: 100%;
     position: relative;
+    transition: all 0.3s;
+}
+
+.header_shrink {
+    height: 3rem; 
+    position: fixed;
+    z-index: 99;
+}
+
+.header_shrink .header_list {
+    padding: 0 5rem 0 0;
+    align-items: center;
+}
+
+.header_shrink .header_img {
+    display: none;
 }
 
 .header_img {
