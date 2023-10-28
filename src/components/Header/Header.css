@@ -28,6 +28,10 @@ header {
     display: none;
 }
 
+.header_shrink .header::after{
+    display: none;
+}
+
 .header_img {
     position: absolute;
     left: 5rem;
