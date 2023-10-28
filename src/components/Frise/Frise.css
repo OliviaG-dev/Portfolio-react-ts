@@ -13,7 +13,7 @@
     margin-top: -3rem;
 }
 
-.rect_round {
+/* .rect_round {
     margin-bottom: -2.8rem;
     height: 7.25rem;
     display: flex;
@@ -68,14 +68,44 @@
     height:90%;
     border-radius: 50%;
     background-color: var(--bg-color);
-}
-
-/* .Frise_round_seven { 
-    margin-left: -1rem;
-    margin-right: -1rem;
-    width: 25rem;
-    height: 7.25rem;
-    border-radius: 50%;
-    background-color: var(--main-color);
 } */
 
+
+
+.rect_round {
+    margin-bottom: -2.8rem;
+    height: 2.25rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.Frise_round_one {
+    width: 10%;
+    background-color: var(--main-color);
+}
+
+.Frise_round_two {
+    width: 2.5%;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+}
+
+.Frise_round_three {
+    width: 10%;
+    background-color: var(--main-color);
+}
+
+.Frise_round_for { 
+    width: 10%;
+    background-color: var(--bg-color);
+}
+
+.Frise_round_five {
+    width: 10%;
+    background-color: var(--main-color);
+}
+
+.Frise_round_six { 
+    width: 10%;
+    background-color: var(--bg-color);
+}

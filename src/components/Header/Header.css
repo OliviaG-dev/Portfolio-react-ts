@@ -10,6 +10,26 @@ header {
     justify-content: flex-end;
     height: 100%;
     position: relative;
+    transition: all 0.3s;
+}
+
+.header_shrink {
+    height: 3rem; 
+    position: fixed;
+    z-index: 99;
+}
+
+.header_shrink .header_list {
+    padding: 0 5rem 0 0;
+    align-items: center;
+}
+
+.header_shrink .header_img {
+    display: none;
+}
+
+.header_shrink .header::after{
+    display: none;
 }
 
 .header_img {
@@ -41,4 +61,24 @@ header::after {
     width: 100%;
     height: 0.3rem;
     z-index: -10;
+}
+.header_link {
+    position: relative;
+}
+
+.header_link::before {
+    content: "";
+    position: absolute;
+    background: var(--bg-color);
+    width: 100%;
+    height: 0.15rem;
+    bottom: -0.3rem;
+    transform-origin: 100% 0;
+    transform: scaleX(0);
+    transition: transform 0.4s;
+}
+
+.header_link:hover::before {
+    transform-origin: 0 0;
+    transform: scaleX(1);
 }

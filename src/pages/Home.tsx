@@ -281,7 +281,7 @@ function Home() {
                   <img src={Icon_notion} alt="icone notion" />
                   <a
                     className="contact_link"
-                    href=""
+                    href="https://www.notion.so/Gautheron-Olivia-D-veloppeuse-frontend-39ec57aa8a274c3aa1a6af698fe077e2"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -303,7 +303,7 @@ function Home() {
                   <img src={Icon_cv} alt="icone cv" />
                   <a
                     className="contact_link"
-                    href=""
+                    href="https://drive.google.com/file/d/1Qa_5JIRnBWBku9T0OMu4X4_Q0a7_UZC3/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
