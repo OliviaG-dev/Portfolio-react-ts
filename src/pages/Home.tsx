@@ -58,7 +58,7 @@ function Home() {
 
   return (
     <>
-      <Header />
+      {!showModal && <Header />}
       <main className="home">
         <ScrollableAnchor id={'section_home'}>
           <section className="home_about">
@@ -281,7 +281,7 @@ function Home() {
                   <img src={Icon_notion} alt="icone notion" />
                   <a
                     className="contact_link"
-                    href="https://www.notion.so/Gautheron-Olivia-D-veloppeuse-frontend-39ec57aa8a274c3aa1a6af698fe077e2"
+                    href="https://wandering-pancreas-05c.notion.site/Gautheron-Olivia-D-veloppeuse-frontend-React-39ec57aa8a274c3aa1a6af698fe077e2"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -51,7 +51,6 @@
 
 .slider{
   width: 90%;
-  height: 30rem;
   overflow: hidden;
   border-radius: 15px;
 }
@@ -63,7 +62,7 @@
 .slider_dots {
   display: flex;
   justify-content: center;
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }
 
 .dot {

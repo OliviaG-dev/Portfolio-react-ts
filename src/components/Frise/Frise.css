@@ -1,16 +1,17 @@
 .Frise {
     padding-top: 4rem;
+    margin-bottom: -0.1rem;
 }
 
 .Frise_rotate {
     padding-top: 4rem;
+    margin-top: -0.1rem;
     transform : rotate(-180deg);
 }
 
 .Frise_rect {
-    background-color: var(--main-color);
-    height: 2rem;
-    margin-top: -3rem;
+    background-image: linear-gradient(to top, #301747, #502459, #72326a, #954179, #b95185, #cd648a, #e0778f, #f18c96, #f4a5a0, #f5bdb0, #f5d3c6, #f5e9e2);
+    height: 5rem;
 }
 
 /* .rect_round {
@@ -72,40 +73,3 @@
 
 
 
-.rect_round {
-    margin-bottom: -2.8rem;
-    height: 2.25rem;
-    display: flex;
-    overflow: hidden;
-}
-
-.Frise_round_one {
-    width: 10%;
-    background-color: var(--main-color);
-}
-
-.Frise_round_two {
-    width: 2.5%;
-    border-radius: 50%;
-    background-color: var(--bg-color);
-}
-
-.Frise_round_three {
-    width: 10%;
-    background-color: var(--main-color);
-}
-
-.Frise_round_for { 
-    width: 10%;
-    background-color: var(--bg-color);
-}
-
-.Frise_round_five {
-    width: 10%;
-    background-color: var(--main-color);
-}
-
-.Frise_round_six { 
-    width: 10%;
-    background-color: var(--bg-color);
-}
