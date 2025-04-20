@@ -2,7 +2,6 @@ import './Home.css';
 import { useState } from 'react';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-import Frise from '../components/Frise/Frise';
 import Icon_email from '../assets/images/Icons/Icon_email.svg';
 import Icon_github from '../assets/images/Icons/Icon_github.svg';
 import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
@@ -13,6 +12,7 @@ import Data from '../services/data';
 import { DataProjects } from '../services/inteface';
 import Modal from '../components/Modal/Modal';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import QuestCard from '../components/QuestCard/QuestCard';
 
 function Home() {
   const data = new Data();
@@ -24,6 +24,7 @@ function Home() {
   );
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [showModal, setShowModal] = useState(false);
+  const [showQuest, setShowQuest] = useState<boolean>(false);
 
   const openModal = (project: DataProjects) => {
     setSelectedProject(project);
@@ -64,24 +65,49 @@ function Home() {
           <section className="home_about">
             <div className="home_box">
               <h1 className="home_title">
-                <p className="title_color--vio">Hi ! 👋</p>
-                <span className="title_color--code">{'<h1>'}</span>
-                <span className="title_color--sec">je suis</span>
+                <span className="title_color--code">
+                  {'<section class="intro">'}
+                </span>
+                
+                <div className="title_inline">
+                  <span className="title_color--code">
+                    {'<p class="greeting">'}
+                  </span>
+                  <p className="title_color--vio">Hi there!👋</p>
+                  <span className="title_color--code">{'</p>'}</span>
+                </div>
                 <br />
-                <span className="title_color--code">{"<p class='blue'>"}</span>
+                <span className="title_color--code">{'<h1>'}</span> <br />
+                <span className="title_color--sec">Je suis </span>
+                <span className="title_color--code">
+                  {'<span class="blue name"> '}
+                </span>
                 <span className="title_color--blue">Olivia Gautheron </span>
-                <span className="title_color--code">{'</p>'}</span>
-                <span className="title_color--code">{'<span>'}</span>
+                <span className="title_color--code">{'</span>'}</span>
+                <br />
+                <span className="title_color--code">
+                  {'<span class="role"> '}
+                </span>
                 <span className="title_color--vio">
                   Développeuse front-end 👩‍💻
                 </span>
                 <span className="title_color--code">{'</span>'}</span>
                 <br />
-                <span className="title_color--sec">
-                  et adepte des jeux vidéo 🧙‍♀️!
-                </span>
                 <span className="title_color--code">{'</h1>'}</span>
+                <br />
+                <br />
+                <span className="title_color--code">{'<p class="fun"> '}</span>
+                <span
+                  className="title_color--sec egg-trigger"
+                  onClick={() => setShowQuest(!showQuest)}
+                >
+                  et adepte des jeux vidéo 🧙‍♀️ !
+                </span>
+                <span className="title_color--code">{'</p>'}</span>
+                <br />
+                <span className="title_color--code">{'</section>'}</span>
               </h1>
+              {showQuest && <QuestCard onClose={() => setShowQuest(false)} />}
             </div>
             <div className="home_tag">
               <p>
@@ -90,8 +116,6 @@ function Home() {
             </div>
           </section>
         </ScrollableAnchor>
-
-        <Frise rotation={false} />
 
         <ScrollableAnchor id={'section_projects'}>
           <section className="home_project">
@@ -227,8 +251,6 @@ function Home() {
             )}
           </section>
         </ScrollableAnchor>
-
-        <Frise rotation />
 
         <ScrollableAnchor id={'section_contact'}>
           <section className="home_contact">

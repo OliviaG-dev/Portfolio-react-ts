@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Quête : Établir ton fief digital",
+    "objective": "Développe un portfolio digne d'un(e) héros/ïne d'Azeroth. Mets en avant tes talents de front-end.",
+    "description": "Une brume se lève sur Reactonia. Les défis HTML, CSS et TypeScript t'attendent. Bâtis ton fief numérique.",
+    "rewards": [
+      "🔥 300 xp de CSS",
+      "✨ +15 en créativité",
+      "🐈‍⬛ Accès à la mascotte GitHub"
+    ]
+  },
+  {
+    "title": "Quête : Le bug ancestral",
+    "objective": "Trouver et éliminer le bug caché dans les ténèbres du composant Navbar.tsx.",
+    "description": "Un bug légendaire ronge ton interface. Seul un debugger aguerri pourra le bannir.",
+    "rewards": [
+      "🪄 100 xp en debugging",
+      "🧠 +10 en patience",
+      "🧹 L'artefact : Console.log éternel"
+    ]
+  },
+  {
+    "title": "Quête : Le Pixel Maudit",
+    "objective": "Réparer un élément CSS qui refuse de se centrer depuis 3 jours.",
+    "description": "Une ancienne malédiction IE plane sur cette div. Il faudra plus qu'un flexbox incanté.",
+    "rewards": [
+      "🧲 +5 en alignement divin",
+      "🎯 XP bonus en Flexbox",
+      "🎉 Accès à la cape du Center God"
+    ]
+  },
+  {
+    "title": "Quête : Collectionner les Fichiers Sacrés",
+    "objective": "Récupérer logo, background, favicon et loading screen.",
+    "description": "Les fichiers sont dispersés. Rassemble-les pour invoquer la cohérence visuelle.",
+    "rewards": [
+      "📁 200 xp en organisation",
+      "🖼️ Apparence +10",
+      "🧩 Légendaire : Dossier `/assets` propre"
+    ]
+  },
+  {
+    "title": "Quête : Le Grand Nettoyage de Props",
+    "objective": "Refactorer un composant de plus de 300 lignes.",
+    "description": "Supprime les props inutiles et rends gloire au clean code.",
+    "rewards": [
+      "🧹 500 xp en Clean Code",
+      "📦 Réduction des bugs futurs",
+      "🔮 Clarté mentale +20"
+    ]
+  },
+  {
+    "title": "Quête : Authentification Épique",
+    "objective": "Créer une page de login moderne et stylée.",
+    "description": "Les terres de Loginia attendent une héroïne pour leur ramener UX et beauté.",
+    "rewards": [
+      "🔐 XP en Auth Flow",
+      "💫 +10 en design UI",
+      "🦄 Bonus : transition magique sur submit"
+    ]
+  }
+]

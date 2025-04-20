@@ -1,6 +1,3 @@
-export interface FriseProps {
-    rotation: boolean;
-}
 
 export interface DataProjects {
     id: string;
@@ -18,3 +15,15 @@ export interface ModalProps {
     closeModal: () => void;
     project: DataProjects | null;
 }
+
+export interface QuestCardProps {
+    onClose?: () => void;
+}
+
+export interface Quest {
+    title: string;
+    objective: string;
+    description: string;
+    rewards: string[];
+}
+
