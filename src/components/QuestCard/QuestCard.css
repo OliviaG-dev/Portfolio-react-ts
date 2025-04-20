@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+.quest {
+  position: absolute;
+  top: 50;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f5f1de;
+  border: 8px solid #5a2c0a;
+  border-image: linear-gradient(to bottom, #c59e58, #5a2c0a) 1;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 500px;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 0.8rem;
+  color: #3a2a0b;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  background-image: repeating-linear-gradient(
+    45deg,
+    #f5f1de,
+    #f5f1de 10px,
+    #f2eed9 10px,
+    #f2eed9 20px
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform-origin: top center;
+  opacity: 0;
+}
+
+.quest:hover {
+  transform: translateX(-50%) translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+@keyframes scrollOpen {
+  0% {
+    transform: translateX(-50%) scaleY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-50%) scaleY(1);
+    opacity: 1;
+  }
+}
+
+@keyframes scrollClose {
+  0% {
+    transform: translateX(-50%) scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) scaleY(0);
+    opacity: 0;
+  }
+}
+
+.quest_open {
+  animation: scrollOpen 0.5s ease-out forwards;
+}
+
+.quest_closing {
+  animation: scrollClose 0.5s ease-out forwards;
+  pointer-events: none;
+}
+
+.quest_header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.quest_header h2 {
+  color: #5a2c0a;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  text-shadow: 1px 1px #fff;
+}
+
+.horde_logo {
+  width: 60px;
+}
+
+.quest_body p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.quest_title {
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.quest_reward ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  list-style-type: '🪙 ';
+}
+
+.quest_close-btn,
+.quest_new-btn {
+  display: block;
+  margin: 2rem auto 0;
+  background: #5a2c0a;
+  color: #f5f1de;
+  padding: 0.5rem 1.5rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.quest_close-btn:hover,
+.quest_new-btn:hover {
+  background: #8b4c1a;
+}
