@@ -214,5 +214,41 @@
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
         "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
+    },
+    {
+        "id": "07",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagesSlide" : [ 
+            {
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "alt":"image de mon projet ohmyfood 1"
+            },
+            {
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "alt":"image de mon projet ohmyfood 2"
+            },
+            {
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "alt":"image de mon projet ohmyfood 3"
+            },
+            {
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "alt":"image de mon projet ohmyfood 4"
+            },
+            {
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "alt":"image de mon projet ohmyfood 5"
+            },
+            {
+                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "alt":"image de mon projet ohmyfood 6"
+            }
+        ],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
+        "title" : "oh my food!",
+        "describe": "Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.",
+        "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
+        "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
+        "text": "Ohmyfood est le tout premier projet que j’ai réalisé en 2021, dans le cadre de ma formation chez OpenClassrooms .\n\nUn projet simple en apparence… mais riche en apprentissages ! \n\nJ’y ai utilisé HTML et SCSS pour créer un site responsive 📱, avec plusieurs animations 100 % CSS :\n un loader animé ⏳\n une rotation d’éléments 🔄\n et un cœur interactif ❤️ qui se remplit au survol 🖱️\n\nC’était aussi ma toute première expérience avec un design imposé 🎯…\net j’étais très fière d’avoir réussi à le sublimer avec soin ✨"
     }
 ]

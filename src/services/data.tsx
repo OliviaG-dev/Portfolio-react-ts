@@ -15,4 +15,4 @@ export class DataQuests {
   };
 }
 
-export default Data;
+

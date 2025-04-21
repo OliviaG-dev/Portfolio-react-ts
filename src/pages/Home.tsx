@@ -27,6 +27,7 @@ function Home() {
   const [showModal, setShowModal] = useState(false);
   const [showQuest, setShowQuest] = useState<boolean>(false);
   const [showPresentation, setShowPresentation] = useState<boolean>(false);
+  const [showAllProjects, setShowAllProjects] = useState<boolean>(false);
 
   const openModal = (project: DataProjects) => {
     setSelectedProject(project);
@@ -39,14 +40,14 @@ function Home() {
 
   const filterProjectsByTags = () => {
     if (selectedTags.length === 0) {
-      return dataProjects;
+      return showAllProjects ? dataProjects : dataProjects.slice(0, 6);
     }
 
     const filteredProjects = dataProjects.filter((project) => {
       return project.tags.some((tag) => selectedTags.includes(tag.item));
     });
 
-    return filteredProjects;
+    return showAllProjects ? filteredProjects : filteredProjects.slice(0, 6);
   };
 
   const handleTagClick = (tag: string) => {
@@ -216,49 +217,64 @@ function Home() {
               {filteredProjects.length === 0 ? (
                 <p>Je n'ai pas de project...</p>
               ) : (
-                filteredProjects.map((project: DataProjects) => (
-                  <div className="project_wrapper" key={project.id}>
-                    <div className="project">
-                      <article className="project_front">
-                        <div className="front_up">
-                          <h2 className="up_title">{project.title}</h2>
-                          <p className="up_describe">{project.describe}</p>
-                        </div>
-                        <div className="front_down">
-                          <span>
-                            <ul className="down_list">
-                              {project.tags.map((tag) => (
-                                <li key={tag.item} style={{ color: tag.style }}>
-                                  {tag.item}
-                                </li>
-                              ))}
-                            </ul>
-                          </span>
-                        </div>
-                      </article>
+                <>
+                  {filteredProjects.map((project: DataProjects) => (
+                    <div className="project_wrapper" key={project.id}>
+                      <div className="project">
+                        <article className="project_front">
+                          <div className="front_up">
+                            <h2 className="up_title">{project.title}</h2>
+                            <p className="up_describe">{project.describe}</p>
+                          </div>
+                          <div className="front_down">
+                            <span>
+                              <ul className="down_list">
+                                {project.tags.map((tag) => (
+                                  <li
+                                    key={tag.item}
+                                    style={{ color: tag.style }}
+                                  >
+                                    {tag.item}
+                                  </li>
+                                ))}
+                              </ul>
+                            </span>
+                          </div>
+                        </article>
 
-                      <article className="project_back">
-                        <div className="back_container">
-                          <img
-                            src={project.imagePortrait}
-                            alt={project.title}
-                          />
-                        </div>
-                      </article>
+                        <article className="project_back">
+                          <div className="back_container">
+                            <img
+                              src={project.imagePortrait}
+                              alt={project.title}
+                            />
+                          </div>
+                        </article>
+                      </div>
+                      <div></div>
+                      <div className="project_button">
+                        <button
+                          className="project_link"
+                          onClick={() => openModal(project)}
+                        >
+                          Voir +
+                        </button>
+                      </div>
                     </div>
-                    <div></div>
-                    <div className="project_button">
-                      <button
-                        className="project_link"
-                        onClick={() => openModal(project)}
-                      >
-                        Voir +
-                      </button>
-                    </div>
-                  </div>
-                ))
+                  ))}
+                </>
               )}
             </div>
+            {dataProjects.length > 6 && (
+              <div className="project_button show_all">
+                <button
+                  className="project_link"
+                  onClick={() => setShowAllProjects(!showAllProjects)}
+                >
+                  {showAllProjects ? '-' : '+'}
+                </button>
+              </div>
+            )}
             {showModal && (
               <Modal closeModal={closeModal} project={selectedProject} />
             )}

@@ -209,11 +209,27 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  transition: all 0.5s ease;
 }
 
 .project_wrapper {
   perspective: 1000px;
   perspective-origin: top;
+  transition: all 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: projectAppear 0.5s ease forwards;
+}
+
+@keyframes projectAppear {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .project_wrapper:hover .project {
@@ -252,15 +268,15 @@
   margin-bottom: 2rem;
 }
 
-.front_title {
+.up_title {
   font-size: 1.5em;
-  color: var(--txt-color);
+  color: var(--main-color);
 }
 
 .up_describe {
   font-size: 1.2em;
   color: var(--txt-color);
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .front_down {
@@ -317,6 +333,32 @@
 .project_link:hover,
 .project_link:focus {
   box-shadow: inset 6.5em 0 0 0 rgba(246, 168, 255, 0.15);
+}
+
+.project_button.show_all {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.project_button.show_all .project_link {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project_button.show_all .project_link:hover {
+  transform: translateY(-2px) rotate(180deg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(246, 168, 255, 0.1);
 }
 
 /****************************************** RESPONSIVE **************************************/

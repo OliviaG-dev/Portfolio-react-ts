@@ -98,6 +98,7 @@
     padding: 2rem;
     border-radius: 15px;
     color: var(--txt-color);
+    white-space: pre-line;
 }
 
 .modal_text > h2 {
