@@ -8,11 +8,12 @@ import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
 import Icon_cv from '../assets/images/Icons/Icon_cv.svg';
 import Icon_date from '../assets/images/Icons/Icon_date.svg';
 import Icon_notion from '../assets/images/Icons/Icon_notion.svg';
-import Data from '../services/data';
+import { Data } from '../services/data';
 import { DataProjects } from '../services/inteface';
 import Modal from '../components/Modal/Modal';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import QuestCard from '../components/QuestCard/QuestCard';
+import PresentationCard from '../components/PresentationCard/PresentationCard';
 
 function Home() {
   const data = new Data();
@@ -25,6 +26,7 @@ function Home() {
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [showModal, setShowModal] = useState(false);
   const [showQuest, setShowQuest] = useState<boolean>(false);
+  const [showPresentation, setShowPresentation] = useState<boolean>(false);
 
   const openModal = (project: DataProjects) => {
     setSelectedProject(project);
@@ -68,12 +70,11 @@ function Home() {
                 <span className="title_color--code">
                   {'<section class="intro">'}
                 </span>
-                
                 <div className="title_inline">
                   <span className="title_color--code">
                     {'<p class="greeting">'}
                   </span>
-                  <p className="title_color--vio">Hi there!👋</p>
+                  <p className="title_color--vio">Enchantée !👋</p>
                   <span className="title_color--code">{'</p>'}</span>
                 </div>
                 <br />
@@ -82,7 +83,12 @@ function Home() {
                 <span className="title_color--code">
                   {'<span class="blue name"> '}
                 </span>
-                <span className="title_color--blue">Olivia Gautheron </span>
+                <span
+                  className="title_color--blue egg_trigger"
+                  onClick={() => setShowPresentation(!showPresentation)}
+                >
+                  Olivia Gautheron{' '}
+                </span>
                 <span className="title_color--code">{'</span>'}</span>
                 <br />
                 <span className="title_color--code">
@@ -98,7 +104,7 @@ function Home() {
                 <br />
                 <span className="title_color--code">{'<p class="fun"> '}</span>
                 <span
-                  className="title_color--sec egg-trigger"
+                  className="title_color--sec egg_trigger"
                   onClick={() => setShowQuest(!showQuest)}
                 >
                   et adepte des jeux vidéo 🧙‍♀️ !
@@ -107,7 +113,14 @@ function Home() {
                 <br />
                 <span className="title_color--code">{'</section>'}</span>
               </h1>
-              {showQuest && <QuestCard onClose={() => setShowQuest(false)} />}
+              <div className="card_container">
+                {showPresentation && (
+                  <PresentationCard
+                    onClose={() => setShowPresentation(false)}
+                  />
+                )}
+                {showQuest && <QuestCard onClose={() => setShowQuest(false)} />}
+              </div>
             </div>
             <div className="home_tag">
               <p>

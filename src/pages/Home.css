@@ -4,13 +4,13 @@
   overflow-x: hidden;
 }
 
-.egg-trigger {
+.egg_trigger {
   cursor: pointer;
   text-decoration: underline dotted;
   transition: color 0.3s;
 }
 
-.egg-trigger:hover {
+.egg_trigger:hover {
   color: #fff0da;
 }
 
@@ -350,4 +350,30 @@
   .project_wrapper {
     align-self: center;
   }
+}
+
+.presentation_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.card_container > * {
+  pointer-events: auto;
 }
