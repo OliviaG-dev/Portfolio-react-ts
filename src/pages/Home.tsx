@@ -74,7 +74,7 @@ function Home() {
                   <span className="title_color--code">
                     {'<p class="greeting">'}
                   </span>
-                  <p className="title_color--vio">Hi there!👋</p>
+                  <p className="title_color--vio">Enchantée !👋</p>
                   <span className="title_color--code">{'</p>'}</span>
                 </div>
                 <br />
