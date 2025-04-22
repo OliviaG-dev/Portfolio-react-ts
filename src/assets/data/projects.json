@@ -181,39 +181,39 @@
     },
     {
         "id": "06",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/LP-LOL_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}],
-        "title" : "oh my food!",
-        "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
-        "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
-        "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
-        "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
+        "tags" : [{"item":"#FIGMA", "style":"#FF0000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#BOOTSTRAP", "style":"#9F1066"} ],
+        "title" : "LP - LOL",
+        "describe": "Une app simple et sécurisée pour partager vos coordonnées personnelles avec vos proches, vos contacts professionnels.",
+        "link": "",
+        "linkGit": "",
+        "text" : "Pendant 6 mois, j’ai travaillé à distance au sein d’une équipe de 4 développeurs sur une application de partage sécurisé de données personnelles (adresse, mail, téléphone…).\n\n🛠️ Stack technique : React, TypeScript, NestJS (microservices), Ionic pour le mobile, et une version alternative en Symfony.\n\n📐 Design : maquettes sous Figma, wireframes & schémas avec Excalidraw.\n\n📌 Méthodo : suivi via YouTrack, versionning avec GitLab (branches dédiées), et LiveShare pour coder en équipe.\n\n📢 Communication fluide sur Discord.\n\nNotre plateforme permet aux utilisateurs de partager leurs infos de façon temporaire ou ciblée, selon les besoins (ex : envoi de colis, soirée, mariage…).\n\nCe projet m’a permis de renforcer mes compétences fullstack, de mieux appréhender les enjeux de sécurité et d’UX dans le partage de données personnelles. 🔐✨"
     },
     {
         "id": "07",
