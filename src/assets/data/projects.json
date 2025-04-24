@@ -1,72 +1,72 @@
 [
     {
         "id": "01",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/RS_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/src/assets/images/ImagesSlide/RS/RS_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/src/assets/images/ImagesSlide/RS/RS_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/src/assets/images/ImagesSlide/RS/RS_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/src/assets/images/ImagesSlide/RS/RS_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/src/assets/images/ImagesSlide/RS/RS_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/src/assets/images/ImagesSlide/RS/RS_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}],
-        "title" : "oh my food!",
-        "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
-        "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
-        "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
-        "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
+        "title" : "RandomSims",
+        "describe": "Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !",
+        "link": "https://random-sims.vercel.app",
+        "linkGit": "https://github.com/OliviaG-dev/RandomSims",
+        "text" : "RandomSims est une application web et mobile 🎲 développée avec TypeScript, React et Vite, conçue pour générer des défis aléatoires et originaux dans *Les Sims 4*.\n\nCe projet reflète mon souci de qualité et d’expérience utilisateur, avec une architecture moderne (pnpm, ESLint, Prettier) et un code maintenable, scalable et performant 🛠️.\n\nIl s’agit d’une expérience interactive et responsive 📱 qui met l’accent à la fois sur la créativité et la rigueur technique.\n\n✨ **Fonctionnalités principales** :\n- 🎲 Génération aléatoire de défis pour divers aspects du jeu (Sims, lieux, scénarios)\n- 📸 Capture d'écran des combinaisons via html2canvas\n- 🌐 Navigation fluide grâce à React Router\n- 📱 Interface responsive adaptée aux mobiles et tablettes\n- 🧠 Défis thématiques selon les packs (ex: Amour Fou 💖, À la vie, à la mort 💀)\n- 🛠️ Code maintenu avec ESLint, Prettier et gestion via pnpm\n- ⚡ Lancement rapide et développement optimisé avec Vite\n\nUne app fun, bien pensée et prête à faire vivre des aventures inédites à vos Sims ! 🚀"
     },
     {
         "id": "02",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/src/assets/images/ImagesPortrait/CB_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/src/assets/images/ImagesSlide/CB/CB_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/src/assets/images/ImagesSlide/CB/CB_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/src/assets/images/ImagesSlide/CB/CB_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/src/assets/images/ImagesSlide/CB/CB_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/src/assets/images/ImagesSlide/CB/CB_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/src/assets/images/ImagesSlide/CB/CB_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}, {"item":"#JAVASCRIPT", "style":"#065973"}],
-        "title" : "oh my food!",
-        "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
+        "title" : "ChatBlog",
+        "describe": "Une app fullstack élégante. Publiez, organisez et modifiez vos articles en toute simplicité parfait pour partager votre amour félin !",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
         "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
@@ -208,12 +208,12 @@
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
-        "tags" : [{"item":"#FIGMA", "style":"#FF0000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#BOOTSTRAP", "style":"#9F1066"} ],
+        "tags" : [{"item":"#FIGMA", "style":"#FF0000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#BOOTSTRAP", "style":"#9F1066"} ],
         "title" : "LP - LOL",
         "describe": "Une app simple et sécurisée pour partager vos coordonnées personnelles avec vos proches, vos contacts professionnels.",
         "link": "",
         "linkGit": "",
-        "text" : "Pendant 6 mois, j’ai travaillé à distance au sein d’une équipe de 4 développeurs sur une application de partage sécurisé de données personnelles (adresse, mail, téléphone…).\n\n🛠️ Stack technique : React, TypeScript, NestJS (microservices), Ionic pour le mobile, et une version alternative en Symfony.\n\n📐 Design : maquettes sous Figma, wireframes & schémas avec Excalidraw.\n\n📌 Méthodo : suivi via YouTrack, versionning avec GitLab (branches dédiées), et LiveShare pour coder en équipe.\n\n📢 Communication fluide sur Discord.\n\nNotre plateforme permet aux utilisateurs de partager leurs infos de façon temporaire ou ciblée, selon les besoins (ex : envoi de colis, soirée, mariage…).\n\nCe projet m’a permis de renforcer mes compétences fullstack, de mieux appréhender les enjeux de sécurité et d’UX dans le partage de données personnelles. 🔐✨"
+        "text" : "Pendant 6 mois, j'ai travaillé à distance au sein d'une équipe de 4 développeurs sur une application de partage sécurisé de données personnelles (adresse, mail, téléphone…).\n\n🛠️ Stack technique : React, TypeScript, NestJS (microservices), Ionic pour le mobile, et une version alternative en Symfony.\n\n📐 Design : maquettes sous Figma, wireframes & schémas avec Excalidraw.\n\n📌 Méthodo : suivi via YouTrack, versionning avec GitLab (branches dédiées), et LiveShare pour coder en équipe.\n\n📢 Communication fluide sur Discord.\n\nNotre plateforme permet aux utilisateurs de partager leurs infos de façon temporaire ou ciblée, selon les besoins (ex : envoi de colis, soirée, mariage…).\n\nCe projet m'a permis de renforcer mes compétences fullstack, de mieux appréhender les enjeux de sécurité et d'UX dans le partage de données personnelles. 🔐✨"
     },
     {
         "id": "07",
@@ -249,6 +249,6 @@
         "describe": "Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
-        "text": "Ohmyfood est le tout premier projet que j’ai réalisé en 2021, dans le cadre de ma formation chez OpenClassrooms .\n\nUn projet simple en apparence… mais riche en apprentissages ! \n\nJ’y ai utilisé HTML et SCSS pour créer un site responsive 📱, avec plusieurs animations 100 % CSS :\n un loader animé ⏳\n une rotation d’éléments 🔄\n et un cœur interactif ❤️ qui se remplit au survol 🖱️\n\nC’était aussi ma toute première expérience avec un design imposé 🎯…\net j’étais très fière d’avoir réussi à le sublimer avec soin ✨"
+        "text": "Ohmyfood est le tout premier projet que j'ai réalisé en 2021, dans le cadre de ma formation chez OpenClassrooms .\n\nUn projet simple en apparence… mais riche en apprentissages ! \n\nJ'y ai utilisé HTML et SCSS pour créer un site responsive 📱, avec plusieurs animations 100 % CSS :\n un loader animé ⏳\n une rotation d'éléments 🔄\n et un cœur interactif ❤️ qui se remplit au survol 🖱️\n\nC'était aussi ma toute première expérience avec un design imposé 🎯…\net j'étais très fière d'avoir réussi à le sublimer avec soin ✨"
     }
 ]

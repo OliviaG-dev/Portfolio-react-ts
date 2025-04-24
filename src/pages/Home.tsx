@@ -157,13 +157,13 @@ function Home() {
                 </button>
                 <button
                   className={`blue ${
-                    selectedTags.includes('#JAVASCRIPT')
+                    selectedTags.includes('#TYPESCRIPT')
                       ? 'active_tag'
                       : 'button_tag'
                   }`}
-                  onClick={() => handleTagClick('#JAVASCRIPT')}
+                  onClick={() => handleTagClick('#TYPESCRIPT')}
                 >
-                  JAVASCRIPT
+                  TYPESCRIPT
                 </button>
                 <button
                   className={`green ${
