@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 .quest {
-  position: absolute;
-  top: 50;
+  position: fixed;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   background: #f5f1de;
   border: 8px solid #5a2c0a;
   border-image: linear-gradient(to bottom, #c59e58, #5a2c0a) 1;
   border-radius: 15px;
   padding: 2rem;
   max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
   font-family: 'IM Fell English SC', serif;
   font-size: 0.8rem;
   color: #3a2a0b;
@@ -25,28 +28,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform-origin: top center;
+  transform-origin: center;
   opacity: 0;
+  z-index: 1000;
 }
 
 @keyframes scrollOpen {
   0% {
-    transform: translateX(-50%) scaleY(0);
+    transform: translate(-50%, -50%) scale(0.8);
     opacity: 0;
   }
   100% {
-    transform: translateX(-50%) scaleY(1);
+    transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
 }
 
 @keyframes scrollClose {
   0% {
-    transform: translateX(-50%) scaleY(1);
+    transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
   100% {
-    transform: translateX(-50%) scaleY(0);
+    transform: translate(-50%, -50%) scale(0.8);
     opacity: 0;
   }
 }
@@ -111,4 +115,112 @@
 .quest_close-btn:hover,
 .quest_new-btn:hover {
   background: #8b4c1a;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .quest {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 0;
+    border: none;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+  .quest.quest_open {
+    animation: mobile_quest_open 0.5s ease-out forwards;
+  }
+
+  .quest.quest_closing {
+    animation: mobile_quest_close 0.5s ease-out forwards;
+  }
+
+  @keyframes mobile_quest_open {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes mobile_quest_close {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
+
+  .quest_header h2 {
+    font-size: 1.5rem;
+  }
+
+  .quest_body p {
+    font-size: 0.9rem;
+  }
+
+  .quest_title {
+    font-size: 0.9rem;
+  }
+
+  .quest_reward ul {
+    font-size: 0.9rem;
+  }
+
+  .quest_close-btn,
+  .quest_new-btn {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 300px;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .quest_new-btn {
+    bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .quest {
+    padding: 0.8rem;
+  }
+
+  .quest_header h2 {
+    font-size: 1.3rem;
+  }
+
+  .horde_logo {
+    width: 50px;
+  }
+
+  .quest_body p {
+    font-size: 0.85rem;
+  }
+
+  .quest_title {
+    font-size: 0.85rem;
+  }
+
+  .quest_reward ul {
+    font-size: 0.85rem;
+  }
+
+  .quest_close-btn,
+  .quest_new-btn {
+    font-size: 1rem;
+  }
 }
