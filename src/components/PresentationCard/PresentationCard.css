@@ -121,16 +121,47 @@
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+  .presentation_card {
+    width: 90%;
+    height: 90%;
+    padding: 1.5rem;
+    border: 2px solid var(--sc-color);
+    border-radius: 15px;
+  }
+
+  .presentation_content {
+    gap: 1.5rem;
+  }
+
+  .presentation_title {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+  }
+
+  .presentation_text {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .presentation_close {
+    top: 1rem;
+    right: 1rem;
+    font-size: 2em;
+  }
+
   .presentation_ui {
     width: 100%;
     height: 100vh;
     max-height: 100vh;
     border-radius: 0;
-    border: none;
+    border: 8px solid #5a2c0a;
+    border-image: linear-gradient(to bottom, #c59e58, #5a2c0a) 1;
     padding: 1rem;
     top: 0;
     left: 0;
     transform: none;
+    margin: 0;
   }
 
   .presentation_ui.presentation_open {
@@ -192,8 +223,25 @@
 }
 
 @media screen and (max-width: 480px) {
-  .presentation_ui {
-    padding: 0.8rem;
+  .presentation_card {
+    width: 95%;
+    height: 95%;
+    padding: 1.2rem;
+    margin: 1rem;
+  }
+
+  .presentation_content {
+    gap: 1.2rem;
+  }
+
+  .presentation_title {
+    font-size: 1.5em;
+    margin-bottom: 0.8rem;
+  }
+
+  .presentation_text {
+    font-size: 0.9em;
+    margin-bottom: 1.2rem;
   }
 
   .presentation_header h2 {
@@ -210,5 +258,11 @@
 
   .presentation_reward ul {
     font-size: 0.85rem;
+  }
+
+  .presentation_ui {
+    border: 6px solid #5a2c0a;
+    border-image: linear-gradient(to bottom, #c59e58, #5a2c0a) 1;
+    padding: 0.8rem;
   }
 }
