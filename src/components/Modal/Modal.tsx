@@ -79,26 +79,30 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
             <div className="modal_text">
               <h2>{project.title}</h2>
               <div className="text_link">
-                <a
-                  className="link_slide"
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {' '}
-                  <img src={Icon_internet} alt="icone internet" />
-                  lien
-                </a>
-                <a
-                  className="link_slide"
-                  href={project.linkGit}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {' '}
-                  <img src={Icon_githubnoir} alt="icone github" />
-                  lien GitHub
-                </a>
+                {project.link && (
+                  <a
+                    className="link_slide"
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {' '}
+                    <img src={Icon_internet} alt="icone internet" />
+                    lien
+                  </a>
+                )}
+                {project.linkGit && (
+                  <a
+                    className="link_slide"
+                    href={project.linkGit}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {' '}
+                    <img src={Icon_githubnoir} alt="icone github" />
+                    lien GitHub
+                  </a>
+                )}
               </div>
               <span>
                 <ul className="down_list">
