@@ -67,9 +67,9 @@
         "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
         "title" : "ChatBlog",
         "describe": "Une app fullstack élégante. Publiez, organisez et modifiez vos articles en toute simplicité parfait pour partager votre amour félin !",
-        "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
-        "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
-        "text" : "Duis non velit lectus. Aenean sit amet fermentum odio. Aenean sit amet leo pulvinar augue viverra scelerisque eu in nisi. Proin at sapien ac massa ultricies molestie in sit amet metus. Sed et orci imperdiet, feugiat ex vel, hendrerit arcu. Nullam in metus a arcu ornare tempus. Pellentesque ac ex id odio viverra rutrum in ut ex. Maecenas in blandit ipsum. Vivamus ornare maximus ipsum, vel pellentesque urna rhoncus quis. Donec et rutrum quam. Nunc vehicula in libero sit "
+        "link": "",
+        "linkGit": "https://github.com/OliviaG-dev/ChatBlog",
+        "text" : "ChatBlog est une application fullstack qui permet de publier, organiser, modifier et supprimer des articles autour du thème des chats 🐱.\n\n🚀 Fonctionnalités principales\n- Ajouter des articles sur les chats.\n- Organiser par catégories (ex : soins, alimentation, anecdotes...).\n- Modifier et supprimer des posts facilement.\n- Interface simple et intuitive pour une bonne expérience utilisateur.\n\n🛠️ Technologies utilisées\n\nBackend :\n- Node.js & Nodemon : Serveur JavaScript avec redémarrage auto.\n- MongoDB & Mongoose : Base de données NoSQL avec ORM.\n\nFrontend :\n- React.js + TypeScript : Interface moderne et typée.\n- Vite : Build rapide pour React.\n- CSS : Stylisation simple et propre.\n- Axios : Requêtes API.\n- ESLint & Prettier : Qualité et uniformité du code.\n\nGestion de projet :\n- pnpm : Gestionnaire de paquets performant."
     },
     {
         "id": "03",
