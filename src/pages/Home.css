@@ -21,6 +21,7 @@
   height: 45rem;
   justify-content: space-between;
   align-items: flex-start;
+  position: relative;
 }
 
 .home_box {
@@ -33,6 +34,8 @@
 .home_title {
   font-size: 2.5em;
   line-height: 1.4;
+  position: relative;
+  z-index: 1;
 }
 
 .title_color--code {
@@ -66,6 +69,9 @@
   letter-spacing: 0.2rem;
   display: flex;
   align-items: flex-start;
+  position: absolute;
+  right: 4rem;
+  top: 2rem;
 }
 
 .tag_anim {
@@ -96,6 +102,7 @@
   padding: 0 4rem;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .contact_text {
@@ -130,6 +137,9 @@
   width: 100%;
   justify-content: flex-end;
   display: flex;
+  position: absolute;
+  top: 0;
+  right: 4rem;
 }
 
 .contact_link {
@@ -370,7 +380,7 @@
 @media only screen and (max-width: 1480px) {
   /* Section project */
   .home_project {
-    padding: 2rem;
+    padding: 2rem 0.5rem;
     height: auto;
   }
 
@@ -422,4 +432,178 @@
 
 .card_container > * {
   pointer-events: auto;
+}
+
+/* Section About */
+@media screen and (max-width: 1200px) {
+  .home_about {
+    padding: 2rem 2rem 0 2rem;
+    height: auto;
+    min-height: 40rem;
+  }
+
+  .home_title {
+    font-size: 2.2em;
+  }
+
+  .home_tag {
+    right: 2rem;
+  }
+
+  .home_contact {
+    padding: 0 2rem;
+  }
+
+  .tag_container {
+    right: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home {
+    padding: 0.8rem;
+  }
+
+  .home_about {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .home_box {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .home_title {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .title_inline {
+    justify-content: center;
+  }
+
+  .home_tag {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .home_contact {
+    padding: 0 1rem;
+    height: auto;
+    min-height: 35rem;
+  }
+
+  .contact_text {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 0;
+  }
+
+  .line {
+    border: none;
+  }
+
+  .text_contain {
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .tag_container {
+    right: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home_about {
+    padding: 6rem 0;
+    min-height: 35rem;
+  }
+
+  .home_title {
+    font-size: 1.8em;
+  }
+
+  .title_color--code {
+    font-size: 0.6em;
+  }
+
+  .title_color--sec,
+  .title_color--blue,
+  .title_color--vio {
+    font-size: 1em;
+  }
+
+  .home_tag {
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .home_contact {
+    padding: 0 1rem;
+  }
+
+  .contact_text {
+    padding: 3rem 0;
+  }
+
+  .contact_item {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .contact_link {
+    font-size: 1.5em;
+  }
+
+  .tag_container {
+    right: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home_about {
+    padding: 0.5rem;
+    min-height: 30rem;
+  }
+
+  .home_title {
+    font-size: 1.5em;
+  }
+
+  .title_color--code {
+    font-size: 0.5em;
+  }
+
+  .title_color--sec,
+  .title_color--blue,
+  .title_color--vio {
+    font-size: 0.9em;
+  }
+
+  .home_tag {
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+
+  .home_contact {
+    padding: 0 0.5rem;
+  }
+
+  .contact_text {
+    padding: 2rem 0;
+  }
+
+  .contact_link {
+    font-size: 1.2em;
+  }
+
+  .tag_container {
+    right: 0.5rem;
+  }
 }

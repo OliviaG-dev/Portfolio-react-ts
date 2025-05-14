@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 .presentation_ui {
-  position: absolute;
-  top: 50;
+  position: fixed;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   background: #f5f1de;
   border: 8px solid #5a2c0a;
   border-image: linear-gradient(to bottom, #c59e58, #5a2c0a) 1;
   border-radius: 15px;
   padding: 2rem;
   max-width: 80rem;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
   font-family: 'IM Fell English SC', serif;
   font-size: 1rem;
   color: #3a2a0b;
@@ -25,29 +28,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform-origin: top center;
+  transform-origin: center;
   opacity: 0;
   transition: transform 0.3s ease;
+  z-index: 1000;
 }
 
 @keyframes presentation_open {
   0% {
-    transform: translateX(-50%) scaleY(0);
+    transform: translate(-50%, -50%) scale(0.8);
     opacity: 0;
   }
   100% {
-    transform: translateX(-50%) scaleY(1);
+    transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
 }
 
 @keyframes presentation_close {
   0% {
-    transform: translateX(-50%) scaleY(1);
+    transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
   100% {
-    transform: translateX(-50%) scaleY(0);
+    transform: translate(-50%, -50%) scale(0.8);
     opacity: 0;
   }
 }
@@ -113,4 +117,152 @@
 
 .presentation_close-btn:hover {
   background: #8b4c1a;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .presentation_card {
+    width: 90%;
+    height: 90%;
+    padding: 1.5rem;
+    border: 2px solid var(--sc-color);
+    border-radius: 15px;
+  }
+
+  .presentation_content {
+    gap: 1.5rem;
+  }
+
+  .presentation_title {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+  }
+
+  .presentation_text {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .presentation_close {
+    top: 1rem;
+    right: 1rem;
+    font-size: 2em;
+  }
+
+  .presentation_ui {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 0;
+    border: 8px solid #5a2c0a;
+    border-image: linear-gradient(to bottom, #c59e58, #5a2c0a) 1;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin: 0;
+  }
+
+  .presentation_ui.presentation_open {
+    animation: mobile_presentation_open 0.5s ease-out forwards;
+  }
+
+  .presentation_ui.presentation_closing {
+    animation: mobile_presentation_close 0.5s ease-out forwards;
+  }
+
+  @keyframes mobile_presentation_open {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes mobile_presentation_close {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
+
+  .presentation_header h2 {
+    font-size: 1.5rem;
+  }
+
+  .presentation_body p {
+    font-size: 0.9rem;
+  }
+
+  .presentation_body_text {
+    font-size: 1rem;
+  }
+
+  .presentation_reward ul {
+    font-size: 0.9rem;
+  }
+
+  .presentation_close-btn {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 300px;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .presentation_card {
+    width: 95%;
+    height: 95%;
+    padding: 1.2rem;
+    margin: 1rem;
+  }
+
+  .presentation_content {
+    gap: 1.2rem;
+  }
+
+  .presentation_title {
+    font-size: 1.5em;
+    margin-bottom: 0.8rem;
+  }
+
+  .presentation_text {
+    font-size: 0.9em;
+    margin-bottom: 1.2rem;
+  }
+
+  .presentation_header h2 {
+    font-size: 1.3rem;
+  }
+
+  .presentation_body p {
+    font-size: 0.85rem;
+  }
+
+  .presentation_body_text {
+    font-size: 0.9rem;
+  }
+
+  .presentation_reward ul {
+    font-size: 0.85rem;
+  }
+
+  .presentation_ui {
+    border: 6px solid #5a2c0a;
+    border-image: linear-gradient(to bottom, #c59e58, #5a2c0a) 1;
+    padding: 0.8rem;
+  }
 }
