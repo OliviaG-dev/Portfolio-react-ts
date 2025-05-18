@@ -390,6 +390,7 @@
   transition: 0.45s;
   cursor: pointer;
 }
+
 .project_link:hover,
 .project_link:focus {
   box-shadow: inset 6.5em 0 0 0 rgba(246, 168, 255, 0.15);
@@ -447,10 +448,13 @@
   .button_container {
     flex-wrap: wrap;
     width: 100%;
+    gap: 0.5rem;
+    justify-content: center;
   }
 
   .project_container {
-    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
   }
 
   .project_wrapper {
@@ -577,6 +581,21 @@
   .contact_link {
     font-size: 1.5em;
   }
+
+  .project_container {
+    justify-content: center;
+    gap: 0rem;
+  }
+
+  .project {
+    width: 25rem;
+    height: 18rem;
+  }
+
+  .back_container > img {
+    width: 22rem;
+    height: 16rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -625,6 +644,44 @@
   .tag_container {
     right: 0.5rem;
   }
+
+  .project {
+    width: 22rem;
+    height: 16rem;
+  }
+
+  .back_container > img {
+    width: 19rem;
+    height: 14rem;
+  }
+
+  .up_title {
+    font-size: 1.3em;
+  }
+
+  .up_describe {
+    font-size: 1em;
+  }
+
+  .project_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .project_button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+
+  .project_link {
+    padding: 0.5rem 1.5rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -666,5 +723,28 @@
 
   .tag_container {
     right: 0.5rem;
+  }
+
+  .project {
+    width: 18rem;
+    height: 14rem;
+  }
+
+  .back_container > img {
+    width: 15rem;
+    height: 12rem;
+  }
+
+  .up_title {
+    font-size: 1.1em;
+  }
+
+  .up_describe {
+    font-size: 0.9em;
+  }
+
+  .down_list > li {
+    margin: 0 0.5rem 0.5rem 0;
+    font-size: 0.9em;
   }
 }

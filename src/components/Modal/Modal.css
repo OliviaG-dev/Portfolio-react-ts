@@ -1,10 +1,10 @@
 .modal {
   position: fixed;
   z-index: 1000;
-  left: 0;
-  top: 0;
   width: 100vw;
   height: 100vh;
+  left: 0;
+  top: 0;
   overflow: auto;
   background-color: var(--main-color);
 }
@@ -13,8 +13,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  border-radius: 5px;
   margin: 5% auto;
   padding: 2rem;
   width: 80%;
@@ -25,6 +23,7 @@
   background-color: rgba(245, 233, 226, 0.05);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-height: 90vh;
+  border-radius: 5px;
 }
 
 @keyframes modal-enter {
@@ -41,7 +40,6 @@
 .modal_slider {
   display: flex;
   width: 100%;
-  border-radius: 15px;
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -71,21 +69,15 @@
 }
 
 .slider {
-  width: 100%;
   max-width: 1000px;
   height: 0;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  padding-bottom: 56.25%;
   position: relative;
   overflow: hidden;
   border-radius: 15px;
 }
 
 .slider_img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease;
@@ -102,16 +94,13 @@
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
-  background-color: none;
   border: var(--sc-color) solid 2px;
-  margin: 0 5px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .dot.active {
   background: var(--sc-color);
-  position: relative;
 }
 
 .modal_close {
@@ -180,7 +169,6 @@
   transform: scaleX(1);
 }
 
-/* Responsive Design */
 @media screen and (max-width: 992px) {
   .modal_content {
     width: 90%;
@@ -218,7 +206,7 @@
 
   .slider {
     max-width: 100%;
-    padding-bottom: 75%; /* 4:3 Aspect Ratio */
+    padding-bottom: 75%;
   }
 
   .modal_slider > button {
@@ -263,7 +251,7 @@
   }
 
   .slider {
-    padding-bottom: 66.67%; /* 3:2 Aspect Ratio */
+    padding-bottom: 66.67%;
   }
 
   .modal_slider > button {
