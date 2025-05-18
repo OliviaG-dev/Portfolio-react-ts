@@ -40,9 +40,20 @@ header {
   left: 5rem;
   top: 50%;
   transform: translateY(-50%);
-  max-height: 80%;
-  width: auto;
-  object-fit: contain;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--bg-color);
+  object-position: center 30%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header_img:hover {
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border-color: #ff69b4;
 }
 
 .header_list {
@@ -157,8 +168,9 @@ header::after {
   }
 
   .header_img {
+    width: 100px;
+    height: 100px;
     left: 2rem;
-    max-height: 70%;
   }
 
   .header_shrink .header_list {
@@ -168,9 +180,9 @@ header::after {
 
 @media screen and (max-width: 480px) {
   .header_img {
-    width: 150px;
+    width: 80px;
+    height: 80px;
     left: 1rem;
-    max-height: 60%;
   }
 
   .burger_menu {

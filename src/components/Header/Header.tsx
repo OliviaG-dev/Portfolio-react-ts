@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Header.css';
-import Logo from '../../assets/Logo.svg';
+import Logo from '../../assets/avatar.png';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +32,7 @@ function Header() {
   return (
     <header className={isScrolled ? 'header_shrink' : ''}>
       <div className="header_container">
-        <img className="header_img" src={Logo} alt="Logo de mon portfolio" />
+        <img className="header_img" src={Logo} alt="Logo de mon portfolio" /> 
         <div
           className={`burger_menu ${isMenuOpen ? 'active' : ''}`}
           onClick={toggleMenu}
