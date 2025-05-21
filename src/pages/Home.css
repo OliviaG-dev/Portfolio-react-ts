@@ -131,6 +131,31 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  padding: 1.5rem;
+  border-radius: 15px;
+  background-color: rgba(245, 233, 226, 0.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  margin: 1rem auto;
+  max-width: 50rem;
+  width: 100%;
+}
+
+.contact_item:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: rgba(245, 233, 226, 0.1);
+}
+
+.contact_item img {
+  transition: transform 0.3s ease;
+}
+
+.contact_item:hover img {
+  transform: scale(1.1);
 }
 
 .tag_container {
@@ -146,6 +171,31 @@
   color: var(--bg-color);
   text-decoration: none;
   font-size: 2em;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.contact_link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: var(--sc-color);
+  transition: width 0.4s ease;
+  -webkit-transition: width 0.4s ease;
+}
+
+.contact_link:hover {
+  color: var(--sc-color);
+}
+
+.contact_link:hover::after {
+  width: 100%;
+  left: 0;
+  background-color: var(--sc-color);
 }
 
 .project_tag {
@@ -340,6 +390,7 @@
   transition: 0.45s;
   cursor: pointer;
 }
+
 .project_link:hover,
 .project_link:focus {
   box-shadow: inset 6.5em 0 0 0 rgba(246, 168, 255, 0.15);
@@ -397,10 +448,13 @@
   .button_container {
     flex-wrap: wrap;
     width: 100%;
+    gap: 0.5rem;
+    justify-content: center;
   }
 
   .project_container {
-    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
   }
 
   .project_wrapper {
@@ -499,7 +553,7 @@
 
   .contact_text {
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     padding: 4rem 0;
   }
 
@@ -510,11 +564,37 @@
   .text_contain {
     width: 100%;
     height: auto;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .tag_container {
-    right: 1rem;
+    right: 0.5rem;
+  }
+
+  .contact_item {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .contact_link {
+    font-size: 1.5em;
+  }
+
+  .project_container {
+    justify-content: center;
+    gap: 0rem;
+  }
+
+  .project {
+    width: 25rem;
+    height: 18rem;
+  }
+
+  .back_container > img {
+    width: 22rem;
+    height: 16rem;
   }
 }
 
@@ -558,11 +638,49 @@
   }
 
   .contact_link {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .tag_container {
-    right: 1rem;
+    right: 0.5rem;
+  }
+
+  .project {
+    width: 22rem;
+    height: 16rem;
+  }
+
+  .back_container > img {
+    width: 19rem;
+    height: 14rem;
+  }
+
+  .up_title {
+    font-size: 1.3em;
+  }
+
+  .up_describe {
+    font-size: 1em;
+  }
+
+  .project_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .project_button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+
+  .project_link {
+    padding: 0.5rem 1.5rem;
   }
 }
 
@@ -605,5 +723,28 @@
 
   .tag_container {
     right: 0.5rem;
+  }
+
+  .project {
+    width: 18rem;
+    height: 14rem;
+  }
+
+  .back_container > img {
+    width: 15rem;
+    height: 12rem;
+  }
+
+  .up_title {
+    font-size: 1.1em;
+  }
+
+  .up_describe {
+    font-size: 0.9em;
+  }
+
+  .down_list > li {
+    margin: 0 0.5rem 0.5rem 0;
+    font-size: 0.9em;
   }
 }
