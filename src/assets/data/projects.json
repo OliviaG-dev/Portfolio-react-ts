@@ -33,7 +33,7 @@
         "describe": "Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !",
         "link": "https://random-sims.vercel.app",
         "linkGit": "https://github.com/OliviaG-dev/RandomSims",
-        "text" : "RandomSims est une application web et mobile 🎲 développée avec TypeScript, React et Vite, conçue pour générer des défis aléatoires et originaux dans *Les Sims 4*.\n\nCe projet reflète mon souci de qualité et d’expérience utilisateur, avec une architecture moderne (pnpm, ESLint, Prettier) et un code maintenable, scalable et performant 🛠️.\n\nIl s’agit d’une expérience interactive et responsive 📱 qui met l’accent à la fois sur la créativité et la rigueur technique.\n\n✨ **Fonctionnalités principales** :\n- 🎲 Génération aléatoire de défis pour divers aspects du jeu (Sims, lieux, scénarios)\n- 📸 Capture d'écran des combinaisons via html2canvas\n- 🌐 Navigation fluide grâce à React Router\n- 📱 Interface responsive adaptée aux mobiles et tablettes\n- 🧠 Défis thématiques selon les packs (ex: Amour Fou 💖, À la vie, à la mort 💀)\n- 🛠️ Code maintenu avec ESLint, Prettier et gestion via pnpm\n- ⚡ Lancement rapide et développement optimisé avec Vite\n\nUne app fun, bien pensée et prête à faire vivre des aventures inédites à vos Sims ! 🚀"
+        "text" : "RandomSims est une application web et mobile 🎲 développée avec TypeScript, React et Vite, conçue pour générer des défis aléatoires et originaux dans *Les Sims 4*.\n\nCe projet reflète mon souci de qualité et d'expérience utilisateur, avec une architecture moderne (pnpm, ESLint, Prettier) et un code maintenable, scalable et performant 🛠️.\n\nIl s'agit d'une expérience interactive et responsive 📱 qui met l'accent à la fois sur la créativité et la rigueur technique.\n\n✨ **Fonctionnalités principales** :\n- 🎲 Génération aléatoire de défis pour divers aspects du jeu (Sims, lieux, scénarios)\n- 📸 Capture d'écran des combinaisons via html2canvas\n- 🌐 Navigation fluide grâce à React Router\n- 📱 Interface responsive adaptée aux mobiles et tablettes\n- 🧠 Défis thématiques selon les packs (ex: Amour Fou 💖, À la vie, à la mort 💀)\n- 🛠️ Code maintenu avec ESLint, Prettier et gestion via pnpm\n- ⚡ Lancement rapide et développement optimisé avec Vite\n\nUne app fun, bien pensée et prête à faire vivre des aventures inédites à vos Sims ! 🚀"
     },
     {
         "id": "02",
@@ -64,7 +64,7 @@
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#FIGMA", "style":"#FF0000"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#NODEJS", "style":"#be8110"}],
         "title" : "ChatBlog",
         "describe": "Une app fullstack élégante. Publiez, organisez et modifiez vos articles en toute simplicité parfait pour partager votre amour félin !",
         "link": "",
@@ -172,7 +172,7 @@
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
-        "tags" : [{"item":"#FIGMA", "style":"#FF0000"},{"item":"#TAILWIND", "style":"#be8110"},{"item":"#BOOTSTRAP", "style":"#9F1066"}],
+        "tags" : [{"item":"#FIGMA", "style":"#FF0000"},{"item":"#NODEJS", "style":"#be8110"},{"item":"#BOOTSTRAP", "style":"#9F1066"}],
         "title" : "oh my food!",
         "describe": "ma superbe description, de la mort, qui tue, de mon super projet.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
