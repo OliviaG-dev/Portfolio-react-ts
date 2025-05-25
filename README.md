@@ -1,27 +1,74 @@
-# React + TypeScript + Vite
+# Portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 À propos
 
-Currently, two official plugins are available:
+Ce portfolio présente mes projets de développement web, mettant en avant mes compétences et mon parcours professionnel. Il a été conçu pour offrir une expérience utilisateur moderne et interactive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies utilisées
 
-## Expanding the ESLint configuration
+- **Frontend**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  - React.js
+  - TypeScript
+  - Vite
+  - CSS moderne
+  - React Router pour la navigation
 
-- Configure the top-level `parserOptions` property like this:
+- **Outils de développement**
+  - ESLint
+  - Prettier
+  - pnpm (gestionnaire de paquets)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## ✨ Fonctionnalités
+
+- **Présentation des projets**
+
+  - Galerie de projets avec images
+  - Carrousel d'images pour chaque projet
+  - Tags technologiques avec code couleur
+  - Liens vers les dépôts GitHub et les démos
+
+- **Interface utilisateur**
+  - Design responsive
+  - Navigation fluide
+  - Animations et transitions
+  - Mode sombre/clair
+
+## 🏗️ Structure du projet
+
+```
+src/
+├── assets/         # Images et données statiques
+├── components/     # Composants React réutilisables
+├── pages/         # Pages principales
+├── services/      # Services et utilitaires
+└── App.tsx        # Point d'entrée de l'application
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🚀 Installation
+
+1. Clonez le dépôt :
+
+```bash
+git clone [https://github.com/OliviaG-dev/Portfolio-react-ts.git]
+```
+
+2. Installez les dépendances :
+
+```bash
+pnpm install
+```
+
+3. Lancez le serveur de développement :
+
+```bash
+pnpm dev
+```
+
+## 📝 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 📫 Contact
+
+Pour toute question ou collaboration, n'hésitez pas à me contacter via [oliviagautherondev@gmail.com] ou sur [https://www.linkedin.com/in/olivia-gautheron-dev/].
