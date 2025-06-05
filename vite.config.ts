@@ -9,15 +9,11 @@ export default defineConfig({
     assetsDir: 'assets',
     rollupOptions: {
       output: {
-        manualChunks: undefined,
         format: 'es',
-        generatedCode: {
-          preset: 'es2015',
-        },
       },
     },
     target: 'es2015',
-    minify: 'esbuild',
+    minify: false,
     sourcemap: true,
   },
 });
