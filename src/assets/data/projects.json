@@ -1,30 +1,30 @@
 [
     {
         "id": "01",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/RS_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/RS_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/RS/RS_slide01.png",
+                "src":"/assets/images/ImagesSlide/RS/RS_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/RS/RS_slide02.png",
+                "src":"/assets/images/ImagesSlide/RS/RS_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/RS/RS_slide03.png",
+                "src":"/assets/images/ImagesSlide/RS/RS_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/RS/RS_slide04.png",
+                "src":"/assets/images/ImagesSlide/RS/RS_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/RS/RS_slide05.png",
+                "src":"/assets/images/ImagesSlide/RS/RS_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/RS/RS_slide06.png",
+                "src":"/assets/images/ImagesSlide/RS/RS_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
@@ -37,30 +37,30 @@
     },
     {
         "id": "02",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/CB_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/CB_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/CB/CB_slide01.png",
+                "src":"/assets/images/ImagesSlide/CB/CB_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/CB/CB_slide02.png",
+                "src":"/assets/images/ImagesSlide/CB/CB_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/CB/CB_slide03.png",
+                "src":"/assets/images/ImagesSlide/CB/CB_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/CB/CB_slide04.png",
+                "src":"/assets/images/ImagesSlide/CB/CB_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/CB/CB_slide05.png",
+                "src":"/assets/images/ImagesSlide/CB/CB_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/CB/CB_slide06.png",
+                "src":"/assets/images/ImagesSlide/CB/CB_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
@@ -73,30 +73,30 @@
     },
     {
         "id": "03",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/PO_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/PO_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/PO/PO_slide01.png",
+                "src":"/assets/images/ImagesSlide/PO/PO_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/PO/PO_slide02.png",
+                "src":"/assets/images/ImagesSlide/PO/PO_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/PO/PO_slide03.png",
+                "src":"/assets/images/ImagesSlide/PO/PO_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/PO/PO_slide04.png",
+                "src":"/assets/images/ImagesSlide/PO/PO_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/PO/PO_slide05.png",
+                "src":"/assets/images/ImagesSlide/PO/PO_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/PO/PO_slide06.png",
+                "src":"/assets/images/ImagesSlide/PO/PO_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
@@ -105,34 +105,34 @@
         "describe": "Entre lignes de code et éclats de pixels, ce portfolio vous invite à voyager au cœur de mes créations numériques.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "linkGit": "https://github.com/OliviaG-dev/Portfolio-react-ts",
-        "text" : "Bienvenue dans mon univers numérique. Ce portfolio est bien plus qu'une simple vitrine : c’est un espace interactif pensé pour refléter mon approche du développement web — moderne, soignée et tournée vers l'expérience utilisateur.\n\n⚙️ Conçu avec React.js, TypeScript et propulsé par Vite, il met en œuvre une architecture front-end performante, enrichie par un design responsive, des animations fluides ✨, et une navigation intuitive grâce à React Router. Le code est maintenu propre et lisible avec ESLint, Prettier, et géré efficacement via pnpm.\n\n🛠️ Technologies utilisées :\n- 💻 Frontend : React.js, TypeScript, Vite, CSS moderne (responsive & animations), React Router\n- 🧰 Outils & Qualité : ESLint, Prettier, pnpm\n\n🚀 Fonctionnalités principales :\n- 🖼️ Galerie de projets interactive : présentation visuelle, carrousel d’images, tags colorés 🏷️, liens vers GitHub et démos 🔗\n- 🧑‍💻 Expérience utilisateur : navigation fluide 🎯, design adaptatif 📱"
+        "text" : "Bienvenue dans mon univers numérique. Ce portfolio est bien plus qu'une simple vitrine : c'est un espace interactif pensé pour refléter mon approche du développement web — moderne, soignée et tournée vers l'expérience utilisateur.\n\n⚙️ Conçu avec React.js, TypeScript et propulsé par Vite, il met en œuvre une architecture front-end performante, enrichie par un design responsive, des animations fluides ✨, et une navigation intuitive grâce à React Router. Le code est maintenu propre et lisible avec ESLint, Prettier, et géré efficacement via pnpm.\n\n🛠️ Technologies utilisées :\n- 💻 Frontend : React.js, TypeScript, Vite, CSS moderne (responsive & animations), React Router\n- 🧰 Outils & Qualité : ESLint, Prettier, pnpm\n\n🚀 Fonctionnalités principales :\n- 🖼️ Galerie de projets interactive : présentation visuelle, carrousel d'images, tags colorés 🏷️, liens vers GitHub et démos 🔗\n- 🧑‍💻 Expérience utilisateur : navigation fluide 🎯, design adaptatif 📱"
     },
     {
         "id": "04",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
@@ -145,30 +145,30 @@
     },
     {
         "id": "05",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
@@ -181,30 +181,30 @@
     },
     {
         "id": "06",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/LP-LOL_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/LP-LOL_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide01.png",
+                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide02.png",
+                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide03.png",
+                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide04.png",
+                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide05.png",
+                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide06.png",
+                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],
@@ -217,30 +217,30 @@
     },
     {
         "id": "07",
-        "imagePortrait" : "/src/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide01.png",
                 "alt":"image de mon projet ohmyfood 1"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide02.png",
                 "alt":"image de mon projet ohmyfood 2"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide03.png",
                 "alt":"image de mon projet ohmyfood 3"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide04.png",
                 "alt":"image de mon projet ohmyfood 4"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide05.png",
                 "alt":"image de mon projet ohmyfood 5"
             },
             {
-                "src":"/src/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "src":"/assets/images/ImagesSlide/omf/omf_slide06.png",
                 "alt":"image de mon projet ohmyfood 6"
             }
         ],

@@ -18,7 +18,6 @@ function Home() {
   const data = new Data();
   const dataProjects = data.getDataProjects();
 
-  console.log(dataProjects);
   const [selectedProject, setSelectedProject] = useState<DataProjects | null>(
     null
   );
