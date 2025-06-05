@@ -354,7 +354,7 @@ function Home() {
                   <img src={Icon_cv} alt="icone cv" />
                   <a
                     className="contact_link"
-                    href="https://drive.google.com/file/d/1QwnqmNJUmOLv-ynpKBlrARNNJtjcr8KY/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1ak_-Lwwyblskcp9wjqYXTMeQmbW4Kl9G/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
