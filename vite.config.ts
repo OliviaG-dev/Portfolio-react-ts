@@ -17,7 +17,7 @@ export default defineConfig({
       },
     },
     target: 'es2015',
-    minify: 'terser',
+    minify: false,
     sourcemap: true,
   },
 });
