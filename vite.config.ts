@@ -10,7 +10,14 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: undefined,
+        format: 'es',
+        generatedCode: {
+          preset: 'es2015',
+        },
       },
     },
+    target: 'es2015',
+    minify: 'terser',
+    sourcemap: true,
   },
 });
