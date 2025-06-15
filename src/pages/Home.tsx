@@ -190,6 +190,16 @@ function Home() {
               >
                 VUEJS
               </button>
+              <button
+                className={`supabase ${
+                  selectedTags.includes('#SUPABASE')
+                    ? 'active_tag'
+                    : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#SUPABASE')}
+              >
+                SUPABASE
+              </button>
             </div>
             <div className="project_tag">
               <p>
