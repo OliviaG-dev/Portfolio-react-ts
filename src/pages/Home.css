@@ -249,6 +249,11 @@
   border: #237c03 solid 2px;
 }
 
+.supabase {
+  color: #4a90e2;
+  border: #4a90e2 solid 2px;
+}
+
 .violet {
   color: #9f1066;
   border: #9f1066 solid 2px;
