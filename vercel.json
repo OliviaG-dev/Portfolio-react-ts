@@ -1,5 +1,9 @@
 {
   "version": 2,
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "installCommand": "pnpm install",
+  "framework": "vite",
   "routes": [
     {
       "src": "/assets/(.*)",
@@ -16,5 +20,9 @@
       "dest": "/index.html"
     }
   ],
-  "framework": "vite"
+  "functions": {
+    "app/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  }
 } 
