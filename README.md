@@ -1,8 +1,8 @@
-# Portfolio 
+# Portfolio
 
 ## 🚀 À propos
 
-Ce portfolio présente mes projets de développement web, mettant en avant mes compétences et mon parcours professionnel. Il a été conçu pour offrir une expérience utilisateur moderne et interactive.
+**Mon portfolio** : un voyage au cœur de mes **créations web** et de mon **parcours de développeur**. Une expérience interactive qui vous raconte mon **histoire digitale**.💻✨
 
 ## 🛠️ Technologies utilisées
 
@@ -32,7 +32,6 @@ Ce portfolio présente mes projets de développement web, mettant en avant mes c
   - Design responsive
   - Navigation fluide
   - Animations et transitions
-  - Mode sombre/clair
 
 ## 🏗️ Structure du projet
 
