@@ -129,10 +129,19 @@ table {
 
 :root {
   font-family: 'K2D', sans-serif;
-  --main-color: #301747;
-  --sc-color: #e86a92;
-  --bg-color: #f5e9e2;
-  --txt-color: #3f3f37;
+
+  /* Palette de couleurs sémantique */
+  --color-background-primary: #0f172a; /* Fond principal sombre */
+  --color-background-secondary: #f8fafc; /* Fond clair pour les cartes */
+  --color-background-hover: #f1f5f9; /* Fond pour les survols */
+
+  --color-text-on-dark: #f8fafc; /* Texte sur fond sombre */
+  --color-text-on-light: #0f172a; /* Texte sur fond clair */
+  --color-text-secondary: #78716c; /* Texte secondaire (gris chaud) */
+
+  --color-accent-primary: #0ea5e9; /* Accent principal (bleu ciel) */
+  --color-accent-secondary: #0284c7; /* Accent secondaire (bleu océan) */
+  --color-accent-tertiary: #38bdf8; /* Accent tertiaire (bleu ciel clair) */
 }
 
 * {
@@ -141,7 +150,7 @@ table {
 
 body {
   margin: 0;
-  background-color: #301747;
+  background-color: var(--color-background-primary);
   position: relative;
   overflow-x: hidden;
   min-height: 100vh;

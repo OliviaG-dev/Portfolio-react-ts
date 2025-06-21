@@ -6,7 +6,7 @@
   left: 0;
   top: 0;
   overflow: auto;
-  background-color: var(--main-color);
+  background-color: var(--color-background-primary);
 }
 
 .modal_content {
@@ -50,7 +50,7 @@
 .modal_slider > button {
   background-color: rgba(0, 0, 0, 0.3);
   border: none;
-  color: var(--sc-color);
+  color: var(--color-text-secondary);
   font-size: 2em;
   width: 40px;
   height: 40px;
@@ -94,13 +94,13 @@
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
-  border: var(--sc-color) solid 2px;
+  border: var(--color-text-secondary) solid 2px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .dot.active {
-  background: var(--sc-color);
+  background: var(--color-text-secondary);
 }
 
 .modal_close {
@@ -108,7 +108,7 @@
   top: 1rem;
   right: 1rem;
   font-size: 2.5em;
-  color: var(--sc-color);
+  color: var(--color-text-secondary);
   cursor: pointer;
   z-index: 2;
   transition: transform 0.3s ease;
@@ -119,13 +119,13 @@
 }
 
 .modal_text {
-  background-color: var(--bg-color);
+  background-color: var(--color-background-secondary);
   width: 90%;
   line-height: 1.8;
   font-size: 1.3em;
   padding: 2rem;
   border-radius: 15px;
-  color: var(--txt-color);
+  color: var(--color-text-on-light);
   white-space: pre-line;
 }
 
@@ -148,14 +148,14 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--txt-color);
+  color: var(--color-text-on-light);
   position: relative;
 }
 
 .link_slide::before {
   content: '';
   position: absolute;
-  background: var(--txt-color);
+  background: var(--color-text-on-light);
   width: 100%;
   height: 0.15rem;
   bottom: -2px;

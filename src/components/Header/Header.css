@@ -1,5 +1,5 @@
 header {
-  background-color: var(--main-color);
+  background-color: var(--color-background-primary);
   height: 8.12rem;
   width: 100%;
   position: relative;
@@ -44,7 +44,7 @@ header {
   height: 120px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid var(--bg-color);
+  border: 3px solid var(--color-background-secondary);
   object-position: center 30%;
   transition: all 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -53,11 +53,11 @@ header {
 .header_img:hover {
   transform: translateY(-50%) scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-  border-color: var(--sc-color);
+  border-color: var(--color-accent-primary);
 }
 
 .header_list {
-  color: var(--bg-color);
+  color: var(--color-text-on-dark);
   display: flex;
   gap: 5rem;
   align-items: end;
@@ -67,7 +67,7 @@ header {
 
 .header_item a {
   text-decoration: none;
-  color: var(--bg-color);
+  color: var(--color-text-on-dark);
 }
 
 header::after {
@@ -75,7 +75,7 @@ header::after {
   position: absolute;
   bottom: -0.5rem;
   left: 0;
-  background-color: var(--main-color);
+  background-color: var(--color-background-primary);
   width: 100%;
   height: 0.3rem;
   z-index: -10;
@@ -87,7 +87,7 @@ header::after {
 .header_link::before {
   content: '';
   position: absolute;
-  background: var(--bg-color);
+  background: var(--color-accent-primary);
   width: 100%;
   height: 0.15rem;
   bottom: -0.3rem;
@@ -110,13 +110,13 @@ header::after {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: var(--main-color);
+  background-color: var(--color-background-primary);
 }
 
 .burger_line {
   width: 35px;
   height: 3px;
-  background-color: var(--bg-color);
+  background-color: var(--color-text-on-dark);
   margin: 6px 0;
   transition: all 0.1s ease;
   border-radius: 2px;
@@ -149,7 +149,7 @@ header::after {
     right: -100%;
     width: 100%;
     height: 100vh;
-    background-color: var(--main-color);
+    background-color: var(--color-background-primary);
     flex-direction: column;
     justify-content: center;
     align-items: center;
