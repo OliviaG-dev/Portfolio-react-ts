@@ -70,17 +70,28 @@
 
 .slider {
   max-width: 1000px;
-  height: 0;
-  padding-bottom: 56.25%;
+  min-height: 300px;
+  height: 50vh;
+  max-height: 60vh;
   position: relative;
   overflow: hidden;
   border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(245, 233, 226, 0.1);
 }
 
 .slider_img {
   object-fit: cover;
   object-position: center;
   transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
 }
 
 .slider_dots {
@@ -205,8 +216,33 @@
   }
 
   .slider {
+    height: auto;
+    padding-bottom: 0;
+    min-height: unset;
+    max-height: unset;
+    display: block;
+    position: relative;
+  }
+
+  .slider_img {
+    object-fit: contain;
+    width: 100vw;
     max-width: 100%;
-    padding-bottom: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: static;
+    top: unset;
+    left: unset;
+    transform: none;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    z-index: 10;
+    border: none;
+    opacity: 1;
+    visibility: visible;
   }
 
   .modal_slider > button {
@@ -251,7 +287,33 @@
   }
 
   .slider {
-    padding-bottom: 66.67%;
+    height: auto;
+    padding-bottom: 0;
+    min-height: unset;
+    max-height: unset;
+    display: block;
+    position: relative;
+  }
+
+  .slider_img {
+    object-fit: contain;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: static;
+    top: unset;
+    left: unset;
+    transform: none;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    z-index: 10;
+    border: none;
+    opacity: 1;
+    visibility: visible;
   }
 
   .modal_slider > button {

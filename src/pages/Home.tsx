@@ -200,6 +200,16 @@ function Home() {
               >
                 SUPABASE
               </button>
+              <button
+                className={`tailwind ${
+                  selectedTags.includes('#TAILWIND')
+                    ? 'active_tag'
+                    : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#TAILWIND')}
+              >
+                TAILWIND
+              </button>
             </div>
             <div className="project_tag">
               <p>

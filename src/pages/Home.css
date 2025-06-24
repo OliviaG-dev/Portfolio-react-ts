@@ -214,9 +214,11 @@
 
 .button_container {
   display: flex;
-  width: 50%;
+  width: auto;
   justify-content: space-around;
   align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .button_tag,
@@ -319,6 +321,15 @@
 
 .pink:hover {
   background: #fdf2f8;
+}
+
+.tailwind {
+  color: #8b5cf6;
+  border-color: #8b5cf6;
+}
+
+.tailwind:hover {
+  background: #faf5ff;
 }
 
 .project_container {
@@ -534,6 +545,16 @@
 .down_list > li.pink:hover {
   color: #e9503f;
   border-color: #db2777;
+}
+
+.down_list > li.tailwind {
+  color: #8b5cf6;
+  border-color: #8b5cf6;
+}
+
+.down_list > li.tailwind:hover {
+  color: #8b5cf6;
+  border-color: #7c3aed;
 }
 
 .project_back {
