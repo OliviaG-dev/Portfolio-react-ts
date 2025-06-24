@@ -7,6 +7,10 @@ import Icon_internet from '../../assets/images/Icons/Icon_internet.svg';
 const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [activeDot, setActiveDot] = useState(0);
+  const [touchStartX, setTouchStartX] = useState<number | null>(null);
+  const [touchEndX, setTouchEndX] = useState<number | null>(null);
+
+  const minSwipeDistance = 50;
 
   const handleClose = () => {
     closeModal();
@@ -39,6 +43,25 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
     setActiveDot(index);
   };
 
+  const onTouchStart = (e: React.TouchEvent) => {
+    setTouchEndX(null);
+    setTouchStartX(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    setTouchEndX(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (touchStartX === null || touchEndX === null) return;
+    const distance = touchStartX - touchEndX;
+    if (distance > minSwipeDistance) {
+      handleNext();
+    } else if (distance < -minSwipeDistance) {
+      handlePrev();
+    }
+  };
+
   const dots = project ? project.imagesSlide.length : 0;
 
   const dotIndicators = Array.from({ length: dots }, (_, i) => (
@@ -62,12 +85,18 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
               <button className="prev" onClick={handlePrev}>
                 &#10094;
               </button>
-              <div className="slider">
+              <div
+                className="slider"
+                onTouchStart={onTouchStart}
+                onTouchMove={onTouchMove}
+                onTouchEnd={onTouchEnd}
+              >
                 <img
                   className="slider_img"
                   src={project.imagesSlide[currentSlide].src}
                   alt={project.imagesSlide[currentSlide].alt}
                 />
+                <span className="swipe_hint">Swipe me</span>
               </div>
               <button className="next" onClick={handleNext}>
                 &#10095;

@@ -73,39 +73,39 @@
     },
     {
         "id": "03",
-        "imagePortrait" : "/assets/images/ImagesPortrait/PO_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/SS_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide01.png",
+                "src":"/assets/images/ImagesSlide/SS/SS_slide01.png",
                 "alt":"image de mon projet Portfolio 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide02.png",
+                "src":"/assets/images/ImagesSlide/SS/SS_slide02.png",
                 "alt":"image de mon projet Portfolio 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide03.png",
+                "src":"/assets/images/ImagesSlide/SS/SS_slide03.png",
                 "alt":"image de mon projet Portfolio 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide04.png",
+                "src":"/assets/images/ImagesSlide/SS/SS_slide04.png",
                 "alt":"image de mon projet Portfolio 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide05.png",
+                "src":"/assets/images/ImagesSlide/SS/SS_slide05.png",
                 "alt":"image de mon projet Portfolio 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide06.png",
+                "src":"/assets/images/ImagesSlide/SS/SS_slide06.png",
                 "alt":"image de mon projet Portfolio 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
-        "title" : "Portfolio",
-        "describe": "Entre lignes de code et éclats de pixels, ce portfolio vous invite à voyager au cœur de mes créations numériques.",
-        "link": "https://portfolio-react-ts-two.vercel.app/",
-        "linkGit": "https://github.com/OliviaG-dev/Portfolio-react-ts",
-        "text" : "Bienvenue dans mon univers numérique. Ce portfolio est bien plus qu'une simple vitrine : c'est un espace interactif pensé pour refléter mon approche du développement web — moderne, soignée et tournée vers l'expérience utilisateur.\n\n⚙️ Conçu avec React.js, TypeScript et propulsé par Vite, il met en œuvre une architecture front-end performante, enrichie par un design responsive, des animations fluides ✨, et une navigation intuitive grâce à React Router. Le code est maintenu propre et lisible avec ESLint, Prettier, et géré efficacement via pnpm.\n\n🛠️ Technologies utilisées :\n- 💻 Frontend : React.js, TypeScript, Vite, CSS moderne (responsive & animations), React Router\n- 🧰 Outils & Qualité : ESLint, Prettier, pnpm\n\n🚀 Fonctionnalités principales :\n- 🖼️ Galerie de projets interactive : présentation visuelle, carrousel d'images, tags colorés 🏷️, liens vers GitHub et démos 🔗\n- 🧑‍💻 Expérience utilisateur : navigation fluide 🎯, design adaptatif 📱"
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#TAILWIND", "style":"#8B5CF6"}],
+        "title" : "StarSnap",
+        "describe": "Chaque jour, un regard vers l'infini.Une image capturée par la NASA, un fragment d'univers livré à ton écran.",
+        "link": "https://star-snap.vercel.app",
+        "linkGit": "https://github.com/OliviaG-dev/StarSnap",
+        "text" : "✨ StarSnap est une application web moderne développée avec React qui affiche chaque jour l'image astronomique de la NASA (APOD). L'application propose une navigation tactile par swipe, une traduction intelligente en temps réel, et une interface élégante enrichie par des animations douces.\n\n🎨 Ce projet marque ma première utilisation de **Tailwind CSS**, un framework qui a profondément transformé ma manière de concevoir l'interface utilisateur. J'ai appris à créer rapidement des composants responsives, esthétiques et cohérents. Cette expérience m'a permis de mieux structurer mes fichiers, d'intégrer efficacement des animations CSS et de gagner un temps précieux lors de la conception et de l'expérimentation.\n\n💼 Compétences techniques démontrées :\n- ✅ **React 18** avec Hooks modernes\n- ✅ **TypeScript** avec typage strict et sécurité accrue\n- ✅ **Tailwind CSS** pour le style utilitaire et le design responsive\n- ✅ **Animations CSS** pour fluidifier l'expérience utilisateur\n\n🔗 Intégrations & APIs :\n- ✅ Connexion à l'**API NASA APOD** avec gestion des erreurs\n- ✅ Utilisation de la **Google Translate API** pour la traduction automatique\n- ✅ Gestion asynchrone fluide avec **Promise.all**\n\n📱 Expérience utilisateur optimisée :\n- ✅ **Navigation par swipe horizontal** (avec tolérance verticale)\n- ✅ **Design mobile-first** pensé pour tous les écrans\n- ✅ **Accessibilité** complète pour une UX inclusive\n- ✅ **Indicateurs visuels** pendant la traduction\n\n🌟 Fonctionnalités innovantes :\n- 🧭 **Navigation intuitive** : Swipe horizontal pour changer de jour, avec détection intelligente du geste et limites temporelles\n- 🌐 **Traduction intelligente** : Algorithme de détection automatique de la langue, traduction en temps réel, avec fallback si besoin\n- 💫 **Design system sophistiqué** : Gradients animés, micro-interactions sur hover, responsive design parfait et effets modernes via Tailwind\n\n💡 En résumé, StarSnap m'a offert une plongée passionnante dans le design UI moderne grâce à Tailwind CSS, tout en renforçant mes compétences en React, TypeScript et intégration d'APIs. Un projet à la croisée de la technologie et de l'esthétique cosmique."
     },
     {
         "id": "04",
@@ -217,6 +217,42 @@
     },
     {
         "id": "07",
+        "imagePortrait" : "/assets/images/ImagesPortrait/PO_portrait.png",
+        "imagesSlide" : [ 
+            {
+                "src":"/assets/images/ImagesSlide/PO/PO_slide01.png",
+                "alt":"image de mon projet Portfolio 1"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/PO/PO_slide02.png",
+                "alt":"image de mon projet Portfolio 2"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/PO/PO_slide03.png",
+                "alt":"image de mon projet Portfolio 3"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/PO/PO_slide04.png",
+                "alt":"image de mon projet Portfolio 4"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/PO/PO_slide05.png",
+                "alt":"image de mon projet Portfolio 5"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/PO/PO_slide06.png",
+                "alt":"image de mon projet Portfolio 6"
+            }
+        ],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
+        "title" : "Portfolio",
+        "describe": "Entre lignes de code et éclats de pixels, ce portfolio vous invite à voyager au cœur de mes créations numériques.",
+        "link": "https://portfolio-react-ts-two.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/Portfolio-react-ts",
+        "text" : "Bienvenue dans mon univers numérique. Ce portfolio est bien plus qu'une simple vitrine : c'est un espace interactif pensé pour refléter mon approche du développement web — moderne, soignée et tournée vers l'expérience utilisateur.\n\n⚙️ Conçu avec React.js, TypeScript et propulsé par Vite, il met en œuvre une architecture front-end performante, enrichie par un design responsive, des animations fluides ✨, et une navigation intuitive grâce à React Router. Le code est maintenu propre et lisible avec ESLint, Prettier, et géré efficacement via pnpm.\n\n🛠️ Technologies utilisées :\n- 💻 Frontend : React.js, TypeScript, Vite, CSS moderne (responsive & animations), React Router\n- 🧰 Outils & Qualité : ESLint, Prettier, pnpm\n\n🚀 Fonctionnalités principales :\n- 🖼️ Galerie de projets interactive : présentation visuelle, carrousel d'images, tags colorés 🏷️, liens vers GitHub et démos 🔗\n- 🧑‍💻 Expérience utilisateur : navigation fluide 🎯, design adaptatif 📱"
+    },
+    {
+        "id": "08",
         "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
