@@ -74,6 +74,28 @@
   top: 2rem;
 }
 
+.about_tag {
+  color: var(--color-text-on-dark);
+  height: 2em;
+  letter-spacing: 0.2rem;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  right: 4rem;
+  top: 2rem;
+}
+
+.contact_tag {
+  color: var(--color-text-on-dark);
+  height: 2em;
+  letter-spacing: 0.2rem;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  right: 0;
+  top: 2rem;
+}
+
 .tag_anim {
   color: var(--color-accent-primary);
   animation: tag-pulse 1s infinite;
@@ -317,6 +339,14 @@
   .tag_container {
     right: 2rem;
   }
+
+  .about_tag {
+    right: 2rem;
+  }
+
+  .contact_tag {
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -356,6 +386,17 @@
     right: 1rem;
     top: 1rem;
   }
+
+  .about_tag {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .contact_tag {
+    right: 0;
+    top: 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -392,6 +433,16 @@
   .tag_container {
     right: 0.5rem;
   }
+
+  .about_tag {
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .contact_tag {
+    right: 0;
+    top: 1rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -423,6 +474,16 @@
 
   .tag_container {
     right: 0.5rem;
+    top: 0.5rem;
+  }
+
+  .about_tag {
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+
+  .contact_tag {
+    right: 0;
     top: 0.5rem;
   }
 }
@@ -928,7 +989,7 @@
   }
 
   .home_tag {
-    right: 2rem;
+    right: 0;
   }
 
   .home_contact {
@@ -1007,7 +1068,7 @@
 
   .home_tag {
     position: absolute;
-    right: 1rem;
+    right: 0;
     top: 1rem;
   }
 
@@ -1085,7 +1146,7 @@
   }
 
   .home_tag {
-    right: 1rem;
+    right: 0;
     top: 1rem;
   }
 
@@ -1183,7 +1244,7 @@
   }
 
   .home_tag {
-    right: 0.5rem;
+    right: 0;
     top: 0.5rem;
   }
 

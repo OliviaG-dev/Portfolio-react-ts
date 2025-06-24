@@ -118,7 +118,7 @@ function Home() {
               {showQuest && <QuestCard onClose={() => setShowQuest(false)} />}
             </div>
           </div>
-          <div className="home_tag">
+          <div className="about_tag">
             <p>
               ABOUT<span className="tag_anim">_</span>
             </p>
@@ -281,7 +281,7 @@ function Home() {
 
         <section id="section_contact" className="home_contact">
           <div className="tag_container">
-            <div className="home_tag">
+            <div className="contact_tag">
               <p>
                 CONTACT<span className="tag_anim">_</span>
               </p>
