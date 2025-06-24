@@ -290,7 +290,7 @@ function Home() {
 
           <div className="contact_text">
             <div className="text_contain line">
-              <div className="contact_item">
+              <div className="contact_item linkedin">
                 <img src={Icon_linkedin} alt="icone linkedin" />
                 <a
                   className="contact_link"
@@ -301,7 +301,7 @@ function Home() {
                   Connectons-nous sur LinkedIn !
                 </a>
               </div>
-              <div className="contact_item">
+              <div className="contact_item github">
                 <img src={Icon_github} alt="icone github" />
                 <a
                   className="contact_link"
@@ -312,7 +312,7 @@ function Home() {
                   Explorez mes projets sur GitHub !
                 </a>
               </div>
-              <div className="contact_item">
+              <div className="contact_item email">
                 <img src={Icon_email} alt="icone email" />
                 <a
                   className="contact_link"
@@ -325,7 +325,7 @@ function Home() {
               </div>
             </div>
             <div className="text_contain">
-              <div className="contact_item">
+              <div className="contact_item notion">
                 <img src={Icon_notion} alt="icone notion" />
                 <a
                   className="contact_link"
@@ -336,7 +336,7 @@ function Home() {
                   Visitez mon CV sur notion !
                 </a>
               </div>
-              <div className="contact_item">
+              <div className="contact_item calendly">
                 <img src={Icon_date} alt="icone date" />
                 <a
                   className="contact_link"
@@ -347,7 +347,7 @@ function Home() {
                   Prenez un rendez-vous !
                 </a>
               </div>
-              <div className="contact_item">
+              <div className="contact_item cv">
                 <img src={Icon_cv} alt="icone cv" />
                 <a
                   className="contact_link"
