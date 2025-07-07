@@ -100,7 +100,7 @@
                 "alt":"image de mon projet Portfolio 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#TAILWIND", "style":"#8B5CF6"}],
+        "tags" : [{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#TAILWIND", "style":"#8B5CF6"}],
         "title" : "StarSnap",
         "describe": "Chaque jour, un regard vers l'infini.Une image capturée par la NASA, un fragment d'univers livré à ton écran.",
         "link": "https://star-snap.vercel.app",
@@ -181,6 +181,42 @@
     },
     {
         "id": "06",
+        "imagePortrait" : "/assets/images/ImagesPortrait/IN_portrait.png",
+        "imagesSlide" : [ 
+            {
+                "src":"/assets/images/ImagesSlide/IN/IN_slide01.png",
+                "alt":"image de mon projet ohmyfood 1"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/IN/IN_slide02.png",
+                "alt":"image de mon projet ohmyfood 2"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/IN/IN_slide03.png",
+                "alt":"image de mon projet ohmyfood 3"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/IN/IN_slide04.png",
+                "alt":"image de mon projet ohmyfood 4"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/IN/IN_slide05.png",
+                "alt":"image de mon projet ohmyfood 5"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/IN/IN_slide06.png",
+                "alt":"image de mon projet ohmyfood 6"
+            }
+        ],
+        "tags" : [{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#TAILWIND", "style":"#8B5CF6"}],
+        "title" : "Indicium",
+        "describe": "Le tableau de bord électoral qui parle vrai. Visualise les résultats, compare les années en un clin d’œil.",
+        "link": "https://indicium-nu.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/Indicium",
+        "text" : "📊 Indicium est une application web moderne conçue pour visualiser et analyser les données électorales françaises de façon claire, interactive et accessible. Elle permet aux utilisateurs de consulter les taux de participation, les votes blancs/nuls, et d’explorer les résultats via graphiques dynamiques et cartes.\n\n🌙 Ce projet a été une étape importante dans ma progression avec **Tailwind CSS**. J’ai pris beaucoup de plaisir à concevoir un **mode sombre** harmonieux et élégant, en jouant sur les contrastes, les palettes, et les micro-interactions. C’était aussi l’occasion idéale pour approfondir ma maîtrise de Tailwind, notamment sur la gestion des thèmes, le responsive design, et l’organisation visuelle d’un dashboard complexe.\n\n💼 Compétences techniques démontrées :\n- ✅ **React 19** avec architecture modulaire\n- ✅ **TypeScript** strict pour fiabilité et lisibilité\n- ✅ **Tailwind CSS** pour un design moderne, responsive et maintenable\n- ✅ **Zustand** pour une gestion d’état légère et performante\n- ✅ **Recharts** et **React Simple Maps** pour la visualisation de données\n- ✅ **jsPDF** pour l’export automatisé de rapports PDF\n\n🚀 Fonctionnalités principales :\n- 🧭 **Dashboard interactif** avec KPIs (taux de participation, abstention, blancs/nuls)\n- 📊 **Graphiques dynamiques** (barres, lignes, cartes électorales)\n- 🧰 **Filtres intelligents** : par année, par tour d’élection\n- 🌓 **Mode sombre / clair** personnalisable\n- 📄 **Export PDF** automatique avec en-tête, filtres et KPIs formatés\n\n🎨 Design system :\n- 💡 Palette de couleurs adaptable (thème clair/sombre)\n- 🅰️ Typographie hiérarchisée et lisible\n- 🌀 Transitions fluides et animations légères\n- 📱 Responsive mobile-first, optimisé pour tous les formats d’écran\n\n💡 En résumé, Indicium m’a permis d’allier **rigueur technique** et **plaisir créatif**, notamment grâce à Tailwind CSS. J’y ai consolidé mes compétences en gestion d’état, en visualisation de données, et en design d’interface claire, accessible et professionnelle."
+    },
+    {
+        "id": "07",
         "imagePortrait" : "/assets/images/ImagesPortrait/LP-LOL_portrait.png",
         "imagesSlide" : [ 
             {
@@ -216,7 +252,7 @@
         "text" : "Pendant 6 mois, j'ai travaillé à distance au sein d'une équipe de 4 développeurs sur une application de partage sécurisé de données personnelles (adresse, mail, téléphone…).\n\n🛠️ Stack technique : React, TypeScript, NestJS (microservices), Ionic pour le mobile, et une version alternative en Symfony.\n\n📐 Design : maquettes sous Figma, wireframes & schémas avec Excalidraw.\n\n📌 Méthodo : suivi via YouTrack, versionning avec GitLab (branches dédiées), et LiveShare pour coder en équipe.\n\n📢 Communication fluide sur Discord.\n\nNotre plateforme permet aux utilisateurs de partager leurs infos de façon temporaire ou ciblée, selon les besoins (ex : envoi de colis, soirée, mariage…).\n\nCe projet m'a permis de renforcer mes compétences fullstack, de mieux appréhender les enjeux de sécurité et d'UX dans le partage de données personnelles. 🔐✨"
     },
     {
-        "id": "07",
+        "id": "08",
         "imagePortrait" : "/assets/images/ImagesPortrait/PO_portrait.png",
         "imagesSlide" : [ 
             {
@@ -252,7 +288,7 @@
         "text" : "Bienvenue dans mon univers numérique. Ce portfolio est bien plus qu'une simple vitrine : c'est un espace interactif pensé pour refléter mon approche du développement web — moderne, soignée et tournée vers l'expérience utilisateur.\n\n⚙️ Conçu avec React.js, TypeScript et propulsé par Vite, il met en œuvre une architecture front-end performante, enrichie par un design responsive, des animations fluides ✨, et une navigation intuitive grâce à React Router. Le code est maintenu propre et lisible avec ESLint, Prettier, et géré efficacement via pnpm.\n\n🛠️ Technologies utilisées :\n- 💻 Frontend : React.js, TypeScript, Vite, CSS moderne (responsive & animations), React Router\n- 🧰 Outils & Qualité : ESLint, Prettier, pnpm\n\n🚀 Fonctionnalités principales :\n- 🖼️ Galerie de projets interactive : présentation visuelle, carrousel d'images, tags colorés 🏷️, liens vers GitHub et démos 🔗\n- 🧑‍💻 Expérience utilisateur : navigation fluide 🎯, design adaptatif 📱"
     },
     {
-        "id": "08",
+        "id": "09",
         "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
