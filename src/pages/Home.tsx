@@ -140,11 +140,13 @@ function Home() {
               </button>
               <button
                 className={`red ${
-                  selectedTags.includes('#FIGMA') ? 'active_tag' : 'button_tag'
+                  selectedTags.includes('#REACT NATIVE')
+                    ? 'active_tag'
+                    : 'button_tag'
                 }`}
-                onClick={() => handleTagClick('#FIGMA')}
+                onClick={() => handleTagClick('#REACT NATIVE')}
               >
-                FIGMA
+                REACT NATIVE
               </button>
               <button
                 className={`blue ${
