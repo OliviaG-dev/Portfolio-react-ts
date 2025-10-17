@@ -37,6 +37,54 @@
     },
     {
         "id": "02",
+        "imagePortrait" : "/assets/images/ImagesPortrait/NU_portrait.png",
+        "imagesSlide" : [ 
+            {
+                "src":"/assets/images/ImagesSlide/NU/NU_slide01.png",
+                "alt":"image de mon projet Portfolio 1"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/NU/NU_slide02.png",
+                "alt":"image de mon projet Portfolio 2"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/NU/NU_slide03.png",
+                "alt":"image de mon projet Portfolio 3"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/NU/NU_slide04.png",
+                "alt":"image de mon projet Portfolio 4"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/NU/NU_slide05.png",
+                "alt":"image de mon projet Portfolio 5"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/NU/NU_slide06.png",
+                "alt":"image de mon projet Portfolio 6"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/NU/NU_slide07.png",
+                "alt":"image de mon projet Portfolio 7"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/NU/NU_slide08.png",
+                "alt":"image de mon projet Portfolio 8"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/NU/NU_slide09.png",
+                "alt":"image de mon projet Portfolio 9"
+            }
+        ],
+        "tags" : [{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#HTML/CSS", "style":"#000"}, {"item":"#SUPABASE", "style":"#4A90E2"}],
+        "title" : "Numora",
+        "describe": "Une expérience interactive de numérologie moderne, révélant tes énergies, cycles et chemins de vie.",
+        "link": "https://numora-pink.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/Numora",
+        "text" :  "🚧 Projet en cours de développement – Application de Numérologie Interactive\n\n🧩 Description générale\n\nCe projet, actuellement en cours de développement, est une application de numérologie moderne et interactive qui permet d’explorer les différentes facettes d’une identité à travers les nombres. Elle combine savoir ancestral et technologies modernes pour offrir une lecture complète du chemin de vie, des cycles, des vibrations personnelles et professionnelles, ainsi que des aspects karmiques et spirituels.\n\nL’objectif : rendre la numérologie intuitive, visuelle et accessible, tout en respectant la profondeur symbolique des calculs traditionnels.\n\n💻 Technologies utilisées\n\n- Front-end : React + TypeScript\n- Styling : CSS pur, avec un design responsive et fluide\n- Gestion des données : JSON structuré pour chaque thème (chemin de vie, cycles, arbre de vie, etc.)\n- Visualisation : SVG / WEBP dynamiques pour la Matrix Destiny et l’Arbre de Vie Kabbalistique\n- Architecture : Composants modulaires et réutilisables, logique métier centralisée\n- Calculs : Fonctions numérologiques personnalisées (maîtres nombres, dettes karmiques, cycles, compatibilités…)\n\n🔮 Fonctionnalités principales\n\n🔢 **Analyse numérologique complète** :\n- Calcul automatique du chemin de vie, expression, âme, personnalité, maturation, etc.\n- Détection des maîtres nombres (11, 22, 33) et dettes karmiques (13, 14, 16, 19).\n- Lecture intuitive avec mots-clés, défis, forces, et conseils personnalisés.\n\n🕰️ **Cycles et temporalité** :\n- Calcul du cycle de vie, des périodes de réalisation, années, mois et jours personnels.\n- Consultation d’énergies passées, présentes ou futures.\n- Choix de dates favorables pour projets, signatures ou décisions.\n\n🏢 **Numérologie d’entreprise & de projet** :\n- Analyse du nom d’entreprise ou du projet (expression, actif, héréditaire).\n- Étude de compatibilité entre nom et date de création.\n- Conseils pour la prospérité et la vibration idéale du business.\n\n💫 **Matrix Destiny (Matrice du destin)** :\n- Visualisation interactive via WEBP + div dynamiques.\n- Calcul automatique des 22 nombres et axes principaux : amour, argent, pivot, pouvoir social, influence, cœur, mental, etc.\n- Interprétations détaillées selon les vibrations intérieures et extérieures.\n\n🌳 **Arbre de Vie Kabbalistique** :\n- Interprétation des 10 Sephiroth et 22 chemins selon la numérologie personnelle.\n- Lecture des axes spirituels, des voiles d’évolution et du chemin d’éveil.\n\n📅 **Module “Énergie du Jour”** :\n- Affiche la vibration numérologique du jour, du mois et de l’année en cours.\n- Donne une guidance quotidienne basée sur l’énergie du moment.\n\n✨ Ce que ce projet m’a apporté\n\nCe projet m’a permis de renforcer mes compétences en **React** et **TypeScript**, notamment dans la gestion d’états complexes et les calculs symboliques dynamiques. J’ai appris à **structurer et interconnecter de larges ensembles de données JSON**, tout en créant une architecture claire et modulaire.\n\nIl m’a également permis de développer une **compréhension approfondie de la numérologie traditionnelle et moderne**, adaptée à une approche digitale et interactive. Enfin, j’ai affiné mon sens du **design symbolique et intuitif**, en cherchant à équilibrer spiritualité, logique et expérience utilisateur.\n\n💡 Une expérience unique mêlant technologie, symbolisme et exploration personnelle, qui continue d’évoluer vers une application complète et immersive."
+    },
+    {
+        "id": "03",
         "imagePortrait" : "/assets/images/ImagesPortrait/TC_portrait.jpg",
         "imagesSlide" : [ 
             {
@@ -72,7 +120,7 @@
         "text" : "🌱 TerraCréa – Application mobile en React Native\n\nPremier projet développé avec React Native et Expo\n\nTerraCréa est une application mobile moderne permettant de découvrir et d’acheter des créations artisanales locales. Ce projet m’a permis de mettre en pratique mes compétences en TypeScript, React Native et Expo, tout en intégrant un backend avec Supabase pour l’authentification, la gestion des données et la persistance des favoris.\n\n🚀 Objectifs et apprentissages\n\nPremier projet réalisé avec React Native + Expo, une excellente expérience qui m’a permis d’apprendre rapidement à gérer l’écosystème mobile cross-platform.\n\nMise en place d’une architecture modulaire avec composants réutilisables, hooks personnalisés et Context API pour la gestion des états globaux.\n\nApprofondissement des bonnes pratiques en tests (Vitest, Testing Library) avec plus de 970 tests automatisés couvrant les composants, services, contextes, performances, sécurité et accessibilité.\n\nConception d’une expérience utilisateur fluide et responsive, avec une navigation conditionnelle selon l’état d’authentification, un mode invité, un design cohérent basé sur une palette naturelle et des icônes personnalisées en SVG.\n\n✨ Fonctionnalités clés\n\n- Authentification complète avec email, mot de passe et confirmation par Supabase.\n- Exploration et recherche avancée des créations (par titre, description, ville, artisan, catégories).\n- Gestion des profils (acheteur / artisan), avec possibilité de basculer vers un profil artisan.\n- Catalogue interactif avec favoris synchronisés en temps réel.\n- Système d’avis et d’évaluations (notes et commentaires).\n- Interface moderne et optimisée : responsive design, composants centralisés, gestion robuste des erreurs et accessibilité intégrée.\n\n🛠️ Stack technique\n\n- Front-end : React Native (0.74.5), Expo, React Navigation\n- Langage : TypeScript (strict)\n- Backend & Auth : Supabase\n- Tests & Qualité : Vitest, Testing Library, jsdom/happy-dom\n- Architecture : Context API, hooks personnalisés, services centralisés, composants modulaires\n- CI/CD ready : configuration Node.js 22+ avec vérifications automatiques\n\n👉 Ce projet m’a permis de développer de solides bases en développement mobile cross-platform et de renforcer mes compétences en tests, architecture logicielle et intégration backend. C’était une première expérience très enrichissante avec React Native et Expo, et un excellent tremplin pour mes futurs projets mobiles."
     },
     {
-        "id": "03",
+        "id": "04",
         "imagePortrait" : "/assets/images/ImagesPortrait/SS_portrait.png",
         "imagesSlide" : [ 
             {
@@ -108,7 +156,7 @@
         "text" :  "🚀 À propos de StarSnap\nStarSnap est une application web qui permet de découvrir chaque jour une nouvelle image de l’espace prise par la NASA, accompagnée d’une explication traduite automatiquement en français. C’est un projet que j’ai adoré développer, car il m’a permis de plonger dans le monde de l’astronomie tout en explorant de nouvelles technologies.\n\n✨ Fonctionnalités principales\n🌌 Une nouvelle photo de l’univers chaque jour\n📅 Sélecteur de date pour explorer les images passées\n🇫🇷 Traduction automatique des textes en français\n📱 Interface responsive adaptée à tous les écrans\n🎨 Design moderne avec des dégradés cosmiques\n⚡ Chargement rapide et navigation fluide\n\n🛠️ Ce que j’ai découvert\nJ’ai vraiment apprécié créer ce projet, car il m’a permis de découvrir **Tailwind CSS**, un outil que j’ai trouvé à la fois puissant et agréable pour styliser rapidement l’interface.\n\nJ’ai aussi mis en place mes premières **fonctions serverless** avec **Vercel**, ce qui m’a ouvert de nouvelles possibilités côté backend, sans avoir à gérer un serveur complet.\n\n💡 Bilan\nStarSnap est un projet qui m’a non seulement permis de m’améliorer techniquement, mais aussi de m’amuser avec un sujet passionnant. C’était un excellent moyen d’approfondir React, TypeScript et de comprendre comment intégrer des services externes comme l’API de la NASA ou un traducteur automatique, tout en gardant une bonne performance et une belle expérience utilisateur."
     },
     {
-        "id": "04",
+        "id": "05",
         "imagePortrait" : "/assets/images/ImagesPortrait/RSAPI_portrait.png",
         "imagesSlide" : [ 
             {
@@ -144,7 +192,7 @@
         "text" : "🎮 RandomSims-API\n\nUne API RESTful pour le jeu *The Sims 4* qui permet de randomiser différents aspects du gameplay comme les aspirations, les traits, les défis et bien plus encore !\n\n🌟 Fonctionnalités :\n- 🎯 Aspirations – Gestion des aspirations de vie\n- 🎭 Traits – Collection de traits de personnalité\n- 🏢 Métiers – Liste des carrières disponibles\n- 🗺️ Maps – Sélection des mondes du jeu\n- 🎨 Couleurs – Palette de couleurs pour la personnalisation\n- 🏆 Défis – Collection de défis de jeu\n- 🌍 Défis Terrain – Défis spécifiques aux terrains\n- 🎯 Préférences de Tueur – Options pour les joueurs maléfiques 😈\n- 🌱 Traits de Terrain – Caractéristiques des terrains\n\n📡 Endpoints API :\n- `GET /data/aspiration` – Liste des aspirations\n- `GET /data/trait` – Liste des traits\n- `GET /data/job` – Liste des métiers\n- `GET /data/map` – Liste des maps\n- `GET /data/color` – Liste des couleurs\n- `GET /data/challenge` – Liste des défis\n- `GET /data/defiTerrain` – Liste des défis terrain\n- `GET /data/prefTue` – Liste des préférences de tueur\n- `GET /data/traitTerrain` – Liste des traits de terrain\n\n💡 Ce projet m'a permis de renforcer mes compétences en développement d'API avec **Express.js** et **TypeScript**, tout en améliorant ma rigueur sur la structuration de données et la documentation d'API REST. Il m'a également sensibilisé à la gestion des CORS et à la conception de routes claires et maintenables. Une expérience enrichissante à la croisée du code et de la créativité !\n\n🛠️ Technologies Utilisées :\n- ⚡ Express.js\n- 🔄 TypeScript\n- 🔒 CORS\n- 📦 Node.js"
     },
     {
-        "id": "05",
+        "id": "06",
         "imagePortrait" : "/assets/images/ImagesPortrait/BO_portrait.png",
         "imagesSlide" : [ 
             {
@@ -180,7 +228,7 @@
         "text" : "📚 Booksy — Le mur collaboratif de recommandations de livres\n\nBooksy est une application web où chaque lecteur peut partager ses coups de cœur littéraires, explorer les recommandations des autres, et trouver l'inspiration pour sa prochaine lecture. Pas d'algorithme, pas de pub, juste des vraies recommandations humaines !\n\nCe projet a été mon **premier développement avec Vue.js et Supabase**, me permettant de découvrir l'écosystème Vue 3 et une base de données en temps réel avec Supabase.\n\n🚀 Fonctionnalités principales\n🏷️ Filtre par genre : Affiche uniquement les livres du genre qui t'intéresse (roman, fantasy, polar, etc.)\n❤️ Like sur les livres : Like ou retire ton like sur chaque recommandation\n🔢 Tri dynamique : Trie les livres par nombre de likes ou par nom (A-Z, Z-A)\n📄 Pagination : Parcours les livres page par page (6 par page)\n🖼️ UI moderne : Design responsive, tags colorés, animations sur les likes\n✍️ Ajout de recommandations : Propose facilement un nouveau livre à la communauté\n\n🛠️ Technologies utilisées\n- Vue 3 ⚡ (Composition API, Single File Components)\n- TypeScript\n- Vite : Serveur de développement ultra-rapide\n- Supabase : Base de données PostgreSQL + API en temps réel\n- pnpm : Gestionnaire de paquets rapide\n- CSS moderne : Flexbox, Grid, responsive design et animations"
     },
     {
-        "id": "06",
+        "id": "07",
         "imagePortrait" : "/assets/images/ImagesPortrait/IN_portrait.png",
         "imagesSlide" : [ 
             {
@@ -216,7 +264,7 @@
         "text" : "📊 Indicium est une application web moderne conçue pour visualiser et analyser les données électorales françaises de façon claire, interactive et accessible. Elle permet aux utilisateurs de consulter les taux de participation, les votes blancs/nuls, et d’explorer les résultats via graphiques dynamiques et cartes.\n\n🌙 Ce projet a été une étape importante dans ma progression avec **Tailwind CSS**. J’ai pris beaucoup de plaisir à concevoir un **mode sombre** harmonieux et élégant, en jouant sur les contrastes, les palettes, et les micro-interactions. C’était aussi l’occasion idéale pour approfondir ma maîtrise de Tailwind, notamment sur la gestion des thèmes, le responsive design, et l’organisation visuelle d’un dashboard complexe.\n\n💼 Compétences techniques démontrées :\n- ✅ **React 19** avec architecture modulaire\n- ✅ **TypeScript** strict pour fiabilité et lisibilité\n- ✅ **Tailwind CSS** pour un design moderne, responsive et maintenable\n- ✅ **Zustand** pour une gestion d’état légère et performante\n- ✅ **Recharts** et **React Simple Maps** pour la visualisation de données\n- ✅ **jsPDF** pour l’export automatisé de rapports PDF\n\n🚀 Fonctionnalités principales :\n- 🧭 **Dashboard interactif** avec KPIs (taux de participation, abstention, blancs/nuls)\n- 📊 **Graphiques dynamiques** (barres, lignes, cartes électorales)\n- 🧰 **Filtres intelligents** : par année, par tour d’élection\n- 🌓 **Mode sombre / clair** personnalisable\n- 📄 **Export PDF** automatique avec en-tête, filtres et KPIs formatés\n\n🎨 Design system :\n- 💡 Palette de couleurs adaptable (thème clair/sombre)\n- 🅰️ Typographie hiérarchisée et lisible\n- 🌀 Transitions fluides et animations légères\n- 📱 Responsive mobile-first, optimisé pour tous les formats d’écran\n\n💡 En résumé, Indicium m’a permis d’allier **rigueur technique** et **plaisir créatif**, notamment grâce à Tailwind CSS. J’y ai consolidé mes compétences en gestion d’état, en visualisation de données, et en design d’interface claire, accessible et professionnelle."
     },
     {
-        "id": "07",
+        "id": "08",
         "imagePortrait" : "/assets/images/ImagesPortrait/LP-LOL_portrait.png",
         "imagesSlide" : [ 
             {
@@ -252,7 +300,7 @@
         "text" : "Pendant 6 mois, j'ai travaillé à distance au sein d'une équipe de 4 développeurs sur une application de partage sécurisé de données personnelles (adresse, mail, téléphone…).\n\n🛠️ Stack technique : React, TypeScript, NestJS (microservices), Ionic pour le mobile, et une version alternative en Symfony.\n\n📐 Design : maquettes sous Figma, wireframes & schémas avec Excalidraw.\n\n📌 Méthodo : suivi via YouTrack, versionning avec GitLab (branches dédiées), et LiveShare pour coder en équipe.\n\n📢 Communication fluide sur Discord.\n\nNotre plateforme permet aux utilisateurs de partager leurs infos de façon temporaire ou ciblée, selon les besoins (ex : envoi de colis, soirée, mariage…).\n\nCe projet m'a permis de renforcer mes compétences fullstack, de mieux appréhender les enjeux de sécurité et d'UX dans le partage de données personnelles. 🔐✨"
     },
     {
-        "id": "08",
+        "id": "09",
         "imagePortrait" : "/assets/images/ImagesPortrait/PO_portrait.png",
         "imagesSlide" : [ 
             {
@@ -288,7 +336,7 @@
         "text" : "Bienvenue dans mon univers numérique. Ce portfolio est bien plus qu'une simple vitrine : c'est un espace interactif pensé pour refléter mon approche du développement web — moderne, soignée et tournée vers l'expérience utilisateur.\n\n⚙️ Conçu avec React.js, TypeScript et propulsé par Vite, il met en œuvre une architecture front-end performante, enrichie par un design responsive, des animations fluides ✨, et une navigation intuitive grâce à React Router. Le code est maintenu propre et lisible avec ESLint, Prettier, et géré efficacement via pnpm.\n\n🛠️ Technologies utilisées :\n- 💻 Frontend : React.js, TypeScript, Vite, CSS moderne (responsive & animations), React Router\n- 🧰 Outils & Qualité : ESLint, Prettier, pnpm\n\n🚀 Fonctionnalités principales :\n- 🖼️ Galerie de projets interactive : présentation visuelle, carrousel d'images, tags colorés 🏷️, liens vers GitHub et démos 🔗\n- 🧑‍💻 Expérience utilisateur : navigation fluide 🎯, design adaptatif 📱"
     },
     {
-        "id": "09",
+        "id": "10",
         "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
@@ -324,7 +372,7 @@
         "text": "Ohmyfood est le tout premier projet que j'ai réalisé en 2021, dans le cadre de ma formation chez OpenClassrooms .\n\nUn projet simple en apparence… mais riche en apprentissages ! \n\nJ'y ai utilisé HTML et SCSS pour créer un site responsive 📱, avec plusieurs animations 100 % CSS :\n un loader animé ⏳\n une rotation d'éléments 🔄\n et un cœur interactif ❤️ qui se remplit au survol 🖱️\n\nC'était aussi ma toute première expérience avec un design imposé 🎯…\net j'étais très fière d'avoir réussi à le sublimer avec soin ✨"
     },
     {
-        "id": "10",
+        "id": "11",
         "imagePortrait" : "/assets/images/ImagesPortrait/CB_portrait.png",
         "imagesSlide" : [ 
             {
