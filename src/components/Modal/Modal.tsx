@@ -82,7 +82,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
         {project && (
           <>
             <div className="modal_slider">
-              <button className="prev" onClick={handlePrev}>
+              <button className="prev" onClick={handlePrev} data-arrow="&#10094;">
                 &#10094;
               </button>
               <div
@@ -98,7 +98,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
                 />
                 <span className="swipe_hint">Swipe me</span>
               </div>
-              <button className="next" onClick={handleNext}>
+              <button className="next" onClick={handleNext} data-arrow="&#10095;">
                 &#10095;
               </button>
             </div>

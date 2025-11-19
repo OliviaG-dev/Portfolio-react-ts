@@ -19,6 +19,70 @@
   - Prettier
   - pnpm (gestionnaire de paquets)
 
+## 📂 Projets
+
+Cette section présente une sélection de mes projets les plus récents, développés avec passion et rigueur technique.
+
+### 🎲 RandomSims
+
+Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !
+**Technologies :** React, TypeScript, Vite
+
+### 🔮 Numora
+
+Une expérience interactive de numérologie moderne, révélant tes énergies, cycles et chemins de vie.
+**Technologies :** React, TypeScript, CSS
+
+### 🎨 TerraCréa
+
+Envie de partager vos créations artisanales, de découvrir celles des autres, de les évaluer ou même de les acheter ? Cette application est faite pour vous !
+**Technologies :** React, Node.js, MongoDB
+
+### 🌌 StarSnap
+
+Chaque jour, un regard vers l'infini. Une image capturée par la NASA, un fragment d'univers livré à ton écran.
+**Technologies :** React, API NASA, CSS
+
+### 📝 RéviPermis
+
+Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.
+**Technologies :** React, TypeScript, CSS
+
+### 📚 Booksy
+
+Ici, on partage les livres qui nous ont fait vibrer, réfléchir, pleurer ou rêver.
+**Technologies :** React, Node.js, Express
+
+### 🔧 RandomSims API
+
+Une API pour RandomSims, qui permet de récupérer des défis aléatoires pour Les Sims 4.
+**Technologies :** Node.js, Express, JSON
+
+### 📊 Indicium
+
+Le tableau de bord électoral qui parle vrai. Visualise les résultats, compare les années en un clin d'œil.
+**Technologies :** React, D3.js, TypeScript
+
+### 📱 LP - LOL
+
+Une app simple et sécurisée pour partager vos coordonnées personnelles avec vos proches, vos contacts professionnels.
+**Technologies :** React, CSS, LocalStorage
+
+### 💼 Portfolio
+
+Entre lignes de code et éclats de pixels, ce portfolio vous invite à voyager au cœur de mes créations numériques.
+**Technologies :** React, TypeScript, CSS
+
+### 🍽️ oh my food!
+
+Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.
+**Technologies :** HTML, CSS, Sass
+
+### 🐱 ChatBlog
+
+Une app fullstack élégante. Publiez, organisez et modifiez vos articles en toute simplicité parfait pour partager votre amour félin !
+**Technologies :** React, Node.js, MongoDB
+
 ## ✨ Fonctionnalités
 
 - **Présentation des projets**

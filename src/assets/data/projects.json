@@ -157,39 +157,47 @@
     },
     {
         "id": "05",
-        "imagePortrait" : "/assets/images/ImagesPortrait/RSAPI_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/RP_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide01.png",
-                "alt":"image de mon projet RandomSims API 1"
+                "src":"/assets/images/ImagesSlide/RP/RP_slide01.png",
+                "alt":"image de mon projet RP 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide02.png",
-                "alt":"image de mon projet RandomSims API 2"
+                "src":"/assets/images/ImagesSlide/RP/RP_slide02.png",
+                "alt":"image de mon projet RP 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide03.png",
-                "alt":"image de mon projet RandomSims API 3"
+                "src":"/assets/images/ImagesSlide/RP/RP_slide03.png",
+                "alt":"image de mon projet RP 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide04.png",
-                "alt":"image de mon projet RandomSims API 4"
+                "src":"/assets/images/ImagesSlide/RP/RP_slide04.png",
+                "alt":"image de mon projet RP 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide05.png",
-                "alt":"image de mon projet RandomSims API 5"
+                "src":"/assets/images/ImagesSlide/RP/RP_slide05.png",
+                "alt":"image de mon projet RP 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide06.png",
-                "alt":"image de mon projet RandomSims API 6"
+                "src":"/assets/images/ImagesSlide/RP/RP_slide06.png",
+                "alt":"image de mon projet RP 6"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RP/RP_slide07.png",
+                "alt":"image de mon projet RP 7"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RP/RP_slide08.png",
+                "alt":"image de mon projet RP 8"
             }
         ],
-        "tags" : [{"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#NODEJS", "style":"#be8110"}],
-        "title" : "RandomSims API",
-        "describe": "Une API pour RandomSims, qui permet de récupérer des défis aléatoires pour Les Sims 4.",
-        "link": "https://random-sims.vercel.app/",
-        "linkGit": "https://github.com/OliviaG-dev/RandomSims-API", 
-        "text" : "🎮 RandomSims-API\n\nUne API RESTful pour le jeu *The Sims 4* qui permet de randomiser différents aspects du gameplay comme les aspirations, les traits, les défis et bien plus encore !\n\n🌟 Fonctionnalités :\n- 🎯 Aspirations – Gestion des aspirations de vie\n- 🎭 Traits – Collection de traits de personnalité\n- 🏢 Métiers – Liste des carrières disponibles\n- 🗺️ Maps – Sélection des mondes du jeu\n- 🎨 Couleurs – Palette de couleurs pour la personnalisation\n- 🏆 Défis – Collection de défis de jeu\n- 🌍 Défis Terrain – Défis spécifiques aux terrains\n- 🎯 Préférences de Tueur – Options pour les joueurs maléfiques 😈\n- 🌱 Traits de Terrain – Caractéristiques des terrains\n\n📡 Endpoints API :\n- `GET /data/aspiration` – Liste des aspirations\n- `GET /data/trait` – Liste des traits\n- `GET /data/job` – Liste des métiers\n- `GET /data/map` – Liste des maps\n- `GET /data/color` – Liste des couleurs\n- `GET /data/challenge` – Liste des défis\n- `GET /data/defiTerrain` – Liste des défis terrain\n- `GET /data/prefTue` – Liste des préférences de tueur\n- `GET /data/traitTerrain` – Liste des traits de terrain\n\n💡 Ce projet m'a permis de renforcer mes compétences en développement d'API avec **Express.js** et **TypeScript**, tout en améliorant ma rigueur sur la structuration de données et la documentation d'API REST. Il m'a également sensibilisé à la gestion des CORS et à la conception de routes claires et maintenables. Une expérience enrichissante à la croisée du code et de la créativité !\n\n🛠️ Technologies Utilisées :\n- ⚡ Express.js\n- 🔄 TypeScript\n- 🔒 CORS\n- 📦 Node.js"
+        "tags" : [{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#HTML/CSS", "style":"#000"} ],
+        "title" : "RéviPermis",
+        "describe": "Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.",
+        "link": "https://r-vi-permis.vercel.app",
+        "linkGit": "https://github.com/OliviaG-dev/R-viPermis", 
+        "text" : "📝 RéviPermis\n\nRéviPermis est une application web moderne développée avec React, TypeScript et CSS, conçue pour aider à réviser efficacement les 100 questions officielles du permis de conduire français. Ce projet a été réalisé au moment où je passais moi-même le permis, ce qui m’a permis d’allier apprentissage personnel et montée en compétences techniques. Une expérience à la fois utile, formatrice et motivante.\n\n🚀 Fonctionnement de l'application\n\nL'application propose deux modes complémentaires pour faciliter la révision :\n\n- **Mode Révision** : navigation fluide, affichage d'images, réponses multiples, filtres par catégories.\n- **Mode Quiz** : QCM interactif, progression visuelle, statistiques en temps réel, résultats détaillés.\n\n🧩 Architecture & Technologies\n\nLe projet repose sur une architecture front-end modulaire, performante et maintenable, incluant :\n\n- **React 19** + **TypeScript strict**\n- **React Router DOM 7** pour la navigation\n- **Vite** pour un développement rapide et un build optimisé\n- **Hooks personnalisés**, composants réutilisables et organisation modulaire\n- **Lazy loading** & **code splitting** pour des performances optimales\n- **UI responsive** avec support du **mode sombre**\n- **Parsing automatisé** du PDF officiel via des scripts Node.js\n\n🎯 Points d'attention & qualité\n\nUne attention particulière a été portée sur :\n\n- **La qualité du code** : ESLint, typage strict, structure propre\n- **La performance** : optimisation du bundle, HMR rapide, loading dynamique\n- **L'expérience utilisateur** : animations, ergonomie, interface claire et agréable\n- **La gestion des données** : 100 questions structurées, catégories, réponses multiples, images associées\n\n✨ Ce que ce projet m’a apporté\n\nCe projet m’a permis de renforcer mes compétences en **React**, **TypeScript**, **gestion d’état**, **logique métier avancée** et **architecture front-end scalable**. Travailler sur un outil que j’utilisais moi-même a été très motivant et m’a permis de concevoir une application utile, intuitive et techniquement solide."
     },
     {
         "id": "06",
@@ -229,6 +237,42 @@
     },
     {
         "id": "07",
+        "imagePortrait" : "/assets/images/ImagesPortrait/RSAPI_portrait.png",
+        "imagesSlide" : [ 
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide01.png",
+                "alt":"image de mon projet RandomSims API 1"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide02.png",
+                "alt":"image de mon projet RandomSims API 2"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide03.png",
+                "alt":"image de mon projet RandomSims API 3"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide04.png",
+                "alt":"image de mon projet RandomSims API 4"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide05.png",
+                "alt":"image de mon projet RandomSims API 5"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide06.png",
+                "alt":"image de mon projet RandomSims API 6"
+            }
+        ],
+        "tags" : [{"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#NODEJS", "style":"#be8110"}],
+        "title" : "RandomSims API",
+        "describe": "Une API pour RandomSims, qui permet de récupérer des défis aléatoires pour Les Sims 4.",
+        "link": "https://random-sims.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/RandomSims-API", 
+        "text" : "🎮 RandomSims-API\n\nUne API RESTful pour le jeu *The Sims 4* qui permet de randomiser différents aspects du gameplay comme les aspirations, les traits, les défis et bien plus encore !\n\n🌟 Fonctionnalités :\n- 🎯 Aspirations – Gestion des aspirations de vie\n- 🎭 Traits – Collection de traits de personnalité\n- 🏢 Métiers – Liste des carrières disponibles\n- 🗺️ Maps – Sélection des mondes du jeu\n- 🎨 Couleurs – Palette de couleurs pour la personnalisation\n- 🏆 Défis – Collection de défis de jeu\n- 🌍 Défis Terrain – Défis spécifiques aux terrains\n- 🎯 Préférences de Tueur – Options pour les joueurs maléfiques 😈\n- 🌱 Traits de Terrain – Caractéristiques des terrains\n\n📡 Endpoints API :\n- `GET /data/aspiration` – Liste des aspirations\n- `GET /data/trait` – Liste des traits\n- `GET /data/job` – Liste des métiers\n- `GET /data/map` – Liste des maps\n- `GET /data/color` – Liste des couleurs\n- `GET /data/challenge` – Liste des défis\n- `GET /data/defiTerrain` – Liste des défis terrain\n- `GET /data/prefTue` – Liste des préférences de tueur\n- `GET /data/traitTerrain` – Liste des traits de terrain\n\n💡 Ce projet m'a permis de renforcer mes compétences en développement d'API avec **Express.js** et **TypeScript**, tout en améliorant ma rigueur sur la structuration de données et la documentation d'API REST. Il m'a également sensibilisé à la gestion des CORS et à la conception de routes claires et maintenables. Une expérience enrichissante à la croisée du code et de la créativité !\n\n🛠️ Technologies Utilisées :\n- ⚡ Express.js\n- 🔄 TypeScript\n- 🔒 CORS\n- 📦 Node.js"
+    },
+    {
+        "id": "08",
         "imagePortrait" : "/assets/images/ImagesPortrait/IN_portrait.png",
         "imagesSlide" : [ 
             {
@@ -264,7 +308,7 @@
         "text" : "📊 Indicium est une application web moderne conçue pour visualiser et analyser les données électorales françaises de façon claire, interactive et accessible. Elle permet aux utilisateurs de consulter les taux de participation, les votes blancs/nuls, et d’explorer les résultats via graphiques dynamiques et cartes.\n\n🌙 Ce projet a été une étape importante dans ma progression avec **Tailwind CSS**. J’ai pris beaucoup de plaisir à concevoir un **mode sombre** harmonieux et élégant, en jouant sur les contrastes, les palettes, et les micro-interactions. C’était aussi l’occasion idéale pour approfondir ma maîtrise de Tailwind, notamment sur la gestion des thèmes, le responsive design, et l’organisation visuelle d’un dashboard complexe.\n\n💼 Compétences techniques démontrées :\n- ✅ **React 19** avec architecture modulaire\n- ✅ **TypeScript** strict pour fiabilité et lisibilité\n- ✅ **Tailwind CSS** pour un design moderne, responsive et maintenable\n- ✅ **Zustand** pour une gestion d’état légère et performante\n- ✅ **Recharts** et **React Simple Maps** pour la visualisation de données\n- ✅ **jsPDF** pour l’export automatisé de rapports PDF\n\n🚀 Fonctionnalités principales :\n- 🧭 **Dashboard interactif** avec KPIs (taux de participation, abstention, blancs/nuls)\n- 📊 **Graphiques dynamiques** (barres, lignes, cartes électorales)\n- 🧰 **Filtres intelligents** : par année, par tour d’élection\n- 🌓 **Mode sombre / clair** personnalisable\n- 📄 **Export PDF** automatique avec en-tête, filtres et KPIs formatés\n\n🎨 Design system :\n- 💡 Palette de couleurs adaptable (thème clair/sombre)\n- 🅰️ Typographie hiérarchisée et lisible\n- 🌀 Transitions fluides et animations légères\n- 📱 Responsive mobile-first, optimisé pour tous les formats d’écran\n\n💡 En résumé, Indicium m’a permis d’allier **rigueur technique** et **plaisir créatif**, notamment grâce à Tailwind CSS. J’y ai consolidé mes compétences en gestion d’état, en visualisation de données, et en design d’interface claire, accessible et professionnelle."
     },
     {
-        "id": "08",
+        "id": "09",
         "imagePortrait" : "/assets/images/ImagesPortrait/LP-LOL_portrait.png",
         "imagesSlide" : [ 
             {
@@ -300,7 +344,7 @@
         "text" : "Pendant 6 mois, j'ai travaillé à distance au sein d'une équipe de 4 développeurs sur une application de partage sécurisé de données personnelles (adresse, mail, téléphone…).\n\n🛠️ Stack technique : React, TypeScript, NestJS (microservices), Ionic pour le mobile, et une version alternative en Symfony.\n\n📐 Design : maquettes sous Figma, wireframes & schémas avec Excalidraw.\n\n📌 Méthodo : suivi via YouTrack, versionning avec GitLab (branches dédiées), et LiveShare pour coder en équipe.\n\n📢 Communication fluide sur Discord.\n\nNotre plateforme permet aux utilisateurs de partager leurs infos de façon temporaire ou ciblée, selon les besoins (ex : envoi de colis, soirée, mariage…).\n\nCe projet m'a permis de renforcer mes compétences fullstack, de mieux appréhender les enjeux de sécurité et d'UX dans le partage de données personnelles. 🔐✨"
     },
     {
-        "id": "09",
+        "id": "10",
         "imagePortrait" : "/assets/images/ImagesPortrait/PO_portrait.png",
         "imagesSlide" : [ 
             {
@@ -336,7 +380,7 @@
         "text" : "Bienvenue dans mon univers numérique. Ce portfolio est bien plus qu'une simple vitrine : c'est un espace interactif pensé pour refléter mon approche du développement web — moderne, soignée et tournée vers l'expérience utilisateur.\n\n⚙️ Conçu avec React.js, TypeScript et propulsé par Vite, il met en œuvre une architecture front-end performante, enrichie par un design responsive, des animations fluides ✨, et une navigation intuitive grâce à React Router. Le code est maintenu propre et lisible avec ESLint, Prettier, et géré efficacement via pnpm.\n\n🛠️ Technologies utilisées :\n- 💻 Frontend : React.js, TypeScript, Vite, CSS moderne (responsive & animations), React Router\n- 🧰 Outils & Qualité : ESLint, Prettier, pnpm\n\n🚀 Fonctionnalités principales :\n- 🖼️ Galerie de projets interactive : présentation visuelle, carrousel d'images, tags colorés 🏷️, liens vers GitHub et démos 🔗\n- 🧑‍💻 Expérience utilisateur : navigation fluide 🎯, design adaptatif 📱"
     },
     {
-        "id": "10",
+        "id": "11",
         "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
         "imagesSlide" : [ 
             {
@@ -372,7 +416,7 @@
         "text": "Ohmyfood est le tout premier projet que j'ai réalisé en 2021, dans le cadre de ma formation chez OpenClassrooms .\n\nUn projet simple en apparence… mais riche en apprentissages ! \n\nJ'y ai utilisé HTML et SCSS pour créer un site responsive 📱, avec plusieurs animations 100 % CSS :\n un loader animé ⏳\n une rotation d'éléments 🔄\n et un cœur interactif ❤️ qui se remplit au survol 🖱️\n\nC'était aussi ma toute première expérience avec un design imposé 🎯…\net j'étais très fière d'avoir réussi à le sublimer avec soin ✨"
     },
     {
-        "id": "11",
+        "id": "12",
         "imagePortrait" : "/assets/images/ImagesPortrait/CB_portrait.png",
         "imagesSlide" : [ 
             {
