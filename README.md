@@ -48,6 +48,11 @@ Chaque jour, un regard vers l'infini. Une image capturée par la NASA, un fragme
 Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.
 **Technologies :** React, TypeScript, CSS
 
+### 🗺️ MapPermis
+
+Trace ton parcours. Maîtrise la route. Réussis ton permis. MapPermis rend la préparation simple, claire et motivante.
+**Technologies :** React, TypeScript, CSS
+
 ### 📚 Booksy
 
 Ici, on partage les livres qui nous ont fait vibrer, réfléchir, pleurer ou rêver.
@@ -126,6 +131,30 @@ pnpm install
 
 ```bash
 pnpm dev
+```
+
+## 🏗️ Build
+
+Pour créer une version de production optimisée :
+
+```bash
+pnpm build
+```
+
+Cette commande :
+
+- Compile et vérifie le code TypeScript
+- Optimise et bundle les fichiers avec Vite
+- Génère le dossier `dist/` prêt pour le déploiement
+
+### Autres commandes utiles :
+
+```bash
+# Vérification du code (linting)
+pnpm lint
+
+# Aperçu du build en local
+pnpm preview
 ```
 
 ## 📝 Licence
