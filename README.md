@@ -88,6 +88,11 @@ Un site entièrement mobile, dédié à la découverte des menus de restaurants 
 Une app fullstack élégante. Publiez, organisez et modifiez vos articles en toute simplicité parfait pour partager votre amour félin !
 **Technologies :** React, Node.js, MongoDB
 
+### 📜 Le Grimoire d'Aether
+
+Wiki numérique dédié aux cartes divinatoires, conçu comme une base de connaissance structurée et évolutive.
+**Technologies :** React, TypeScript, Supabase, Clerk
+
 ## ✨ Fonctionnalités
 
 - **Présentation des projets**
