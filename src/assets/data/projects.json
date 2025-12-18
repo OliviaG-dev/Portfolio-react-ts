@@ -482,5 +482,61 @@
         "link": "",
         "linkGit": "https://github.com/OliviaG-dev/ChatBlog",
         "text" : "ChatBlog est une application fullstack qui permet de publier, organiser, modifier et supprimer des articles autour du thème des chats 🐱.\n\n🚀 Fonctionnalités principales\n- Ajouter des articles sur les chats.\n- Organiser par catégories (ex : soins, alimentation, anecdotes...).\n- Modifier et supprimer des posts facilement.\n- Interface simple et intuitive pour une bonne expérience utilisateur.\n\n🛠️ Technologies utilisées\n\nBackend :\n- Express.js & Nodemon : Serveur JavaScript avec redémarrage auto.\n- MongoDB & Mongoose : Base de données NoSQL avec ORM.\n\nFrontend :\n- React.js + TypeScript : Interface moderne et typée.\n- Vite : Build rapide pour React.\n- CSS : Stylisation simple et propre.\n- Axios : Requêtes API.\n- ESLint & Prettier : Qualité et uniformité du code.\n\nGestion de projet :\n- pnpm : Gestionnaire de paquets performant."
+    },
+    {
+        "id": "14",
+        "imagePortrait" : "/assets/images/ImagesPortrait/GA_portrait.jpg",
+        "imagesSlide" : [ 
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide01.png",
+                "alt":"image de mon projet Grimoire d'Aether 1"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide02.png",
+                "alt":"image de mon projet Grimoire d'Aether 2"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide03.png",
+                "alt":"image de mon projet Grimoire d'Aether 3"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide04.png",
+                "alt":"image de mon projet Grimoire d'Aether 4"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide05.png",
+                "alt":"image de mon projet Grimoire d'Aether 5"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide06.png",
+                "alt":"image de mon projet Grimoire d'Aether 6"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide07.png",
+                "alt":"image de mon projet Grimoire d'Aether 7"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide08.png",
+                "alt":"image de mon projet Grimoire d'Aether 8"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide09.png",
+                "alt":"image de mon projet Grimoire d'Aether 9"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide10.png",
+                "alt":"image de mon projet Grimoire d'Aether 10"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/GA/GA_slide11.png",
+                "alt":"image de mon projet Grimoire d'Aether 11"
+            }
+        ],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#SUPABASE", "style":"#4A90E2"}],
+        "title" : "Le Grimoire d'Aether",
+        "describe": "Wiki numérique dédié aux cartes divinatoires, conçu comme une base de connaissance structurée et évolutive.",
+        "link": "https://grimoire-d-aether.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/Grimoire-d-Aether",
+        "text" : "📜 Grimoire d’Áether\n\nGrimoire d’Áether est un wiki ésotérique élégant et mystique dédié aux cartes divinatoires (tarots, oracles et jeux symboliques). Pensé comme un véritable sanctuaire numérique, le projet permet d’explorer en profondeur chaque jeu et chaque carte à travers des fiches détaillées mêlant symbolisme, énergies et interprétations.\n\nAccessible librement en lecture, le site intègre également un **panneau d’administration sécurisé** permettant de gérer l’ensemble du contenu (jeux et cartes). Ce projet m’a permis de concevoir une application complète, mêlant design immersif, données structurées et logique métier avancée.\n\n🔐 Il s’agit de **ma première utilisation de Clerk pour l’authentification**, et j’ai particulièrement apprécié sa simplicité d’intégration, la qualité de ses composants React prêts à l’emploi et la gestion fluide des sessions. Clerk s’est révélé être une solution très agréable et professionnelle pour sécuriser une application moderne.\n\n🎯 Fonctionnalités principales :\n- 📚 Encyclopédie complète des jeux et cartes divinatoires\n- 🃏 Fiches de cartes détaillées : mots-clés, significations (droite, inversée, ombre), conseils, affirmations, énergies et symboles\n- ⭐ Système de favoris pour marquer les cartes importantes\n- 🔍 Recherche et filtres avancés (nom, jeu, index, favoris)\n- 📄 Pagination harmonieuse et navigation fluide avec React Router\n- 🔐 Panneau d’administration intégré (/admin) avec gestion complète des jeux et cartes\n\n🛠️ Stack technique :\n- ⚛️ **React 19** + **TypeScript** pour une application robuste et typée\n- ⚡ **Vite** pour des builds rapides et performants\n- 🔐 **Clerk** pour l’authentification et la gestion des utilisateurs\n- 🗄️ **Supabase** (PostgreSQL) pour le stockage des données et la sécurité (RLS)\n- 🎨 Interface personnalisée avec un design mystique, animations subtiles et responsive design\n\n✨ Ce que ce projet m’a apporté\n\nGrimoire d’Áether m’a permis de renforcer mes compétences en **React**, **TypeScript** et **architecture front-end**, tout en apprenant à intégrer proprement une solution d’authentification moderne comme Clerk. J’ai également approfondi la gestion de bases de données avec Supabase, la structuration de données complexes et la conception d’une UX immersive.\n\nCe projet représente une expérience complète et personnelle, à la croisée de la technologie, du symbolisme et du design, et constitue une base solide pour des applications riches, sécurisées et évolutives."
     }
 ]
