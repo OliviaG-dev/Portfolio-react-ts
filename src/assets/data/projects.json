@@ -538,5 +538,41 @@
         "link": "https://grimoire-d-aether.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Grimoire-d-Aether",
         "text" : "📜 Grimoire d’Áether\n\nGrimoire d’Áether est un wiki ésotérique élégant et mystique dédié aux cartes divinatoires (tarots, oracles et jeux symboliques). Pensé comme un véritable sanctuaire numérique, le projet permet d’explorer en profondeur chaque jeu et chaque carte à travers des fiches détaillées mêlant symbolisme, énergies et interprétations.\n\nAccessible librement en lecture, le site intègre également un **panneau d’administration sécurisé** permettant de gérer l’ensemble du contenu (jeux et cartes). Ce projet m’a permis de concevoir une application complète, mêlant design immersif, données structurées et logique métier avancée.\n\n🔐 Il s’agit de **ma première utilisation de Clerk pour l’authentification**, et j’ai particulièrement apprécié sa simplicité d’intégration, la qualité de ses composants React prêts à l’emploi et la gestion fluide des sessions. Clerk s’est révélé être une solution très agréable et professionnelle pour sécuriser une application moderne.\n\n🎯 Fonctionnalités principales :\n- 📚 Encyclopédie complète des jeux et cartes divinatoires\n- 🃏 Fiches de cartes détaillées : mots-clés, significations (droite, inversée, ombre), conseils, affirmations, énergies et symboles\n- ⭐ Système de favoris pour marquer les cartes importantes\n- 🔍 Recherche et filtres avancés (nom, jeu, index, favoris)\n- 📄 Pagination harmonieuse et navigation fluide avec React Router\n- 🔐 Panneau d’administration intégré (/admin) avec gestion complète des jeux et cartes\n\n🛠️ Stack technique :\n- ⚛️ **React 19** + **TypeScript** pour une application robuste et typée\n- ⚡ **Vite** pour des builds rapides et performants\n- 🔐 **Clerk** pour l’authentification et la gestion des utilisateurs\n- 🗄️ **Supabase** (PostgreSQL) pour le stockage des données et la sécurité (RLS)\n- 🎨 Interface personnalisée avec un design mystique, animations subtiles et responsive design\n\n✨ Ce que ce projet m’a apporté\n\nGrimoire d’Áether m’a permis de renforcer mes compétences en **React**, **TypeScript** et **architecture front-end**, tout en apprenant à intégrer proprement une solution d’authentification moderne comme Clerk. J’ai également approfondi la gestion de bases de données avec Supabase, la structuration de données complexes et la conception d’une UX immersive.\n\nCe projet représente une expérience complète et personnelle, à la croisée de la technologie, du symbolisme et du design, et constitue une base solide pour des applications riches, sécurisées et évolutives."
+    },
+    {
+        "id": "15",
+        "imagePortrait" : "/assets/images/ImagesPortrait/DA_portrait.png",
+        "imagesSlide" : [ 
+            {
+                "src":"/assets/images/ImagesSlide/DA/DA_slide01.png",
+                "alt":"image de mon projet Dual Arcana 1"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/DA/DA_slide02.png",
+                "alt":"image de mon projet Dual Arcana 2"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/DA/DA_slide03.png",
+                "alt":"image de mon projet Dual Arcana 3"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/DA/DA_slide04.png",
+                "alt":"image de mon projet Dual Arcana 4"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/DA/DA_slide05.png",
+                "alt":"image de mon projet Dual Arcana 5"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/DA/DA_slide06.png",
+                "alt":"image de mon projet Détente Animée 6"
+            }
+        ],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
+        "title" : "DualArcana",
+        "describe": "DualArcana révèle la rencontre entre l'arcane de l'année et ton arcane personnel.",
+        "link": "https://dual-arcana.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/DualArcana",
+        "text" :  "🃏 DualArcana\nDeux arcanes. Un chemin.\n\nDualArcana est une application web légère et élégante qui associe l’arcane majeur de l’année en cours à un arcane personnel, calculé à partir de la numérologie. Le projet propose une lecture symbolique croisant cycles collectifs et parcours individuels, à mi-chemin entre introspection et design minimaliste.\n\nConçu comme un outil de compréhension plutôt que de prédiction, DualArcana offre une interprétation poétique des énergies à l’œuvre : ce que le temps impose, et ce que l’individu traverse. Chaque résultat devient une clé de lecture personnelle, claire et accessible.\n\n⚡ Ce projet a été développé **rapidement**, en m’appuyant sur une **maîtrise solide de React, TypeScript et Vite**, ce qui m’a permis d’aller droit à l’essentiel : logique métier claire, calcul fiable et expérience utilisateur fluide. Cette capacité à livrer vite un produit propre, lisible et fonctionnel rend le projet particulièrement **attractif du point de vue recruteur**.\n\n🎯 Fonctionnalités principales :\n- 🔢 Calcul automatique de l’arcane majeur de l’année et de l’arcane personnel via la numérologie\n- 🃏 Affichage visuel des arcanes avec images et numéros\n- 📖 Interprétations détaillées : mots-clés, descriptions et sens symbolique\n- 🔮 Fusion des deux arcanes avec lecture de leur interaction\n- 💬 Modal d’interprétation pour une exploration approfondie\n- ✨ Interface sobre, élégante et animée avec des transitions subtiles\n\n🛠️ Stack technique :\n- ⚛️ React 19 pour une UI moderne et performante\n- 🔠 TypeScript pour un code fiable et bien structuré\n- ⚡ Vite pour un développement rapide et un build optimisé\n- 🎨 CSS natif, sans framework, pour une approche minimaliste et maîtrisée\n\n✨ Ce que ce projet m’a apporté\n\nDualArcana illustre ma capacité à **concevoir et livrer rapidement une application complète**, en transformant une idée abstraite en un produit clair et cohérent. Il met en avant ma maîtrise des fondamentaux du front-end moderne, ma capacité à structurer une logique métier simple mais précise, et mon sens du design épuré."
     }
 ]
