@@ -1,5 +1,13 @@
 # Portfolio
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+
 ## 🚀 À propos
 
 **Mon portfolio** : un voyage au cœur de mes **créations web** et de mon **parcours de développeur**. Une expérience interactive qui vous raconte mon **histoire digitale**.💻✨
@@ -92,6 +100,11 @@ Une app fullstack élégante. Publiez, organisez et modifiez vos articles en tou
 
 Wiki numérique dédié aux cartes divinatoires, conçu comme une base de connaissance structurée et évolutive.
 **Technologies :** React, TypeScript, Supabase, Clerk
+
+### 🃏 DualArcana
+
+DualArcana révèle la rencontre entre l'arcane de l'année et ton arcane personnel.
+**Technologies :** React, TypeScript, CSS
 
 ## ✨ Fonctionnalités
 
