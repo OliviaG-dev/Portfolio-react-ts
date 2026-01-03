@@ -31,6 +31,11 @@
 
 Cette section présente une sélection de mes projets les plus récents, développés avec passion et rigueur technique.
 
+### 🔁 SkillLoop
+
+Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables.
+**Technologies :** React, TypeScript, CSS
+
 ### 🎲 RandomSims
 
 Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !

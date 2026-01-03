@@ -1,39 +1,63 @@
 [
     {
         "id": "01",
-        "imagePortrait" : "/assets/images/ImagesPortrait/RS_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/SL_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide01.png",
-                "alt":"image de mon projet RandomSims 1"
+                "src":"/assets/images/ImagesSlide/SL/SL_slide01.png",
+                "alt":"image de mon projet SkillLoop 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide02.png",
-                "alt":"image de mon projet RandomSims 2"
+                "src":"/assets/images/ImagesSlide/SL/SL_slide02.png",
+                "alt":"image de mon projet SkillLoop 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide03.png",
-                "alt":"image de mon projet RandomSims 3"
+                "src":"/assets/images/ImagesSlide/SL/SL_slide03.png",
+                "alt":"image de mon projet SkillLoop 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide04.png",
-                "alt":"image de mon projet RandomSims 4"
+                "src":"/assets/images/ImagesSlide/SL/SL_slide04.png",
+                "alt":"image de mon projet SkillLoop 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide05.png",
-                "alt":"image de mon projet RandomSims 5"
+                "src":"/assets/images/ImagesSlide/SL/SL_slide05.png",
+                "alt":"image de mon projet SkillLoop 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide06.png",
-                "alt":"image de mon projet RandomSims 6"
+                "src":"/assets/images/ImagesSlide/SL/SL_slide06.png",
+                "alt":"image de mon projet SkillLoop 6"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/SL/SL_slide07.png",
+                "alt":"image de mon projet SkillLoop 7"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/SL/SL_slide08.png",
+                "alt":"image de mon projet SkillLoop 8"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/SL/SL_slide09.png",
+                "alt":"image de mon projet SkillLoop 9"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/SL/SL_slide10.png",
+                "alt":"image de mon projet SkillLoop 10"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/SL/SL_slide11.png",
+                "alt":"image de mon projet SkillLoop 11"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/SL/SL_slide12.png",
+                "alt":"image de mon projet SkillLoop 12"
             }
         ],
         "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
-        "title" : "RandomSims",
-        "describe": "Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !",
-        "link": "https://random-sims.vercel.app",
-        "linkGit": "https://github.com/OliviaG-dev/RandomSims",
-        "text" : "RandomSims est une application web et mobile 🎲 développée avec TypeScript, React et Vite, conçue pour générer des défis aléatoires et originaux dans *Les Sims 4*.\n\nCe projet reflète mon souci de qualité et d'expérience utilisateur, avec une architecture moderne (pnpm, ESLint, Prettier) et un code maintenable, scalable et performant 🛠️.\n\nIl s'agit d'une expérience interactive et responsive 📱 qui met l'accent à la fois sur la créativité et la rigueur technique.\n\n✨ **Fonctionnalités principales** :\n- 🎲 Génération aléatoire de défis pour divers aspects du jeu (Sims, lieux, scénarios)\n- 📸 Capture d'écran des combinaisons via html2canvas\n- 🌐 Navigation fluide grâce à React Router\n- 📱 Interface responsive adaptée aux mobiles et tablettes\n- 🧠 Défis thématiques selon les packs (ex: Amour Fou 💖, À la vie, à la mort 💀)\n- 🛠️ Code maintenu avec ESLint, Prettier et gestion via pnpm\n- ⚡ Lancement rapide et développement optimisé avec Vite\n\nUne app fun, bien pensée et prête à faire vivre des aventures inédites à vos Sims ! 🚀"
+        "title" : "SkillLoop",
+        "describe": "Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables.",
+        "link": "https://skill-loop-five.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/SkillLoop",
+        "text" : "🔁 SkillLoop – Apprendre, pratiquer, progresser\n\nSkillLoop est une application de formation moderne conçue pour transformer l’apprentissage en un **cycle continu de pratique et d’amélioration**. L’objectif n’est pas de consommer du contenu passivement, mais de progresser activement grâce à des sessions quotidiennes structurées, mesurables et motivantes.\n\nChaque formation est organisée en parcours clairs, découpés en **loops journalières**, avec des objectifs précis, des exercices concrets, des ressources ciblées et un système de progression basé sur l’XP, les niveaux et les badges 🎮✨.\n\nCe projet a été développé rapidement grâce à une architecture claire et maîtrisée, ce qui m’a permis de rester très productif tout en maintenant un haut niveau de qualité. Cette efficacité de développement reflète une **bonne maîtrise de l’écosystème React moderne**, un point particulièrement attractif dans un contexte professionnel.\n\n🎯 Fonctionnalités principales :\n- 🏠 Page d’accueil immersive présentant les formations disponibles\n- 📚 Dashboard central listant toutes les formations avec statistiques globales\n- 📊 Dashboards dédiés par formation avec thème de couleur dynamique\n- 📅 Sessions quotidiennes (LoopDay) avec checklist interactive des exercices\n- 📝 Système de débrief : notes personnelles, insights et questions\n- 🎮 Gamification complète : XP, niveaux, badges et bonus de complétion\n- 💾 Persistance locale de la progression via LocalStorage\n- 🔗 Navigation fluide et deep linking avec React Router\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour une interface moderne et performante\n- 🧩 **TypeScript** pour un typage strict et une meilleure maintenabilité\n- ⚡ **Vite** pour un développement rapide et des builds optimisés\n- 🧠 **Zustand** pour une gestion d’état légère, performante et persistée\n- 💾 **LocalStorage** pour la sauvegarde de la progression utilisateur\n- 🎨 Interface moderne, responsive, avec animations fluides et thèmes dynamiques\n\n✨ Ce que ce projet m’a apporté\n\nSkillLoop m’a permis de renforcer ma maîtrise de **React**, **TypeScript** et de la **gestion d’état complexe**, tout en travaillant sur une logique produit aboutie (progression, gamification, motivation utilisateur). Le développement rapide et structuré de ce projet démontre ma capacité à concevoir des applications complètes, lisibles et évolutives, avec une approche efficace et professionnelle.\n\nCe projet constitue un excellent exemple de ma capacité à livrer rapidement une application robuste, bien pensée et techniquement solide — un atout clair pour un recruteur."
     },
     {
         "id": "02",
@@ -574,5 +598,41 @@
         "link": "https://dual-arcana.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/DualArcana",
         "text" :  "🃏 DualArcana\nDeux arcanes. Un chemin.\n\nDualArcana est une application web légère et élégante qui associe l’arcane majeur de l’année en cours à un arcane personnel, calculé à partir de la numérologie. Le projet propose une lecture symbolique croisant cycles collectifs et parcours individuels, à mi-chemin entre introspection et design minimaliste.\n\nConçu comme un outil de compréhension plutôt que de prédiction, DualArcana offre une interprétation poétique des énergies à l’œuvre : ce que le temps impose, et ce que l’individu traverse. Chaque résultat devient une clé de lecture personnelle, claire et accessible.\n\n⚡ Ce projet a été développé **rapidement**, en m’appuyant sur une **maîtrise solide de React, TypeScript et Vite**, ce qui m’a permis d’aller droit à l’essentiel : logique métier claire, calcul fiable et expérience utilisateur fluide. Cette capacité à livrer vite un produit propre, lisible et fonctionnel rend le projet particulièrement **attractif du point de vue recruteur**.\n\n🎯 Fonctionnalités principales :\n- 🔢 Calcul automatique de l’arcane majeur de l’année et de l’arcane personnel via la numérologie\n- 🃏 Affichage visuel des arcanes avec images et numéros\n- 📖 Interprétations détaillées : mots-clés, descriptions et sens symbolique\n- 🔮 Fusion des deux arcanes avec lecture de leur interaction\n- 💬 Modal d’interprétation pour une exploration approfondie\n- ✨ Interface sobre, élégante et animée avec des transitions subtiles\n\n🛠️ Stack technique :\n- ⚛️ React 19 pour une UI moderne et performante\n- 🔠 TypeScript pour un code fiable et bien structuré\n- ⚡ Vite pour un développement rapide et un build optimisé\n- 🎨 CSS natif, sans framework, pour une approche minimaliste et maîtrisée\n\n✨ Ce que ce projet m’a apporté\n\nDualArcana illustre ma capacité à **concevoir et livrer rapidement une application complète**, en transformant une idée abstraite en un produit clair et cohérent. Il met en avant ma maîtrise des fondamentaux du front-end moderne, ma capacité à structurer une logique métier simple mais précise, et mon sens du design épuré."
+    },
+    {
+        "id": "16",
+        "imagePortrait" : "/assets/images/ImagesPortrait/RS_portrait.png",
+        "imagesSlide" : [ 
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide01.png",
+                "alt":"image de mon projet RandomSims 1"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide02.png",
+                "alt":"image de mon projet RandomSims 2"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide03.png",
+                "alt":"image de mon projet RandomSims 3"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide04.png",
+                "alt":"image de mon projet RandomSims 4"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide05.png",
+                "alt":"image de mon projet RandomSims 5"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/RS/RS_slide06.png",
+                "alt":"image de mon projet RandomSims 6"
+            }
+        ],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
+        "title" : "RandomSims",
+        "describe": "Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !",
+        "link": "https://random-sims.vercel.app",
+        "linkGit": "https://github.com/OliviaG-dev/RandomSims",
+        "text" : "RandomSims est une application web et mobile 🎲 développée avec TypeScript, React et Vite, conçue pour générer des défis aléatoires et originaux dans *Les Sims 4*.\n\nCe projet reflète mon souci de qualité et d'expérience utilisateur, avec une architecture moderne (pnpm, ESLint, Prettier) et un code maintenable, scalable et performant 🛠️.\n\nIl s'agit d'une expérience interactive et responsive 📱 qui met l'accent à la fois sur la créativité et la rigueur technique.\n\n✨ **Fonctionnalités principales** :\n- 🎲 Génération aléatoire de défis pour divers aspects du jeu (Sims, lieux, scénarios)\n- 📸 Capture d'écran des combinaisons via html2canvas\n- 🌐 Navigation fluide grâce à React Router\n- 📱 Interface responsive adaptée aux mobiles et tablettes\n- 🧠 Défis thématiques selon les packs (ex: Amour Fou 💖, À la vie, à la mort 💀)\n- 🛠️ Code maintenu avec ESLint, Prettier et gestion via pnpm\n- ⚡ Lancement rapide et développement optimisé avec Vite\n\nUne app fun, bien pensée et prête à faire vivre des aventures inédites à vos Sims ! 🚀"
     }
 ]
