@@ -634,5 +634,57 @@
         "link": "https://random-sims.vercel.app",
         "linkGit": "https://github.com/OliviaG-dev/RandomSims",
         "text" : "RandomSims est une application web et mobile 🎲 développée avec TypeScript, React et Vite, conçue pour générer des défis aléatoires et originaux dans *Les Sims 4*.\n\nCe projet reflète mon souci de qualité et d'expérience utilisateur, avec une architecture moderne (pnpm, ESLint, Prettier) et un code maintenable, scalable et performant 🛠️.\n\nIl s'agit d'une expérience interactive et responsive 📱 qui met l'accent à la fois sur la créativité et la rigueur technique.\n\n✨ **Fonctionnalités principales** :\n- 🎲 Génération aléatoire de défis pour divers aspects du jeu (Sims, lieux, scénarios)\n- 📸 Capture d'écran des combinaisons via html2canvas\n- 🌐 Navigation fluide grâce à React Router\n- 📱 Interface responsive adaptée aux mobiles et tablettes\n- 🧠 Défis thématiques selon les packs (ex: Amour Fou 💖, À la vie, à la mort 💀)\n- 🛠️ Code maintenu avec ESLint, Prettier et gestion via pnpm\n- ⚡ Lancement rapide et développement optimisé avec Vite\n\nUne app fun, bien pensée et prête à faire vivre des aventures inédites à vos Sims ! 🚀"
+    },
+    {
+        "id": "17",
+        "imagePortrait" : "/assets/images/ImagesPortrait/AZ_portrait.png",
+        "imagesSlide" : [ 
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide01.png",
+                "alt":"image de mon projet AllZodiacs 1"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide02.png",
+                "alt":"image de mon projet AllZodiacs 2"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide03.png",
+                "alt":"image de mon projet AllZodiacs 3"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide04.png",
+                "alt":"image de mon projet AllZodiacs 4"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide05.png",
+                "alt":"image de mon projet AllZodiacs 5"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide06.png",
+                "alt":"image de mon projet AllZodiacs 6"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide07.png",
+                "alt":"image de mon projet AllZodiacs 7"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide08.png",
+                "alt":"image de mon projet AllZodiacs 8"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide09.png",
+                "alt":"image de mon projet AllZodiacs 9"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/AZ/AZ_slide10.png",
+                "alt":"image de mon projet AllZodiacs 10"
+            }
+        ],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
+        "title" : "AllZodiacs",
+        "describe": "Une app fun qui centralise instantanément les horoscopes du monde entier à partir d’une simple date de naissance !",
+        "link": "https://all-zodiacs.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/AllZodiacs",
+        "text" : "🪐 AllZodiacs – Explorer tous les horoscopes à partir de ta naissance\n\nAllZodiacs est une application moderne qui centralise et unifie de nombreux systèmes astrologiques et horoscopiques du monde entier. À partir d’une simple date de naissance (jour, mois, année), l’application révèle instantanément les signes associés à des traditions variées : occidentale, chinoise, égyptienne, maya, védique, druidique, perse, viking, kabbalistique, alchimique, inuit, amérindienne et bien d’autres.\n\nAllZodiacs ne cherche pas à prédire l’avenir, mais à **connecter les cultures et les symboles**. Le projet propose une lecture comparative, culturelle et symbolique des signes à travers les civilisations, pensée comme un pont entre savoirs anciens et technologies modernes.\n\n⚡ Ce projet a été conçu et développé très rapidement grâce à une architecture claire, modulaire et parfaitement maîtrisée. Cette rapidité d’exécution démontre ma capacité à transformer une idée ambitieuse en application fonctionnelle, structurée et évolutive."
     }
 ]

@@ -111,6 +111,11 @@ Wiki numérique dédié aux cartes divinatoires, conçu comme une base de connai
 DualArcana révèle la rencontre entre l'arcane de l'année et ton arcane personnel.
 **Technologies :** React, TypeScript, CSS
 
+### 🪐 AllZodiacs
+
+Une app fun qui centralise instantanément les horoscopes du monde entier à partir d'une simple date de naissance !
+**Technologies :** React, TypeScript, CSS
+
 ## ✨ Fonctionnalités
 
 - **Présentation des projets**
