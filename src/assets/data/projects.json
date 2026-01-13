@@ -437,39 +437,51 @@
     },
     {
         "id": "12",
-        "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait" : "/assets/images/ImagesPortrait/LA_portrait.png",
         "imagesSlide" : [ 
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide01.png",
-                "alt":"image de mon projet ohmyfood 1"
+                "src":"/assets/images/ImagesSlide/LA/LA_slide01.png",
+                "alt":"image de mon projet Linea Arcana 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide02.png",
-                "alt":"image de mon projet ohmyfood 2"
+                "src":"/assets/images/ImagesSlide/LA/LA_slide02.png",
+                "alt":"image de mon projet Linea Arcana 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide03.png",
-                "alt":"image de mon projet ohmyfood 3"
+                "src":"/assets/images/ImagesSlide/LA/LA_slide03.png",
+                "alt":"image de mon projet Linea Arcana 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide04.png",
-                "alt":"image de mon projet ohmyfood 4"
+                "src":"/assets/images/ImagesSlide/LA/LA_slide04.png",   
+                "alt":"image de mon projet Linea Arcana 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide05.png",
-                "alt":"image de mon projet ohmyfood 5"
+                "src":"/assets/images/ImagesSlide/LA/LA_slide05.png",
+                "alt":"image de mon projet Linea Arcana 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide06.png",
-                "alt":"image de mon projet ohmyfood 6"
+                "src":"/assets/images/ImagesSlide/LA/LA_slide06.png",
+                "alt":"image de mon projet Linea Arcana 6"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/LA/LA_slide07.png",
+                "alt":"image de mon projet Linea Arcana 7"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/LA/LA_slide08.png",
+                "alt":"image de mon projet Linea Arcana 8"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/LA/LA_slide09.png",
+                "alt":"image de mon projet Linea Arcana 9"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}],
-        "title" : "oh my food!",
-        "describe": "Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.",
-        "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
-        "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
-        "text": "Ohmyfood est le tout premier projet que j'ai réalisé en 2021, dans le cadre de ma formation chez OpenClassrooms .\n\nUn projet simple en apparence… mais riche en apprentissages ! \n\nJ'y ai utilisé HTML et SCSS pour créer un site responsive 📱, avec plusieurs animations 100 % CSS :\n un loader animé ⏳\n une rotation d'éléments 🔄\n et un cœur interactif ❤️ qui se remplit au survol 🖱️\n\nC'était aussi ma toute première expérience avec un design imposé 🎯…\net j'étais très fière d'avoir réussi à le sublimer avec soin ✨"
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
+        "title" : "Linea Arcana",
+        "describe": "Une app qui révèle votre ligne de vie à travers les arcanes du Tarot de Marseille.",
+        "link": "https://linea-arcana.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/Linea-arcana",
+        "text" : "🜁 Linea Arcana – Révéler sa ligne de vie à travers les arcanes\n\nLinea Arcana est une application de tarologie initiatique qui révèle la ligne de vie d’un utilisateur à partir de son prénom, de son nom et de sa date de naissance. En s’appuyant sur la roue de Pythagore et les 22 arcanes majeurs du Tarot de Marseille, elle met en lumière les grandes étapes du chemin d’incarnation à travers une lecture symbolique claire et structurée.\n\n⚡ Ce projet a été **entièrement conçu et développé en une seule journée**, en réponse à un besoin précis. Cette rapidité de conception illustre ma capacité à analyser une problématique, structurer une logique métier cohérente et livrer une application complète, fonctionnelle et soignée dans des délais très courts.\n\n🎯 Fonctionnalités principales :\n- 🔮 Calcul automatique de la ligne de vie tarologique à partir des données personnelles\n- 📊 Analyse basée sur la numérologie pythagoricienne\n- 🎴 Interprétation des 22 arcanes majeurs du Tarot de Marseille\n- 🔁 Affichage de 5 arcanes correspondant aux 5 grands cycles de vie\n- ✨ Mise en évidence automatique du cycle de vie actuel avec une bordure animée\n- 🖼️ Visualisation des cartes avec animations de retournement\n- 📖 Modale détaillée pour chaque arcane et chaque cycle\n- ✅ Validation complète du formulaire avec gestion des erreurs\n- 📱 Interface responsive, moderne et immersive\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour la construction de l’interface\n- 🧩 **TypeScript** pour un typage strict et une logique fiable\n- ⚡ **Vite** pour un développement rapide et des builds optimisés\n- 🔗 **React Router** pour la navigation entre les vues\n- 🎨 CSS personnalisé pour un design mystique et fluide\n- 🧠 Logique métier centralisée pour les calculs tarologiques\n\n✨ Ce que ce projet m’a apporté\n\nLinea Arcana démontre ma capacité à **concevoir rapidement une application complète**, de l’idée à la mise en production, tout en conservant une architecture propre, une logique métier claire et une expérience utilisateur aboutie. Ce projet met en avant ma réactivité, ma maîtrise de React et TypeScript, et mon aptitude à répondre efficacement à un besoin concret dans un temps très réduit."
     },
     {
         "id": "13",
@@ -686,5 +698,41 @@
         "link": "https://all-zodiacs.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/AllZodiacs",
         "text" : "🪐 AllZodiacs – Explorer tous les horoscopes à partir de ta naissance\n\nAllZodiacs est une application moderne qui centralise et unifie de nombreux systèmes astrologiques et horoscopiques du monde entier. À partir d’une simple date de naissance (jour, mois, année), l’application révèle instantanément les signes associés à des traditions variées : occidentale, chinoise, égyptienne, maya, védique, druidique, perse, viking, kabbalistique, alchimique, inuit, amérindienne et bien d’autres.\n\nAllZodiacs ne cherche pas à prédire l’avenir, mais à **connecter les cultures et les symboles**. Le projet propose une lecture comparative, culturelle et symbolique des signes à travers les civilisations, pensée comme un pont entre savoirs anciens et technologies modernes.\n\n⚡ Ce projet a été conçu et développé très rapidement grâce à une architecture claire, modulaire et parfaitement maîtrisée. Cette rapidité d’exécution démontre ma capacité à transformer une idée ambitieuse en application fonctionnelle, structurée et évolutive."
+    },
+    {
+        "id": "18",
+        "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagesSlide" : [ 
+            {
+                "src":"/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "alt":"image de mon projet ohmyfood 1"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "alt":"image de mon projet ohmyfood 2"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "alt":"image de mon projet ohmyfood 3"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "alt":"image de mon projet ohmyfood 4"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "alt":"image de mon projet ohmyfood 5"
+            },
+            {
+                "src":"/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "alt":"image de mon projet ohmyfood 6"
+            }
+        ],
+        "tags" : [{"item":"#HTML/CSS", "style":"#000"}],
+        "title" : "oh my food!",
+        "describe": "Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.",
+        "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
+        "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
+        "text": "Ohmyfood est le tout premier projet que j'ai réalisé en 2021, dans le cadre de ma formation chez OpenClassrooms .\n\nUn projet simple en apparence… mais riche en apprentissages ! \n\nJ'y ai utilisé HTML et SCSS pour créer un site responsive 📱, avec plusieurs animations 100 % CSS :\n un loader animé ⏳\n une rotation d'éléments 🔄\n et un cœur interactif ❤️ qui se remplit au survol 🖱️\n\nC'était aussi ma toute première expérience avec un design imposé 🎯…\net j'étais très fière d'avoir réussi à le sublimer avec soin ✨"
     }
 ]

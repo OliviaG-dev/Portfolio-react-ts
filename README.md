@@ -116,6 +116,11 @@ DualArcana révèle la rencontre entre l'arcane de l'année et ton arcane person
 Une app fun qui centralise instantanément les horoscopes du monde entier à partir d'une simple date de naissance !
 **Technologies :** React, TypeScript, CSS
 
+### 🜁 Linea Arcana
+
+Une app qui révèle votre ligne de vie à travers les arcanes du Tarot de Marseille.
+**Technologies :** React, TypeScript, CSS
+
 ## ✨ Fonctionnalités
 
 - **Présentation des projets**
