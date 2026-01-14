@@ -61,6 +61,11 @@ Chaque jour, un regard vers l'infini. Une image capturée par la NASA, un fragme
 Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.
 **Technologies :** React, TypeScript, CSS
 
+### 🎬 Pick&Play
+
+Une app qui permet de centraliser, trier et découvrir tes films, séries et livres grâce à une interface intuitive en drag & drop.
+**Technologies :** React, TypeScript, CSS
+
 ### 🗺️ MapPermis
 
 Trace ton parcours. Maîtrise la route. Réussis ton permis. MapPermis rend la préparation simple, claire et motivante.
