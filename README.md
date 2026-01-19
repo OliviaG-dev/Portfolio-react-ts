@@ -31,6 +31,11 @@
 
 Cette section présente une sélection de mes projets les plus récents, développés avec passion et rigueur technique.
 
+### 🌌 Noctis
+
+Un calendrier astrologique qui transforme l'astrologie en une expérience quotidienne simple, visuelle et intuitive.
+**Technologies :** React, TypeScript, CSS
+
 ### 🔁 SkillLoop
 
 Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables.
