@@ -1,847 +1,1179 @@
 [
     {
         "id": "01",
-        "imagePortrait" : "/assets/images/ImagesPortrait/NO_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/NO_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide01.png",
-                "alt":"image de mon projet Noctis 1"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide01.png",
+                "alt": "image de mon projet Noctis 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide02.png",
-                "alt":"image de mon projet Noctis 2"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide02.png",
+                "alt": "image de mon projet Noctis 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide03.png",
-                "alt":"image de mon projet Noctis 3"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide03.png",
+                "alt": "image de mon projet Noctis 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide04.png",
-                "alt":"image de mon projet Noctis 4"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide04.png",
+                "alt": "image de mon projet Noctis 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide05.png",
-                "alt":"image de mon projet Noctis 5"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide05.png",
+                "alt": "image de mon projet Noctis 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide06.png",
-                "alt":"image de mon projet Noctis 6"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide06.png",
+                "alt": "image de mon projet Noctis 6"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide07.png",
-                "alt":"image de mon projet Noctis 7"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide07.png",
+                "alt": "image de mon projet Noctis 7"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide08.png",
-                "alt":"image de mon projet Noctis 8"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide08.png",
+                "alt": "image de mon projet Noctis 8"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide09.png",
-                "alt":"image de mon projet Noctis 9"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide09.png",
+                "alt": "image de mon projet Noctis 9"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide10.png",
-                "alt":"image de mon projet Noctis 10"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide10.png",
+                "alt": "image de mon projet Noctis 10"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide11.png",
-                "alt":"image de mon projet Noctis 11"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide11.png",
+                "alt": "image de mon projet Noctis 11"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide12.png",
-                "alt":"image de mon projet Noctis 12"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide12.png",
+                "alt": "image de mon projet Noctis 12"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide13.png",
-                "alt":"image de mon projet Noctis 13"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide13.png",
+                "alt": "image de mon projet Noctis 13"
             },
             {
-                "src":"/assets/images/ImagesSlide/NO/NO_slide14.png",
-                "alt":"image de mon projet Noctis 14"
+                "src": "/assets/images/ImagesSlide/NO/NO_slide14.png",
+                "alt": "image de mon projet Noctis 14"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
-        "title" : "Noctis",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "Noctis",
         "describe": "Un calendrier astrologique qui transforme l'astrologie en une expérience quotidienne simple, visuelle et intuitive.",
         "link": "https://noctis-chi.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Noctis",
-        "text" : "🌌 Noctis – Le temps vu depuis la nuit\n\nNoctis est un calendrier astrologique intelligent qui transforme la complexité des cycles célestes en une expérience quotidienne claire, visuelle et intuitive. Pensé comme un outil d’anticipation plutôt que de prédiction, il permet de comprendre les grands rythmes du ciel — phases lunaires, rétrogrades, ingrès planétaires et éclipses — à travers une interface élégante et immersive.\n\nCe projet illustre ma capacité à concevoir rapidement une application riche en données, structurée et orientée expérience utilisateur, tout en maintenant une forte exigence de lisibilité, de performance et de cohérence visuelle.\n\n🎯 Fonctionnalités principales :\n- 📅 Calendrier astrologique interactif avec vue mensuelle enrichie\n- 🌕 Suivi précis des phases de la lune avec interprétations synthétiques\n- 🪐 Gestion complète des rétrogrades planétaires (dates, impacts, cycles)\n- 🌟 Ingrès planétaires et compréhension des grands mouvements collectifs\n- 🌘 Visualisation détaillée des éclipses solaires et lunaires\n- ⭐ Page événement du jour avec mise en avant automatique et lecture rapide\n- 🎴 Cartes d’événements enrichies avec accordéons animés et icônes dédiées\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour une interface modulaire et performante\n- 🧩 **TypeScript** en typage strict pour sécuriser la logique métier\n- ⚡ **Vite** pour une mise en place rapide et des builds optimisés\n- 🧭 **React Router** pour une navigation fluide entre les vues\n- 📆 **Day.js** pour la manipulation fiable des dates\n- 🎨 CSS personnalisé avec animations fluides et design sombre immersif\n\n✨ Ce que ce projet démontre\n\nNoctis met en avant ma **maîtrise de la structuration de données complexes**, la création d’interfaces riches mais lisibles, et ma capacité à transformer un besoin conceptuel fort en un produit clair, cohérent et utilisable au quotidien.\n\n"
+        "text": "🌌 Noctis – Le temps vu depuis la nuit\n\nNoctis est un calendrier astrologique intelligent qui transforme la complexité des cycles célestes en une expérience quotidienne claire, visuelle et intuitive. Pensé comme un outil d’anticipation plutôt que de prédiction, il permet de comprendre les grands rythmes du ciel — phases lunaires, rétrogrades, ingrès planétaires et éclipses — à travers une interface élégante et immersive.\n\nCe projet illustre ma capacité à concevoir rapidement une application riche en données, structurée et orientée expérience utilisateur, tout en maintenant une forte exigence de lisibilité, de performance et de cohérence visuelle.\n\n🎯 Fonctionnalités principales :\n- 📅 Calendrier astrologique interactif avec vue mensuelle enrichie\n- 🌕 Suivi précis des phases de la lune avec interprétations synthétiques\n- 🪐 Gestion complète des rétrogrades planétaires (dates, impacts, cycles)\n- 🌟 Ingrès planétaires et compréhension des grands mouvements collectifs\n- 🌘 Visualisation détaillée des éclipses solaires et lunaires\n- ⭐ Page événement du jour avec mise en avant automatique et lecture rapide\n- 🎴 Cartes d’événements enrichies avec accordéons animés et icônes dédiées\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour une interface modulaire et performante\n- 🧩 **TypeScript** en typage strict pour sécuriser la logique métier\n- ⚡ **Vite** pour une mise en place rapide et des builds optimisés\n- 🧭 **React Router** pour une navigation fluide entre les vues\n- 📆 **Day.js** pour la manipulation fiable des dates\n- 🎨 CSS personnalisé avec animations fluides et design sombre immersif\n\n✨ Ce que ce projet démontre\n\nNoctis met en avant ma **maîtrise de la structuration de données complexes**, la création d’interfaces riches mais lisibles, et ma capacité à transformer un besoin conceptuel fort en un produit clair, cohérent et utilisable au quotidien.\n\n"
     },
     {
         "id": "02",
-        "imagePortrait" : "/assets/images/ImagesPortrait/NU_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/NU_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/NU/NU_slide01.png",
-                "alt":"image de mon projet Portfolio 1"
+                "src": "/assets/images/ImagesSlide/NU/NU_slide01.png",
+                "alt": "image de mon projet Numora 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/NU/NU_slide02.png",
-                "alt":"image de mon projet Portfolio 2"
+                "src": "/assets/images/ImagesSlide/NU/NU_slide02.png",
+                "alt": "image de mon projet Numora 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/NU/NU_slide03.png",
-                "alt":"image de mon projet Portfolio 3"
+                "src": "/assets/images/ImagesSlide/NU/NU_slide03.png",
+                "alt": "image de mon projet Numora 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/NU/NU_slide04.png",
-                "alt":"image de mon projet Portfolio 4"
+                "src": "/assets/images/ImagesSlide/NU/NU_slide04.png",
+                "alt": "image de mon projet Numora 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/NU/NU_slide05.png",
-                "alt":"image de mon projet Portfolio 5"
+                "src": "/assets/images/ImagesSlide/NU/NU_slide05.png",
+                "alt": "image de mon projet Numora 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/NU/NU_slide06.png",
-                "alt":"image de mon projet Portfolio 6"
+                "src": "/assets/images/ImagesSlide/NU/NU_slide06.png",
+                "alt": "image de mon projet Numora 6"
             },
             {
-                "src":"/assets/images/ImagesSlide/NU/NU_slide07.png",
-                "alt":"image de mon projet Portfolio 7"
+                "src": "/assets/images/ImagesSlide/NU/NU_slide07.png",
+                "alt": "image de mon projet Numora 7"
             },
             {
-                "src":"/assets/images/ImagesSlide/NU/NU_slide08.png",
-                "alt":"image de mon projet Portfolio 8"
+                "src": "/assets/images/ImagesSlide/NU/NU_slide08.png",
+                "alt": "image de mon projet Numora 8"
             },
             {
-                "src":"/assets/images/ImagesSlide/NU/NU_slide09.png",
-                "alt":"image de mon projet Portfolio 9"
+                "src": "/assets/images/ImagesSlide/NU/NU_slide09.png",
+                "alt": "image de mon projet Numora 9"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide10.png",
+                "alt": "image de mon projet Numora 10"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide11.png",
+                "alt": "image de mon projet Numora 11"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide12.png",
+                "alt": "image de mon projet Numora 12"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide13.png",
+                "alt": "image de mon projet Numora 13"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide14.png",
+                "alt": "image de mon projet Numora 14"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide15.png",
+                "alt": "image de mon projet Numora 15"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide16.png",
+                "alt": "image de mon projet Numora 16"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide17.png",
+                "alt": "image de mon projet Numora 17"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide18.png",
+                "alt": "image de mon projet Numora 18"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide19.png",
+                "alt": "image de mon projet Numora 19"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide20.png",
+                "alt": "image de mon projet Numora 20"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide21.png",
+                "alt": "image de mon projet Numora 21"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide22.png",
+                "alt": "image de mon projet Numora 22"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide23.png",
+                "alt": "image de mon projet Numora 23"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide24.png",
+                "alt": "image de mon projet Numora 24"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide25.png",
+                "alt": "image de mon projet Numora 25"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide26.png",
+                "alt": "image de mon projet Numora 26"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NU/NU_slide27.png",
+                "alt": "image de mon projet Numora 27"
             }
         ],
-        "tags" : [{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#HTML/CSS", "style":"#000"}, {"item":"#SUPABASE", "style":"#4A90E2"}],
-        "title" : "Numora",
+        "tags": [
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            }
+        ],
+        "title": "Numora",
         "describe": "Une expérience interactive de numérologie moderne, révélant tes énergies, cycles et chemins de vie.",
         "link": "https://numora-pink.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Numora",
-        "text" :  "🚧 Projet en cours de développement – Application de Numérologie Interactive\n\n🧩 Description générale\n\nCe projet, actuellement en cours de développement, est une application de numérologie moderne et interactive qui permet d’explorer les différentes facettes d’une identité à travers les nombres. Elle combine savoir ancestral et technologies modernes pour offrir une lecture complète du chemin de vie, des cycles, des vibrations personnelles et professionnelles, ainsi que des aspects karmiques et spirituels.\n\nL’objectif : rendre la numérologie intuitive, visuelle et accessible, tout en respectant la profondeur symbolique des calculs traditionnels.\n\n💻 Technologies utilisées\n\n- Front-end : React + TypeScript\n- Styling : CSS pur, avec un design responsive et fluide\n- Gestion des données : JSON structuré pour chaque thème (chemin de vie, cycles, arbre de vie, etc.)\n- Visualisation : SVG / WEBP dynamiques pour la Matrix Destiny et l’Arbre de Vie Kabbalistique\n- Architecture : Composants modulaires et réutilisables, logique métier centralisée\n- Calculs : Fonctions numérologiques personnalisées (maîtres nombres, dettes karmiques, cycles, compatibilités…)\n\n🔮 Fonctionnalités principales\n\n🔢 **Analyse numérologique complète** :\n- Calcul automatique du chemin de vie, expression, âme, personnalité, maturation, etc.\n- Détection des maîtres nombres (11, 22, 33) et dettes karmiques (13, 14, 16, 19).\n- Lecture intuitive avec mots-clés, défis, forces, et conseils personnalisés.\n\n🕰️ **Cycles et temporalité** :\n- Calcul du cycle de vie, des périodes de réalisation, années, mois et jours personnels.\n- Consultation d’énergies passées, présentes ou futures.\n- Choix de dates favorables pour projets, signatures ou décisions.\n\n🏢 **Numérologie d’entreprise & de projet** :\n- Analyse du nom d’entreprise ou du projet (expression, actif, héréditaire).\n- Étude de compatibilité entre nom et date de création.\n- Conseils pour la prospérité et la vibration idéale du business.\n\n💫 **Matrix Destiny (Matrice du destin)** :\n- Visualisation interactive via WEBP + div dynamiques.\n- Calcul automatique des 22 nombres et axes principaux : amour, argent, pivot, pouvoir social, influence, cœur, mental, etc.\n- Interprétations détaillées selon les vibrations intérieures et extérieures.\n\n🌳 **Arbre de Vie Kabbalistique** :\n- Interprétation des 10 Sephiroth et 22 chemins selon la numérologie personnelle.\n- Lecture des axes spirituels, des voiles d’évolution et du chemin d’éveil.\n\n📅 **Module “Énergie du Jour”** :\n- Affiche la vibration numérologique du jour, du mois et de l’année en cours.\n- Donne une guidance quotidienne basée sur l’énergie du moment.\n\n✨ Ce que ce projet m’a apporté\n\nCe projet m’a permis de renforcer mes compétences en **React** et **TypeScript**, notamment dans la gestion d’états complexes et les calculs symboliques dynamiques. J’ai appris à **structurer et interconnecter de larges ensembles de données JSON**, tout en créant une architecture claire et modulaire.\n\nIl m’a également permis de développer une **compréhension approfondie de la numérologie traditionnelle et moderne**, adaptée à une approche digitale et interactive. Enfin, j’ai affiné mon sens du **design symbolique et intuitif**, en cherchant à équilibrer spiritualité, logique et expérience utilisateur.\n\n💡 Une expérience unique mêlant technologie, symbolisme et exploration personnelle, qui continue d’évoluer vers une application complète et immersive."
+        "text": "🔢 Application de Numérologie Interactive — mises à jour fréquentes\n\nCette application est une plateforme complète de numérologie moderne, conçue pour explorer l’identité personnelle, relationnelle et professionnelle à travers les nombres. Elle combine rigueur des systèmes traditionnels (numérologie pythagoricienne, karmique et kabbalistique) et technologies front-end modernes pour offrir une expérience à la fois profonde, visuelle et accessible.\n\nPensée comme un véritable outil d’analyse et de compréhension de soi, l’application propose des lectures détaillées basées sur le chemin de vie, les cycles, les vibrations personnelles, les aspects karmiques, les compatibilités et les dynamiques professionnelles. Le projet évolue continuellement grâce à des mises à jour fréquentes, enrichissant régulièrement les fonctionnalités et les modules d’analyse.\n\n🎯 Fonctionnalités principales :\n- 📊 Gestion complète des lectures numérologiques avec création, catégorisation, affichage détaillé par onglets et impression optimisée au format A4\n- 🔮 Calculs numérologiques avancés : chemin de vie, expression, âme, personnalité, défis, cycles de vie, périodes de réalisation, nombres personnels et vibrations de dates\n- ⚡ Analyse karmique approfondie : nombres et dettes karmiques, cycles karmiques, interprétations détaillées et interface dédiée\n- 🌟 Matrix Destiny : matrice octogonale interactive avec lignes générationnelles, chakras, domaines spéciaux et significations détaillées\n- 🌳 Arbre de Vie kabbalistique : calcul des 10 Sephiroth, visualisation SVG interactive, analyse des piliers et des chemins dominants\n- 💕 Compatibilités complètes : amoureuse, amicale et professionnelle avec forces, défis, conseils et visualisations dynamiques\n- 💼 Analyse business : numérologie des entreprises, noms professionnels, synergies et axes de réussite\n- 📅 Énergie et vibration quotidiennes : vibrations du jour, du mois et de l’année avec interprétations détaillées\n- 🔍 Analyseurs rapides : analyse instantanée des dates et des noms sans sauvegarde\n- 💎 Cristaux & lithothérapie : recommandations personnalisées de pierres selon les nombres clés\n\n🛠️ Stack technique :\n- ⚛️ React + TypeScript pour une application robuste et fortement typée\n- ⚡ Vite pour un développement rapide et performant\n- 🎨 CSS pur avec design responsive, animations fluides et styles d’impression dédiés\n- 🗂️ Données structurées en JSON et logique métier centralisée\n- 📊 Visualisations dynamiques via SVG et composants interactifs\n\n✨ Ce que ce projet m’a apporté\n\nCe projet m’a permis de concevoir une application front-end complexe, avec une forte densité de logique métier, de calculs symboliques et de visualisations interactives. Il m’a aidé à renforcer ma maîtrise de React et TypeScript, la structuration de données volumineuses, la gestion d’états complexes et la création d’interfaces lisibles malgré une grande richesse fonctionnelle.\n\nIl illustre ma capacité à transformer un besoin symbolique et abstrait en une application moderne, structurée, évolutive et orientée expérience utilisateur."
     },
     {
         "id": "03",
-        "imagePortrait" : "/assets/images/ImagesPortrait/TC_portrait.jpg",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/TC_portrait.jpg",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/TC/TC_slide01.png",
-                "alt":"image de mon projet TerraCréa"
+                "src": "/assets/images/ImagesSlide/TC/TC_slide01.png",
+                "alt": "image de mon projet TerraCréa"
             },
             {
-                "src":"/assets/images/ImagesSlide/TC/TC_slide02.png",
-                "alt":"image de mon projet TerraCréa 2"
+                "src": "/assets/images/ImagesSlide/TC/TC_slide02.png",
+                "alt": "image de mon projet TerraCréa 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/TC/TC_slide03.png",
-                "alt":"image de mon projet TerraCréa 3"
+                "src": "/assets/images/ImagesSlide/TC/TC_slide03.png",
+                "alt": "image de mon projet TerraCréa 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/TC/TC_slide04.png",
-                "alt":"image de mon projet TerraCréa 4"
+                "src": "/assets/images/ImagesSlide/TC/TC_slide04.png",
+                "alt": "image de mon projet TerraCréa 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/TC/TC_slide05.png",
-                "alt":"image de mon projet TerraCréa 5"
+                "src": "/assets/images/ImagesSlide/TC/TC_slide05.png",
+                "alt": "image de mon projet TerraCréa 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/TC/TC_slide06.png",
-                "alt":"image de mon projet TerraCréa 6"
+                "src": "/assets/images/ImagesSlide/TC/TC_slide06.png",
+                "alt": "image de mon projet TerraCréa 6"
             }
         ],
-        "tags" : [{"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#REACT NATIVE", "style":"#FF0000"}, {"item":"#SUPABASE", "style":"#4A90E2"}],
-        "title" : "TerraCréa",
+        "tags": [
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#REACT NATIVE",
+                "style": "#FF0000"
+            },
+            {
+                "item": "#SUPABASE",
+                "style": "#4A90E2"
+            }
+        ],
+        "title": "TerraCréa",
         "describe": "Envie de partager vos créations artisanales, de découvrir celles des autres, de les évaluer ou même de les acheter ? Cette application est faite pour vous !",
         "link": "https://terracrea.netlify.app/",
         "linkGit": "https://github.com/OliviaG-dev/TerraCrea",
-        "text" : "🌱 TerraCréa – Application mobile en React Native\n\nPremier projet développé avec React Native et Expo\n\nTerraCréa est une application mobile moderne permettant de découvrir et d’acheter des créations artisanales locales. Ce projet m’a permis de mettre en pratique mes compétences en TypeScript, React Native et Expo, tout en intégrant un backend avec Supabase pour l’authentification, la gestion des données et la persistance des favoris.\n\n🚀 Objectifs et apprentissages\n\nPremier projet réalisé avec React Native + Expo, une excellente expérience qui m’a permis d’apprendre rapidement à gérer l’écosystème mobile cross-platform.\n\nMise en place d’une architecture modulaire avec composants réutilisables, hooks personnalisés et Context API pour la gestion des états globaux.\n\nApprofondissement des bonnes pratiques en tests (Vitest, Testing Library) avec plus de 970 tests automatisés couvrant les composants, services, contextes, performances, sécurité et accessibilité.\n\nConception d’une expérience utilisateur fluide et responsive, avec une navigation conditionnelle selon l’état d’authentification, un mode invité, un design cohérent basé sur une palette naturelle et des icônes personnalisées en SVG.\n\n✨ Fonctionnalités clés\n\n- Authentification complète avec email, mot de passe et confirmation par Supabase.\n- Exploration et recherche avancée des créations (par titre, description, ville, artisan, catégories).\n- Gestion des profils (acheteur / artisan), avec possibilité de basculer vers un profil artisan.\n- Catalogue interactif avec favoris synchronisés en temps réel.\n- Système d’avis et d’évaluations (notes et commentaires).\n- Interface moderne et optimisée : responsive design, composants centralisés, gestion robuste des erreurs et accessibilité intégrée.\n\n🛠️ Stack technique\n\n- Front-end : React Native (0.74.5), Expo, React Navigation\n- Langage : TypeScript (strict)\n- Backend & Auth : Supabase\n- Tests & Qualité : Vitest, Testing Library, jsdom/happy-dom\n- Architecture : Context API, hooks personnalisés, services centralisés, composants modulaires\n- CI/CD ready : configuration Node.js 22+ avec vérifications automatiques\n\n👉 Ce projet m’a permis de développer de solides bases en développement mobile cross-platform et de renforcer mes compétences en tests, architecture logicielle et intégration backend. C’était une première expérience très enrichissante avec React Native et Expo, et un excellent tremplin pour mes futurs projets mobiles."
+        "text": "🌱 TerraCréa – Application mobile en React Native\n\nPremier projet développé avec React Native et Expo\n\nTerraCréa est une application mobile moderne permettant de découvrir et d’acheter des créations artisanales locales. Ce projet m’a permis de mettre en pratique mes compétences en TypeScript, React Native et Expo, tout en intégrant un backend avec Supabase pour l’authentification, la gestion des données et la persistance des favoris.\n\n🚀 Objectifs et apprentissages\n\nPremier projet réalisé avec React Native + Expo, une excellente expérience qui m’a permis d’apprendre rapidement à gérer l’écosystème mobile cross-platform.\n\nMise en place d’une architecture modulaire avec composants réutilisables, hooks personnalisés et Context API pour la gestion des états globaux.\n\nApprofondissement des bonnes pratiques en tests (Vitest, Testing Library) avec plus de 970 tests automatisés couvrant les composants, services, contextes, performances, sécurité et accessibilité.\n\nConception d’une expérience utilisateur fluide et responsive, avec une navigation conditionnelle selon l’état d’authentification, un mode invité, un design cohérent basé sur une palette naturelle et des icônes personnalisées en SVG.\n\n✨ Fonctionnalités clés\n\n- Authentification complète avec email, mot de passe et confirmation par Supabase.\n- Exploration et recherche avancée des créations (par titre, description, ville, artisan, catégories).\n- Gestion des profils (acheteur / artisan), avec possibilité de basculer vers un profil artisan.\n- Catalogue interactif avec favoris synchronisés en temps réel.\n- Système d’avis et d’évaluations (notes et commentaires).\n- Interface moderne et optimisée : responsive design, composants centralisés, gestion robuste des erreurs et accessibilité intégrée.\n\n🛠️ Stack technique\n\n- Front-end : React Native (0.74.5), Expo, React Navigation\n- Langage : TypeScript (strict)\n- Backend & Auth : Supabase\n- Tests & Qualité : Vitest, Testing Library, jsdom/happy-dom\n- Architecture : Context API, hooks personnalisés, services centralisés, composants modulaires\n- CI/CD ready : configuration Node.js 22+ avec vérifications automatiques\n\n👉 Ce projet m’a permis de développer de solides bases en développement mobile cross-platform et de renforcer mes compétences en tests, architecture logicielle et intégration backend. C’était une première expérience très enrichissante avec React Native et Expo, et un excellent tremplin pour mes futurs projets mobiles."
     },
     {
         "id": "04",
-        "imagePortrait" : "/assets/images/ImagesPortrait/SS_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/SS_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/SS/SS_slide01.png",
-                "alt":"image de mon projet Portfolio 1"
+                "src": "/assets/images/ImagesSlide/SS/SS_slide01.png",
+                "alt": "image de mon projet Portfolio 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/SS/SS_slide02.png",
-                "alt":"image de mon projet Portfolio 2"
+                "src": "/assets/images/ImagesSlide/SS/SS_slide02.png",
+                "alt": "image de mon projet Portfolio 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/SS/SS_slide03.png",
-                "alt":"image de mon projet Portfolio 3"
+                "src": "/assets/images/ImagesSlide/SS/SS_slide03.png",
+                "alt": "image de mon projet Portfolio 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/SS/SS_slide04.png",
-                "alt":"image de mon projet Portfolio 4"
+                "src": "/assets/images/ImagesSlide/SS/SS_slide04.png",
+                "alt": "image de mon projet Portfolio 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/SS/SS_slide05.png",
-                "alt":"image de mon projet Portfolio 5"
+                "src": "/assets/images/ImagesSlide/SS/SS_slide05.png",
+                "alt": "image de mon projet Portfolio 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/SS/SS_slide06.png",
-                "alt":"image de mon projet Portfolio 6"
+                "src": "/assets/images/ImagesSlide/SS/SS_slide06.png",
+                "alt": "image de mon projet Portfolio 6"
             }
         ],
-        "tags" : [{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#TAILWIND", "style":"#8B5CF6"}],
-        "title" : "StarSnap",
+        "tags": [
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#TAILWIND",
+                "style": "#8B5CF6"
+            }
+        ],
+        "title": "StarSnap",
         "describe": "Chaque jour, un regard vers l'infini.Une image capturée par la NASA, un fragment d'univers livré à ton écran.",
         "link": "https://star-snap.vercel.app",
         "linkGit": "https://github.com/OliviaG-dev/StarSnap",
-        "text" :  "🚀 À propos de StarSnap\nStarSnap est une application web qui permet de découvrir chaque jour une nouvelle image de l’espace prise par la NASA, accompagnée d’une explication traduite automatiquement en français. C’est un projet que j’ai adoré développer, car il m’a permis de plonger dans le monde de l’astronomie tout en explorant de nouvelles technologies.\n\n✨ Fonctionnalités principales\n🌌 Une nouvelle photo de l’univers chaque jour\n📅 Sélecteur de date pour explorer les images passées\n🇫🇷 Traduction automatique des textes en français\n📱 Interface responsive adaptée à tous les écrans\n🎨 Design moderne avec des dégradés cosmiques\n⚡ Chargement rapide et navigation fluide\n\n🛠️ Ce que j’ai découvert\nJ’ai vraiment apprécié créer ce projet, car il m’a permis de découvrir **Tailwind CSS**, un outil que j’ai trouvé à la fois puissant et agréable pour styliser rapidement l’interface.\n\nJ’ai aussi mis en place mes premières **fonctions serverless** avec **Vercel**, ce qui m’a ouvert de nouvelles possibilités côté backend, sans avoir à gérer un serveur complet.\n\n💡 Bilan\nStarSnap est un projet qui m’a non seulement permis de m’améliorer techniquement, mais aussi de m’amuser avec un sujet passionnant. C’était un excellent moyen d’approfondir React, TypeScript et de comprendre comment intégrer des services externes comme l’API de la NASA ou un traducteur automatique, tout en gardant une bonne performance et une belle expérience utilisateur."
+        "text": "🚀 À propos de StarSnap\nStarSnap est une application web qui permet de découvrir chaque jour une nouvelle image de l’espace prise par la NASA, accompagnée d’une explication traduite automatiquement en français. C’est un projet que j’ai adoré développer, car il m’a permis de plonger dans le monde de l’astronomie tout en explorant de nouvelles technologies.\n\n✨ Fonctionnalités principales\n🌌 Une nouvelle photo de l’univers chaque jour\n📅 Sélecteur de date pour explorer les images passées\n🇫🇷 Traduction automatique des textes en français\n📱 Interface responsive adaptée à tous les écrans\n🎨 Design moderne avec des dégradés cosmiques\n⚡ Chargement rapide et navigation fluide\n\n🛠️ Ce que j’ai découvert\nJ’ai vraiment apprécié créer ce projet, car il m’a permis de découvrir **Tailwind CSS**, un outil que j’ai trouvé à la fois puissant et agréable pour styliser rapidement l’interface.\n\nJ’ai aussi mis en place mes premières **fonctions serverless** avec **Vercel**, ce qui m’a ouvert de nouvelles possibilités côté backend, sans avoir à gérer un serveur complet.\n\n💡 Bilan\nStarSnap est un projet qui m’a non seulement permis de m’améliorer techniquement, mais aussi de m’amuser avec un sujet passionnant. C’était un excellent moyen d’approfondir React, TypeScript et de comprendre comment intégrer des services externes comme l’API de la NASA ou un traducteur automatique, tout en gardant une bonne performance et une belle expérience utilisateur."
     },
     {
         "id": "05",
-        "imagePortrait" : "/assets/images/ImagesPortrait/RP_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/RP_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/RP/RP_slide01.png",
-                "alt":"image de mon projet RP 1"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide01.png",
+                "alt": "image de mon projet RP 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/RP/RP_slide02.png",
-                "alt":"image de mon projet RP 2"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide02.png",
+                "alt": "image de mon projet RP 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/RP/RP_slide03.png",
-                "alt":"image de mon projet RP 3"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide03.png",
+                "alt": "image de mon projet RP 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/RP/RP_slide04.png",
-                "alt":"image de mon projet RP 4"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide04.png",
+                "alt": "image de mon projet RP 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/RP/RP_slide05.png",
-                "alt":"image de mon projet RP 5"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide05.png",
+                "alt": "image de mon projet RP 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/RP/RP_slide06.png",
-                "alt":"image de mon projet RP 6"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide06.png",
+                "alt": "image de mon projet RP 6"
             },
             {
-                "src":"/assets/images/ImagesSlide/RP/RP_slide07.png",
-                "alt":"image de mon projet RP 7"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide07.png",
+                "alt": "image de mon projet RP 7"
             },
             {
-                "src":"/assets/images/ImagesSlide/RP/RP_slide08.png",
-                "alt":"image de mon projet RP 8"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide08.png",
+                "alt": "image de mon projet RP 8"
             }
         ],
-        "tags" : [{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#HTML/CSS", "style":"#000"} ],
-        "title" : "RéviPermis",
+        "tags": [
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            }
+        ],
+        "title": "RéviPermis",
         "describe": "Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.",
         "link": "https://r-vi-permis.vercel.app",
-        "linkGit": "https://github.com/OliviaG-dev/R-viPermis", 
-        "text" : "📝 RéviPermis\n\nRéviPermis est une application web moderne développée avec React, TypeScript et CSS, conçue pour aider à réviser efficacement les 100 questions officielles du permis de conduire français. Ce projet a été réalisé au moment où je passais moi-même le permis, ce qui m’a permis d’allier apprentissage personnel et montée en compétences techniques. Une expérience à la fois utile, formatrice et motivante.\n\n🚀 Fonctionnement de l'application\n\nL'application propose deux modes complémentaires pour faciliter la révision :\n\n- **Mode Révision** : navigation fluide, affichage d'images, réponses multiples, filtres par catégories.\n- **Mode Quiz** : QCM interactif, progression visuelle, statistiques en temps réel, résultats détaillés.\n\n🧩 Architecture & Technologies\n\nLe projet repose sur une architecture front-end modulaire, performante et maintenable, incluant :\n\n- **React 19** + **TypeScript strict**\n- **React Router DOM 7** pour la navigation\n- **Vite** pour un développement rapide et un build optimisé\n- **Hooks personnalisés**, composants réutilisables et organisation modulaire\n- **Lazy loading** & **code splitting** pour des performances optimales\n- **UI responsive** avec support du **mode sombre**\n- **Parsing automatisé** du PDF officiel via des scripts Node.js\n\n🎯 Points d'attention & qualité\n\nUne attention particulière a été portée sur :\n\n- **La qualité du code** : ESLint, typage strict, structure propre\n- **La performance** : optimisation du bundle, HMR rapide, loading dynamique\n- **L'expérience utilisateur** : animations, ergonomie, interface claire et agréable\n- **La gestion des données** : 100 questions structurées, catégories, réponses multiples, images associées\n\n✨ Ce que ce projet m’a apporté\n\nCe projet m’a permis de renforcer mes compétences en **React**, **TypeScript**, **gestion d’état**, **logique métier avancée** et **architecture front-end scalable**. Travailler sur un outil que j’utilisais moi-même a été très motivant et m’a permis de concevoir une application utile, intuitive et techniquement solide."
+        "linkGit": "https://github.com/OliviaG-dev/R-viPermis",
+        "text": "📝 RéviPermis\n\nRéviPermis est une application web moderne développée avec React, TypeScript et CSS, conçue pour aider à réviser efficacement les 100 questions officielles du permis de conduire français. Ce projet a été réalisé au moment où je passais moi-même le permis, ce qui m’a permis d’allier apprentissage personnel et montée en compétences techniques. Une expérience à la fois utile, formatrice et motivante.\n\n🚀 Fonctionnement de l'application\n\nL'application propose deux modes complémentaires pour faciliter la révision :\n\n- **Mode Révision** : navigation fluide, affichage d'images, réponses multiples, filtres par catégories.\n- **Mode Quiz** : QCM interactif, progression visuelle, statistiques en temps réel, résultats détaillés.\n\n🧩 Architecture & Technologies\n\nLe projet repose sur une architecture front-end modulaire, performante et maintenable, incluant :\n\n- **React 19** + **TypeScript strict**\n- **React Router DOM 7** pour la navigation\n- **Vite** pour un développement rapide et un build optimisé\n- **Hooks personnalisés**, composants réutilisables et organisation modulaire\n- **Lazy loading** & **code splitting** pour des performances optimales\n- **UI responsive** avec support du **mode sombre**\n- **Parsing automatisé** du PDF officiel via des scripts Node.js\n\n🎯 Points d'attention & qualité\n\nUne attention particulière a été portée sur :\n\n- **La qualité du code** : ESLint, typage strict, structure propre\n- **La performance** : optimisation du bundle, HMR rapide, loading dynamique\n- **L'expérience utilisateur** : animations, ergonomie, interface claire et agréable\n- **La gestion des données** : 100 questions structurées, catégories, réponses multiples, images associées\n\n✨ Ce que ce projet m’a apporté\n\nCe projet m’a permis de renforcer mes compétences en **React**, **TypeScript**, **gestion d’état**, **logique métier avancée** et **architecture front-end scalable**. Travailler sur un outil que j’utilisais moi-même a été très motivant et m’a permis de concevoir une application utile, intuitive et techniquement solide."
     },
     {
         "id": "06",
-        "imagePortrait" : "/assets/images/ImagesPortrait/SL_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/SL_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide01.png",
-                "alt":"image de mon projet SkillLoop 1"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide01.png",
+                "alt": "image de mon projet SkillLoop 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide02.png",
-                "alt":"image de mon projet SkillLoop 2"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide02.png",
+                "alt": "image de mon projet SkillLoop 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide03.png",
-                "alt":"image de mon projet SkillLoop 3"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide03.png",
+                "alt": "image de mon projet SkillLoop 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide04.png",
-                "alt":"image de mon projet SkillLoop 4"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide04.png",
+                "alt": "image de mon projet SkillLoop 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide05.png",
-                "alt":"image de mon projet SkillLoop 5"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide05.png",
+                "alt": "image de mon projet SkillLoop 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide06.png",
-                "alt":"image de mon projet SkillLoop 6"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide06.png",
+                "alt": "image de mon projet SkillLoop 6"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide07.png",
-                "alt":"image de mon projet SkillLoop 7"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide07.png",
+                "alt": "image de mon projet SkillLoop 7"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide08.png",
-                "alt":"image de mon projet SkillLoop 8"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide08.png",
+                "alt": "image de mon projet SkillLoop 8"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide09.png",
-                "alt":"image de mon projet SkillLoop 9"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide09.png",
+                "alt": "image de mon projet SkillLoop 9"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide10.png",
-                "alt":"image de mon projet SkillLoop 10"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide10.png",
+                "alt": "image de mon projet SkillLoop 10"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide11.png",
-                "alt":"image de mon projet SkillLoop 11"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide11.png",
+                "alt": "image de mon projet SkillLoop 11"
             },
             {
-                "src":"/assets/images/ImagesSlide/SL/SL_slide12.png",
-                "alt":"image de mon projet SkillLoop 12"
+                "src": "/assets/images/ImagesSlide/SL/SL_slide12.png",
+                "alt": "image de mon projet SkillLoop 12"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
-        "title" : "SkillLoop",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "SkillLoop",
         "describe": "Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables.",
         "link": "https://skill-loop-five.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/SkillLoop",
-        "text" : "🔁 SkillLoop – Apprendre, pratiquer, progresser\n\nSkillLoop est une application de formation moderne conçue pour transformer l’apprentissage en un **cycle continu de pratique et d’amélioration**. L’objectif n’est pas de consommer du contenu passivement, mais de progresser activement grâce à des sessions quotidiennes structurées, mesurables et motivantes.\n\nChaque formation est organisée en parcours clairs, découpés en **loops journalières**, avec des objectifs précis, des exercices concrets, des ressources ciblées et un système de progression basé sur l’XP, les niveaux et les badges 🎮✨.\n\nCe projet a été développé rapidement grâce à une architecture claire et maîtrisée, ce qui m’a permis de rester très productif tout en maintenant un haut niveau de qualité. Cette efficacité de développement reflète une **bonne maîtrise de l’écosystème React moderne**, un point particulièrement attractif dans un contexte professionnel.\n\n🎯 Fonctionnalités principales :\n- 🏠 Page d’accueil immersive présentant les formations disponibles\n- 📚 Dashboard central listant toutes les formations avec statistiques globales\n- 📊 Dashboards dédiés par formation avec thème de couleur dynamique\n- 📅 Sessions quotidiennes (LoopDay) avec checklist interactive des exercices\n- 📝 Système de débrief : notes personnelles, insights et questions\n- 🎮 Gamification complète : XP, niveaux, badges et bonus de complétion\n- 💾 Persistance locale de la progression via LocalStorage\n- 🔗 Navigation fluide et deep linking avec React Router\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour une interface moderne et performante\n- 🧩 **TypeScript** pour un typage strict et une meilleure maintenabilité\n- ⚡ **Vite** pour un développement rapide et des builds optimisés\n- 🧠 **Zustand** pour une gestion d’état légère, performante et persistée\n- 💾 **LocalStorage** pour la sauvegarde de la progression utilisateur\n- 🎨 Interface moderne, responsive, avec animations fluides et thèmes dynamiques\n\n✨ Ce que ce projet m’a apporté\n\nSkillLoop m’a permis de renforcer ma maîtrise de **React**, **TypeScript** et de la **gestion d’état complexe**, tout en travaillant sur une logique produit aboutie (progression, gamification, motivation utilisateur). Le développement rapide et structuré de ce projet démontre ma capacité à concevoir des applications complètes, lisibles et évolutives, avec une approche efficace et professionnelle.\n\nCe projet constitue un excellent exemple de ma capacité à livrer rapidement une application robuste, bien pensée et techniquement solide — un atout clair pour un recruteur."
+        "text": "🔁 SkillLoop – Apprendre, pratiquer, progresser\n\nSkillLoop est une application de formation moderne conçue pour transformer l’apprentissage en un **cycle continu de pratique et d’amélioration**. L’objectif n’est pas de consommer du contenu passivement, mais de progresser activement grâce à des sessions quotidiennes structurées, mesurables et motivantes.\n\nChaque formation est organisée en parcours clairs, découpés en **loops journalières**, avec des objectifs précis, des exercices concrets, des ressources ciblées et un système de progression basé sur l’XP, les niveaux et les badges 🎮✨.\n\nCe projet a été développé rapidement grâce à une architecture claire et maîtrisée, ce qui m’a permis de rester très productif tout en maintenant un haut niveau de qualité. Cette efficacité de développement reflète une **bonne maîtrise de l’écosystème React moderne**, un point particulièrement attractif dans un contexte professionnel.\n\n🎯 Fonctionnalités principales :\n- 🏠 Page d’accueil immersive présentant les formations disponibles\n- 📚 Dashboard central listant toutes les formations avec statistiques globales\n- 📊 Dashboards dédiés par formation avec thème de couleur dynamique\n- 📅 Sessions quotidiennes (LoopDay) avec checklist interactive des exercices\n- 📝 Système de débrief : notes personnelles, insights et questions\n- 🎮 Gamification complète : XP, niveaux, badges et bonus de complétion\n- 💾 Persistance locale de la progression via LocalStorage\n- 🔗 Navigation fluide et deep linking avec React Router\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour une interface moderne et performante\n- 🧩 **TypeScript** pour un typage strict et une meilleure maintenabilité\n- ⚡ **Vite** pour un développement rapide et des builds optimisés\n- 🧠 **Zustand** pour une gestion d’état légère, performante et persistée\n- 💾 **LocalStorage** pour la sauvegarde de la progression utilisateur\n- 🎨 Interface moderne, responsive, avec animations fluides et thèmes dynamiques\n\n✨ Ce que ce projet m’a apporté\n\nSkillLoop m’a permis de renforcer ma maîtrise de **React**, **TypeScript** et de la **gestion d’état complexe**, tout en travaillant sur une logique produit aboutie (progression, gamification, motivation utilisateur). Le développement rapide et structuré de ce projet démontre ma capacité à concevoir des applications complètes, lisibles et évolutives, avec une approche efficace et professionnelle.\n\nCe projet constitue un excellent exemple de ma capacité à livrer rapidement une application robuste, bien pensée et techniquement solide — un atout clair pour un recruteur."
     },
     {
         "id": "07",
-        "imagePortrait" : "/assets/images/ImagesPortrait/PP_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/PP_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/PP/PP_slide01.png",
-                "alt":"image de mon projet Pick&Play 1"
+                "src": "/assets/images/ImagesSlide/PP/PP_slide01.png",
+                "alt": "image de mon projet Pick&Play 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/PP/PP_slide02.png",
-                "alt":"image de mon projet Pick&Play 2"
+                "src": "/assets/images/ImagesSlide/PP/PP_slide02.png",
+                "alt": "image de mon projet Pick&Play 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/PP/PP_slide03.png",
-                "alt":"image de mon projet Pick&Play 3"
+                "src": "/assets/images/ImagesSlide/PP/PP_slide03.png",
+                "alt": "image de mon projet Pick&Play 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/PP/PP_slide04.png",
-                "alt":"image de mon projet Pick&Play 4"
+                "src": "/assets/images/ImagesSlide/PP/PP_slide04.png",
+                "alt": "image de mon projet Pick&Play 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/PP/PP_slide05.png",
-                "alt":"image de mon projet Pick&Play 5"
+                "src": "/assets/images/ImagesSlide/PP/PP_slide05.png",
+                "alt": "image de mon projet Pick&Play 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/PP/PP_slide06.png",
-                "alt":"image de mon projet Pick&Play 6"
+                "src": "/assets/images/ImagesSlide/PP/PP_slide06.png",
+                "alt": "image de mon projet Pick&Play 6"
             },
             {
-                "src":"/assets/images/ImagesSlide/PP/PP_slide07.png",
-                "alt":"image de mon projet Pick&Play 7"
+                "src": "/assets/images/ImagesSlide/PP/PP_slide07.png",
+                "alt": "image de mon projet Pick&Play 7"
             },
             {
-                "src":"/assets/images/ImagesSlide/PP/PP_slide08.png",
-                "alt":"image de mon projet Pick&Play 8"
+                "src": "/assets/images/ImagesSlide/PP/PP_slide08.png",
+                "alt": "image de mon projet Pick&Play 8"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#REACT", "style":"#237C03"} ],
-        "title" : "Pick&Play",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            }
+        ],
+        "title": "Pick&Play",
         "describe": "Une app qui permet de centraliser, trier et découvrir tes films, séries et livres grâce à une interface intuitive en drag & drop.",
         "link": "https://pick-and-play-psi.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Pick-and-Play",
-        "text" : "🎬 Pick&Play – Organiser ses loisirs par le geste\n\nPick&Play est une application web interactive dédiée à l’organisation de contenus culturels : films, séries et livres. Pensée comme une bibliothèque personnelle moderne, elle permet de classer et déplacer ses contenus entre différentes listes à l’aide d’un simple glisser-déposer, dans une interface fluide et élégante.\n\n🧠 Ce projet marque **ma première implémentation complète d’un système de drag-and-drop** en production. Il m’a permis de comprendre en profondeur les mécaniques de déplacement, de tri, de gestion d’état et d’accessibilité, tout en conservant une expérience utilisateur intuitive et agréable.\n\n🎯 Fonctionnalités principales :\n- 🎯 Organisation des contenus par glisser-déposer entre listes personnalisées\n- 📋 Gestion de listes \"À voir\", \"Favoris\" et \"Recommandés\"\n- 🎭 Support multi-contenus : films, séries et livres\n- 📚 Bibliothèque interactive dédiée au tri et à la visualisation\n- 🔄 Navigation fluide entre les pages de l’application\n- ♿ Drag-and-drop accessible au clavier grâce à @dnd-kit\n- 🎨 Animations élégantes et transitions fluides\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour la construction de l’interface\n- 🧩 **TypeScript** pour un typage strict et une logique fiable\n- ⚡ **Vite** pour un développement rapide et des builds optimisés\n- 🖱️ **@dnd-kit** (core, sortable, modifiers) pour le drag-and-drop moderne et accessible\n- 💾 **localStorage** pour la persistance des données côté client\n- 🎨 CSS personnalisé pour les animations et l’identité visuelle\n\n✨ Ce que ce projet m’a apporté\n\nPick&Play a été une étape clé dans mon parcours front-end : il m’a permis de **maîtriser pour la première fois le drag-and-drop**, d’en comprendre les enjeux UX et techniques (gestion des collisions, réorganisation dynamique, accessibilité clavier) et de l’intégrer proprement dans une architecture React typée.\n\nCe projet démontre ma capacité à aborder une nouvelle problématique technique, à l’apprendre rapidement et à la transformer en une fonctionnalité concrète, stable et orientée utilisateur."
+        "text": "🎬 Pick&Play – Organiser ses loisirs par le geste\n\nPick&Play est une application web interactive dédiée à l’organisation de contenus culturels : films, séries et livres. Pensée comme une bibliothèque personnelle moderne, elle permet de classer et déplacer ses contenus entre différentes listes à l’aide d’un simple glisser-déposer, dans une interface fluide et élégante.\n\n🧠 Ce projet marque **ma première implémentation complète d’un système de drag-and-drop** en production. Il m’a permis de comprendre en profondeur les mécaniques de déplacement, de tri, de gestion d’état et d’accessibilité, tout en conservant une expérience utilisateur intuitive et agréable.\n\n🎯 Fonctionnalités principales :\n- 🎯 Organisation des contenus par glisser-déposer entre listes personnalisées\n- 📋 Gestion de listes \"À voir\", \"Favoris\" et \"Recommandés\"\n- 🎭 Support multi-contenus : films, séries et livres\n- 📚 Bibliothèque interactive dédiée au tri et à la visualisation\n- 🔄 Navigation fluide entre les pages de l’application\n- ♿ Drag-and-drop accessible au clavier grâce à @dnd-kit\n- 🎨 Animations élégantes et transitions fluides\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour la construction de l’interface\n- 🧩 **TypeScript** pour un typage strict et une logique fiable\n- ⚡ **Vite** pour un développement rapide et des builds optimisés\n- 🖱️ **@dnd-kit** (core, sortable, modifiers) pour le drag-and-drop moderne et accessible\n- 💾 **localStorage** pour la persistance des données côté client\n- 🎨 CSS personnalisé pour les animations et l’identité visuelle\n\n✨ Ce que ce projet m’a apporté\n\nPick&Play a été une étape clé dans mon parcours front-end : il m’a permis de **maîtriser pour la première fois le drag-and-drop**, d’en comprendre les enjeux UX et techniques (gestion des collisions, réorganisation dynamique, accessibilité clavier) et de l’intégrer proprement dans une architecture React typée.\n\nCe projet démontre ma capacité à aborder une nouvelle problématique technique, à l’apprendre rapidement et à la transformer en une fonctionnalité concrète, stable et orientée utilisateur."
     },
     {
         "id": "08",
-        "imagePortrait" : "/assets/images/ImagesPortrait/MP_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/MP_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/MP/MP_slide01.png",
-                "alt":"image de mon projet MP 1"
+                "src": "/assets/images/ImagesSlide/MP/MP_slide01.png",
+                "alt": "image de mon projet MP 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/MP/MP_slide02.png",
-                "alt":"image de mon projet MP 2"
+                "src": "/assets/images/ImagesSlide/MP/MP_slide02.png",
+                "alt": "image de mon projet MP 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/MP/MP_slide03.png",
-                "alt":"image de mon projet MP 3"
+                "src": "/assets/images/ImagesSlide/MP/MP_slide03.png",
+                "alt": "image de mon projet MP 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/MP/MP_slide04.png",
-                "alt":"image de mon projet MP 4"
+                "src": "/assets/images/ImagesSlide/MP/MP_slide04.png",
+                "alt": "image de mon projet MP 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/MP/MP_slide05.png",
-                "alt":"image de mon projet MP 5"
+                "src": "/assets/images/ImagesSlide/MP/MP_slide05.png",
+                "alt": "image de mon projet MP 5"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#REACT", "style":"#237C03"} ],
-        "title" : "MapPermis",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            }
+        ],
+        "title": "MapPermis",
         "describe": "Trace ton parcours. Maîtrise la route. Réussis ton permis. MapPermis rend la préparation simple, claire et motivante.",
         "link": "https://map-permis.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/MapPermis",
-        "text" : "MapPermis est une application web de cartographie interactive développée avec React, TypeScript et Leaflet, destinée à créer, éditer et visualiser des parcours d'entraînement au permis de conduire. Ce projet a été l'occasion de concevoir un outil immersif et pédagogique permettant aux candidats de comprendre les trajets d’examen, repérer les difficultés et s’exercer comme en conditions réelles.\n\nL'expérience cartographique a été entièrement personnalisée grâce à l'intégration avancée de Leaflet Draw, la création de marqueurs thématiques, et l'ajout d'une recherche géographique intelligente basée sur l’API OpenStreetMap Nominatim. Ce projet a renforcé mon expertise en cartographie web, UX, gestion de données géographiques et développement front-end moderne.\n\n🎯 Ce que j'ai développé\n\n🗺️ **Cartographie avancée (Leaflet + React-Leaflet)**\n- Intégration complète de Leaflet et React-Leaflet\n- Personnalisation du plugin Leaflet-Draw pour permettre :\n  - Le dessin de tracés (polylines)\n  - L’édition avancée : déplacement, ajout et suppression de points\n  - Le verrouillage/déverrouillage intelligent des modifications\n\n📍 **Marqueurs personnalisés**\n- Création de 4 marqueurs thématiques :\n  - Priorité à droite\n  - Stop\n  - Zone 30\n  - Fin de zone 30\n- Marqueurs stylisés sur mesure et intégrés à une barre d’outils moderne\n\n🔍 **Recherche géographique intelligente**\n- Intégration de Nominatim (OpenStreetMap) pour le géocodage\n- Suggestions dynamiques en temps réel\n- Debounce automatique et centrage de la carte\n- Remplissage automatique des champs du formulaire\n\n✨ **UX / UI & expérience utilisateur**\n- Interface moderne et responsive\n- Barre d’outils entièrement personnalisée\n- Popups d’alertes sur mesure (sans alertes natives)\n- Animations fluides et transitions cohérentes\n- Système de confirmation pour les actions critiques\n- Mode lecture seule pour réviser les parcours en sécurité\n\n💾 **Gestion des parcours**\n- Création, modification, suppression et visualisation des trajets\n- Enregistrement local (LocalStorage) avec verrouillage de carte\n- Aperçu visuel clair des itinéraires sauvegardés\n\n🛠️ Technologies utilisées\n\n**Frontend & Cartographie**\n- React 19\n- TypeScript\n- React Router\n- Leaflet\n- React-Leaflet\n- Leaflet-Draw\n\n**Géocodage**\n- OpenStreetMap Nominatim API\n\n**Autres aspects techniques**\n- Hooks personnalisés\n- Gestion d'état via composants spécialisés\n- Architecture modulaire et réutilisable\n- Responsive design + animations CSS\n\n🚀 Ce que ce projet m’a apporté\n\nCe projet m’a permis d’acquérir une solide expérience en cartographie web, manipulation d’API géographiques et personnalisation avancée de Leaflet. Il a renforcé ma maîtrise de React et TypeScript, ainsi que mes compétences en UX, en gestion d’interactions complexes (dessin, édition, drag & drop, alertes personnalisées), et en architecture front-end structurée et évolutive. Une expérience complète, technique et passionnante."
+        "text": "MapPermis est une application web de cartographie interactive développée avec React, TypeScript et Leaflet, destinée à créer, éditer et visualiser des parcours d'entraînement au permis de conduire. Ce projet a été l'occasion de concevoir un outil immersif et pédagogique permettant aux candidats de comprendre les trajets d’examen, repérer les difficultés et s’exercer comme en conditions réelles.\n\nL'expérience cartographique a été entièrement personnalisée grâce à l'intégration avancée de Leaflet Draw, la création de marqueurs thématiques, et l'ajout d'une recherche géographique intelligente basée sur l’API OpenStreetMap Nominatim. Ce projet a renforcé mon expertise en cartographie web, UX, gestion de données géographiques et développement front-end moderne.\n\n🎯 Ce que j'ai développé\n\n🗺️ **Cartographie avancée (Leaflet + React-Leaflet)**\n- Intégration complète de Leaflet et React-Leaflet\n- Personnalisation du plugin Leaflet-Draw pour permettre :\n  - Le dessin de tracés (polylines)\n  - L’édition avancée : déplacement, ajout et suppression de points\n  - Le verrouillage/déverrouillage intelligent des modifications\n\n📍 **Marqueurs personnalisés**\n- Création de 4 marqueurs thématiques :\n  - Priorité à droite\n  - Stop\n  - Zone 30\n  - Fin de zone 30\n- Marqueurs stylisés sur mesure et intégrés à une barre d’outils moderne\n\n🔍 **Recherche géographique intelligente**\n- Intégration de Nominatim (OpenStreetMap) pour le géocodage\n- Suggestions dynamiques en temps réel\n- Debounce automatique et centrage de la carte\n- Remplissage automatique des champs du formulaire\n\n✨ **UX / UI & expérience utilisateur**\n- Interface moderne et responsive\n- Barre d’outils entièrement personnalisée\n- Popups d’alertes sur mesure (sans alertes natives)\n- Animations fluides et transitions cohérentes\n- Système de confirmation pour les actions critiques\n- Mode lecture seule pour réviser les parcours en sécurité\n\n💾 **Gestion des parcours**\n- Création, modification, suppression et visualisation des trajets\n- Enregistrement local (LocalStorage) avec verrouillage de carte\n- Aperçu visuel clair des itinéraires sauvegardés\n\n🛠️ Technologies utilisées\n\n**Frontend & Cartographie**\n- React 19\n- TypeScript\n- React Router\n- Leaflet\n- React-Leaflet\n- Leaflet-Draw\n\n**Géocodage**\n- OpenStreetMap Nominatim API\n\n**Autres aspects techniques**\n- Hooks personnalisés\n- Gestion d'état via composants spécialisés\n- Architecture modulaire et réutilisable\n- Responsive design + animations CSS\n\n🚀 Ce que ce projet m’a apporté\n\nCe projet m’a permis d’acquérir une solide expérience en cartographie web, manipulation d’API géographiques et personnalisation avancée de Leaflet. Il a renforcé ma maîtrise de React et TypeScript, ainsi que mes compétences en UX, en gestion d’interactions complexes (dessin, édition, drag & drop, alertes personnalisées), et en architecture front-end structurée et évolutive. Une expérience complète, technique et passionnante."
     },
     {
         "id": "09",
-        "imagePortrait" : "/assets/images/ImagesPortrait/BO_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/BO_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/BO/BO_slide01.png",
-                "alt":"image de mon projet Booksy 1"
+                "src": "/assets/images/ImagesSlide/BO/BO_slide01.png",
+                "alt": "image de mon projet Booksy 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/BO/BO_slide02.png",
-                "alt":"image de mon projet Booksy 2"
+                "src": "/assets/images/ImagesSlide/BO/BO_slide02.png",
+                "alt": "image de mon projet Booksy 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/BO/BO_slide03.png",
-                "alt":"image de mon projet Booksy 3"
+                "src": "/assets/images/ImagesSlide/BO/BO_slide03.png",
+                "alt": "image de mon projet Booksy 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/BO/BO_slide04.png",
-                "alt":"image de mon projet Booksy 4"
+                "src": "/assets/images/ImagesSlide/BO/BO_slide04.png",
+                "alt": "image de mon projet Booksy 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/BO/BO_slide05.png",
-                "alt":"image de mon projet Booksy 5"
+                "src": "/assets/images/ImagesSlide/BO/BO_slide05.png",
+                "alt": "image de mon projet Booksy 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/BO/BO_slide06.png",
-                "alt":"image de mon projet Booksy 6"
+                "src": "/assets/images/ImagesSlide/BO/BO_slide06.png",
+                "alt": "image de mon projet Booksy 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#VUEJS", "style":"#e9503f"}, {"item":"#SUPABASE", "style":"#4A90E2"} ],
-        "title" : "Booksy",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#VUEJS",
+                "style": "#e9503f"
+            },
+            {
+                "item": "#SUPABASE",
+                "style": "#4A90E2"
+            }
+        ],
+        "title": "Booksy",
         "describe": "Ici, on partage les livres qui nous ont fait vibrer, réfléchir, pleurer ou rêver.",
         "link": "https://booksy-navy.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Booksy",
-        "text" : "📚 Booksy — Le mur collaboratif de recommandations de livres\n\nBooksy est une application web où chaque lecteur peut partager ses coups de cœur littéraires, explorer les recommandations des autres, et trouver l'inspiration pour sa prochaine lecture. Pas d'algorithme, pas de pub, juste des vraies recommandations humaines !\n\nCe projet a été mon **premier développement avec Vue.js et Supabase**, me permettant de découvrir l'écosystème Vue 3 et une base de données en temps réel avec Supabase.\n\n🚀 Fonctionnalités principales\n🏷️ Filtre par genre : Affiche uniquement les livres du genre qui t'intéresse (roman, fantasy, polar, etc.)\n❤️ Like sur les livres : Like ou retire ton like sur chaque recommandation\n🔢 Tri dynamique : Trie les livres par nombre de likes ou par nom (A-Z, Z-A)\n📄 Pagination : Parcours les livres page par page (6 par page)\n🖼️ UI moderne : Design responsive, tags colorés, animations sur les likes\n✍️ Ajout de recommandations : Propose facilement un nouveau livre à la communauté\n\n🛠️ Technologies utilisées\n- Vue 3 ⚡ (Composition API, Single File Components)\n- TypeScript\n- Vite : Serveur de développement ultra-rapide\n- Supabase : Base de données PostgreSQL + API en temps réel\n- pnpm : Gestionnaire de paquets rapide\n- CSS moderne : Flexbox, Grid, responsive design et animations"
+        "text": "📚 Booksy — Le mur collaboratif de recommandations de livres\n\nBooksy est une application web où chaque lecteur peut partager ses coups de cœur littéraires, explorer les recommandations des autres, et trouver l'inspiration pour sa prochaine lecture. Pas d'algorithme, pas de pub, juste des vraies recommandations humaines !\n\nCe projet a été mon **premier développement avec Vue.js et Supabase**, me permettant de découvrir l'écosystème Vue 3 et une base de données en temps réel avec Supabase.\n\n🚀 Fonctionnalités principales\n🏷️ Filtre par genre : Affiche uniquement les livres du genre qui t'intéresse (roman, fantasy, polar, etc.)\n❤️ Like sur les livres : Like ou retire ton like sur chaque recommandation\n🔢 Tri dynamique : Trie les livres par nombre de likes ou par nom (A-Z, Z-A)\n📄 Pagination : Parcours les livres page par page (6 par page)\n🖼️ UI moderne : Design responsive, tags colorés, animations sur les likes\n✍️ Ajout de recommandations : Propose facilement un nouveau livre à la communauté\n\n🛠️ Technologies utilisées\n- Vue 3 ⚡ (Composition API, Single File Components)\n- TypeScript\n- Vite : Serveur de développement ultra-rapide\n- Supabase : Base de données PostgreSQL + API en temps réel\n- pnpm : Gestionnaire de paquets rapide\n- CSS moderne : Flexbox, Grid, responsive design et animations"
     },
     {
         "id": "10",
-        "imagePortrait" : "/assets/images/ImagesPortrait/RSAPI_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/RSAPI_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide01.png",
-                "alt":"image de mon projet RandomSims API 1"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide01.png",
+                "alt": "image de mon projet RandomSims API 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide02.png",
-                "alt":"image de mon projet RandomSims API 2"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide02.png",
+                "alt": "image de mon projet RandomSims API 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide03.png",
-                "alt":"image de mon projet RandomSims API 3"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide03.png",
+                "alt": "image de mon projet RandomSims API 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide04.png",
-                "alt":"image de mon projet RandomSims API 4"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide04.png",
+                "alt": "image de mon projet RandomSims API 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide05.png",
-                "alt":"image de mon projet RandomSims API 5"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide05.png",
+                "alt": "image de mon projet RandomSims API 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide06.png",
-                "alt":"image de mon projet RandomSims API 6"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide06.png",
+                "alt": "image de mon projet RandomSims API 6"
             }
         ],
-        "tags" : [{"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#NODEJS", "style":"#be8110"}],
-        "title" : "RandomSims API",
+        "tags": [
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#NODEJS",
+                "style": "#be8110"
+            }
+        ],
+        "title": "RandomSims API",
         "describe": "Une API pour RandomSims, qui permet de récupérer des défis aléatoires pour Les Sims 4.",
         "link": "https://random-sims.vercel.app/",
-        "linkGit": "https://github.com/OliviaG-dev/RandomSims-API", 
-        "text" : "🎮 RandomSims-API\n\nUne API RESTful pour le jeu *The Sims 4* qui permet de randomiser différents aspects du gameplay comme les aspirations, les traits, les défis et bien plus encore !\n\n🌟 Fonctionnalités :\n- 🎯 Aspirations – Gestion des aspirations de vie\n- 🎭 Traits – Collection de traits de personnalité\n- 🏢 Métiers – Liste des carrières disponibles\n- 🗺️ Maps – Sélection des mondes du jeu\n- 🎨 Couleurs – Palette de couleurs pour la personnalisation\n- 🏆 Défis – Collection de défis de jeu\n- 🌍 Défis Terrain – Défis spécifiques aux terrains\n- 🎯 Préférences de Tueur – Options pour les joueurs maléfiques 😈\n- 🌱 Traits de Terrain – Caractéristiques des terrains\n\n📡 Endpoints API :\n- `GET /data/aspiration` – Liste des aspirations\n- `GET /data/trait` – Liste des traits\n- `GET /data/job` – Liste des métiers\n- `GET /data/map` – Liste des maps\n- `GET /data/color` – Liste des couleurs\n- `GET /data/challenge` – Liste des défis\n- `GET /data/defiTerrain` – Liste des défis terrain\n- `GET /data/prefTue` – Liste des préférences de tueur\n- `GET /data/traitTerrain` – Liste des traits de terrain\n\n💡 Ce projet m'a permis de renforcer mes compétences en développement d'API avec **Express.js** et **TypeScript**, tout en améliorant ma rigueur sur la structuration de données et la documentation d'API REST. Il m'a également sensibilisé à la gestion des CORS et à la conception de routes claires et maintenables. Une expérience enrichissante à la croisée du code et de la créativité !\n\n🛠️ Technologies Utilisées :\n- ⚡ Express.js\n- 🔄 TypeScript\n- 🔒 CORS\n- 📦 Node.js"
+        "linkGit": "https://github.com/OliviaG-dev/RandomSims-API",
+        "text": "🎮 RandomSims-API\n\nUne API RESTful pour le jeu *The Sims 4* qui permet de randomiser différents aspects du gameplay comme les aspirations, les traits, les défis et bien plus encore !\n\n🌟 Fonctionnalités :\n- 🎯 Aspirations – Gestion des aspirations de vie\n- 🎭 Traits – Collection de traits de personnalité\n- 🏢 Métiers – Liste des carrières disponibles\n- 🗺️ Maps – Sélection des mondes du jeu\n- 🎨 Couleurs – Palette de couleurs pour la personnalisation\n- 🏆 Défis – Collection de défis de jeu\n- 🌍 Défis Terrain – Défis spécifiques aux terrains\n- 🎯 Préférences de Tueur – Options pour les joueurs maléfiques 😈\n- 🌱 Traits de Terrain – Caractéristiques des terrains\n\n📡 Endpoints API :\n- `GET /data/aspiration` – Liste des aspirations\n- `GET /data/trait` – Liste des traits\n- `GET /data/job` – Liste des métiers\n- `GET /data/map` – Liste des maps\n- `GET /data/color` – Liste des couleurs\n- `GET /data/challenge` – Liste des défis\n- `GET /data/defiTerrain` – Liste des défis terrain\n- `GET /data/prefTue` – Liste des préférences de tueur\n- `GET /data/traitTerrain` – Liste des traits de terrain\n\n💡 Ce projet m'a permis de renforcer mes compétences en développement d'API avec **Express.js** et **TypeScript**, tout en améliorant ma rigueur sur la structuration de données et la documentation d'API REST. Il m'a également sensibilisé à la gestion des CORS et à la conception de routes claires et maintenables. Une expérience enrichissante à la croisée du code et de la créativité !\n\n🛠️ Technologies Utilisées :\n- ⚡ Express.js\n- 🔄 TypeScript\n- 🔒 CORS\n- 📦 Node.js"
     },
     {
         "id": "11",
-        "imagePortrait" : "/assets/images/ImagesPortrait/IN_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/IN_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/IN/IN_slide01.png",
-                "alt":"image de mon projet ohmyfood 1"
+                "src": "/assets/images/ImagesSlide/IN/IN_slide01.png",
+                "alt": "image de mon projet ohmyfood 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/IN/IN_slide02.png",
-                "alt":"image de mon projet ohmyfood 2"
+                "src": "/assets/images/ImagesSlide/IN/IN_slide02.png",
+                "alt": "image de mon projet ohmyfood 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/IN/IN_slide03.png",
-                "alt":"image de mon projet ohmyfood 3"
+                "src": "/assets/images/ImagesSlide/IN/IN_slide03.png",
+                "alt": "image de mon projet ohmyfood 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/IN/IN_slide04.png",
-                "alt":"image de mon projet ohmyfood 4"
+                "src": "/assets/images/ImagesSlide/IN/IN_slide04.png",
+                "alt": "image de mon projet ohmyfood 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/IN/IN_slide05.png",
-                "alt":"image de mon projet ohmyfood 5"
+                "src": "/assets/images/ImagesSlide/IN/IN_slide05.png",
+                "alt": "image de mon projet ohmyfood 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/IN/IN_slide06.png",
-                "alt":"image de mon projet ohmyfood 6"
+                "src": "/assets/images/ImagesSlide/IN/IN_slide06.png",
+                "alt": "image de mon projet ohmyfood 6"
             }
         ],
-        "tags" : [{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#TAILWIND", "style":"#8B5CF6"}],
-        "title" : "Indicium",
+        "tags": [
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#TAILWIND",
+                "style": "#8B5CF6"
+            }
+        ],
+        "title": "Indicium",
         "describe": "Le tableau de bord électoral qui parle vrai. Visualise les résultats, compare les années en un clin d’œil.",
         "link": "https://indicium-nu.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Indicium",
-        "text" : "📊 Indicium est une application web moderne conçue pour visualiser et analyser les données électorales françaises de façon claire, interactive et accessible. Elle permet aux utilisateurs de consulter les taux de participation, les votes blancs/nuls, et d’explorer les résultats via graphiques dynamiques et cartes.\n\n🌙 Ce projet a été une étape importante dans ma progression avec **Tailwind CSS**. J’ai pris beaucoup de plaisir à concevoir un **mode sombre** harmonieux et élégant, en jouant sur les contrastes, les palettes, et les micro-interactions. C’était aussi l’occasion idéale pour approfondir ma maîtrise de Tailwind, notamment sur la gestion des thèmes, le responsive design, et l’organisation visuelle d’un dashboard complexe.\n\n💼 Compétences techniques démontrées :\n- ✅ **React 19** avec architecture modulaire\n- ✅ **TypeScript** strict pour fiabilité et lisibilité\n- ✅ **Tailwind CSS** pour un design moderne, responsive et maintenable\n- ✅ **Zustand** pour une gestion d’état légère et performante\n- ✅ **Recharts** et **React Simple Maps** pour la visualisation de données\n- ✅ **jsPDF** pour l’export automatisé de rapports PDF\n\n🚀 Fonctionnalités principales :\n- 🧭 **Dashboard interactif** avec KPIs (taux de participation, abstention, blancs/nuls)\n- 📊 **Graphiques dynamiques** (barres, lignes, cartes électorales)\n- 🧰 **Filtres intelligents** : par année, par tour d’élection\n- 🌓 **Mode sombre / clair** personnalisable\n- 📄 **Export PDF** automatique avec en-tête, filtres et KPIs formatés\n\n🎨 Design system :\n- 💡 Palette de couleurs adaptable (thème clair/sombre)\n- 🅰️ Typographie hiérarchisée et lisible\n- 🌀 Transitions fluides et animations légères\n- 📱 Responsive mobile-first, optimisé pour tous les formats d’écran\n\n💡 En résumé, Indicium m’a permis d’allier **rigueur technique** et **plaisir créatif**, notamment grâce à Tailwind CSS. J’y ai consolidé mes compétences en gestion d’état, en visualisation de données, et en design d’interface claire, accessible et professionnelle."
+        "text": "📊 Indicium est une application web moderne conçue pour visualiser et analyser les données électorales françaises de façon claire, interactive et accessible. Elle permet aux utilisateurs de consulter les taux de participation, les votes blancs/nuls, et d’explorer les résultats via graphiques dynamiques et cartes.\n\n🌙 Ce projet a été une étape importante dans ma progression avec **Tailwind CSS**. J’ai pris beaucoup de plaisir à concevoir un **mode sombre** harmonieux et élégant, en jouant sur les contrastes, les palettes, et les micro-interactions. C’était aussi l’occasion idéale pour approfondir ma maîtrise de Tailwind, notamment sur la gestion des thèmes, le responsive design, et l’organisation visuelle d’un dashboard complexe.\n\n💼 Compétences techniques démontrées :\n- ✅ **React 19** avec architecture modulaire\n- ✅ **TypeScript** strict pour fiabilité et lisibilité\n- ✅ **Tailwind CSS** pour un design moderne, responsive et maintenable\n- ✅ **Zustand** pour une gestion d’état légère et performante\n- ✅ **Recharts** et **React Simple Maps** pour la visualisation de données\n- ✅ **jsPDF** pour l’export automatisé de rapports PDF\n\n🚀 Fonctionnalités principales :\n- 🧭 **Dashboard interactif** avec KPIs (taux de participation, abstention, blancs/nuls)\n- 📊 **Graphiques dynamiques** (barres, lignes, cartes électorales)\n- 🧰 **Filtres intelligents** : par année, par tour d’élection\n- 🌓 **Mode sombre / clair** personnalisable\n- 📄 **Export PDF** automatique avec en-tête, filtres et KPIs formatés\n\n🎨 Design system :\n- 💡 Palette de couleurs adaptable (thème clair/sombre)\n- 🅰️ Typographie hiérarchisée et lisible\n- 🌀 Transitions fluides et animations légères\n- 📱 Responsive mobile-first, optimisé pour tous les formats d’écran\n\n💡 En résumé, Indicium m’a permis d’allier **rigueur technique** et **plaisir créatif**, notamment grâce à Tailwind CSS. J’y ai consolidé mes compétences en gestion d’état, en visualisation de données, et en design d’interface claire, accessible et professionnelle."
     },
     {
         "id": "12",
-        "imagePortrait" : "/assets/images/ImagesPortrait/LP-LOL_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/LP-LOL_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide01.png",
-                "alt":"image de mon projet ohmyfood 1"
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide01.png",
+                "alt": "image de mon projet ohmyfood 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide02.png",
-                "alt":"image de mon projet ohmyfood 2"
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide02.png",
+                "alt": "image de mon projet ohmyfood 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide03.png",
-                "alt":"image de mon projet ohmyfood 3"
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide03.png",
+                "alt": "image de mon projet ohmyfood 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide04.png",
-                "alt":"image de mon projet ohmyfood 4"
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide04.png",
+                "alt": "image de mon projet ohmyfood 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide05.png",
-                "alt":"image de mon projet ohmyfood 5"
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide05.png",
+                "alt": "image de mon projet ohmyfood 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide06.png",
-                "alt":"image de mon projet ohmyfood 6"
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide06.png",
+                "alt": "image de mon projet ohmyfood 6"
             }
         ],
-        "tags" : [{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#BOOTSTRAP", "style":"#9F1066"}],
-        "title" : "LP - LOL",
+        "tags": [
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#BOOTSTRAP",
+                "style": "#9F1066"
+            }
+        ],
+        "title": "LP - LOL",
         "describe": "Une app simple et sécurisée pour partager vos coordonnées personnelles avec vos proches, vos contacts professionnels.",
         "link": "",
         "linkGit": "",
-        "text" : "Pendant 6 mois, j'ai travaillé à distance au sein d'une équipe de 4 développeurs sur une application de partage sécurisé de données personnelles (adresse, mail, téléphone…).\n\n🛠️ Stack technique : React, TypeScript, NestJS (microservices), Ionic pour le mobile, et une version alternative en Symfony.\n\n📐 Design : maquettes sous Figma, wireframes & schémas avec Excalidraw.\n\n📌 Méthodo : suivi via YouTrack, versionning avec GitLab (branches dédiées), et LiveShare pour coder en équipe.\n\n📢 Communication fluide sur Discord.\n\nNotre plateforme permet aux utilisateurs de partager leurs infos de façon temporaire ou ciblée, selon les besoins (ex : envoi de colis, soirée, mariage…).\n\nCe projet m'a permis de renforcer mes compétences fullstack, de mieux appréhender les enjeux de sécurité et d'UX dans le partage de données personnelles. 🔐✨"
+        "text": "Pendant 6 mois, j'ai travaillé à distance au sein d'une équipe de 4 développeurs sur une application de partage sécurisé de données personnelles (adresse, mail, téléphone…).\n\n🛠️ Stack technique : React, TypeScript, NestJS (microservices), Ionic pour le mobile, et une version alternative en Symfony.\n\n📐 Design : maquettes sous Figma, wireframes & schémas avec Excalidraw.\n\n📌 Méthodo : suivi via YouTrack, versionning avec GitLab (branches dédiées), et LiveShare pour coder en équipe.\n\n📢 Communication fluide sur Discord.\n\nNotre plateforme permet aux utilisateurs de partager leurs infos de façon temporaire ou ciblée, selon les besoins (ex : envoi de colis, soirée, mariage…).\n\nCe projet m'a permis de renforcer mes compétences fullstack, de mieux appréhender les enjeux de sécurité et d'UX dans le partage de données personnelles. 🔐✨"
     },
     {
         "id": "13",
-        "imagePortrait" : "/assets/images/ImagesPortrait/PO_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/PO_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide01.png",
-                "alt":"image de mon projet Portfolio 1"
+                "src": "/assets/images/ImagesSlide/PO/PO_slide01.png",
+                "alt": "image de mon projet Portfolio 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide02.png",
-                "alt":"image de mon projet Portfolio 2"
+                "src": "/assets/images/ImagesSlide/PO/PO_slide02.png",
+                "alt": "image de mon projet Portfolio 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide03.png",
-                "alt":"image de mon projet Portfolio 3"
+                "src": "/assets/images/ImagesSlide/PO/PO_slide03.png",
+                "alt": "image de mon projet Portfolio 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide04.png",
-                "alt":"image de mon projet Portfolio 4"
+                "src": "/assets/images/ImagesSlide/PO/PO_slide04.png",
+                "alt": "image de mon projet Portfolio 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide05.png",
-                "alt":"image de mon projet Portfolio 5"
+                "src": "/assets/images/ImagesSlide/PO/PO_slide05.png",
+                "alt": "image de mon projet Portfolio 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/PO/PO_slide06.png",
-                "alt":"image de mon projet Portfolio 6"
+                "src": "/assets/images/ImagesSlide/PO/PO_slide06.png",
+                "alt": "image de mon projet Portfolio 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
-        "title" : "Portfolio",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "Portfolio",
         "describe": "Entre lignes de code et éclats de pixels, ce portfolio vous invite à voyager au cœur de mes créations numériques.",
         "link": "https://portfolio-react-ts-two.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Portfolio-react-ts",
-        "text" : "Bienvenue dans mon univers numérique. Ce portfolio est bien plus qu'une simple vitrine : c'est un espace interactif pensé pour refléter mon approche du développement web — moderne, soignée et tournée vers l'expérience utilisateur.\n\n⚙️ Conçu avec React.js, TypeScript et propulsé par Vite, il met en œuvre une architecture front-end performante, enrichie par un design responsive, des animations fluides ✨, et une navigation intuitive grâce à React Router. Le code est maintenu propre et lisible avec ESLint, Prettier, et géré efficacement via pnpm.\n\n🛠️ Technologies utilisées :\n- 💻 Frontend : React.js, TypeScript, Vite, CSS moderne (responsive & animations), React Router\n- 🧰 Outils & Qualité : ESLint, Prettier, pnpm\n\n🚀 Fonctionnalités principales :\n- 🖼️ Galerie de projets interactive : présentation visuelle, carrousel d'images, tags colorés 🏷️, liens vers GitHub et démos 🔗\n- 🧑‍💻 Expérience utilisateur : navigation fluide 🎯, design adaptatif 📱"
+        "text": "Bienvenue dans mon univers numérique. Ce portfolio est bien plus qu'une simple vitrine : c'est un espace interactif pensé pour refléter mon approche du développement web — moderne, soignée et tournée vers l'expérience utilisateur.\n\n⚙️ Conçu avec React.js, TypeScript et propulsé par Vite, il met en œuvre une architecture front-end performante, enrichie par un design responsive, des animations fluides ✨, et une navigation intuitive grâce à React Router. Le code est maintenu propre et lisible avec ESLint, Prettier, et géré efficacement via pnpm.\n\n🛠️ Technologies utilisées :\n- 💻 Frontend : React.js, TypeScript, Vite, CSS moderne (responsive & animations), React Router\n- 🧰 Outils & Qualité : ESLint, Prettier, pnpm\n\n🚀 Fonctionnalités principales :\n- 🖼️ Galerie de projets interactive : présentation visuelle, carrousel d'images, tags colorés 🏷️, liens vers GitHub et démos 🔗\n- 🧑‍💻 Expérience utilisateur : navigation fluide 🎯, design adaptatif 📱"
     },
     {
         "id": "14",
-        "imagePortrait" : "/assets/images/ImagesPortrait/LA_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/LA_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/LA/LA_slide01.png",
-                "alt":"image de mon projet Linea Arcana 1"
+                "src": "/assets/images/ImagesSlide/LA/LA_slide01.png",
+                "alt": "image de mon projet Linea Arcana 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/LA/LA_slide02.png",
-                "alt":"image de mon projet Linea Arcana 2"
+                "src": "/assets/images/ImagesSlide/LA/LA_slide02.png",
+                "alt": "image de mon projet Linea Arcana 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/LA/LA_slide03.png",
-                "alt":"image de mon projet Linea Arcana 3"
+                "src": "/assets/images/ImagesSlide/LA/LA_slide03.png",
+                "alt": "image de mon projet Linea Arcana 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/LA/LA_slide04.png",   
-                "alt":"image de mon projet Linea Arcana 4"
+                "src": "/assets/images/ImagesSlide/LA/LA_slide04.png",
+                "alt": "image de mon projet Linea Arcana 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/LA/LA_slide05.png",
-                "alt":"image de mon projet Linea Arcana 5"
+                "src": "/assets/images/ImagesSlide/LA/LA_slide05.png",
+                "alt": "image de mon projet Linea Arcana 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/LA/LA_slide06.png",
-                "alt":"image de mon projet Linea Arcana 6"
+                "src": "/assets/images/ImagesSlide/LA/LA_slide06.png",
+                "alt": "image de mon projet Linea Arcana 6"
             },
             {
-                "src":"/assets/images/ImagesSlide/LA/LA_slide07.png",
-                "alt":"image de mon projet Linea Arcana 7"
+                "src": "/assets/images/ImagesSlide/LA/LA_slide07.png",
+                "alt": "image de mon projet Linea Arcana 7"
             },
             {
-                "src":"/assets/images/ImagesSlide/LA/LA_slide08.png",
-                "alt":"image de mon projet Linea Arcana 8"
+                "src": "/assets/images/ImagesSlide/LA/LA_slide08.png",
+                "alt": "image de mon projet Linea Arcana 8"
             },
             {
-                "src":"/assets/images/ImagesSlide/LA/LA_slide09.png",
-                "alt":"image de mon projet Linea Arcana 9"
+                "src": "/assets/images/ImagesSlide/LA/LA_slide09.png",
+                "alt": "image de mon projet Linea Arcana 9"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
-        "title" : "Linea Arcana",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "Linea Arcana",
         "describe": "Une app qui révèle votre ligne de vie à travers les arcanes du Tarot de Marseille.",
         "link": "https://linea-arcana.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Linea-arcana",
-        "text" : "🜁 Linea Arcana – Révéler sa ligne de vie à travers les arcanes\n\nLinea Arcana est une application de tarologie initiatique qui révèle la ligne de vie d’un utilisateur à partir de son prénom, de son nom et de sa date de naissance. En s’appuyant sur la roue de Pythagore et les 22 arcanes majeurs du Tarot de Marseille, elle met en lumière les grandes étapes du chemin d’incarnation à travers une lecture symbolique claire et structurée.\n\n⚡ Ce projet a été **entièrement conçu et développé en une seule journée**, en réponse à un besoin précis. Cette rapidité de conception illustre ma capacité à analyser une problématique, structurer une logique métier cohérente et livrer une application complète, fonctionnelle et soignée dans des délais très courts.\n\n🎯 Fonctionnalités principales :\n- 🔮 Calcul automatique de la ligne de vie tarologique à partir des données personnelles\n- 📊 Analyse basée sur la numérologie pythagoricienne\n- 🎴 Interprétation des 22 arcanes majeurs du Tarot de Marseille\n- 🔁 Affichage de 5 arcanes correspondant aux 5 grands cycles de vie\n- ✨ Mise en évidence automatique du cycle de vie actuel avec une bordure animée\n- 🖼️ Visualisation des cartes avec animations de retournement\n- 📖 Modale détaillée pour chaque arcane et chaque cycle\n- ✅ Validation complète du formulaire avec gestion des erreurs\n- 📱 Interface responsive, moderne et immersive\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour la construction de l’interface\n- 🧩 **TypeScript** pour un typage strict et une logique fiable\n- ⚡ **Vite** pour un développement rapide et des builds optimisés\n- 🔗 **React Router** pour la navigation entre les vues\n- 🎨 CSS personnalisé pour un design mystique et fluide\n- 🧠 Logique métier centralisée pour les calculs tarologiques\n\n✨ Ce que ce projet m’a apporté\n\nLinea Arcana démontre ma capacité à **concevoir rapidement une application complète**, de l’idée à la mise en production, tout en conservant une architecture propre, une logique métier claire et une expérience utilisateur aboutie. Ce projet met en avant ma réactivité, ma maîtrise de React et TypeScript, et mon aptitude à répondre efficacement à un besoin concret dans un temps très réduit."
+        "text": "🜁 Linea Arcana – Révéler sa ligne de vie à travers les arcanes\n\nLinea Arcana est une application de tarologie initiatique qui révèle la ligne de vie d’un utilisateur à partir de son prénom, de son nom et de sa date de naissance. En s’appuyant sur la roue de Pythagore et les 22 arcanes majeurs du Tarot de Marseille, elle met en lumière les grandes étapes du chemin d’incarnation à travers une lecture symbolique claire et structurée.\n\n⚡ Ce projet a été **entièrement conçu et développé en une seule journée**, en réponse à un besoin précis. Cette rapidité de conception illustre ma capacité à analyser une problématique, structurer une logique métier cohérente et livrer une application complète, fonctionnelle et soignée dans des délais très courts.\n\n🎯 Fonctionnalités principales :\n- 🔮 Calcul automatique de la ligne de vie tarologique à partir des données personnelles\n- 📊 Analyse basée sur la numérologie pythagoricienne\n- 🎴 Interprétation des 22 arcanes majeurs du Tarot de Marseille\n- 🔁 Affichage de 5 arcanes correspondant aux 5 grands cycles de vie\n- ✨ Mise en évidence automatique du cycle de vie actuel avec une bordure animée\n- 🖼️ Visualisation des cartes avec animations de retournement\n- 📖 Modale détaillée pour chaque arcane et chaque cycle\n- ✅ Validation complète du formulaire avec gestion des erreurs\n- 📱 Interface responsive, moderne et immersive\n\n🛠️ Stack technique :\n- ⚛️ **React 19** pour la construction de l’interface\n- 🧩 **TypeScript** pour un typage strict et une logique fiable\n- ⚡ **Vite** pour un développement rapide et des builds optimisés\n- 🔗 **React Router** pour la navigation entre les vues\n- 🎨 CSS personnalisé pour un design mystique et fluide\n- 🧠 Logique métier centralisée pour les calculs tarologiques\n\n✨ Ce que ce projet m’a apporté\n\nLinea Arcana démontre ma capacité à **concevoir rapidement une application complète**, de l’idée à la mise en production, tout en conservant une architecture propre, une logique métier claire et une expérience utilisateur aboutie. Ce projet met en avant ma réactivité, ma maîtrise de React et TypeScript, et mon aptitude à répondre efficacement à un besoin concret dans un temps très réduit."
     },
     {
         "id": "15",
-        "imagePortrait" : "/assets/images/ImagesPortrait/CB_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/CB_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/CB/CB_slide01.png",
-                "alt":"image de mon projet ChatBlog 1"
+                "src": "/assets/images/ImagesSlide/CB/CB_slide01.png",
+                "alt": "image de mon projet ChatBlog 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/CB/CB_slide02.png",
-                "alt":"image de mon projet ChatBlog 2"
+                "src": "/assets/images/ImagesSlide/CB/CB_slide02.png",
+                "alt": "image de mon projet ChatBlog 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/CB/CB_slide03.png",
-                "alt":"image de mon projet ChatBlog 3"
+                "src": "/assets/images/ImagesSlide/CB/CB_slide03.png",
+                "alt": "image de mon projet ChatBlog 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/CB/CB_slide04.png",
-                "alt":"image de mon projet ChatBlog 4"
+                "src": "/assets/images/ImagesSlide/CB/CB_slide04.png",
+                "alt": "image de mon projet ChatBlog 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/CB/CB_slide05.png",
-                "alt":"image de mon projet ChatBlog 5"
+                "src": "/assets/images/ImagesSlide/CB/CB_slide05.png",
+                "alt": "image de mon projet ChatBlog 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/CB/CB_slide06.png",
-                "alt":"image de mon projet ChatBlog 6"
+                "src": "/assets/images/ImagesSlide/CB/CB_slide06.png",
+                "alt": "image de mon projet ChatBlog 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#NODEJS", "style":"#be8110"}],
-        "title" : "ChatBlog",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#NODEJS",
+                "style": "#be8110"
+            }
+        ],
+        "title": "ChatBlog",
         "describe": "Une app fullstack élégante. Publiez, organisez et modifiez vos articles en toute simplicité parfait pour partager votre amour félin !",
         "link": "",
         "linkGit": "https://github.com/OliviaG-dev/ChatBlog",
-        "text" : "ChatBlog est une application fullstack qui permet de publier, organiser, modifier et supprimer des articles autour du thème des chats 🐱.\n\n🚀 Fonctionnalités principales\n- Ajouter des articles sur les chats.\n- Organiser par catégories (ex : soins, alimentation, anecdotes...).\n- Modifier et supprimer des posts facilement.\n- Interface simple et intuitive pour une bonne expérience utilisateur.\n\n🛠️ Technologies utilisées\n\nBackend :\n- Express.js & Nodemon : Serveur JavaScript avec redémarrage auto.\n- MongoDB & Mongoose : Base de données NoSQL avec ORM.\n\nFrontend :\n- React.js + TypeScript : Interface moderne et typée.\n- Vite : Build rapide pour React.\n- CSS : Stylisation simple et propre.\n- Axios : Requêtes API.\n- ESLint & Prettier : Qualité et uniformité du code.\n\nGestion de projet :\n- pnpm : Gestionnaire de paquets performant."
+        "text": "ChatBlog est une application fullstack qui permet de publier, organiser, modifier et supprimer des articles autour du thème des chats 🐱.\n\n🚀 Fonctionnalités principales\n- Ajouter des articles sur les chats.\n- Organiser par catégories (ex : soins, alimentation, anecdotes...).\n- Modifier et supprimer des posts facilement.\n- Interface simple et intuitive pour une bonne expérience utilisateur.\n\n🛠️ Technologies utilisées\n\nBackend :\n- Express.js & Nodemon : Serveur JavaScript avec redémarrage auto.\n- MongoDB & Mongoose : Base de données NoSQL avec ORM.\n\nFrontend :\n- React.js + TypeScript : Interface moderne et typée.\n- Vite : Build rapide pour React.\n- CSS : Stylisation simple et propre.\n- Axios : Requêtes API.\n- ESLint & Prettier : Qualité et uniformité du code.\n\nGestion de projet :\n- pnpm : Gestionnaire de paquets performant."
     },
     {
         "id": "16",
-        "imagePortrait" : "/assets/images/ImagesPortrait/GA_portrait.jpg",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/GA_portrait.jpg",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide01.png",
-                "alt":"image de mon projet Grimoire d'Aether 1"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide01.png",
+                "alt": "image de mon projet Grimoire d'Aether 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide02.png",
-                "alt":"image de mon projet Grimoire d'Aether 2"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide02.png",
+                "alt": "image de mon projet Grimoire d'Aether 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide03.png",
-                "alt":"image de mon projet Grimoire d'Aether 3"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide03.png",
+                "alt": "image de mon projet Grimoire d'Aether 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide04.png",
-                "alt":"image de mon projet Grimoire d'Aether 4"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide04.png",
+                "alt": "image de mon projet Grimoire d'Aether 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide05.png",
-                "alt":"image de mon projet Grimoire d'Aether 5"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide05.png",
+                "alt": "image de mon projet Grimoire d'Aether 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide06.png",
-                "alt":"image de mon projet Grimoire d'Aether 6"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide06.png",
+                "alt": "image de mon projet Grimoire d'Aether 6"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide07.png",
-                "alt":"image de mon projet Grimoire d'Aether 7"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide07.png",
+                "alt": "image de mon projet Grimoire d'Aether 7"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide08.png",
-                "alt":"image de mon projet Grimoire d'Aether 8"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide08.png",
+                "alt": "image de mon projet Grimoire d'Aether 8"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide09.png",
-                "alt":"image de mon projet Grimoire d'Aether 9"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide09.png",
+                "alt": "image de mon projet Grimoire d'Aether 9"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide10.png",
-                "alt":"image de mon projet Grimoire d'Aether 10"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide10.png",
+                "alt": "image de mon projet Grimoire d'Aether 10"
             },
             {
-                "src":"/assets/images/ImagesSlide/GA/GA_slide11.png",
-                "alt":"image de mon projet Grimoire d'Aether 11"
+                "src": "/assets/images/ImagesSlide/GA/GA_slide11.png",
+                "alt": "image de mon projet Grimoire d'Aether 11"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}, {"item":"#SUPABASE", "style":"#4A90E2"}],
-        "title" : "Le Grimoire d'Aether",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#SUPABASE",
+                "style": "#4A90E2"
+            }
+        ],
+        "title": "Le Grimoire d'Aether",
         "describe": "Wiki numérique dédié aux cartes divinatoires, conçu comme une base de connaissance structurée et évolutive.",
         "link": "https://grimoire-d-aether.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Grimoire-d-Aether",
-        "text" : "📜 Grimoire d’Áether\n\nGrimoire d’Áether est un wiki ésotérique élégant et mystique dédié aux cartes divinatoires (tarots, oracles et jeux symboliques). Pensé comme un véritable sanctuaire numérique, le projet permet d’explorer en profondeur chaque jeu et chaque carte à travers des fiches détaillées mêlant symbolisme, énergies et interprétations.\n\nAccessible librement en lecture, le site intègre également un **panneau d’administration sécurisé** permettant de gérer l’ensemble du contenu (jeux et cartes). Ce projet m’a permis de concevoir une application complète, mêlant design immersif, données structurées et logique métier avancée.\n\n🔐 Il s’agit de **ma première utilisation de Clerk pour l’authentification**, et j’ai particulièrement apprécié sa simplicité d’intégration, la qualité de ses composants React prêts à l’emploi et la gestion fluide des sessions. Clerk s’est révélé être une solution très agréable et professionnelle pour sécuriser une application moderne.\n\n🎯 Fonctionnalités principales :\n- 📚 Encyclopédie complète des jeux et cartes divinatoires\n- 🃏 Fiches de cartes détaillées : mots-clés, significations (droite, inversée, ombre), conseils, affirmations, énergies et symboles\n- ⭐ Système de favoris pour marquer les cartes importantes\n- 🔍 Recherche et filtres avancés (nom, jeu, index, favoris)\n- 📄 Pagination harmonieuse et navigation fluide avec React Router\n- 🔐 Panneau d’administration intégré (/admin) avec gestion complète des jeux et cartes\n\n🛠️ Stack technique :\n- ⚛️ **React 19** + **TypeScript** pour une application robuste et typée\n- ⚡ **Vite** pour des builds rapides et performants\n- 🔐 **Clerk** pour l’authentification et la gestion des utilisateurs\n- 🗄️ **Supabase** (PostgreSQL) pour le stockage des données et la sécurité (RLS)\n- 🎨 Interface personnalisée avec un design mystique, animations subtiles et responsive design\n\n✨ Ce que ce projet m’a apporté\n\nGrimoire d’Áether m’a permis de renforcer mes compétences en **React**, **TypeScript** et **architecture front-end**, tout en apprenant à intégrer proprement une solution d’authentification moderne comme Clerk. J’ai également approfondi la gestion de bases de données avec Supabase, la structuration de données complexes et la conception d’une UX immersive.\n\nCe projet représente une expérience complète et personnelle, à la croisée de la technologie, du symbolisme et du design, et constitue une base solide pour des applications riches, sécurisées et évolutives."
+        "text": "📜 Grimoire d’Áether\n\nGrimoire d’Áether est un wiki ésotérique élégant et mystique dédié aux cartes divinatoires (tarots, oracles et jeux symboliques). Pensé comme un véritable sanctuaire numérique, le projet permet d’explorer en profondeur chaque jeu et chaque carte à travers des fiches détaillées mêlant symbolisme, énergies et interprétations.\n\nAccessible librement en lecture, le site intègre également un **panneau d’administration sécurisé** permettant de gérer l’ensemble du contenu (jeux et cartes). Ce projet m’a permis de concevoir une application complète, mêlant design immersif, données structurées et logique métier avancée.\n\n🔐 Il s’agit de **ma première utilisation de Clerk pour l’authentification**, et j’ai particulièrement apprécié sa simplicité d’intégration, la qualité de ses composants React prêts à l’emploi et la gestion fluide des sessions. Clerk s’est révélé être une solution très agréable et professionnelle pour sécuriser une application moderne.\n\n🎯 Fonctionnalités principales :\n- 📚 Encyclopédie complète des jeux et cartes divinatoires\n- 🃏 Fiches de cartes détaillées : mots-clés, significations (droite, inversée, ombre), conseils, affirmations, énergies et symboles\n- ⭐ Système de favoris pour marquer les cartes importantes\n- 🔍 Recherche et filtres avancés (nom, jeu, index, favoris)\n- 📄 Pagination harmonieuse et navigation fluide avec React Router\n- 🔐 Panneau d’administration intégré (/admin) avec gestion complète des jeux et cartes\n\n🛠️ Stack technique :\n- ⚛️ **React 19** + **TypeScript** pour une application robuste et typée\n- ⚡ **Vite** pour des builds rapides et performants\n- 🔐 **Clerk** pour l’authentification et la gestion des utilisateurs\n- 🗄️ **Supabase** (PostgreSQL) pour le stockage des données et la sécurité (RLS)\n- 🎨 Interface personnalisée avec un design mystique, animations subtiles et responsive design\n\n✨ Ce que ce projet m’a apporté\n\nGrimoire d’Áether m’a permis de renforcer mes compétences en **React**, **TypeScript** et **architecture front-end**, tout en apprenant à intégrer proprement une solution d’authentification moderne comme Clerk. J’ai également approfondi la gestion de bases de données avec Supabase, la structuration de données complexes et la conception d’une UX immersive.\n\nCe projet représente une expérience complète et personnelle, à la croisée de la technologie, du symbolisme et du design, et constitue une base solide pour des applications riches, sécurisées et évolutives."
     },
     {
         "id": "17",
-        "imagePortrait" : "/assets/images/ImagesPortrait/DA_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/DA_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/DA/DA_slide01.png",
-                "alt":"image de mon projet Dual Arcana 1"
+                "src": "/assets/images/ImagesSlide/DA/DA_slide01.png",
+                "alt": "image de mon projet Dual Arcana 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/DA/DA_slide02.png",
-                "alt":"image de mon projet Dual Arcana 2"
+                "src": "/assets/images/ImagesSlide/DA/DA_slide02.png",
+                "alt": "image de mon projet Dual Arcana 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/DA/DA_slide03.png",
-                "alt":"image de mon projet Dual Arcana 3"
+                "src": "/assets/images/ImagesSlide/DA/DA_slide03.png",
+                "alt": "image de mon projet Dual Arcana 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/DA/DA_slide04.png",
-                "alt":"image de mon projet Dual Arcana 4"
+                "src": "/assets/images/ImagesSlide/DA/DA_slide04.png",
+                "alt": "image de mon projet Dual Arcana 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/DA/DA_slide05.png",
-                "alt":"image de mon projet Dual Arcana 5"
+                "src": "/assets/images/ImagesSlide/DA/DA_slide05.png",
+                "alt": "image de mon projet Dual Arcana 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/DA/DA_slide06.png",
-                "alt":"image de mon projet Détente Animée 6"
+                "src": "/assets/images/ImagesSlide/DA/DA_slide06.png",
+                "alt": "image de mon projet Détente Animée 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}, {"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
-        "title" : "DualArcana",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "DualArcana",
         "describe": "DualArcana révèle la rencontre entre l'arcane de l'année et ton arcane personnel.",
         "link": "https://dual-arcana.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/DualArcana",
-        "text" :  "🃏 DualArcana\nDeux arcanes. Un chemin.\n\nDualArcana est une application web légère et élégante qui associe l’arcane majeur de l’année en cours à un arcane personnel, calculé à partir de la numérologie. Le projet propose une lecture symbolique croisant cycles collectifs et parcours individuels, à mi-chemin entre introspection et design minimaliste.\n\nConçu comme un outil de compréhension plutôt que de prédiction, DualArcana offre une interprétation poétique des énergies à l’œuvre : ce que le temps impose, et ce que l’individu traverse. Chaque résultat devient une clé de lecture personnelle, claire et accessible.\n\n⚡ Ce projet a été développé **rapidement**, en m’appuyant sur une **maîtrise solide de React, TypeScript et Vite**, ce qui m’a permis d’aller droit à l’essentiel : logique métier claire, calcul fiable et expérience utilisateur fluide. Cette capacité à livrer vite un produit propre, lisible et fonctionnel rend le projet particulièrement **attractif du point de vue recruteur**.\n\n🎯 Fonctionnalités principales :\n- 🔢 Calcul automatique de l’arcane majeur de l’année et de l’arcane personnel via la numérologie\n- 🃏 Affichage visuel des arcanes avec images et numéros\n- 📖 Interprétations détaillées : mots-clés, descriptions et sens symbolique\n- 🔮 Fusion des deux arcanes avec lecture de leur interaction\n- 💬 Modal d’interprétation pour une exploration approfondie\n- ✨ Interface sobre, élégante et animée avec des transitions subtiles\n\n🛠️ Stack technique :\n- ⚛️ React 19 pour une UI moderne et performante\n- 🔠 TypeScript pour un code fiable et bien structuré\n- ⚡ Vite pour un développement rapide et un build optimisé\n- 🎨 CSS natif, sans framework, pour une approche minimaliste et maîtrisée\n\n✨ Ce que ce projet m’a apporté\n\nDualArcana illustre ma capacité à **concevoir et livrer rapidement une application complète**, en transformant une idée abstraite en un produit clair et cohérent. Il met en avant ma maîtrise des fondamentaux du front-end moderne, ma capacité à structurer une logique métier simple mais précise, et mon sens du design épuré."
+        "text": "🃏 DualArcana\nDeux arcanes. Un chemin.\n\nDualArcana est une application web légère et élégante qui associe l’arcane majeur de l’année en cours à un arcane personnel, calculé à partir de la numérologie. Le projet propose une lecture symbolique croisant cycles collectifs et parcours individuels, à mi-chemin entre introspection et design minimaliste.\n\nConçu comme un outil de compréhension plutôt que de prédiction, DualArcana offre une interprétation poétique des énergies à l’œuvre : ce que le temps impose, et ce que l’individu traverse. Chaque résultat devient une clé de lecture personnelle, claire et accessible.\n\n⚡ Ce projet a été développé **rapidement**, en m’appuyant sur une **maîtrise solide de React, TypeScript et Vite**, ce qui m’a permis d’aller droit à l’essentiel : logique métier claire, calcul fiable et expérience utilisateur fluide. Cette capacité à livrer vite un produit propre, lisible et fonctionnel rend le projet particulièrement **attractif du point de vue recruteur**.\n\n🎯 Fonctionnalités principales :\n- 🔢 Calcul automatique de l’arcane majeur de l’année et de l’arcane personnel via la numérologie\n- 🃏 Affichage visuel des arcanes avec images et numéros\n- 📖 Interprétations détaillées : mots-clés, descriptions et sens symbolique\n- 🔮 Fusion des deux arcanes avec lecture de leur interaction\n- 💬 Modal d’interprétation pour une exploration approfondie\n- ✨ Interface sobre, élégante et animée avec des transitions subtiles\n\n🛠️ Stack technique :\n- ⚛️ React 19 pour une UI moderne et performante\n- 🔠 TypeScript pour un code fiable et bien structuré\n- ⚡ Vite pour un développement rapide et un build optimisé\n- 🎨 CSS natif, sans framework, pour une approche minimaliste et maîtrisée\n\n✨ Ce que ce projet m’a apporté\n\nDualArcana illustre ma capacité à **concevoir et livrer rapidement une application complète**, en transformant une idée abstraite en un produit clair et cohérent. Il met en avant ma maîtrise des fondamentaux du front-end moderne, ma capacité à structurer une logique métier simple mais précise, et mon sens du design épuré."
     },
     {
         "id": "18",
-        "imagePortrait" : "/assets/images/ImagesPortrait/RS_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/RS_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide01.png",
-                "alt":"image de mon projet RandomSims 1"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide01.png",
+                "alt": "image de mon projet RandomSims 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide02.png",
-                "alt":"image de mon projet RandomSims 2"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide02.png",
+                "alt": "image de mon projet RandomSims 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide03.png",
-                "alt":"image de mon projet RandomSims 3"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide03.png",
+                "alt": "image de mon projet RandomSims 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide04.png",
-                "alt":"image de mon projet RandomSims 4"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide04.png",
+                "alt": "image de mon projet RandomSims 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide05.png",
-                "alt":"image de mon projet RandomSims 5"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide05.png",
+                "alt": "image de mon projet RandomSims 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/RS/RS_slide06.png",
-                "alt":"image de mon projet RandomSims 6"
+                "src": "/assets/images/ImagesSlide/RS/RS_slide06.png",
+                "alt": "image de mon projet RandomSims 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
-        "title" : "RandomSims",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "RandomSims",
         "describe": "Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !",
         "link": "https://random-sims.vercel.app",
         "linkGit": "https://github.com/OliviaG-dev/RandomSims",
-        "text" : "RandomSims est une application web et mobile 🎲 développée avec TypeScript, React et Vite, conçue pour générer des défis aléatoires et originaux dans *Les Sims 4*.\n\nCe projet reflète mon souci de qualité et d'expérience utilisateur, avec une architecture moderne (pnpm, ESLint, Prettier) et un code maintenable, scalable et performant 🛠️.\n\nIl s'agit d'une expérience interactive et responsive 📱 qui met l'accent à la fois sur la créativité et la rigueur technique.\n\n✨ **Fonctionnalités principales** :\n- 🎲 Génération aléatoire de défis pour divers aspects du jeu (Sims, lieux, scénarios)\n- 📸 Capture d'écran des combinaisons via html2canvas\n- 🌐 Navigation fluide grâce à React Router\n- 📱 Interface responsive adaptée aux mobiles et tablettes\n- 🧠 Défis thématiques selon les packs (ex: Amour Fou 💖, À la vie, à la mort 💀)\n- 🛠️ Code maintenu avec ESLint, Prettier et gestion via pnpm\n- ⚡ Lancement rapide et développement optimisé avec Vite\n\nUne app fun, bien pensée et prête à faire vivre des aventures inédites à vos Sims ! 🚀"
+        "text": "RandomSims est une application web et mobile 🎲 développée avec TypeScript, React et Vite, conçue pour générer des défis aléatoires et originaux dans *Les Sims 4*.\n\nCe projet reflète mon souci de qualité et d'expérience utilisateur, avec une architecture moderne (pnpm, ESLint, Prettier) et un code maintenable, scalable et performant 🛠️.\n\nIl s'agit d'une expérience interactive et responsive 📱 qui met l'accent à la fois sur la créativité et la rigueur technique.\n\n✨ **Fonctionnalités principales** :\n- 🎲 Génération aléatoire de défis pour divers aspects du jeu (Sims, lieux, scénarios)\n- 📸 Capture d'écran des combinaisons via html2canvas\n- 🌐 Navigation fluide grâce à React Router\n- 📱 Interface responsive adaptée aux mobiles et tablettes\n- 🧠 Défis thématiques selon les packs (ex: Amour Fou 💖, À la vie, à la mort 💀)\n- 🛠️ Code maintenu avec ESLint, Prettier et gestion via pnpm\n- ⚡ Lancement rapide et développement optimisé avec Vite\n\nUne app fun, bien pensée et prête à faire vivre des aventures inédites à vos Sims ! 🚀"
     },
     {
         "id": "19",
-        "imagePortrait" : "/assets/images/ImagesPortrait/AZ_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/AZ_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide01.png",
-                "alt":"image de mon projet AllZodiacs 1"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide01.png",
+                "alt": "image de mon projet AllZodiacs 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide02.png",
-                "alt":"image de mon projet AllZodiacs 2"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide02.png",
+                "alt": "image de mon projet AllZodiacs 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide03.png",
-                "alt":"image de mon projet AllZodiacs 3"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide03.png",
+                "alt": "image de mon projet AllZodiacs 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide04.png",
-                "alt":"image de mon projet AllZodiacs 4"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide04.png",
+                "alt": "image de mon projet AllZodiacs 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide05.png",
-                "alt":"image de mon projet AllZodiacs 5"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide05.png",
+                "alt": "image de mon projet AllZodiacs 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide06.png",
-                "alt":"image de mon projet AllZodiacs 6"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide06.png",
+                "alt": "image de mon projet AllZodiacs 6"
             },
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide07.png",
-                "alt":"image de mon projet AllZodiacs 7"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide07.png",
+                "alt": "image de mon projet AllZodiacs 7"
             },
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide08.png",
-                "alt":"image de mon projet AllZodiacs 8"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide08.png",
+                "alt": "image de mon projet AllZodiacs 8"
             },
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide09.png",
-                "alt":"image de mon projet AllZodiacs 9"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide09.png",
+                "alt": "image de mon projet AllZodiacs 9"
             },
             {
-                "src":"/assets/images/ImagesSlide/AZ/AZ_slide10.png",
-                "alt":"image de mon projet AllZodiacs 10"
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide10.png",
+                "alt": "image de mon projet AllZodiacs 10"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"},{"item":"#REACT", "style":"#237C03"}, {"item":"#TYPESCRIPT", "style":"#065973"}],
-        "title" : "AllZodiacs",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "AllZodiacs",
         "describe": "Une app fun qui centralise instantanément les horoscopes du monde entier à partir d’une simple date de naissance !",
         "link": "https://all-zodiacs.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/AllZodiacs",
-        "text" : "🪐 AllZodiacs – Explorer tous les horoscopes à partir de ta naissance\n\nAllZodiacs est une application moderne qui centralise et unifie de nombreux systèmes astrologiques et horoscopiques du monde entier. À partir d’une simple date de naissance (jour, mois, année), l’application révèle instantanément les signes associés à des traditions variées : occidentale, chinoise, égyptienne, maya, védique, druidique, perse, viking, kabbalistique, alchimique, inuit, amérindienne et bien d’autres.\n\nAllZodiacs ne cherche pas à prédire l’avenir, mais à **connecter les cultures et les symboles**. Le projet propose une lecture comparative, culturelle et symbolique des signes à travers les civilisations, pensée comme un pont entre savoirs anciens et technologies modernes.\n\n⚡ Ce projet a été conçu et développé très rapidement grâce à une architecture claire, modulaire et parfaitement maîtrisée. Cette rapidité d’exécution démontre ma capacité à transformer une idée ambitieuse en application fonctionnelle, structurée et évolutive."
+        "text": "🪐 AllZodiacs – Explorer tous les horoscopes à partir de ta naissance\n\nAllZodiacs est une application moderne qui centralise et unifie de nombreux systèmes astrologiques et horoscopiques du monde entier. À partir d’une simple date de naissance (jour, mois, année), l’application révèle instantanément les signes associés à des traditions variées : occidentale, chinoise, égyptienne, maya, védique, druidique, perse, viking, kabbalistique, alchimique, inuit, amérindienne et bien d’autres.\n\nAllZodiacs ne cherche pas à prédire l’avenir, mais à **connecter les cultures et les symboles**. Le projet propose une lecture comparative, culturelle et symbolique des signes à travers les civilisations, pensée comme un pont entre savoirs anciens et technologies modernes.\n\n⚡ Ce projet a été conçu et développé très rapidement grâce à une architecture claire, modulaire et parfaitement maîtrisée. Cette rapidité d’exécution démontre ma capacité à transformer une idée ambitieuse en application fonctionnelle, structurée et évolutive."
     },
     {
         "id": "20",
-        "imagePortrait" : "/assets/images/ImagesPortrait/omf_portrait.png",
-        "imagesSlide" : [ 
+        "imagePortrait": "/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagesSlide": [
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide01.png",
-                "alt":"image de mon projet ohmyfood 1"
+                "src": "/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "alt": "image de mon projet ohmyfood 1"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide02.png",
-                "alt":"image de mon projet ohmyfood 2"
+                "src": "/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "alt": "image de mon projet ohmyfood 2"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide03.png",
-                "alt":"image de mon projet ohmyfood 3"
+                "src": "/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "alt": "image de mon projet ohmyfood 3"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide04.png",
-                "alt":"image de mon projet ohmyfood 4"
+                "src": "/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "alt": "image de mon projet ohmyfood 4"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide05.png",
-                "alt":"image de mon projet ohmyfood 5"
+                "src": "/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "alt": "image de mon projet ohmyfood 5"
             },
             {
-                "src":"/assets/images/ImagesSlide/omf/omf_slide06.png",
-                "alt":"image de mon projet ohmyfood 6"
+                "src": "/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "alt": "image de mon projet ohmyfood 6"
             }
         ],
-        "tags" : [{"item":"#HTML/CSS", "style":"#000"}],
-        "title" : "oh my food!",
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            }
+        ],
+        "title": "oh my food!",
         "describe": "Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
