@@ -131,6 +131,11 @@ Une app fun qui centralise instantanément les horoscopes du monde entier à par
 Une app qui révèle votre ligne de vie à travers les arcanes du Tarot de Marseille.
 **Technologies :** React, TypeScript, CSS
 
+### 💎 Crystal Swipe
+
+Swipe les situations et les émotions qui te ressemblent, et découvre les pierres qui résonnent le plus avec toi aujourd'hui. Simple, fun et inspirant !
+**Technologies :** React, TypeScript, CSS
+
 ## ✨ Fonctionnalités
 
 - **Présentation des projets**
