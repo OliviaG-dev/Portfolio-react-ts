@@ -1178,5 +1178,75 @@
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
         "linkGit": "https://github.com/OliviaG-dev/OC_P3_11102021",
         "text": "Ohmyfood est le tout premier projet que j'ai réalisé en 2021, dans le cadre de ma formation chez OpenClassrooms .\n\nUn projet simple en apparence… mais riche en apprentissages ! \n\nJ'y ai utilisé HTML et SCSS pour créer un site responsive 📱, avec plusieurs animations 100 % CSS :\n un loader animé ⏳\n une rotation d'éléments 🔄\n et un cœur interactif ❤️ qui se remplit au survol 🖱️\n\nC'était aussi ma toute première expérience avec un design imposé 🎯…\net j'étais très fière d'avoir réussi à le sublimer avec soin ✨"
+    },
+    {
+        "id": "21",
+        "imagePortrait": "/assets/images/ImagesPortrait/CS_portrait.png",
+        "imagesSlide": [
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide01.png",
+                "alt": "image de mon projet Crystal Swipe 1"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide02.png",
+                "alt": "image de mon projet Crystal Swipe 2"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide03.png",
+                "alt": "image de mon projet Crystal Swipe 3"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide04.png",
+                "alt": "image de mon projet Crystal Swipe 4"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide06.png",
+                "alt": "image de mon projet Crystal Swipe 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide07.png",
+                "alt": "image de mon projet Crystal Swipe 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide08.png",
+                "alt": "image de mon projet Crystal Swipe 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide09.png",
+                "alt": "image de mon projet Crystal Swipe 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide10.png",
+                "alt": "image de mon projet Crystal Swipe 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide11.png",
+                "alt": "image de mon projet Crystal Swipe 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CS/CS_slide12.png",
+                "alt": "image de mon projet Crystal Swipe 5"
+            }
+            
+        ],
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "Crystal Swipe",
+        "describe": "Swipe les situations et les émotions qui te ressemblent, et découvre les pierres qui résonnent le plus avec toi aujourd'hui. Simple, fun et inspirant !",
+        "link": "https://crystal-swipe.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/Crystal-swipe",
+        "text":  "💎 Crystal Swipe — Expérience ludique de découverte énergétique\n\nCrystal Swipe est une application interactive et intuitive dédiée à la lithothérapie, conçue pour connecter l’utilisateur à son ressenti du moment à travers un système de swipe simple et engageant. Inspirée des mécaniques de matching, l’application transforme la découverte des pierres et cristaux en une expérience fluide, légère et accessible.\n\nL’utilisateur swipe des situations et des émotions qui résonnent avec lui, et l’application calcule instantanément les pierres les plus alignées avec son énergie actuelle. L’objectif n’est pas de proposer un test complexe, mais une exploration sensorielle et symbolique, rapide et inspirante.\n\n🎯 Fonctionnalités principales :\n- 🎮 Système de swipe intuitif (gauche / droite) inspiré des mécaniques de jeu\n- 💎 Résultats personnalisés avec sélection des 3 pierres les plus compatibles\n- 📊 Score de correspondance avec pourcentage de résonance énergétique\n- 🔮 Fiches pédagogiques pour chaque pierre : propriétés, symbolique et conseil du jour\n- 🗺️ Parcours utilisateur fluide : accueil → swipe → résultats\n- 📱 Interface entièrement responsive, optimisée mobile et desktop\n\n🛠️ Stack technique :\n- ⚛️ React 19 + TypeScript pour une application robuste et typée\n- ⚡ Vite pour un développement rapide et des performances optimales\n- 🔀 React Router pour une navigation fluide entre les pages\n- 🎨 CSS personnalisé avec design moderne, cartes en glassmorphism et animations légères\n- 🧠 Logique de scoring dédiée pour le calcul des correspondances énergétiques\n\n"
     }
 ]
