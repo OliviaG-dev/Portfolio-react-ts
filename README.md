@@ -66,6 +66,11 @@ Chaque jour, un regard vers l'infini. Une image capturée par la NASA, un fragme
 Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.
 **Technologies :** React, TypeScript, CSS
 
+### 💶 Track€r
+
+Track€r : l'app qui suit ton argent mieux que toi !!!
+**Technologies :** React, TypeScript, CSS
+
 ### 🎬 Pick&Play
 
 Une app qui permet de centraliser, trier et découvrir tes films, séries et livres grâce à une interface intuitive en drag & drop.
