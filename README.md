@@ -31,30 +31,25 @@
 
 Cette section présente une sélection de mes projets les plus récents, développés avec passion et rigueur technique.
 
-### 🌌 Noctis
+### 📌 PlanMyJob
 
-Un calendrier astrologique qui transforme l'astrologie en une expérience quotidienne simple, visuelle et intuitive.
-**Technologies :** React, TypeScript, CSS
-
-### 🔁 SkillLoop
-
-Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables.
-**Technologies :** React, TypeScript, CSS
-
-### 🎲 RandomSims
-
-Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !
-**Technologies :** React, TypeScript, Vite
+Une app intelligente qui simplifie votre recherche d'emploi grâce à des outils puissants pour candidater plus vite, mieux et plus efficacement.
+**Technologies :** React, TypeScript, Supabase
 
 ### 🔮 Numora
 
 Une expérience interactive de numérologie moderne, révélant tes énergies, cycles et chemins de vie.
 **Technologies :** React, TypeScript, CSS
 
+### 🌌 Noctis
+
+Un calendrier astrologique qui transforme l'astrologie en une expérience quotidienne simple, visuelle et intuitive.
+**Technologies :** React, TypeScript, CSS
+
 ### 🎨 TerraCréa
 
 Envie de partager vos créations artisanales, de découvrir celles des autres, de les évaluer ou même de les acheter ? Cette application est faite pour vous !
-**Technologies :** React, Node.js, MongoDB
+**Technologies :** TypeScript, React Native, Supabase
 
 ### 🌌 StarSnap
 
@@ -106,10 +101,10 @@ Une app simple et sécurisée pour partager vos coordonnées personnelles avec v
 Entre lignes de code et éclats de pixels, ce portfolio vous invite à voyager au cœur de mes créations numériques.
 **Technologies :** React, TypeScript, CSS
 
-### 🍽️ oh my food!
+### 🜁 Linea Arcana
 
-Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.
-**Technologies :** HTML, CSS, Sass
+Une app qui révèle votre ligne de vie à travers les arcanes du Tarot de Marseille.
+**Technologies :** React, TypeScript, CSS
 
 ### 🐱 ChatBlog
 
@@ -131,10 +126,10 @@ DualArcana révèle la rencontre entre l'arcane de l'année et ton arcane person
 Une app fun qui centralise instantanément les horoscopes du monde entier à partir d'une simple date de naissance !
 **Technologies :** React, TypeScript, CSS
 
-### 🜁 Linea Arcana
+### 🍽️ oh my food!
 
-Une app qui révèle votre ligne de vie à travers les arcanes du Tarot de Marseille.
-**Technologies :** React, TypeScript, CSS
+Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.
+**Technologies :** HTML, CSS, Sass
 
 ### 💎 Crystal Swipe
 
@@ -171,7 +166,7 @@ src/
 1. Clonez le dépôt :
 
 ```bash
-git clone [https://github.com/OliviaG-dev/Portfolio-react-ts.git]
+git clone https://github.com/OliviaG-dev/Portfolio-react-ts.git
 ```
 
 2. Installez les dépendances :
