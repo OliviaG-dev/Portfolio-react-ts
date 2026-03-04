@@ -154,13 +154,13 @@
 .slider_dots {
   display: flex;
   justify-content: center;
-  margin: 1rem 0;
-  gap: 0.5rem;
+  margin: 1rem 0 2.75rem 0;
+  gap: 0.85rem;
 }
 
 .dot {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 50%;
   border: var(--color-text-secondary) solid 2px;
   cursor: pointer;
@@ -256,6 +256,19 @@
   .slider {
     max-width: 800px;
   }
+
+  .slider_dots {
+    margin: 0.8rem 0 2.2rem 0;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0.5rem;
+  }
+
+  .dot {
+    width: 0.85rem;
+    height: 0.85rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -342,9 +355,24 @@
     font-size: 0.9em;
   }
 
+  .slider_dots {
+    margin: 0.6rem 0 1.9rem 0;
+    gap: 0.55rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0.25rem;
+    min-height: 28px;
+  }
+
   .dot {
-    width: 1rem;
-    height: 1rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    min-width: 0.75rem;
+    min-height: 0.75rem;
+    /* Zone de touch plus grande pour l’accessibilité */
+    padding: 0.25rem;
+    margin: -0.25rem;
+    box-sizing: content-box;
   }
 
   .swipe_hint {
@@ -449,9 +477,23 @@
     font-size: 0.8em;
   }
 
+  .slider_dots {
+    margin: 0.5rem 0 1.6rem 0;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0.15rem;
+    min-height: 24px;
+  }
+
   .dot {
-    width: 0.8rem;
-    height: 0.8rem;
+    width: 0.65rem;
+    height: 0.65rem;
+    min-width: 0.65rem;
+    min-height: 0.65rem;
+    padding: 0.2rem;
+    margin: -0.2rem;
+    box-sizing: content-box;
   }
 }
 
