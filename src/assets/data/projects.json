@@ -1367,6 +1367,55 @@
     },
     {
         "id": "23",
+        "imagePortrait": "/assets/images/ImagesPortrait/JS_portrait.png",
+        "imagesSlide": [
+            {
+                "src": "/assets/images/ImagesSlide/JS/JS_slide01.png",
+                "alt": "image de mon projet JobSniper 1"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/JS/JS_slide02.png",
+                "alt": "image de mon projet JobSniper 2"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/JS/JS_slide03.png",
+                "alt": "image de mon projet JobSniper 3"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/JS/JS_slide04.png",
+                "alt": "image de mon projet JobSniper 4"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/JS/JS_slide06.png",
+                "alt": "image de mon projet JobSniper 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/JS/JS_slide07.png",
+                "alt": "image de mon projet JobSniper 5"
+            }
+        ],
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "JobSniper",
+        "describe": "JobSniper analyse, filtre et détecte automatiquement les offres qui correspondent vraiment à ton profil.",
+        "link": "https://job-sniper-theta.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/JobSniper",
+        "text": "🎯 JobSniper — Arrête de chercher. Commence à sniper.\n\nJobSniper est un outil personnel conçu pour automatiser la recherche d'offres d'emploi en combinant scraping web et interface de consultation moderne. L'application collecte automatiquement des offres depuis plusieurs plateformes (Indeed, Welcome to the Jungle, HelloWork), les nettoie, les déduplique et les expose dans une interface React permettant de rechercher, filtrer et suivre facilement les candidatures.\n\nLe cœur technique du projet repose sur un scraper Node.js utilisant Playwright pour automatiser la navigation web et Cheerio pour parser efficacement le HTML récupéré.\n\n🎯 Fonctionnalités principales :\n- 🔎 Agrégation automatique d’offres d’emploi depuis plusieurs plateformes\n- 🧠 Déduplication intelligente des offres basée sur les liens\n- 📄 Stockage centralisé dans un JSON unique\n- 🔍 Interface React avec recherche, filtres et pagination\n- ✅ Suivi de candidatures léger via checkbox « postulée »\n- 📂 Page dédiée pour consulter les offres déjà postulées\n\n🕷️ Scraping automatisé (focus technique) :\n- 🤖 Playwright (Chromium headless) pour naviguer et récupérer les pages dynamiques\n- 🧩 Cheerio pour parser et extraire efficacement les données HTML\n- ⏱️ Délais aléatoires entre les requêtes pour limiter la charge\n- 🍪 Gestion des bannières cookies et navigation simulée\n- 📦 Pipeline simple : scraping → parsing → déduplication → stockage JSON\n\nLes données collectées incluent :\n- titre du poste\n- entreprise\n- lien vers l’offre\n- plateforme source\n- date\n\n🛠️ Stack technique :\n- ⚛️ React 19 + TypeScript\n- ⚡ Vite\n- 🔀 React Router\n- 🟢 Node.js (ES modules)\n- 🎭 Playwright pour l'automatisation du navigateur\n- 🧩 Cheerio pour le parsing HTML\n- 💾 JSON pour le stockage des données\n- 🧹 ESLint pour la qualité du code\n\n✨ Ce que démontre ce projet\n\nJobSniper met en avant ma capacité à concevoir un pipeline complet de collecte et d'exploitation de données web : automatisation de navigation avec Playwright, extraction structurée avec Cheerio, gestion de données (déduplication et stockage) et exposition via une interface React moderne.\n\nLe projet illustre également la conception d'un outil personnel efficace mêlant scraping, traitement de données et expérience utilisateur simple pour transformer une recherche d'emploi en processus automatisé et structuré."
+    },
+    {
+        "id": "24",
         "imagePortrait": "/assets/images/ImagesPortrait/CS_portrait.png",
         "imagesSlide": [
             {
