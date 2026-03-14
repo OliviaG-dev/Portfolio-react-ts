@@ -1482,5 +1482,90 @@
         "link": "https://crystal-swipe.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Crystal-swipe",
         "text": "💎 Crystal Swipe — Expérience ludique de découverte énergétique\n\nCrystal Swipe est une application interactive et intuitive dédiée à la lithothérapie, conçue pour connecter l’utilisateur à son ressenti du moment à travers un système de swipe simple et engageant. Inspirée des mécaniques de matching, l’application transforme la découverte des pierres et cristaux en une expérience fluide, légère et accessible.\n\nL’utilisateur swipe des situations et des émotions qui résonnent avec lui, et l’application calcule instantanément les pierres les plus alignées avec son énergie actuelle. L’objectif n’est pas de proposer un test complexe, mais une exploration sensorielle et symbolique, rapide et inspirante.\n\n🎯 Fonctionnalités principales :\n- 🎮 Système de swipe intuitif (gauche / droite) inspiré des mécaniques de jeu\n- 💎 Résultats personnalisés avec sélection des 3 pierres les plus compatibles\n- 📊 Score de correspondance avec pourcentage de résonance énergétique\n- 🔮 Fiches pédagogiques pour chaque pierre : propriétés, symbolique et conseil du jour\n- 🗺️ Parcours utilisateur fluide : accueil → swipe → résultats\n- 📱 Interface entièrement responsive, optimisée mobile et desktop\n\n🛠️ Stack technique :\n- ⚛️ React 19 + TypeScript pour une application robuste et typée\n- ⚡ Vite pour un développement rapide et des performances optimales\n- 🔀 React Router pour une navigation fluide entre les pages\n- 🎨 CSS personnalisé avec design moderne, cartes en glassmorphism et animations légères\n- 🧠 Logique de scoring dédiée pour le calcul des correspondances énergétiques\n\n"
+    },
+    {
+        "id": "24",
+        "imagePortrait": "/assets/images/ImagesPortrait/CVF_portrait.png",
+        "imagesSlide": [
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide01.png",
+                "alt": "image de mon projet CVForgeAI 1"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide02.png",
+                "alt": "image de mon projet CVForgeAI 2"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide03.png",
+                "alt": "image de mon projet CVForgeAI 3"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide04.png",
+                "alt": "image de mon projet CVForgeAI 4"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide05.png",
+                "alt": "image de mon projet CVForgeAI 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide06.png",
+                "alt": "image de mon projet CVForgeAI 6"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide07.png",
+                "alt": "image de mon projet CVForgeAI 7"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide08.png",
+                "alt": "image de mon projet CVForgeAI 8"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide09.png",
+                "alt": "image de mon projet CVForgeAI 9"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide10.png",
+                "alt": "image de mon projet CVForgeAI 10"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide11.png",
+                "alt": "image de mon projet CVForgeAI 11"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide12.png",
+                "alt": "image de mon projet CVForgeAI 12"   
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide13.png",
+                "alt": "image de mon projet CVForgeAI 13"   
+            },
+            {
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide14.png",
+                "alt": "image de mon projet CVForgeAI 14"   
+            }
+        ],
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#000"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#NODEJS",
+                "style": "#be8110"
+            }
+        ],
+        "title": "CVForgeAI",
+        "describe": "Votre CV, boosté par l’intelligence artificielle.",
+        "link": "https://cv-forge-ai-six.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/CVForgeAI",
+        "text": "🚀 CVForge AI — Générer un CV ne devrait pas être un projet à part entière.\n\nCVForge AI est une application web full-stack qui automatise la création de CV professionnels à partir d’informations simples comme l’expérience, les compétences et la formation. L’utilisateur saisit ses données, l’IA structure et reformule le contenu, puis le backend génère un rendu propre, optimisé et exportable en PDF.\n\nLe projet met particulièrement en avant la partie backend, pensée comme un véritable moteur de génération de CV : orchestration des appels IA, logique métier de transformation des données, génération de documents HTML, puis export PDF via Puppeteer.\n\n🎯 Fonctionnalités principales :\n- ✍️ Génération automatique d’un CV complet à partir de données utilisateur\n- 👀 Prévisualisation en temps réel pendant la saisie\n- 🧠 Amélioration intelligente des expériences professionnelles\n- 🎯 Adaptation du CV à une offre d’emploi pour renforcer sa pertinence et sa compatibilité ATS\n- 📄 Export PDF avec mise en page professionnelle\n\n🛠️ Focus backend :\n- ⚙️ API Express structurée autour de routes dédiées à la génération, l’amélioration et l’export du CV\n- 🧠 Intégration de Google Gemini 2.5 Flash pour produire, enrichir et reformuler le contenu\n- 📑 Génération dynamique de templates HTML côté serveur avant conversion en PDF\n- 🖨️ Utilisation de Puppeteer (Chrome headless) pour produire des fichiers PDF fiables et propres\n- 🔌 Architecture modulaire avec séparation claire entre routes, services IA, services PDF et templates\n- 🧱 Code TypeScript côté serveur pour fiabilité, lisibilité et maintenabilité\n\nLe backend joue ici un rôle central : il ne se contente pas d’exposer une API, il orchestre toute la chaîne de valeur de l’application.\n\nPipeline serveur :\n- réception et validation des données utilisateur\n- envoi vers Google Gemini pour génération ou amélioration du contenu\n- structuration des données de CV dans un format exploitable\n- injection dans un template HTML serveur\n- rendu final en PDF via Puppeteer\n\n📡 Endpoints principaux :\n- GET /api/health : vérification de l’état du serveur\n- POST /api/cv/generate : génération complète du CV\n- POST /api/cv/improve : reformulation et amélioration d’un contenu\n- POST /api/cv/pdf : génération et téléchargement du PDF\n\n🧪 Stack technique :\n- Frontend : React, TypeScript, Vite\n- Backend : Node.js, Express, TypeScript\n- IA : Google Gemini 2.5 Flash\n- Génération PDF : Puppeteer (Chrome headless)\n- Architecture : monorepo client / server\n\n🏗️ Ce que démontre ce projet\n\nCVForge AI montre ma capacité à construire une application backend orientée produit, où l’API sert de couche d’orchestration entre intelligence artificielle, logique métier et génération de documents.\n\nLe projet met en avant plusieurs compétences clés :\n- conception d’API Express propres et modulaires\n- intégration d’un service IA dans un workflow métier concret\n- transformation de données utilisateur en contenu structuré exploitable\n- génération de documents côté serveur avec Puppeteer\n- organisation d’un projet full-stack maintenable en monorepo\n- prise en compte des contraintes de déploiement, notamment pour Chrome headless en production sur Render\n\n✨ En résumé\n\nCVForge AI n’est pas seulement un générateur de CV avec IA : c’est surtout un backend applicatif complet qui centralise la logique métier, pilote l’IA, prépare le rendu final et produit des documents prêts à l’emploi dans un format professionnel."
     }
 ]
