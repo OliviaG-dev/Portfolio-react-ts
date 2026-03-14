@@ -141,7 +141,7 @@ Un site entièrement mobile, dédié à la découverte des menus de restaurants 
 Swipe les situations et les émotions qui te ressemblent, et découvre les pierres qui résonnent le plus avec toi aujourd'hui. Simple, fun et inspirant !
 **Technologies :** React, TypeScript, CSS
 
-### 🚀 CVForge AI 
+### 🚀 CVForgeAI 
 
 Votre CV, boosté par l’intelligence artificielle.
 **Technologies :** React, TypeScript, CSS, Node.js
