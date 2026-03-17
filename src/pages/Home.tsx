@@ -42,7 +42,6 @@ function Home() {
     }
 
     const filteredProjects = dataProjects.filter((project) => {
-      const projectTagItems = project.tags.map((t) => t.item);
       const hasSelectedTag = project.tags.some((tag) =>
         selectedTags.includes(tag.item)
       );
