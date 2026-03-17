@@ -207,6 +207,14 @@ function Home() {
                 SUPABASE
               </button>
               <button
+                className={`ia ${
+                  selectedTags.includes('#IA') ? 'active_tag' : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#IA')}
+              >
+                IA
+              </button>
+              <button
                 className={`tailwind ${
                   selectedTags.includes('#TAILWIND')
                     ? 'active_tag'

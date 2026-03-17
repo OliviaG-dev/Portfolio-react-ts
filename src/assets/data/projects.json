@@ -224,7 +224,7 @@
             },
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             }
         ],
         "title": "Numora",
@@ -297,7 +297,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -460,7 +460,7 @@
             },
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             }
         ],
         "title": "RéviPermis",
@@ -537,7 +537,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -610,7 +610,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -667,7 +667,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#TYPESCRIPT",
@@ -712,7 +712,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#TYPESCRIPT",
@@ -761,7 +761,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#TYPESCRIPT",
@@ -957,7 +957,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1018,7 +1018,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1067,7 +1067,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1140,7 +1140,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1193,7 +1193,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1242,7 +1242,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1307,7 +1307,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1356,7 +1356,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             }
         ],
         "title": "oh my food!",
@@ -1397,7 +1397,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1466,7 +1466,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1546,10 +1546,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#000"
-            },
-            {
                 "item": "#REACT",
                 "style": "#237C03"
             },
@@ -1560,6 +1556,10 @@
             {
                 "item": "#NODEJS",
                 "style": "#be8110"
+            },
+            {
+                "item": "#IA",
+                "style": "#0F766E"
             }
         ],
         "title": "CVForgeAI",

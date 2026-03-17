@@ -41,7 +41,7 @@ const PresentationCard: React.FC<{ onClose?: () => void }> = ({ onClose }) => {
           <br />
           Je fonce parfois dans tous les sens
           <br />
-          Et non, je ne vais pas me "calmer". 😉
+          Pas de pause, juste des updates constantes 😉
         </p>
         <p>
           Front-end ? Mon laboratoire. 🖥️
