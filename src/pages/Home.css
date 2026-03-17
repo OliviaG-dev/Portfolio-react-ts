@@ -539,14 +539,14 @@
 }
 
 .black {
-  color: #000;
-  border-color: #000;
+  color: #4b5563;
+  border-color: #4b5563;
 }
 
 .black:hover {
-  color: #000;
-  border-color: #000;
-  background: #f9fafb;
+  color: #111827;
+  border-color: #111827;
+  background: #f3f4f6;
 }
 
 .red {
@@ -583,6 +583,15 @@
 
 .supabase:hover {
   background: #f0fdf4;
+}
+
+.ia {
+  color: #0f766e;
+  border-color: #0f766e;
+}
+
+.ia:hover {
+  background: #f0fdfa;
 }
 
 .violet {

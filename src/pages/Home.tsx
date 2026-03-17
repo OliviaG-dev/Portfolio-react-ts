@@ -42,7 +42,10 @@ function Home() {
     }
 
     const filteredProjects = dataProjects.filter((project) => {
-      return project.tags.some((tag) => selectedTags.includes(tag.item));
+      const hasSelectedTag = project.tags.some((tag) =>
+        selectedTags.includes(tag.item)
+      );
+      return hasSelectedTag;
     });
 
     return showAllProjects ? filteredProjects : filteredProjects.slice(0, 6);
@@ -201,6 +204,14 @@ function Home() {
                 onClick={() => handleTagClick('#SUPABASE')}
               >
                 SUPABASE
+              </button>
+              <button
+                className={`ia ${
+                  selectedTags.includes('#IA') ? 'active_tag' : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#IA')}
+              >
+                IA
               </button>
               <button
                 className={`tailwind ${

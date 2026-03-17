@@ -224,7 +224,7 @@
             },
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             }
         ],
         "title": "Numora",
@@ -297,7 +297,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -460,7 +460,7 @@
             },
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             }
         ],
         "title": "RéviPermis",
@@ -537,7 +537,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -610,7 +610,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -667,7 +667,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#TYPESCRIPT",
@@ -712,7 +712,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#TYPESCRIPT",
@@ -761,7 +761,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#TYPESCRIPT",
@@ -957,7 +957,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1018,7 +1018,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1067,7 +1067,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1140,7 +1140,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1193,7 +1193,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1242,7 +1242,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1307,7 +1307,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1356,7 +1356,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             }
         ],
         "title": "oh my food!",
@@ -1397,7 +1397,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1466,7 +1466,7 @@
         "tags": [
             {
                 "item": "#HTML/CSS",
-                "style": "#000"
+                "style": "#4B5563"
             },
             {
                 "item": "#REACT",
@@ -1484,7 +1484,7 @@
         "text": "💎 Crystal Swipe — Expérience ludique de découverte énergétique\n\nCrystal Swipe est une application interactive et intuitive dédiée à la lithothérapie, conçue pour connecter l’utilisateur à son ressenti du moment à travers un système de swipe simple et engageant. Inspirée des mécaniques de matching, l’application transforme la découverte des pierres et cristaux en une expérience fluide, légère et accessible.\n\nL’utilisateur swipe des situations et des émotions qui résonnent avec lui, et l’application calcule instantanément les pierres les plus alignées avec son énergie actuelle. L’objectif n’est pas de proposer un test complexe, mais une exploration sensorielle et symbolique, rapide et inspirante.\n\n🎯 Fonctionnalités principales :\n- 🎮 Système de swipe intuitif (gauche / droite) inspiré des mécaniques de jeu\n- 💎 Résultats personnalisés avec sélection des 3 pierres les plus compatibles\n- 📊 Score de correspondance avec pourcentage de résonance énergétique\n- 🔮 Fiches pédagogiques pour chaque pierre : propriétés, symbolique et conseil du jour\n- 🗺️ Parcours utilisateur fluide : accueil → swipe → résultats\n- 📱 Interface entièrement responsive, optimisée mobile et desktop\n\n🛠️ Stack technique :\n- ⚛️ React 19 + TypeScript pour une application robuste et typée\n- ⚡ Vite pour un développement rapide et des performances optimales\n- 🔀 React Router pour une navigation fluide entre les pages\n- 🎨 CSS personnalisé avec design moderne, cartes en glassmorphism et animations légères\n- 🧠 Logique de scoring dédiée pour le calcul des correspondances énergétiques\n\n"
     },
     {
-        "id": "24",
+        "id": "25",
         "imagePortrait": "/assets/images/ImagesPortrait/CVF_portrait.png",
         "imagesSlide": [
             {
@@ -1546,10 +1546,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#000"
-            },
-            {
                 "item": "#REACT",
                 "style": "#237C03"
             },
@@ -1560,6 +1556,10 @@
             {
                 "item": "#NODEJS",
                 "style": "#be8110"
+            },
+            {
+                "item": "#IA",
+                "style": "#0F766E"
             }
         ],
         "title": "CVForgeAI",

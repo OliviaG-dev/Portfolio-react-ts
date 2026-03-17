@@ -22,49 +22,63 @@ const PresentationCard: React.FC<{ onClose?: () => void }> = ({ onClose }) => {
   const renderContent = () => (
     <>
       <div className="presentation_header">
-        <h2>Présentation : Olivia Gautheron</h2>
+        <div className="presentation_header_badge">
+          <span className="presentation_header_badge-word">Gameuse</span>
+          <span className="presentation_header_badge-separator">•</span>
+          <span className="presentation_header_badge-word">Front-end</span>
+          <span className="presentation_header_badge-separator">•</span>
+          <span className="presentation_header_badge-word">IA</span>
+        </div>
       </div>
       <div className="presentation_body">
+        <p>Je ne suis pas là pour coder “parfait”. ❌</p>
         <p>
-          <strong>Hey ! 👋</strong>
+          Je préfère expérimenter ⚡, me tromper 💥 et recommencer 🔁 pendant
+          que d’autres hésitent à pull le boss final.
+        </p>
+        <p>
+          J’ai mille idées 💡
           <br />
-          Je suis une développeuse front-end passionnée de web et de jeux vidéo
-          ! 🎮
+          Je fonce parfois dans tous les sens
+          <br />
+          Pas de pause, juste des updates constantes 😉
         </p>
         <p>
-          Mais avant ça, j'ai forgé mon sens du service dans
-          l'hôtellerie-restauration. Mon cœur battait déjà pour le code, et
-          C'est mon entourage – deux devs talentueux – qui m'a initiée au monde
-          du web.
+          Front-end ? Mon laboratoire. 🖥️
+          <br />
+          Techs émergentes ? Mon terrain de jeu 🚀
+          <br />
+          L’IA ? Mon superpouvoir 🤖✨
         </p>
         <p>
-          En 2015, j'ai suivi une première formation avant de plonger dans
-          l’univers d’une entreprise tech en Pologne, où j'ai affiné mes skills
-          et mon anglais.
+          Quand je ne suis pas devant mon code, je suis en raid ou en donjons
+          sur World of Warcraft 🎮
+          <br />
+          Soutenir mon équipe, anticiper, improviser, trouver des solutions.
+          <br />
+          Même logique que dans le code : stratégie, action, adaptation.
         </p>
         <p>
-          Après une parenthèse pleine de câlins et de biberons 🍼, j'ai repris
-          ma formation en autodidacte puis en ligne via OpenClassrooms. J'ai
-          ensuite intégré en 2023 <strong>{`<Alt/>`}</strong> pour bosser en
-          équipe sur une plateforme de partage de données, en React & NestJS.
+          Si tu crois que je “triche” avec l’IA ou les nouvelles technos, tu es
+          déjà dépassé ⏳
         </p>
         <p>
-          En parallèle, je suis une gameuse invétérée 🎮 : WoW, LoL, Skyrim,
-          Pokémon, Ark… Et devine mon rôle préféré ? Support, évidemment ! 🧙‍♀️
-          Soutien, coordination, entraide — "Seul on va plus vite, ensemble on
-          va plus loin." — C’est ma philosophie, que ce soit en jeu ou en
-          développement.
+          Moi, je build mon futur.
+          <br />
+          En ligne. Dans le code. Et dans le jeu 🔥
+          <br />
         </p>
         <p className="presentation_body_text">
-          💖 Forger du code avec l’âme d’une gameuse : telle est ma quête légendaire.
+          💖 Forger du code avec l’âme d’une gameuse : telle est ma quête
+          légendaire. 💖
         </p>
       </div>
       <div className="presentation_reward">
-        <strong className="presentation_reward_title">Talents spéciaux :</strong>
+        <strong className="presentation_reward_title">Talents spéciaux</strong>
         <ul>
           <li>⚡ +100 motivation</li>
-          <li>🎯 Maîtrise de React, TypeScript, NestJS</li>
-          <li>🧠 Apprentissage en autodidacte</li>
+          <li>🎯 Maîtrise de React, TypeScript, NestJS & IA</li>
+          <li>🧠 Curiosité : mon cheat code pour progresser</li>
           <li>🎮 Esprit d'équipe (support main !)</li>
         </ul>
       </div>

@@ -5,31 +5,29 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: var(--color-background-secondary);
-  border: 8px solid var(--color-text-on-light);
-  border-image: linear-gradient(
-      to bottom,
-      var(--color-accent-primary),
-      var(--color-text-on-light)
-    )
-    1;
-  border-radius: 15px;
-  padding: 2rem;
-  max-width: 500px;
-  width: 90%;
-  max-height: 90vh;
+  background:
+    radial-gradient(circle at top left, rgba(255, 248, 231, 0.9), transparent 65%),
+    radial-gradient(circle at bottom right, rgba(248, 229, 214, 0.9), transparent 60%),
+    linear-gradient(
+      135deg,
+      #f9eed7 0%,
+      #f5e5c7 30%,
+      #f0dbc0 65%,
+      #ead1b6 100%
+    );
+  border-radius: 18px;
+  padding: 2rem 2.4rem;
+  max-width: 60rem;
+  width: min(90%, 960px);
+  max-height: 80vh;
   overflow-y: auto;
   font-family: 'IM Fell English SC', serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--color-text-on-light);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
-  background-image: repeating-linear-gradient(
-    45deg,
-    var(--color-background-secondary),
-    var(--color-background-secondary) 10px,
-    var(--color-background-hover) 10px,
-    var(--color-background-hover) 20px
-  );
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.55),
+    inset 0 0 35px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(116, 82, 44, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,10 +73,11 @@
 }
 
 .quest_header h2 {
-  color: var(--color-text-on-light);
+  color: #3a2710;
   font-size: 1.8rem;
   margin-top: 1rem;
-  text-shadow: 1px 1px #fff;
+  letter-spacing: 0.04em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .horde_logo {
@@ -91,35 +90,88 @@
 }
 
 .quest_title {
-  font-weight: bold;
-  font-size: 1rem;
-  text-decoration: underline;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b08a2a;
+  position: relative;
+  padding-bottom: 0.15rem;
+}
+
+.quest_title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.5rem;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    rgba(240, 212, 122, 0.9),
+    rgba(212, 175, 55, 0.3)
+  );
 }
 
 .quest_reward ul {
   padding-left: 1.5rem;
   margin-top: 0.5rem;
   list-style-type: '🪙 ';
+  color: #3b2916;
 }
 
 .quest_close-btn,
 .quest_new-btn {
-  display: block;
-  margin: 2rem auto 0;
-  background: var(--color-text-on-light);
-  color: var(--color-background-secondary);
-  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.5rem auto 0;
+  background: linear-gradient(
+    135deg,
+    rgba(182, 140, 42, 0.9),
+    rgba(240, 212, 122, 0.95)
+  );
+  color: #2a1b07;
+  padding: 0.55rem 1.9rem;
   font-family: inherit;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
+  border: 1px solid rgba(107, 77, 34, 0.8);
+  border-radius: 999px;
+  font-size: 0.95rem;
   cursor: pointer;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.45),
+    0 0 10px rgba(240, 212, 122, 0.4);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+
+.quest_close-btn {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .quest_close-btn:hover,
 .quest_new-btn:hover {
-  background: var(--color-accent-primary);
+  transform: translateY(-1px);
+  filter: brightness(1.04);
+  box-shadow:
+    0 5px 14px rgba(0, 0, 0, 0.55),
+    0 0 14px rgba(240, 212, 122, 0.65);
+}
+
+.quest_close-btn:active,
+.quest_new-btn:active {
+  transform: translateY(1px) scale(0.97);
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.5),
+    0 0 8px rgba(240, 212, 122, 0.5);
+  filter: brightness(0.98);
 }
 
 /* Responsive Design */
@@ -190,7 +242,6 @@
   .quest_close-btn,
   .quest_new-btn {
     position: fixed;
-    bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
@@ -200,7 +251,11 @@
   }
 
   .quest_new-btn {
-    bottom: 6rem;
+    bottom: 7.5rem;
+  }
+
+  .quest_close-btn {
+    bottom: 2rem;
   }
 }
 
