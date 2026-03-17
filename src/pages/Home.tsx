@@ -42,7 +42,11 @@ function Home() {
     }
 
     const filteredProjects = dataProjects.filter((project) => {
-      return project.tags.some((tag) => selectedTags.includes(tag.item));
+      const projectTagItems = project.tags.map((t) => t.item);
+      const hasSelectedTag = project.tags.some((tag) =>
+        selectedTags.includes(tag.item)
+      );
+      return hasSelectedTag;
     });
 
     return showAllProjects ? filteredProjects : filteredProjects.slice(0, 6);
