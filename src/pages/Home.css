@@ -127,13 +127,11 @@
 }
 
 .contact_text {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 1.5rem;
+  display: flex;
+  justify-content: center;
   width: 100%;
   margin: 0;
   padding: 2rem 0;
-  justify-content: space-around;
 }
 
 .text_contain {
@@ -145,8 +143,12 @@
   animation: fadeIn 1s ease-out forwards;
 }
 
-.text_contain:nth-child(2) {
-  animation-delay: 0.3s;
+.text_contain.contact_grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(350px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  justify-items: stretch;
 }
 
 @keyframes fadeIn {
@@ -331,8 +333,7 @@
     padding: 4rem 2rem 2rem 2rem;
   }
 
-  .contact_text {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  .text_contain.contact_grid {
     gap: 1.2rem;
   }
 
@@ -356,8 +357,12 @@
   }
 
   .contact_text {
-    grid-template-columns: 1fr;
     max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .text_contain.contact_grid {
+    grid-template-columns: 1fr;
     gap: 0.8rem;
   }
 
@@ -404,7 +409,7 @@
     padding: 2rem 0.5rem 1rem 0.5rem;
   }
 
-  .contact_text {
+  .text_contain.contact_grid {
     gap: 0.6rem;
   }
 
@@ -450,7 +455,7 @@
     padding: 1.5rem 0.5rem 1rem 0.5rem;
   }
 
-  .contact_text {
+  .text_contain.contact_grid {
     gap: 0.5rem;
   }
 
@@ -1005,8 +1010,7 @@
     padding: 4rem 2rem 2rem 2rem;
   }
 
-  .contact_text {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  .text_contain.contact_grid {
     gap: 1.2rem;
   }
 
@@ -1019,18 +1023,11 @@
 @media screen and (min-width: 993px) and (max-width: 1784px) {
   .contact_text {
     display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    margin: 0 auto;
-    align-items: space-around;
     justify-content: center;
     width: 100%;
   }
 
-  .text_contain {
-    width: 48%;
-    display: flex;
-    flex-direction: column;
+  .text_contain.contact_grid {
     gap: 2rem;
   }
 
@@ -1087,8 +1084,12 @@
   }
 
   .contact_text {
-    grid-template-columns: 1fr;
     max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .text_contain.contact_grid {
+    grid-template-columns: 1fr;
     gap: 0.8rem;
   }
 
@@ -1163,7 +1164,7 @@
     padding: 2rem 0.5rem 1rem 0.5rem;
   }
 
-  .contact_text {
+  .text_contain.contact_grid {
     gap: 0.6rem;
   }
 
@@ -1261,7 +1262,7 @@
     padding: 1.5rem 0.5rem 1rem 0.5rem;
   }
 
-  .contact_text {
+  .text_contain.contact_grid {
     gap: 0.6rem;
   }
 

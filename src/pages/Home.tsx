@@ -6,8 +6,6 @@ import Icon_email from '../assets/images/Icons/Icon_email.svg';
 import Icon_github from '../assets/images/Icons/Icon_github.svg';
 import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
 import Icon_cv from '../assets/images/Icons/Icon_cv.svg';
-import Icon_date from '../assets/images/Icons/Icon_date.svg';
-import Icon_notion from '../assets/images/Icons/Icon_notion.svg';
 import { Data } from '../services/data';
 import { DataProjects } from '../services/inteface';
 import Modal from '../components/Modal/Modal';
@@ -302,7 +300,7 @@ function Home() {
           </div>
 
           <div className="contact_text">
-            <div className="text_contain line">
+            <div className="text_contain contact_grid">
               <div className="contact_item linkedin">
                 <img src={Icon_linkedin} alt="icone linkedin" />
                 <a
@@ -336,35 +334,11 @@ function Home() {
                   Voici mon adresse électronique !
                 </a>
               </div>
-            </div>
-            <div className="text_contain">
-              <div className="contact_item notion">
-                <img src={Icon_notion} alt="icone notion" />
-                <a
-                  className="contact_link"
-                  href="https://wandering-pancreas-05c.notion.site/Gautheron-Olivia-D-veloppeuse-frontend-React-39ec57aa8a274c3aa1a6af698fe077e2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visitez mon CV sur notion !
-                </a>
-              </div>
-              <div className="contact_item calendly">
-                <img src={Icon_date} alt="icone date" />
-                <a
-                  className="contact_link"
-                  href="https://calendly.com/olivia_gautheron/30min"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Prenez un rendez-vous !
-                </a>
-              </div>
               <div className="contact_item cv">
                 <img src={Icon_cv} alt="icone cv" />
                 <a
                   className="contact_link"
-                  href="https://drive.google.com/file/d/1ZaS1wB-uZFkiy_3hxHLpaLen99qm_xMS/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1KHZY64gl4h320Cg0P7zsI8KB4HgWjip4/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
