@@ -31,6 +31,11 @@
 
 Cette section présente une sélection de mes projets les plus récents, développés avec passion et rigueur technique.
 
+### 🌿 Lumiel
+
+Application moderne et clé en main pour les praticiens énergétiques : attirer des clients, gérer les rendez-vous et valoriser leur activité en toute simplicité (site vitrine, réservation, dashboard admin, Supabase).
+**Technologies :** React, TypeScript, Supabase
+
 ### 🎯 JobSniper
 
 JobSniper analyse, filtre et détecte automatiquement les offres qui correspondent vraiment à ton profil.
