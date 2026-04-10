@@ -1657,5 +1657,91 @@
         "link": "https://lumiel-ten.vercel.app/",
         "linkGit": "https://github.com/OliviaG-dev/Lumiel",
         "text": "🌿 Lumiel — Plateforme digitale pour l’accompagnement bien-être\n\nLumiel est une application web complète combinant site vitrine, système de réservation et dashboard administrateur. Conçue pour un professionnel du bien-être, elle permet de présenter une activité, gérer les rendez-vous, suivre les clients et administrer le contenu depuis une interface unique, moderne et responsive.\n\nLe projet met en avant une architecture full-stack centrée sur Supabase, utilisé à la fois pour la gestion des données, l’authentification et certaines logiques métier, permettant de construire une application robuste sans backend traditionnel.\n\n🎯 Fonctionnalités principales :\n- 🌐 Site public : présentation, prestations, blog, témoignages, contact et FAQ\n- 📅 Prise de rendez-vous dynamique avec gestion des disponibilités en temps réel\n- 🧾 Formulaires sécurisés avec consentement RGPD (contact, réservation, avis)\n- 🧑‍💼 Dashboard administrateur complet avec accès restreint\n- 📊 Statistiques : suivi des rendez-vous, prestations et activité globale\n- 🗓️ Calendrier interactif (agenda + gestion des disponibilités)\n- ✍️ Gestion du contenu : blog, prestations, avis (modération incluse)\n- 👥 Gestion clients : fiches, historique, notes privées\n- 🌙 Interface responsive avec adaptation mobile (menu burger, UX optimisée)\n\n🛠️ Focus technique (data & logique applicative) :\n- 🗄️ Supabase comme cœur applicatif : base de données, authentification et accès sécurisé\n- 🔐 Contrôle d’accès via table admins et politiques RLS\n- 📡 Requêtes dynamiques pour les prestations, rendez-vous, disponibilités et clients\n- 🧠 Logique métier côté front : calcul des créneaux disponibles selon durée et réservations\n- 💾 Persistance des données en temps réel (réservations, avis, contenus)\n- 🖼️ Utilisation de Supabase Storage pour les médias (images du blog)\n\n📊 Gestion des données clés :\n- prestations (offres et tarifs)\n- rendez_vous (réservations)\n- disponibilites (créneaux)\n- avis (témoignages clients)\n- blog_posts (contenu éditorial)\n- clients et notes associées\n\n🛠️ Stack technique :\n- ⚛️ React 19 + TypeScript\n- ⚡ Vite 8\n- 🔀 React Router 7\n- 🗄️ Supabase (authentification, base de données, storage)\n- 📅 react-big-calendar + date-fns (gestion du temps et calendrier)\n- 🎨 CSS personnalisé (design cohérent, responsive)\n- 🧹 ESLint + TypeScript strict\n\n🔐 RGPD & bonnes pratiques :\n- Consentement obligatoire sur tous les formulaires sensibles\n- Page de politique de confidentialité dédiée\n- Gestion des données utilisateur conforme (structure, stockage, affichage)\n\n✨ Ce que démontre ce projet\n\nLumiel met en avant ma capacité à concevoir une application métier complète sans backend traditionnel, en m’appuyant sur Supabase pour gérer la data, l’authentification et la sécurité.\n\nLe projet démontre :\n- la conception d’une architecture orientée produit (vitrine + outil interne)\n- la modélisation de données réelles (clients, rendez-vous, prestations)\n- la gestion de logique métier complexe (réservation, disponibilités, agenda)\n- l’intégration d’un système d’administration complet\n- la prise en compte des contraintes légales (RGPD)\n\n✨ En résumé\n\nLumiel est une application métier complète, pensée comme un outil professionnel prêt à être utilisé en conditions réelles, combinant expérience utilisateur, gestion de données et logique applicative dans un environnement moderne et maintenable."
+    },
+    {
+        "id": "27",
+        "imagePortrait": "/assets/images/ImagesPortrait/TM_portrait.png",
+        "imagesSlide": [
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide01.png",
+                "alt": "image de mon projet Lumiel 1"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide02.png",
+                "alt": "image de mon projet Lumiel 2"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide03.png",
+                "alt": "image de mon projet Lumiel 3"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide04.png",
+                "alt": "image de mon projet Lumiel 4"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide05.png",
+                "alt": "image de mon projet Lumiel 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide06.png",
+                "alt": "image de mon projet Lumiel 6"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide07.png",
+                "alt": "image de mon projet Lumiel 7"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide08.png",
+                "alt": "image de mon projet Lumiel 8"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide09.png",
+                "alt": "image de mon projet Lumiel 9"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide10.png",
+                "alt": "image de mon projet Lumiel 10"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide11.png",
+                "alt": "image de mon projet Lumiel 11"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide12.png",
+                "alt": "image de mon projet Lumiel 12"   
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide13.png",
+                "alt": "image de mon projet Lumiel 13"    
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide14.png",
+                "alt": "image de mon projet Lumiel 14"   
+            }
+        ],
+        "tags": [
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            },
+            {
+                "item": "#NODEJS",
+                "style": "#be8110"
+            },
+            {
+                "item": "#IA",
+                "style": "#0F766E"
+            }
+        ],
+        "title": "TarotMind",
+        "describe": "Une app qui utilise l’IA pour interpréter les tirages de tarot et offrir des analyses claires afin d’aider les utilisateurs à mieux comprendre leurs situations et leurs décisions.",
+        "link": "https://tarot-mind-client.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/TarotMind",
+        "text": "🔮 TarotMind — Interprétez vos tirages avec l’intelligence artificielle\n\nTarotMind est une application web immersive dédiée au tirage et à l’interprétation de tarot, combinant une expérience utilisateur élégante et une intégration poussée de l’intelligence artificielle. L’utilisateur sélectionne un tirage, saisit ses cartes, puis reçoit une interprétation personnalisée générée par IA selon différents tons (spirituel, psychologique ou direct).\n\nLe projet met fortement l’accent sur l’intégration de l’IA comme moteur principal de valeur : l’API backend orchestre la génération des interprétations en s’appuyant sur OpenAI, tout en restant modulaire et évolutive.\n\n🎯 Fonctionnalités principales :\n- 🃏 Tirages guidés avec saisie des cartes\n- 🧠 Interprétation IA personnalisée selon le ton choisi\n- 👤 Profil utilisateur configurable (objectifs, contexte, préférences)\n- 📜 Historique local des tirages avec possibilité de comparaison\n- 🌙 Interface sombre élégante, responsive et immersive\n- ⚡ Fallback local en cas d’indisponibilité de l’IA\n\n🤖 Focus IA (cœur du projet) :\n- 🔌 API Express dédiée avec endpoint POST /interpret\n- 🧠 Intégration d’OpenAI pour générer des interprétations contextualisées\n- 🎯 Personnalisation des prompts selon :\n  - les cartes tirées\n  - le type de tirage\n  - le profil utilisateur\n  - le ton souhaité (spirituel, analytique, direct)\n- 🔄 Gestion des erreurs et fallback local pour garantir une expérience continue\n- 🧩 Architecture pensée pour faire évoluer facilement les modèles ou la logique de génération\n\nPipeline IA :\n- récupération des données utilisateur (tirage + profil)\n- construction dynamique du prompt\n- appel à l’API OpenAI\n- traitement et renvoi d’une interprétation structurée\n- affichage côté client avec mise en forme adaptée\n\n🛠️ Stack technique :\n- ⚛️ React + TypeScript + Vite\n- 🔀 React Router\n- 🟢 Node.js + Express\n- 🤖 OpenAI (génération de contenu)\n- 📦 npm workspaces (monorepo client / server / shared)\n- 🧠 Types partagés entre front et back (packages/shared)\n\n✨ Ce que démontre ce projet\n\nTarotMind met en avant ma capacité à intégrer une intelligence artificielle dans une application concrète, en construisant une vraie logique métier autour de la génération de contenu.\n\nLe projet démontre :\n- la conception d’une API dédiée à l’IA\n- la création de prompts dynamiques et contextualisés\n- l’orchestration d’un pipeline de génération complet\n- la gestion de la résilience (fallback sans IA)\n- l’intégration fluide entre frontend et backend dans un monorepo structuré\n\n✨ En résumé\n\nTarotMind est une application centrée sur l’IA où le backend agit comme un moteur d’interprétation intelligent, transformant des données symboliques en contenu personnalisé, offrant ainsi une expérience utilisateur riche, moderne et évolutive."
     }
+
 ]
