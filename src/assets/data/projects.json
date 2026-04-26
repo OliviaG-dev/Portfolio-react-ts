@@ -414,39 +414,83 @@
     },
     {
         "id": "06",
-        "imagePortrait": "/assets/images/ImagesPortrait/RP_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/TM_portrait.png",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide01.png",
-                "alt": "image de mon projet RP 1"
+                "src": "/assets/images/ImagesSlide/TM/TM_slide01.png",
+                "alt": "image de mon projet TarotMind 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide02.png",
-                "alt": "image de mon projet RP 2"
+                "src": "/assets/images/ImagesSlide/TM/TM_slide02.png",
+                "alt": "image de mon projet TarotMind 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide03.png",
-                "alt": "image de mon projet RP 3"
+                "src": "/assets/images/ImagesSlide/TM/TM_slide03.png",
+                "alt": "image de mon projet TarotMind 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide04.png",
-                "alt": "image de mon projet RP 4"
+                "src": "/assets/images/ImagesSlide/TM/TM_slide04.png",
+                "alt": "image de mon projet TarotMind 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide05.png",
-                "alt": "image de mon projet RP 5"
+                "src": "/assets/images/ImagesSlide/TM/TM_slide05.png",
+                "alt": "image de mon projet TarotMind 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide06.png",
-                "alt": "image de mon projet RP 6"
+                "src": "/assets/images/ImagesSlide/TM/TM_slide06.png",
+                "alt": "image de mon projet TarotMind 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide07.png",
-                "alt": "image de mon projet RP 7"
+                "src": "/assets/images/ImagesSlide/TM/TM_slide07.png",
+                "alt": "image de mon projet TarotMind 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide08.png",
-                "alt": "image de mon projet RP 8"
+                "src": "/assets/images/ImagesSlide/TM/TM_slide08.png",
+                "alt": "image de mon projet TarotMind 8"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide09.png",
+                "alt": "image de mon projet TarotMind 9"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide10.png",
+                "alt": "image de mon projet TarotMind 10"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide11.png",
+                "alt": "image de mon projet TarotMind 11"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide12.png",
+                "alt": "image de mon projet TarotMind 12"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide13.png",
+                "alt": "image de mon projet TarotMind 13"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide14.png",
+                "alt": "image de mon projet TarotMind 14"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide15.png",
+                "alt": "image de mon projet TarotMind 15"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide16.png",
+                "alt": "image de mon projet TarotMind 16"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide17.png",
+                "alt": "image de mon projet TarotMind 17"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide18.png",
+                "alt": "image de mon projet TarotMind 18"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/TM/TM_slide19.png",
+                "alt": "image de mon projet TarotMind 19"
             }
         ],
         "tags": [
@@ -459,15 +503,19 @@
                 "style": "#065973"
             },
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
+                "item": "#NODEJS",
+                "style": "#be8110"
+            },
+            {
+                "item": "#IA",
+                "style": "#0F766E"
             }
         ],
-        "title": "RéviPermis",
-        "describe": "Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.",
-        "link": "https://r-vi-permis.vercel.app",
-        "linkGit": "https://github.com/OliviaG-dev/R-viPermis",
-        "text": "📝 RéviPermis\n\nRéviPermis est une application web moderne développée avec React, TypeScript et CSS, conçue pour aider à réviser efficacement les 100 questions officielles du permis de conduire français. Ce projet a été réalisé au moment où je passais moi-même le permis, ce qui m’a permis d’allier apprentissage personnel et montée en compétences techniques. Une expérience à la fois utile, formatrice et motivante.\n\n🚀 Fonctionnement de l'application\n\nL'application propose deux modes complémentaires pour faciliter la révision :\n\n- **Mode Révision** : navigation fluide, affichage d'images, réponses multiples, filtres par catégories.\n- **Mode Quiz** : QCM interactif, progression visuelle, statistiques en temps réel, résultats détaillés.\n\n🧩 Architecture & Technologies\n\nLe projet repose sur une architecture front-end modulaire, performante et maintenable, incluant :\n\n- **React 19** + **TypeScript strict**\n- **React Router DOM 7** pour la navigation\n- **Vite** pour un développement rapide et un build optimisé\n- **Hooks personnalisés**, composants réutilisables et organisation modulaire\n- **Lazy loading** & **code splitting** pour des performances optimales\n- **UI responsive** avec support du **mode sombre**\n- **Parsing automatisé** du PDF officiel via des scripts Node.js\n\n🎯 Points d'attention & qualité\n\nUne attention particulière a été portée sur :\n\n- **La qualité du code** : ESLint, typage strict, structure propre\n- **La performance** : optimisation du bundle, HMR rapide, loading dynamique\n- **L'expérience utilisateur** : animations, ergonomie, interface claire et agréable\n- **La gestion des données** : 100 questions structurées, catégories, réponses multiples, images associées\n\n✨ Ce que ce projet m’a apporté\n\nCe projet m’a permis de renforcer mes compétences en **React**, **TypeScript**, **gestion d’état**, **logique métier avancée** et **architecture front-end scalable**. Travailler sur un outil que j’utilisais moi-même a été très motivant et m’a permis de concevoir une application utile, intuitive et techniquement solide."
+        "title": "TarotMind",
+        "describe": "Une app qui utilise l’IA pour interpréter les tirages de tarot et offrir des analyses claires afin d’aider les utilisateurs à mieux comprendre leurs situations et leurs décisions.",
+        "link": "https://tarot-mind-client.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/TarotMind",
+        "text": "🔮 TarotMind — Interprétez vos tirages avec l’intelligence artificielle\n\nTarotMind est une application web immersive dédiée au tirage et à l’interprétation de tarot, combinant une expérience utilisateur élégante et une intégration poussée de l’intelligence artificielle. L’utilisateur peut réaliser différents tirages, poser des questions ciblées, consulter sa carte du jour et recevoir des analyses personnalisées générées par IA selon plusieurs tons (spirituel, psychologique ou direct).\n\nLe projet met fortement l’accent sur l’intégration de l’IA comme moteur principal de valeur : l’API backend orchestre plusieurs services intelligents en s’appuyant sur OpenAI, tout en restant modulaire, scalable et orientée production.\n\n🎯 Fonctionnalités principales :\n- 🃏 Tirages guidés avec saisie des cartes\n- 🧠 Interprétation IA personnalisée selon le ton choisi\n- ❓ Module Questions : réponses IA sur une problématique précise\n- 👤 Profil utilisateur configurable (objectifs, contexte, préférences)\n- 📜 Historique local complet avec favoris, notes et partage\n- 📊 Statistiques personnelles (cartes fréquentes, KPIs, répartition)\n- 📚 Encyclopédie du tarot avec recherche et filtres\n- 🌙 Mode sombre / clair avec transitions fluides\n- 🔊 Lecture vocale des interprétations (Web Speech API)\n- 🔔 Notifications navigateur et rappels personnalisés\n- ⚡ Fallback local en cas d’indisponibilité de l’IA\n\n🤖 Focus IA (cœur du projet) :\n- 🔌 API Express dédiée avec endpoints POST /interpret, POST /question et POST /history-insights\n- 🧠 Intégration d’OpenAI pour générer des interprétations contextualisées\n- 🎯 Personnalisation des prompts selon :\n - les cartes tirées\n - le type de tirage\n - le profil utilisateur\n - l’historique personnel\n - le ton souhaité (spirituel, analytique, direct)\n- 📈 Endpoint GET /ai-usage pour suivre volume, tokens, fallback rate et estimation des coûts\n- 🚦 Quota journalier IA par utilisateur via X-User-Id ou IP fallback\n- 🔄 Gestion des erreurs, retries automatiques et fallback local\n- 🧩 Architecture pensée pour faire évoluer facilement les modèles IA ou la logique métier\n\nPipeline IA :\n- récupération des données utilisateur (tirage + profil + historique)\n- construction dynamique du prompt\n- appel à l’API OpenAI\n- analyse / restructuration de la réponse\n- suivi métriques tokens & coût\n- renvoi d’une interprétation structurée\n- affichage côté client avec mise en forme adaptée\n\n🛠️ Stack technique :\n- ⚛️ React + TypeScript + Vite\n- 🔀 React Router\n- 🟢 Node.js + Express\n- 🤖 OpenAI (génération de contenu)\n- 🧪 Vitest + Supertest + Playwright\n- 📦 npm workspaces (monorepo client / server / shared)\n- 🧠 Types partagés entre front et back (packages/shared)\n\n✨ Ce que démontre ce projet\n\nTarotMind met en avant ma capacité à intégrer une intelligence artificielle dans une application concrète, en construisant une vraie logique métier autour de la génération de contenu et de l’observabilité produit.\n\nLe projet démontre :\n- la conception d’une API dédiée à l’IA\n- la création de prompts dynamiques et contextualisés\n- l’orchestration d’un pipeline de génération complet\n- la gestion de quotas, coûts et métriques IA\n- la résilience applicative (fallback sans IA)\n- l’intégration fluide entre frontend et backend dans un monorepo structuré\n- la mise en place de tests unitaires, API et end-to-end\n\n✨ En résumé\n\nTarotMind est une application centrée sur l’IA où le backend agit comme un moteur d’interprétation intelligent, transformant des données symboliques en contenu personnalisé, tout en intégrant des logiques modernes de monitoring, limitation d’usage et expérience utilisateur premium."
     },
     {
         "id": "07",
@@ -1533,15 +1581,15 @@
             },
             {
                 "src": "/assets/images/ImagesSlide/CVF/CVF_slide12.png",
-                "alt": "image de mon projet CVForgeAI 12"   
+                "alt": "image de mon projet CVForgeAI 12"
             },
             {
                 "src": "/assets/images/ImagesSlide/CVF/CVF_slide13.png",
-                "alt": "image de mon projet CVForgeAI 13"   
+                "alt": "image de mon projet CVForgeAI 13"
             },
             {
                 "src": "/assets/images/ImagesSlide/CVF/CVF_slide14.png",
-                "alt": "image de mon projet CVForgeAI 14"   
+                "alt": "image de mon projet CVForgeAI 14"
             }
         ],
         "tags": [
@@ -1618,23 +1666,23 @@
             },
             {
                 "src": "/assets/images/ImagesSlide/LU/LU_slide12.png",
-                "alt": "image de mon projet Lumiel 12"   
+                "alt": "image de mon projet Lumiel 12"
             },
             {
                 "src": "/assets/images/ImagesSlide/LU/LU_slide13.png",
-                "alt": "image de mon projet Lumiel 13"   
+                "alt": "image de mon projet Lumiel 13"
             },
             {
                 "src": "/assets/images/ImagesSlide/LU/LU_slide14.png",
-                "alt": "image de mon projet Lumiel 14"   
+                "alt": "image de mon projet Lumiel 14"
             },
             {
                 "src": "/assets/images/ImagesSlide/LU/LU_slide15.png",
-                "alt": "image de mon projet Lumiel 15"   
-            },   
+                "alt": "image de mon projet Lumiel 15"
+            },
             {
                 "src": "/assets/images/ImagesSlide/LU/LU_slide16.png",
-                "alt": "image de mon projet lumiel 16"   
+                "alt": "image de mon projet lumiel 16"
             }
         ],
         "tags": [
@@ -1650,7 +1698,6 @@
                 "item": "#SUPABASE",
                 "style": "#4A90E2"
             }
-
         ],
         "title": "Lumiel",
         "describe": "Un app moderne et clé en main pour les praticiens énergétiques, conçu pour attirer des clients, gérer les rendez-vous et valoriser leur activité en toute simplicité.",
@@ -1660,63 +1707,39 @@
     },
     {
         "id": "27",
-        "imagePortrait": "/assets/images/ImagesPortrait/TM_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/RP_portrait.png",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide01.png",
-                "alt": "image de mon projet Lumiel 1"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide01.png",
+                "alt": "image de mon projet RP 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide02.png",
-                "alt": "image de mon projet Lumiel 2"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide02.png",
+                "alt": "image de mon projet RP 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide03.png",
-                "alt": "image de mon projet Lumiel 3"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide03.png",
+                "alt": "image de mon projet RP 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide04.png",
-                "alt": "image de mon projet Lumiel 4"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide04.png",
+                "alt": "image de mon projet RP 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide05.png",
-                "alt": "image de mon projet Lumiel 5"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide05.png",
+                "alt": "image de mon projet RP 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide06.png",
-                "alt": "image de mon projet Lumiel 6"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide06.png",
+                "alt": "image de mon projet RP 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide07.png",
-                "alt": "image de mon projet Lumiel 7"
+                "src": "/assets/images/ImagesSlide/RP/RP_slide07.png",
+                "alt": "image de mon projet RP 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide08.png",
-                "alt": "image de mon projet Lumiel 8"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide09.png",
-                "alt": "image de mon projet Lumiel 9"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide10.png",
-                "alt": "image de mon projet Lumiel 10"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide11.png",
-                "alt": "image de mon projet Lumiel 11"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide12.png",
-                "alt": "image de mon projet Lumiel 12"   
-            },
-            {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide13.png",
-                "alt": "image de mon projet Lumiel 13"    
-            },
-            {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide14.png",
-                "alt": "image de mon projet Lumiel 14"   
+                "src": "/assets/images/ImagesSlide/RP/RP_slide08.png",
+                "alt": "image de mon projet RP 8"
             }
         ],
         "tags": [
@@ -1729,19 +1752,14 @@
                 "style": "#065973"
             },
             {
-                "item": "#NODEJS",
-                "style": "#be8110"
-            },
-            {
-                "item": "#IA",
-                "style": "#0F766E"
+                "item": "#HTML/CSS",
+                "style": "#4B5563"
             }
         ],
-        "title": "TarotMind",
-        "describe": "Une app qui utilise l’IA pour interpréter les tirages de tarot et offrir des analyses claires afin d’aider les utilisateurs à mieux comprendre leurs situations et leurs décisions.",
-        "link": "https://tarot-mind-client.vercel.app/",
-        "linkGit": "https://github.com/OliviaG-dev/TarotMind",
-        "text": "🔮 TarotMind — Interprétez vos tirages avec l’intelligence artificielle\n\nTarotMind est une application web immersive dédiée au tirage et à l’interprétation de tarot, combinant une expérience utilisateur élégante et une intégration poussée de l’intelligence artificielle. L’utilisateur sélectionne un tirage, saisit ses cartes, puis reçoit une interprétation personnalisée générée par IA selon différents tons (spirituel, psychologique ou direct).\n\nLe projet met fortement l’accent sur l’intégration de l’IA comme moteur principal de valeur : l’API backend orchestre la génération des interprétations en s’appuyant sur OpenAI, tout en restant modulaire et évolutive.\n\n🎯 Fonctionnalités principales :\n- 🃏 Tirages guidés avec saisie des cartes\n- 🧠 Interprétation IA personnalisée selon le ton choisi\n- 👤 Profil utilisateur configurable (objectifs, contexte, préférences)\n- 📜 Historique local des tirages avec possibilité de comparaison\n- 🌙 Interface sombre élégante, responsive et immersive\n- ⚡ Fallback local en cas d’indisponibilité de l’IA\n\n🤖 Focus IA (cœur du projet) :\n- 🔌 API Express dédiée avec endpoint POST /interpret\n- 🧠 Intégration d’OpenAI pour générer des interprétations contextualisées\n- 🎯 Personnalisation des prompts selon :\n  - les cartes tirées\n  - le type de tirage\n  - le profil utilisateur\n  - le ton souhaité (spirituel, analytique, direct)\n- 🔄 Gestion des erreurs et fallback local pour garantir une expérience continue\n- 🧩 Architecture pensée pour faire évoluer facilement les modèles ou la logique de génération\n\nPipeline IA :\n- récupération des données utilisateur (tirage + profil)\n- construction dynamique du prompt\n- appel à l’API OpenAI\n- traitement et renvoi d’une interprétation structurée\n- affichage côté client avec mise en forme adaptée\n\n🛠️ Stack technique :\n- ⚛️ React + TypeScript + Vite\n- 🔀 React Router\n- 🟢 Node.js + Express\n- 🤖 OpenAI (génération de contenu)\n- 📦 npm workspaces (monorepo client / server / shared)\n- 🧠 Types partagés entre front et back (packages/shared)\n\n✨ Ce que démontre ce projet\n\nTarotMind met en avant ma capacité à intégrer une intelligence artificielle dans une application concrète, en construisant une vraie logique métier autour de la génération de contenu.\n\nLe projet démontre :\n- la conception d’une API dédiée à l’IA\n- la création de prompts dynamiques et contextualisés\n- l’orchestration d’un pipeline de génération complet\n- la gestion de la résilience (fallback sans IA)\n- l’intégration fluide entre frontend et backend dans un monorepo structuré\n\n✨ En résumé\n\nTarotMind est une application centrée sur l’IA où le backend agit comme un moteur d’interprétation intelligent, transformant des données symboliques en contenu personnalisé, offrant ainsi une expérience utilisateur riche, moderne et évolutive."
+        "title": "RéviPermis",
+        "describe": "Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.",
+        "link": "https://r-vi-permis.vercel.app",
+        "linkGit": "https://github.com/OliviaG-dev/R-viPermis",
+        "text": "📝 RéviPermis\n\nRéviPermis est une application web moderne développée avec React, TypeScript et CSS, conçue pour aider à réviser efficacement les 100 questions officielles du permis de conduire français. Ce projet a été réalisé au moment où je passais moi-même le permis, ce qui m’a permis d’allier apprentissage personnel et montée en compétences techniques. Une expérience à la fois utile, formatrice et motivante.\n\n🚀 Fonctionnement de l'application\n\nL'application propose deux modes complémentaires pour faciliter la révision :\n\n- **Mode Révision** : navigation fluide, affichage d'images, réponses multiples, filtres par catégories.\n- **Mode Quiz** : QCM interactif, progression visuelle, statistiques en temps réel, résultats détaillés.\n\n🧩 Architecture & Technologies\n\nLe projet repose sur une architecture front-end modulaire, performante et maintenable, incluant :\n\n- **React 19** + **TypeScript strict**\n- **React Router DOM 7** pour la navigation\n- **Vite** pour un développement rapide et un build optimisé\n- **Hooks personnalisés**, composants réutilisables et organisation modulaire\n- **Lazy loading** & **code splitting** pour des performances optimales\n- **UI responsive** avec support du **mode sombre**\n- **Parsing automatisé** du PDF officiel via des scripts Node.js\n\n🎯 Points d'attention & qualité\n\nUne attention particulière a été portée sur :\n\n- **La qualité du code** : ESLint, typage strict, structure propre\n- **La performance** : optimisation du bundle, HMR rapide, loading dynamique\n- **L'expérience utilisateur** : animations, ergonomie, interface claire et agréable\n- **La gestion des données** : 100 questions structurées, catégories, réponses multiples, images associées\n\n✨ Ce que ce projet m’a apporté\n\nCe projet m’a permis de renforcer mes compétences en **React**, **TypeScript**, **gestion d’état**, **logique métier avancée** et **architecture front-end scalable**. Travailler sur un outil que j’utilisais moi-même a été très motivant et m’a permis de concevoir une application utile, intuitive et techniquement solide."
     }
-
 ]

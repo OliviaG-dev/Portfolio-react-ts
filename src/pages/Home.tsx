@@ -57,6 +57,21 @@ function Home() {
     }
   };
 
+  const handleEmailClick = () => {
+    const mailtoLink = 'mailto:oxtramag@gmail.com';
+    const gmailComposeUrl =
+      'https://mail.google.com/mail/?view=cm&fs=1&to=oxtramag@gmail.com';
+
+    window.location.href = mailtoLink;
+
+    // Fallback: if no default mail client handles mailto, open Gmail compose.
+    window.setTimeout(() => {
+      if (document.hasFocus()) {
+        window.open(gmailComposeUrl, '_blank', 'noopener,noreferrer');
+      }
+    }, 500);
+  };
+
   const filteredProjects = filterProjectsByTags();
 
   return (
@@ -323,13 +338,26 @@ function Home() {
                   Explorez mes projets sur GitHub !
                 </a>
               </div>
-              <div className="contact_item email">
+              <div
+                className="contact_item email"
+                role="button"
+                tabIndex={0}
+                onClick={handleEmailClick}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    handleEmailClick();
+                  }
+                }}
+              >
                 <img src={Icon_email} alt="icone email" />
                 <a
                   className="contact_link"
-                  href="mailto:oliviagautherondev@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="mailto:oxtramag@gmail.com"
+                  onClick={(event) => {
+                    event.preventDefault();
+                    handleEmailClick();
+                  }}
                 >
                   Voici mon adresse électronique !
                 </a>
@@ -338,7 +366,7 @@ function Home() {
                 <img src={Icon_cv} alt="icone cv" />
                 <a
                   className="contact_link"
-                  href="https://drive.google.com/file/d/1KHZY64gl4h320Cg0P7zsI8KB4HgWjip4/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1UAL8rrwRsCsg4AbhT3aHHq6ixzidNchb/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
