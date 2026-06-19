@@ -366,7 +366,7 @@ function Home() {
                 <img src={Icon_cv} alt="icone cv" />
                 <a
                   className="contact_link"
-                  href="https://drive.google.com/file/d/1UAL8rrwRsCsg4AbhT3aHHq6ixzidNchb/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1KyqN1aGrhnZedmLjoToowwWknJoJ0sV_/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
