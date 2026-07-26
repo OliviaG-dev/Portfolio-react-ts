@@ -1,5 +1,5 @@
 import './Home.css';
-import { useState } from 'react';
+import { useState, type KeyboardEvent } from 'react';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Icon_email from '../assets/images/Icons/Icon_email.svg';
@@ -24,10 +24,35 @@ function Home() {
   const [showQuest, setShowQuest] = useState<boolean>(false);
   const [showPresentation, setShowPresentation] = useState<boolean>(false);
   const [showAllProjects, setShowAllProjects] = useState<boolean>(false);
+  const [flippedProjectId, setFlippedProjectId] = useState<string | null>(null);
 
   const openModal = (project: DataProjects) => {
     setSelectedProject(project);
     setShowModal(true);
+  };
+
+  const canHoverFlip = () =>
+    typeof window !== 'undefined' &&
+    window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  const toggleProjectFlip = (projectId: string) => {
+    setFlippedProjectId((currentId) =>
+      currentId === projectId ? null : projectId
+    );
+  };
+
+  const handleProjectCardClick = (projectId: string) => {
+    if (canHoverFlip()) return;
+    toggleProjectFlip(projectId);
+  };
+
+  const handleProjectCardKeyDown = (
+    event: KeyboardEvent<HTMLDivElement>,
+    projectId: string
+  ) => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    event.preventDefault();
+    toggleProjectFlip(projectId);
   };
 
   const closeModal = () => {
@@ -209,6 +234,16 @@ function Home() {
                 VUEJS
               </button>
               <button
+                className={`angular ${
+                  selectedTags.includes('#ANGULAR')
+                    ? 'active_tag'
+                    : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#ANGULAR')}
+              >
+                ANGULAR
+              </button>
+              <button
                 className={`supabase ${
                   selectedTags.includes('#SUPABASE')
                     ? 'active_tag'
@@ -249,47 +284,84 @@ function Home() {
               <p>Je n'ai pas de project...</p>
             ) : (
               <>
-                {filteredProjects.map((project: DataProjects) => (
-                  <div className="project_wrapper" key={project.id}>
-                    <div className="project">
-                      <article className="project_front">
-                        <div className="front_up">
-                          <h2 className="up_title">{project.title}</h2>
-                          <p className="up_describe">{project.describe}</p>
-                        </div>
-                        <div className="front_down">
-                          <span>
-                            <ul className="down_list">
-                              {project.tags.map((tag) => (
-                                <li key={tag.item} style={{ color: tag.style }}>
-                                  {tag.item}
-                                </li>
-                              ))}
-                            </ul>
-                          </span>
-                        </div>
-                      </article>
+                {filteredProjects.map((project: DataProjects) => {
+                  const isFlipped = flippedProjectId === project.id;
 
-                      <article className="project_back">
-                        <div className="back_container">
-                          <img
-                            src={project.imagePortrait}
-                            alt={project.title}
-                          />
-                        </div>
-                      </article>
-                    </div>
-                    <div></div>
-                    <div className="project_button">
-                      <button
-                        className="project_link"
-                        onClick={() => openModal(project)}
+                  return (
+                    <div
+                      className={`project_wrapper${isFlipped ? ' is-flipped' : ''}`}
+                      key={project.id}
+                    >
+                      <div
+                        className="project"
+                        onClick={() => handleProjectCardClick(project.id)}
+                        onKeyDown={(event) =>
+                          handleProjectCardKeyDown(event, project.id)
+                        }
+                        role="button"
+                        tabIndex={0}
+                        aria-pressed={isFlipped}
+                        aria-label={
+                          isFlipped
+                            ? `${project.title}, afficher le résumé`
+                            : `${project.title}, afficher l'image`
+                        }
                       >
-                        Voir +
-                      </button>
+                        <article className="project_front">
+                          <div className="front_up">
+                            <div className="front_up_content">
+                              <div className="front_up_sakura" aria-hidden="true">
+                                <span className="sakura sakura-1">❀</span>
+                                <span className="sakura sakura-2">✿</span>
+                                <span className="sakura sakura-3">❀</span>
+                                <span className="sakura sakura-4">❁</span>
+                                <span className="sakura sakura-5">✿</span>
+                                <span className="sakura sakura-6">❀</span>
+                                <span className="sakura sakura-7">✿</span>
+                                <span className="sakura sakura-8">❀</span>
+                                <span className="sakura sakura-9">❁</span>
+                                <span className="sakura sakura-10">✿</span>
+                              </div>
+                              <h2 className="up_title">{project.title}</h2>
+                              <p className="up_describe">{project.describe}</p>
+                            </div>
+                          </div>
+                          <div className="front_down">
+                            <span>
+                              <ul className="down_list">
+                                {project.tags.map((tag) => (
+                                  <li
+                                    key={tag.item}
+                                    style={{ color: tag.style }}
+                                  >
+                                    {tag.item}
+                                  </li>
+                                ))}
+                              </ul>
+                            </span>
+                          </div>
+                        </article>
+
+                        <article className="project_back">
+                          <div className="back_container">
+                            <img
+                              src={project.imagePortrait}
+                              alt={project.title}
+                            />
+                          </div>
+                        </article>
+                      </div>
+                      <div className="project_button">
+                        <button
+                          className="project_link"
+                          onClick={() => openModal(project)}
+                        >
+                          Voir +
+                        </button>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </>
             )}
           </div>

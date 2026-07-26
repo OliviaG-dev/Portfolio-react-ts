@@ -1,46 +1,56 @@
 import './Modal.css';
 import { ModalProps } from '../../services/inteface';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Icon_githubnoir from '../../assets/images/Icons/Icon_githubnoir.svg';
 import Icon_internet from '../../assets/images/Icons/Icon_internet.svg';
 
+const MIN_SWIPE_DISTANCE = 50;
+const DENSE_DOTS_THRESHOLD = 10;
+
 const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [activeDot, setActiveDot] = useState(0);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const [touchEndX, setTouchEndX] = useState<number | null>(null);
+  const dotsTrackRef = useRef<HTMLDivElement>(null);
 
-  const minSwipeDistance = 50;
+  const slideCount = project?.imagesSlide.length ?? 0;
+  const isDenseDots = slideCount > DENSE_DOTS_THRESHOLD;
+
+  useEffect(() => {
+    const track = dotsTrackRef.current;
+    if (!track) return;
+
+    const activeDot = track.querySelector<HTMLElement>('.dot.active');
+    if (!activeDot) return;
+
+    activeDot.scrollIntoView({
+      behavior: 'smooth',
+      inline: 'center',
+      block: 'nearest',
+    });
+  }, [currentSlide]);
 
   const handleClose = () => {
     closeModal();
   };
 
+  const goToSlide = (index: number) => {
+    if (!project || index < 0 || index >= project.imagesSlide.length) return;
+    setCurrentSlide(index);
+  };
+
   const handlePrev = () => {
-    if (project) {
-      setCurrentSlide((prevSlide) =>
-        prevSlide === 0 ? project.imagesSlide.length - 1 : prevSlide - 1
-      );
-      setActiveDot((prevDot) =>
-        prevDot === 0 ? project.imagesSlide.length - 1 : prevDot - 1
-      );
-    }
+    if (!project) return;
+    goToSlide(
+      currentSlide === 0 ? project.imagesSlide.length - 1 : currentSlide - 1
+    );
   };
 
   const handleNext = () => {
-    if (project) {
-      setCurrentSlide((prevSlide) =>
-        prevSlide === project.imagesSlide.length - 1 ? 0 : prevSlide + 1
-      );
-      setActiveDot((prevDot) =>
-        prevDot === project.imagesSlide.length - 1 ? 0 : prevDot + 1
-      );
-    }
-  };
-
-  const handleDotClick = (index: number) => {
-    setCurrentSlide(index);
-    setActiveDot(index);
+    if (!project) return;
+    goToSlide(
+      currentSlide === project.imagesSlide.length - 1 ? 0 : currentSlide + 1
+    );
   };
 
   const onTouchStart = (e: React.TouchEvent) => {
@@ -54,36 +64,53 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
 
   const onTouchEnd = () => {
     if (touchStartX === null || touchEndX === null) return;
+
     const distance = touchStartX - touchEndX;
-    if (distance > minSwipeDistance) {
+    if (distance > MIN_SWIPE_DISTANCE) {
       handleNext();
-    } else if (distance < -minSwipeDistance) {
+      return;
+    }
+
+    if (distance < -MIN_SWIPE_DISTANCE) {
       handlePrev();
     }
   };
 
-  const dots = project ? project.imagesSlide.length : 0;
-
-  const dotIndicators = Array.from({ length: dots }, (_, i) => (
-    <span
-      key={i}
-      className={i === activeDot ? 'dot active' : 'dot'}
-      onClick={() => handleDotClick(i)}
-    />
-  ));
+  const dotsClassName = [
+    'slider_dots',
+    isDenseDots ? 'slider_dots--dense' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
 
   return (
-    <div className="modal" onClick={handleClose}>
-      <div className="modal_content" onClick={(e) => e.stopPropagation()}>
-        <span className="modal_close" onClick={closeModal}>
-          x
-        </span>
+    <div className="modal" onClick={handleClose} role="presentation">
+      <div
+        className="modal_content"
+        onClick={(e) => e.stopPropagation()}
+        role="dialog"
+        aria-modal="true"
+        aria-label={project ? project.title : 'Détail du projet'}
+      >
+        <button
+          type="button"
+          className="modal_close"
+          onClick={closeModal}
+          aria-label="Fermer"
+        >
+          ×
+        </button>
 
         {project && (
           <>
             <div className="modal_slider">
-              <button className="prev" onClick={handlePrev} data-arrow="&#10094;">
-                &#10094;
+              <button
+                type="button"
+                className="modal_nav prev"
+                onClick={handlePrev}
+                aria-label="Image précédente"
+              >
+                ‹
               </button>
               <div
                 className="slider"
@@ -98,12 +125,42 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
                 />
                 <span className="swipe_hint">Swipe me</span>
               </div>
-              <button className="next" onClick={handleNext} data-arrow="&#10095;">
-                &#10095;
+              <button
+                type="button"
+                className="modal_nav next"
+                onClick={handleNext}
+                aria-label="Image suivante"
+              >
+                ›
               </button>
             </div>
 
-            <div className="slider_dots">{dotIndicators}</div>
+            <div className="slider_pagination">
+              <div
+                ref={dotsTrackRef}
+                className={dotsClassName}
+                role="tablist"
+                aria-label="Navigation des images"
+              >
+                <div className="slider_dots_track">
+                  {project.imagesSlide.map((_, index) => (
+                    <button
+                      key={index}
+                      type="button"
+                      className={index === currentSlide ? 'dot active' : 'dot'}
+                      onClick={() => goToSlide(index)}
+                      aria-label={`Image ${index + 1} sur ${slideCount}`}
+                      aria-current={index === currentSlide}
+                    />
+                  ))}
+                </div>
+              </div>
+              {slideCount > 1 && (
+                <p className="slider_counter" aria-live="polite">
+                  {currentSlide + 1} / {slideCount}
+                </p>
+              )}
+            </div>
 
             <div className="modal_text">
               <h2>{project.title}</h2>
@@ -115,9 +172,8 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {' '}
-                    <img src={Icon_internet} alt="icone internet" />
-                    lien
+                    <img src={Icon_internet} alt="" />
+                    Voir la démo
                   </a>
                 )}
                 {project.linkGit && (
@@ -127,21 +183,18 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {' '}
-                    <img src={Icon_githubnoir} alt="icone github" />
-                    lien GitHub
+                    <img src={Icon_githubnoir} alt="" />
+                    Voir le GitHub
                   </a>
                 )}
               </div>
-              <span>
-                <ul className="down_list">
-                  {project.tags.map((tag) => (
-                    <li key={tag.item} style={{ color: tag.style }}>
-                      {tag.item}
-                    </li>
-                  ))}
-                </ul>
-              </span>
+              <ul className="down_list">
+                {project.tags.map((tag) => (
+                  <li key={tag.item} style={{ color: tag.style }}>
+                    {tag.item}
+                  </li>
+                ))}
+              </ul>
               <p>{project.text}</p>
             </div>
           </>
