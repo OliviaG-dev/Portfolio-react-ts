@@ -6,11 +6,13 @@ import Icon_email from '../assets/images/Icons/Icon_email.svg';
 import Icon_github from '../assets/images/Icons/Icon_github.svg';
 import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
 import Icon_cv from '../assets/images/Icons/Icon_cv.svg';
+import Icon_lotus from '../assets/images/Icons/Icon_lotus.png';
 import { Data } from '../services/data';
 import { DataProjects } from '../services/inteface';
 import Modal from '../components/Modal/Modal';
 import QuestCard from '../components/QuestCard/QuestCard';
 import PresentationCard from '../components/PresentationCard/PresentationCard';
+import AboutConstellation from '../components/AboutConstellation/AboutConstellation';
 
 function Home() {
   const data = new Data();
@@ -105,60 +107,49 @@ function Home() {
       <main className="home">
         <section id="section_home" className="home_about">
           <div className="home_box">
-            <h1 className="home_title">
-              <span className="title_color--code">
-                {'<section class="intro">'}
-              </span>
-              <div className="title_inline">
-                <span className="title_color--code">
-                  {'<p class="greeting">'}
+            <div className="about_intro">
+              <p className="about_greeting">
+                Enchantée !
+                <img
+                  className="about_greeting_icon"
+                  src={Icon_lotus}
+                  alt=""
+                  aria-hidden="true"
+                />
+              </p>
+              <p className="about_lead">Je suis</p>
+              <h1 className="about_name">
+                <span
+                  className="egg_trigger"
+                  onClick={() => setShowPresentation(!showPresentation)}
+                  title="Un secret t'attend…"
+                >
+                  Olivia Gautheron
                 </span>
-                <p className="title_color--vio">Enchantée !👋</p>
-                <span className="title_color--code">{'</p>'}</span>
-              </div>
-              <br />
-              <span className="title_color--code">{'<h1>'}</span> <br />
-              <span className="title_color--sec">Je suis </span>
-              <span className="title_color--code">
-                {'<span class="blue name"> '}
-              </span>
-              <span
-                className="title_color--blue egg_trigger"
-                onClick={() => setShowPresentation(!showPresentation)}
-              >
-                Olivia Gautheron{' '}
-              </span>
-              <span className="title_color--code">{'</span>'}</span>
-              <br />
-              <span className="title_color--code">
-                {'<span class="role"> '}
-              </span>
-              <span className="title_color--vio">
-                Développeuse front-end 👩‍💻
-              </span>
-              <span className="title_color--code">{'</span>'}</span>
-              <br />
-              <span className="title_color--code">{'</h1>'}</span>
-              <br />
-              <br />
-              <span className="title_color--code">{'<p class="fun"> '}</span>
-              <span
-                className="title_color--sec egg_trigger"
+              </h1>
+              <p className="about_role">Fullstack builder</p>
+              <p className="about_stack">front · back · IA</p>
+              <p
+                className="about_fun egg_trigger"
                 onClick={() => setShowQuest(!showQuest)}
+                title="Un secret t'attend…"
               >
-                et adepte des jeux vidéo 🧙‍♀️ !
-              </span>
-              <span className="title_color--code">{'</p>'}</span>
-              <br />
-              <span className="title_color--code">{'</section>'}</span>
-            </h1>
-            <div className="card_container">
-              {showPresentation && (
-                <PresentationCard onClose={() => setShowPresentation(false)} />
-              )}
-              {showQuest && <QuestCard onClose={() => setShowQuest(false)} />}
+                et rêveuse de mondes virtuels
+              </p>
+            </div>
+
+            <div className="about_visual" aria-hidden="true">
+              <AboutConstellation />
             </div>
           </div>
+
+          <div className="card_container">
+            {showPresentation && (
+              <PresentationCard onClose={() => setShowPresentation(false)} />
+            )}
+            {showQuest && <QuestCard onClose={() => setShowQuest(false)} />}
+          </div>
+
           <div className="about_tag">
             <p>
               ABOUT<span className="tag_anim">_</span>
