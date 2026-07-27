@@ -1,5 +1,6 @@
 import { useState, useEffect, type ReactNode, type SVGProps } from 'react';
 import './PresentationCard.css';
+import IconTrinityRings from '../../assets/images/Icons/Icon_trinity_rings.png';
 
 const CLOSE_ANIMATION_MS = 450;
 
@@ -26,25 +27,6 @@ const IconClose = (props: IconProps) => (
       stroke="currentColor"
       strokeWidth="1.8"
       strokeLinecap="round"
-    />
-  </IconBase>
-);
-
-const IconSword = (props: IconProps) => (
-  <IconBase {...props}>
-    <path
-      d="M14.5 4.5l5 5M13 6l5 5M4 20l7.5-7.5M11.5 12.5l2 2M9 9l2 2"
-      stroke="currentColor"
-      strokeWidth="1.6"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-    <path
-      d="M4 20l3-1 1-3"
-      stroke="currentColor"
-      strokeWidth="1.6"
-      strokeLinecap="round"
-      strokeLinejoin="round"
     />
   </IconBase>
 );
@@ -159,19 +141,20 @@ const IconBot = (props: IconProps) => (
   </IconBase>
 );
 
-const IconGamepad = (props: IconProps) => (
+const IconShield = (props: IconProps) => (
   <IconBase {...props}>
     <path
-      d="M7.5 8.5h9a4.5 4.5 0 0 1 4.3 5.8l-.7 2.2a2.8 2.8 0 0 1-4.4 1.3l-1.2-1.1a2 2 0 0 0-2.6 0l-1.2 1.1a2.8 2.8 0 0 1-4.4-1.3l-.7-2.2A4.5 4.5 0 0 1 7.5 8.5z"
+      d="M12 3.5l7 2.2v5.4c0 4.2-2.7 7.4-7 9.2-4.3-1.8-7-5-7-9.2V5.7L12 3.5z"
       stroke="currentColor"
-      strokeWidth="1.5"
+      strokeWidth="1.55"
       strokeLinejoin="round"
     />
     <path
-      d="M9 12.5h3M10.5 11v3M15.2 11.8h.01M16.8 13.5h.01"
+      d="M12 7.2v8.2M9.2 10.8l2.8 2.6 2.8-2.6"
       stroke="currentColor"
-      strokeWidth="1.5"
+      strokeWidth="1.45"
       strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </IconBase>
 );
@@ -179,11 +162,37 @@ const IconGamepad = (props: IconProps) => (
 const IconHourglass = (props: IconProps) => (
   <IconBase {...props}>
     <path
-      d="M7 4h10M7 20h10M8 4c0 3.5 2 5 4 6s4 2.5 4 6M16 4c0 3.5-2 5-4 6s-4 2.5-4 6"
+      d="M7 3.8h10"
       stroke="currentColor"
-      strokeWidth="1.6"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+    />
+    <path
+      d="M7 20.2h10"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+    />
+    <path
+      d="M8.2 3.8v1.4c0 2.2 1.5 3.5 2.7 4.5.5.4 1.1.9 1.1 1.5s-.6 1.1-1.1 1.5c-1.2 1-2.7 2.3-2.7 4.5v1.4"
+      stroke="currentColor"
+      strokeWidth="1.55"
       strokeLinecap="round"
       strokeLinejoin="round"
+    />
+    <path
+      d="M15.8 3.8v1.4c0 2.2-1.5 3.5-2.7 4.5-.5.4-1.1.9-1.1 1.5s.6 1.1 1.1 1.5c1.2 1 2.7 2.3 2.7 4.5v1.4"
+      stroke="currentColor"
+      strokeWidth="1.55"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M9.4 6.2h5.2M9.8 17.8h4.4"
+      stroke="currentColor"
+      strokeWidth="1.2"
+      strokeLinecap="round"
+      opacity="0.7"
     />
   </IconBase>
 );
@@ -191,9 +200,9 @@ const IconHourglass = (props: IconProps) => (
 const IconFlame = (props: IconProps) => (
   <IconBase {...props}>
     <path
-      d="M12 3c2 3 1.5 5 1.5 5S16 7.5 17 10.5 15.5 18 12 20c-3.5-2-5-6.5-4-9.5S10 8 10.5 8 10 6 12 3z"
+      d="M12 3.5c1.8 2.4 2.4 4.2 2.2 5.8 1.6-.8 3.3.2 3.8 2.2.7 2.8-.6 6.4-4.5 8.2-1 .5-1.8.7-2.5.7-3.6 0-5.7-3.2-5.2-6.4.3-2 1.5-3.4 2.8-4.4-.2 1.5.3 2.8 1.4 3.6-.2-2.4.4-5.2 2-9.7z"
       stroke="currentColor"
-      strokeWidth="1.5"
+      strokeWidth="1.55"
       strokeLinejoin="round"
     />
   </IconBase>
@@ -347,8 +356,19 @@ const PresentationCard = ({ onClose }: { onClose?: () => void }) => {
 
         <div className="presentation_body">
           <p className="presentation_lead">
-            <IconSword className="presentation_icon--gold" />
-            <span>Une idée. Un build. Une version de plus.</span>
+            <img
+              className="presentation_lead_image"
+              src={IconTrinityRings}
+              alt=""
+              aria-hidden="true"
+            />
+            <span>Code, quêtes, curiosité : ma trinité secrète.</span>
+            <img
+              className="presentation_lead_image"
+              src={IconTrinityRings}
+              alt=""
+              aria-hidden="true"
+            />
           </p>
 
           <p>
@@ -390,14 +410,14 @@ const PresentationCard = ({ onClose }: { onClose?: () => void }) => {
             <li>
               <IconBot className="presentation_icon--mint" />
               <span>
-                <strong>L’IA</strong> — mon heal quand le code crash
+                <strong>L’IA</strong> — mon balancier entre intuition et logique
               </span>
             </li>
           </ul>
 
           <p>
             Logout IDE → login WoW : raids et donjons
-            <IconGamepad className="presentation_icon--inline presentation_icon--violet" />
+            <IconShield className="presentation_icon--inline presentation_icon--lg presentation_icon--violet" />
             <br />
             Support main : anticiper, soutenir, improviser.
             <br />
@@ -408,14 +428,14 @@ const PresentationCard = ({ onClose }: { onClose?: () => void }) => {
             Les outils évoluent. Moi aussi.
             <br />
             Je préfère avancer avec eux plutôt que de les fuir
-            <IconHourglass className="presentation_icon--inline presentation_icon--soft" />
+            <IconHourglass className="presentation_icon--inline presentation_icon--lg presentation_icon--soft" />
           </p>
 
           <p>
             Je build mon futur.
             <br />
             En ligne. Dans le code. Et dans le jeu
-            <IconFlame className="presentation_icon--inline presentation_icon--rose" />
+            <IconFlame className="presentation_icon--inline presentation_icon--lg presentation_icon--rose" />
           </p>
 
           <p className="presentation_body_text">
