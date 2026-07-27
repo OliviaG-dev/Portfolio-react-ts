@@ -6,12 +6,37 @@
 
 .egg_trigger {
   cursor: pointer;
-  text-decoration: underline dotted;
-  transition: color 0.3s;
+  position: relative;
+  text-decoration: none;
+  transition:
+    color 0.45s ease,
+    text-shadow 0.45s ease,
+    opacity 0.45s ease;
+}
+
+.egg_trigger::after {
+  content: '✧';
+  display: inline-block;
+  margin-left: 0.35em;
+  font-size: 0.72em;
+  opacity: 0.35;
+  vertical-align: middle;
+  transition:
+    opacity 0.45s ease,
+    transform 0.45s ease,
+    color 0.45s ease;
+  color: rgba(226, 214, 207, 0.7);
 }
 
 .egg_trigger:hover {
-  color: var(--color-background-hover);
+  color: rgba(248, 250, 252, 0.95);
+  text-shadow: 0 0 18px rgba(56, 189, 248, 0.35);
+}
+
+.egg_trigger:hover::after {
+  opacity: 0.9;
+  transform: translateY(-0.08em) scale(1.08);
+  color: var(--color-accent-tertiary);
 }
 
 .home_about {
@@ -19,16 +44,125 @@
   width: 100%;
   padding: 2rem 4rem 0 4rem;
   height: 45rem;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
 
 .home_box {
+  display: grid;
+  grid-template-columns: minmax(24rem, 38rem) minmax(24rem, 48rem);
+  align-items: center;
+  justify-content: space-between;
+  justify-items: start;
+  column-gap: clamp(2rem, 8vw, 8rem);
+  row-gap: 1.5rem;
+  width: min(100%, 96rem);
+  min-height: auto;
+  margin: 0 auto;
+  padding-right: 0;
+}
+
+.about_intro {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 38rem;
+  margin-left: 0;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
   align-items: flex-start;
-  width: 75%;
+  gap: 0.35rem;
+}
+
+.about_greeting {
+  margin: 0;
+  color: var(--color-accent-tertiary);
+  font-size: clamp(1.7rem, 2.75vw, 2.35rem);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.about_greeting_icon {
+  width: 1.55em;
+  height: 1.55em;
+  object-fit: contain;
+  flex-shrink: 0;
+  transform: translateY(0.05em);
+}
+
+.about_lead {
+  margin: 0.55rem 0 0;
+  color: rgba(248, 250, 252, 0.72);
+  font-size: clamp(1.2rem, 1.7vw, 1.45rem);
+}
+
+.about_name {
+  margin: 0.15rem 0 0.35rem;
+  color: var(--color-accent-tertiary);
+  font-size: clamp(2.8rem, 5.2vw, 4.25rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+
+.about_name .egg_trigger::after {
+  font-size: 0.45em;
+  margin-left: 0.28em;
+  vertical-align: super;
+}
+
+.about_role {
+  margin: 0.35rem 0 0;
+  color: var(--color-accent-tertiary);
+  font-size: clamp(1.4rem, 2.45vw, 1.9rem);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.75);
+  padding-bottom: 0.15rem;
+}
+
+.about_stack {
+  margin: 0.55rem 0 0;
+  color: rgba(148, 163, 184, 0.95);
+  font-size: 1.15rem;
+  letter-spacing: 0.08em;
+}
+
+.about_fun {
+  margin: 2.75rem 0 0;
+  color: rgba(226, 214, 207, 0.78);
+  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  opacity: 0.88;
+  transition:
+    color 0.45s ease,
+    opacity 0.45s ease,
+    text-shadow 0.45s ease;
+}
+
+.about_fun:hover {
+  opacity: 1;
+  color: rgba(241, 228, 220, 0.95);
+}
+
+.about_visual {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-left: auto;
+  margin-right: -4.5rem;
+  transform: translateX(2.5rem);
+  justify-self: end;
+  pointer-events: none;
+  user-select: none;
 }
 
 .home_title {
@@ -81,7 +215,7 @@
   display: flex;
   align-items: flex-start;
   position: absolute;
-  right: 4rem;
+  right: 9rem;
   top: 2rem;
 }
 
@@ -1265,8 +1399,11 @@
     min-height: 40rem;
   }
 
-  .home_title {
-    font-size: 2.2em;
+  .home_box {
+    width: min(100%, 78rem);
+    grid-template-columns: minmax(20rem, 32rem) minmax(22rem, 42rem);
+    column-gap: 2rem;
+    padding-right: 0;
   }
 
   .home_tag {
@@ -1321,21 +1458,76 @@
   .home_about {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
     padding: 2rem;
+    text-align: center;
   }
 
   .home_box {
     width: 100%;
+    max-width: 40rem;
+    grid-template-columns: 1fr;
     justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 0;
+    gap: 2rem;
   }
 
-  .home_title {
-    font-size: 2em;
+  .about_intro {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 36rem;
+    margin-left: 0;
+    margin-right: 0;
     text-align: center;
   }
 
-  .title_inline {
+  .about_greeting,
+  .about_lead,
+  .about_name,
+  .about_role,
+  .about_stack,
+  .about_fun {
+    width: fit-content;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .about_lead {
+    margin-top: 0.55rem;
+  }
+
+  .about_name {
+    margin-top: 0.15rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .about_role {
+    margin-top: 0.35rem;
+  }
+
+  .about_stack {
+    margin-top: 0.55rem;
+  }
+
+  .about_fun {
+    margin-top: 2.75rem;
+  }
+
+  .about_visual {
+    order: 2;
+    width: min(100%, 28rem);
+    margin-left: 0;
+    margin-right: 0;
+    transform: none;
+    justify-self: center;
     justify-content: center;
   }
 
@@ -1404,22 +1596,31 @@
 
 @media screen and (max-width: 768px) {
   .home_about {
-    padding: 6rem 0;
+    padding: 5rem 1rem 2rem;
     min-height: 35rem;
+    align-items: center;
+    justify-content: center;
   }
 
-  .home_title {
-    font-size: 1.8em;
+  .home_box {
+    width: 100%;
+    max-width: 100%;
+    justify-items: center;
   }
 
-  .title_color--code {
-    font-size: 0.6em;
+  .about_intro {
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
   }
 
-  .title_color--sec,
-  .title_color--blue,
-  .title_color--vio {
-    font-size: 1em;
+  .about_visual {
+    width: min(100%, 24rem);
+    margin-left: 0;
+    margin-right: 0;
+    transform: none;
+    opacity: 0.9;
   }
 
   .home_tag {
@@ -1585,22 +1786,35 @@
 
 @media screen and (max-width: 480px) {
   .home_about {
-    padding: 0.5rem;
+    padding: 4rem 0.75rem 1.5rem;
     min-height: 30rem;
+    align-items: center;
+    justify-content: center;
   }
 
-  .home_title {
-    font-size: 1.5em;
+  .about_intro {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
   }
 
-  .title_color--code {
-    font-size: 0.5em;
+  .about_greeting {
+    font-size: 1.5rem;
   }
 
-  .title_color--sec,
-  .title_color--blue,
-  .title_color--vio {
-    font-size: 0.9em;
+  .about_name {
+    font-size: 2.45rem;
+  }
+
+  .about_role {
+    font-size: 1.3rem;
+  }
+
+  .about_visual {
+    width: min(100%, 20rem);
+    margin-left: 0;
+    margin-right: 0;
+    transform: none;
   }
 
   .home_tag {
