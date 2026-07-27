@@ -1,5 +1,5 @@
 import './Home.css';
-import { useState, type KeyboardEvent } from 'react';
+import { useEffect, useRef, useState, type KeyboardEvent } from 'react';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Icon_email from '../assets/images/Icons/Icon_email.svg';
@@ -14,6 +14,8 @@ import QuestCard from '../components/QuestCard/QuestCard';
 import PresentationCard from '../components/PresentationCard/PresentationCard';
 import AboutConstellation from '../components/AboutConstellation/AboutConstellation';
 
+const CONTACT_ORBIT_REVEAL_THRESHOLD = 0.25;
+
 function Home() {
   const data = new Data();
   const dataProjects = data.getDataProjects();
@@ -27,6 +29,28 @@ function Home() {
   const [showPresentation, setShowPresentation] = useState<boolean>(false);
   const [showAllProjects, setShowAllProjects] = useState<boolean>(false);
   const [flippedProjectId, setFlippedProjectId] = useState<string | null>(null);
+  const [isContactOrbitVisible, setIsContactOrbitVisible] = useState(false);
+  const contactOrbitRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const contactOrbitElement = contactOrbitRef.current;
+    if (!contactOrbitElement) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry?.isIntersecting) return;
+        setIsContactOrbitVisible(true);
+        observer.disconnect();
+      },
+      { threshold: CONTACT_ORBIT_REVEAL_THRESHOLD }
+    );
+
+    observer.observe(contactOrbitElement);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   const openModal = (project: DataProjects) => {
     setSelectedProject(project);
@@ -377,65 +401,61 @@ function Home() {
             </div>
           </div>
 
-          <div className="contact_text">
-            <div className="text_contain contact_grid">
-              <div className="contact_item linkedin">
-                <img src={Icon_linkedin} alt="icone linkedin" />
-                <a
-                  className="contact_link"
-                  href="https://www.linkedin.com/in/olivia-gautheron-dev/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Connectons-nous sur LinkedIn !
-                </a>
-              </div>
-              <div className="contact_item github">
-                <img src={Icon_github} alt="icone github" />
-                <a
-                  className="contact_link"
-                  href="https://github.com/OliviaG-dev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Explorez mes projets sur GitHub !
-                </a>
-              </div>
-              <div
-                className="contact_item email"
-                role="button"
-                tabIndex={0}
-                onClick={handleEmailClick}
-                onKeyDown={(event) => {
-                  if (event.key === 'Enter' || event.key === ' ') {
-                    event.preventDefault();
-                    handleEmailClick();
-                  }
-                }}
+          <div
+            ref={contactOrbitRef}
+            className={`contact_orbit${isContactOrbitVisible ? ' is-visible' : ''}`}
+          >
+            <div className="contact_row">
+              <a
+                className="contact_orb"
+                href="https://www.linkedin.com/in/olivia-gautheron-dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn — Profil"
               >
-                <img src={Icon_email} alt="icone email" />
-                <a
-                  className="contact_link"
-                  href="mailto:oxtramag@gmail.com"
-                  onClick={(event) => {
-                    event.preventDefault();
-                    handleEmailClick();
-                  }}
-                >
-                  Voici mon adresse électronique !
-                </a>
-              </div>
-              <div className="contact_item cv">
-                <img src={Icon_cv} alt="icone cv" />
-                <a
-                  className="contact_link"
-                  href="https://drive.google.com/file/d/1KyqN1aGrhnZedmLjoToowwWknJoJ0sV_/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Mon CV en pdf !
-                </a>
-              </div>
+                <span className="contact_orb_ring">
+                  <img src={Icon_linkedin} alt="" aria-hidden="true" />
+                </span>
+                <span className="contact_orb_label">Profil</span>
+              </a>
+
+              <a
+                className="contact_orb"
+                href="https://github.com/OliviaG-dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub — Code"
+              >
+                <span className="contact_orb_ring">
+                  <img src={Icon_github} alt="" aria-hidden="true" />
+                </span>
+                <span className="contact_orb_label">Code</span>
+              </a>
+
+              <button
+                type="button"
+                className="contact_orb"
+                onClick={handleEmailClick}
+                aria-label="Envoyer un courriel"
+              >
+                <span className="contact_orb_ring">
+                  <img src={Icon_email} alt="" aria-hidden="true" />
+                </span>
+                <span className="contact_orb_label">Courriel</span>
+              </button>
+
+              <a
+                className="contact_orb"
+                href="https://drive.google.com/file/d/1KyqN1aGrhnZedmLjoToowwWknJoJ0sV_/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Voir le parcours — CV"
+              >
+                <span className="contact_orb_ring">
+                  <img src={Icon_cv} alt="" aria-hidden="true" />
+                </span>
+                <span className="contact_orb_label">Parcours</span>
+              </a>
             </div>
           </div>
         </section>
