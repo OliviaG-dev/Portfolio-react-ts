@@ -438,7 +438,9 @@
   filter: brightness(0) saturate(100%) invert(93%) sepia(4%) saturate(120%)
     hue-rotate(185deg) brightness(102%) contrast(92%);
   opacity: 0.9;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .contact_orb:hover .contact_orb_ring img,
@@ -455,7 +457,9 @@
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: rgba(210, 214, 220, 0.72);
-  transition: color 0.3s ease, letter-spacing 0.3s ease;
+  transition:
+    color 0.3s ease,
+    letter-spacing 0.3s ease;
 }
 
 .contact_orb:hover .contact_orb_label,
@@ -964,21 +968,13 @@
     opacity: 0.55;
   }
   35% {
-    transform: translate(
-        calc(var(--sakura-x) + 3px),
-        -4px
-      )
-      rotate(calc(var(--sakura-rotate) + 10deg))
-      scale(1.08);
+    transform: translate(calc(var(--sakura-x) + 3px), -4px)
+      rotate(calc(var(--sakura-rotate) + 10deg)) scale(1.08);
     opacity: 0.9;
   }
   70% {
-    transform: translate(
-        calc(var(--sakura-x) - 2px),
-        -2px
-      )
-      rotate(calc(var(--sakura-rotate) - 8deg))
-      scale(0.96);
+    transform: translate(calc(var(--sakura-x) - 2px), -2px)
+      rotate(calc(var(--sakura-rotate) - 8deg)) scale(0.96);
     opacity: 0.65;
   }
 }
