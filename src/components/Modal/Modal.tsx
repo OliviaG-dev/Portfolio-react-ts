@@ -119,8 +119,8 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
   const slideSwipeEndXRef = useRef<number | null>(null);
   const lastTapRef = useRef(0);
   const gestureMovedRef = useRef(false);
-  const handlePrevRef = useRef(() => undefined);
-  const handleNextRef = useRef(() => undefined);
+  const handlePrevRef = useRef<() => void>(() => undefined);
+  const handleNextRef = useRef<() => void>(() => undefined);
 
   const slideCount = project?.imagesSlide.length ?? 0;
   const isDenseDots = slideCount > DENSE_DOTS_THRESHOLD;
