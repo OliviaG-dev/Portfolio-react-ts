@@ -114,7 +114,10 @@ header {
   backface-visibility: hidden;
   transform: translateZ(0);
   filter: contrast(1.06) saturate(1.04);
-  transition: box-shadow 0.35s ease, border-color 0.35s ease, filter 0.35s ease;
+  transition:
+    box-shadow 0.35s ease,
+    border-color 0.35s ease,
+    filter 0.35s ease;
 }
 
 .header_brand:hover .header_img,
@@ -176,7 +179,10 @@ header {
   overflow: hidden;
   pointer-events: none;
   fill: #f0e2d4;
-  transition: fill 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+  transition:
+    fill 0.3s ease,
+    filter 0.3s ease,
+    opacity 0.3s ease;
   animation: header-star-twinkle 7.5s ease-in-out infinite;
 }
 

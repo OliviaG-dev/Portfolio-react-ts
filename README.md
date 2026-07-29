@@ -12,6 +12,8 @@
 
 **Mon portfolio** : un voyage au cœur de mes **créations web** et de mon **parcours de développeur**. Une expérience interactive qui vous raconte mon **histoire digitale**.💻✨
 
+Site one-page : présentation, constellation « À propos », galerie de projets filtrable, lightbox immersive et section contact.
+
 ## 🛠️ Technologies utilisées
 
 - **Frontend**
@@ -71,6 +73,11 @@ Envie de partager vos créations artisanales, de découvrir celles des autres, d
 Chaque jour, un regard vers l'infini. Une image capturée par la NASA, un fragment d'univers livré à ton écran.
 **Technologies :** React, API NASA, CSS
 
+### 🔁 SkillLoop
+
+Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables (loops journalières, XP, badges).
+**Technologies :** React, TypeScript, Zustand
+
 ### 📝 RéviPermis
 
 Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.
@@ -100,6 +107,11 @@ Ici, on partage les livres qui nous ont fait vibrer, réfléchir, pleurer ou rê
 
 Une API pour RandomSims, qui permet de récupérer des défis aléatoires pour Les Sims 4.
 **Technologies :** Node.js, Express, JSON
+
+### 🎲 RandomSims
+
+Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !
+**Technologies :** React, TypeScript, CSS
 
 ### 📊 Indicium
 
@@ -151,34 +163,68 @@ Un site entièrement mobile, dédié à la découverte des menus de restaurants 
 Swipe les situations et les émotions qui te ressemblent, et découvre les pierres qui résonnent le plus avec toi aujourd'hui. Simple, fun et inspirant !
 **Technologies :** React, TypeScript, CSS
 
-### 🚀 CVForgeAI 
+### 🚀 CVForgeAI
 
 Votre CV, boosté par l’intelligence artificielle.
 **Technologies :** React, TypeScript, CSS, Node.js
 
 ## ✨ Fonctionnalités
 
-- **Présentation des projets**
+- **Header & identité**
 
-  - Galerie de projets avec images
-  - Carrousel d'images pour chaque projet
-  - Tags technologiques avec code couleur
+  - Branding Creator avec tagline et étoiles animées
+  - Avatar header net et responsive
+
+- **Présentation**
+
+  - Cartes Presentation / Quest interactives
+  - Constellation « À propos » animée
+
+- **Galerie de projets**
+
+  - Cartes projet avec flip (hover desktop / tap mobile)
+  - Filtrage par tags technologiques
+  - Affichage progressif (aperçu puis « voir tout »)
   - Liens vers les dépôts GitHub et les démos
 
-- **Interface utilisateur**
+- **Lightbox immersive**
+
+  - Carrousel d’images par projet
+  - Plein écran au clic
+  - Pinch-to-zoom net (redimensionnement depuis la résolution source)
+  - Pan, double-tap zoom, swipe entre slides (mobile)
+  - Navigation clavier (Escape, flèches)
+
+- **Contact**
+
+  - Orbes argentées (Profil, Code, Courriel, Parcours) avec reveal au scroll
+  - Liens email, GitHub, LinkedIn et CV
+
+- **Interface**
   - Design responsive
-  - Navigation fluide
-  - Animations et transitions
+  - Animations et transitions soignées
+  - Navigation fluide entre sections
 
 ## 🏗️ Structure du projet
 
 ```
 src/
-├── assets/         # Images et données statiques
-├── components/     # Composants React réutilisables
-├── pages/         # Pages principales
-├── services/      # Services et utilitaires
-└── App.tsx        # Point d'entrée de l'application
+├── assets/
+│   ├── data/           # Données projets (JSON)
+│   └── images/         # Portraits, slides, icônes
+├── components/
+│   ├── AboutConstellation/
+│   ├── Footer/
+│   ├── Header/
+│   ├── Modal/          # Détail projet + lightbox zoom
+│   ├── PresentationCard/
+│   ├── ProgressBar/
+│   └── QuestCard/
+├── pages/
+│   ├── Home.tsx
+│   └── Home.css
+├── services/           # Chargement data + interfaces
+└── App.tsx
 ```
 
 ## 🚀 Installation
