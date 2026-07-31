@@ -235,84 +235,68 @@
     },
     {
         "id": "03",
-        "imagePortrait": "/assets/images/ImagesPortrait/NO_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/TDB_portrait.png",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide01.png",
-                "alt": "image de mon projet Noctis 1"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide01.png",
+                "alt": "image de mon projet TheDevBook 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide02.png",
-                "alt": "image de mon projet Noctis 2"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide02.png",
+                "alt": "image de mon projet TheDevBook 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide03.png",
-                "alt": "image de mon projet Noctis 3"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide03.png",
+                "alt": "image de mon projet TheDevBook 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide04.png",
-                "alt": "image de mon projet Noctis 4"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide04.png",
+                "alt": "image de mon projet TheDevBook 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide05.png",
-                "alt": "image de mon projet Noctis 5"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide05.png",
+                "alt": "image de mon projet TheDevBook 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide06.png",
-                "alt": "image de mon projet Noctis 6"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide06.png",
+                "alt": "image de mon projet TheDevBook 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide07.png",
-                "alt": "image de mon projet Noctis 7"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide07.png",
+                "alt": "image de mon projet TheDevBook 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide08.png",
-                "alt": "image de mon projet Noctis 8"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide08.png",
+                "alt": "image de mon projet TheDevBook 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide09.png",
-                "alt": "image de mon projet Noctis 9"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide09.png",
+                "alt": "image de mon projet TheDevBook 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide10.png",
-                "alt": "image de mon projet Noctis 10"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide10.png",
+                "alt": "image de mon projet TheDevBook 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide11.png",
-                "alt": "image de mon projet Noctis 11"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide12.png",
-                "alt": "image de mon projet Noctis 12"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide13.png",
-                "alt": "image de mon projet Noctis 13"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide14.png",
-                "alt": "image de mon projet Noctis 14"
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide11.png",
+                "alt": "image de mon projet TheDevBook 11"
             }
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
-                "item": "#REACT",
-                "style": "#237C03"
+                "item": "#ANGULAR",
+                "style": "#DD0031"
             },
             {
                 "item": "#TYPESCRIPT",
                 "style": "#065973"
             }
         ],
-        "title": "Noctis",
-        "describe": "Un calendrier astrologique qui transforme l'astrologie en une expérience quotidienne simple, visuelle et intuitive.",
-        "link": "https://noctis-chi.vercel.app/",
-        "linkGit": "https://github.com/OliviaG-dev/Noctis",
-        "text": "🌌 Noctis — Le calendrier astrologique intelligent\n\nNoctis est une application web immersive qui transforme l’astrologie en une expérience quotidienne claire, élégante et interactive. Le projet centralise les grands rythmes du ciel — phases lunaires, rétrogrades, éclipses et ingrès planétaires — dans une interface moderne pensée comme un véritable calendrier cosmique.\n\nL’objectif est de rendre l’astrologie plus accessible, visuelle et utile au quotidien grâce à une architecture front-end modulaire, des données astrologiques structurées et une expérience utilisateur fluide orientée anticipation et compréhension.\n\n👉 Noctis, c’est le temps vu depuis la nuit.\n\n🎯 Fonctionnalités principales :\n- 📅 Calendrier astrologique interactif avec navigation mensuelle\n- 🌕 Suivi des phases lunaires (nouvelle lune, pleine lune, quartiers)\n- 🪐 Gestion des rétrogrades planétaires avec interprétations détaillées\n- 🌟 Ingrès planétaires organisés par sections : en cours, à venir et historique\n- 🌘 Gestion des éclipses avec typologie unifiée (solaire, lunaire, annulaire, pénombrale…)\n- ⭐ Événement astrologique du jour avec lecture rapide et guidée\n- 🎴 Cartes d’événements enrichies avec accordéons et sections détaillées\n- 📚 Navigation dédiée par catégorie astrologique\n- 📱 Expérience responsive mobile-first optimisée\n- 🌙 Interface sombre cosmique avec animations fluides\n\n✨ Nouvelles fonctionnalités ajoutées :\n- 🖱️ Jours du calendrier cliquables même sans nouvel événement\n- 📆 Accès rapide aux événements et planètes actives par date\n- 🗂️ Historique des ingrès repliable en accordéon\n- 📄 Pagination des événements astrologiques à venir\n- 🚀 Mise en avant automatique du prochain événement important\n- ♻️ Composant partagé EventTimelineSections pour mutualiser les timelines\n- ♿ Accordéons accessibles avec aria-expanded, aria-controls et role=\"region\"\n- 🧪 Tests UI de non-régression sur les pages timeline\n- ✅ Validation avancée de la cohérence des données astrologiques\n- 🌌 Nouveau schéma éditorial v2 avec métadonnées astrologiques enrichies\n\n🔮 Focus architecture & données astrologiques :\n- 🧩 Architecture React modulaire avec composants réutilisables\n- 📂 Données astrologiques séparées par type d’événement (JSON structurés)\n- 🧠 Validation métier automatique des datasets via npm run validate:data\n- 📊 Contrôle des doublons et cohérence des plages temporelles\n- 🌍 Métadonnées astrologiques enrichies : timezone, source, niveau de confiance\n- 🎯 Conseils contextualisés selon les domaines de vie (pro, relationnel, bien-être)\n- 👤 Ciblage léger selon le profil astrologique (solaire, lunaire, ascendant)\n\n🛠️ Stack technique :\n- ⚛️ React 19 + TypeScript\n- ⚡ Vite\n- 🔀 React Router\n- 📅 Day.js\n- 🎨 CSS3 avec animations cubic-bezier\n- 🧪 Tests UI et validation de données\n\n✨ Ce que démontre ce projet\n\nNoctis met en avant ma capacité à construire une application front-end riche, modulaire et orientée expérience utilisateur autour d’un domaine complexe : l’astrologie.\n\nLe projet démontre :\n- la structuration et la validation de gros jeux de données JSON\n- la création d’interfaces interactives et immersives\n- l’architecture de composants réutilisables et maintenables\n- la gestion de timelines et de contenus temporels complexes\n- l’amélioration de l’accessibilité UI\n- la mise en place de tests de non-régression\n- l’optimisation responsive mobile-first\n\n✨ En résumé\n\nNoctis est une application astrologique moderne qui transforme des données célestes complexes en une expérience élégante, fluide et compréhensible, grâce à une architecture front-end robuste, des contenus enrichis et une forte attention portée à l’expérience utilisateur."
+        "title": "The Dev Book",
+        "describe": "Ma bibliothèque vivante de projets.",
+        "link": "",
+        "linkGit": "https://github.com/OliviaG-dev/The-Dev-Book",
+        "text": "📚 The Dev Book — Ma bibliothèque développeur construite avec Angular\n\nThe Dev Book est une application web personnelle conçue comme un espace centralisé pour organiser, documenter et faire évoluer mes projets de développement.\n\nCe projet a une place particulière dans mon parcours car il représente ma première véritable application développée avec Angular. Il m'a permis de découvrir l'écosystème Angular moderne, notamment les composants standalone, les Signals, le lazy loading, Angular Material et une architecture feature-based.\n\nAu-delà d'un simple projet portfolio, The Dev Book est devenu un outil que j'utilise au quotidien pour gérer mes projets, centraliser mes apprentissages, conserver mes notes techniques et documenter mes expérimentations.\n\n🎯 Fonctionnalités principales :\n- Gestion de projets avec fiches détaillées (stack, difficultés, apprentissages, retours d'expérience)\n- Bibliothèque de prompts IA organisée par catégories\n- Base de connaissances personnelle avec système de tags\n- Dashboard avec statistiques et dernières modifications\n- Recherche globale dans l'ensemble des contenus\n- Filtrage par tags sur les projets, prompts et notes\n- Synchronisation avec l'API GitHub pour récupérer les informations des repositories\n- Paramètres utilisateur et configuration de l'application\n\n🚀 Premier projet Angular :\n- Découverte d'Angular après un parcours principalement orienté React/Vue\n- Utilisation d'Angular 21 avec les nouvelles pratiques recommandées\n- Création de composants standalone sans modules classiques\n- Gestion de l'état réactif avec Angular Signals\n- Mise en place du routing Angular avec lazy loading\n- Utilisation d'Angular Material pour construire une interface cohérente\n- Approche architecture feature-based pour organiser l'application\n\nCe projet m'a permis de comparer les philosophies Angular et React, de comprendre la gestion de l'état réactif côté Angular et d'adopter de nouvelles bonnes pratiques dans mon développement frontend.\n\n📝 Un outil utilisé au quotidien :\n\nThe Dev Book n'est pas uniquement un projet de démonstration : c'est un véritable outil personnel utilisé chaque jour pour :\n\n- documenter mes projets en cours et terminés\n- garder une trace des problèmes rencontrés et de leurs solutions\n- centraliser mes prompts IA efficaces\n- suivre mes apprentissages techniques\n- préparer mes futures évolutions et expérimentations\n\nCette utilisation réelle m'a permis d'orienter les fonctionnalités selon de vrais besoins développeur et de construire une application pensée autour d'un usage quotidien.\n\n🧠 Gestion de connaissances développeur :\n- Centralisation de documentation technique personnelle\n- Organisation des projets avec contexte, difficultés et solutions\n- Création d'une bibliothèque de ressources réutilisables\n- Conservation d'un historique d'apprentissage\n- Approche proche de Notion, Obsidian et d'un portfolio technique vivant\n\n🛠️ Stack technique :\n- 🅰️ Angular 21\n- 🔷 TypeScript 5.9\n- 🎨 SCSS\n- 🧩 Angular Material\n- ⚡ Angular Signals\n- 🔄 RxJS\n- 🧭 Angular Router avec lazy loading\n- 🌐 Angular Universal / SSR\n- 🧪 Vitest\n- 🟢 Node.js + Express (prévu)\n- 🐘 PostgreSQL (prévu)\n- 🔗 GitHub API\n- ⚙️ GitHub Actions (CI)\n\n✨ Ce que démontre ce projet\n\nThe Dev Book met en avant ma capacité à apprendre rapidement une nouvelle technologie et à l'appliquer dans un projet concret et maintenable.\n\nLe projet démontre :\n- la prise en main complète d'Angular moderne\n- la création d'une architecture frontend scalable\n- l'utilisation des Signals pour gérer un état réactif\n- la conception de composants réutilisables\n- la mise en place d'une organisation professionnelle du code\n- l'intégration d'outils modernes de qualité et d'automatisation\n\n✨ En résumé\n\nThe Dev Book est mon premier projet Angular et également un outil personnel que j'utilise au quotidien pour piloter mon évolution de développeuse.\n\nIl représente à la fois une montée en compétence sur Angular et une application concrète qui accompagne mon workflow : apprendre, expérimenter, documenter et construire."
     },
     {
         "id": "04",
@@ -1745,5 +1729,86 @@
         "link": "https://r-vi-permis.vercel.app",
         "linkGit": "https://github.com/OliviaG-dev/R-viPermis",
         "text": "📝 RéviPermis\n\nRéviPermis est une application web moderne développée avec React, TypeScript et CSS, conçue pour aider à réviser efficacement les 100 questions officielles du permis de conduire français. Ce projet a été réalisé au moment où je passais moi-même le permis, ce qui m’a permis d’allier apprentissage personnel et montée en compétences techniques. Une expérience à la fois utile, formatrice et motivante.\n\n🚀 Fonctionnement de l'application\n\nL'application propose deux modes complémentaires pour faciliter la révision :\n\n- **Mode Révision** : navigation fluide, affichage d'images, réponses multiples, filtres par catégories.\n- **Mode Quiz** : QCM interactif, progression visuelle, statistiques en temps réel, résultats détaillés.\n\n🧩 Architecture & Technologies\n\nLe projet repose sur une architecture front-end modulaire, performante et maintenable, incluant :\n\n- **React 19** + **TypeScript strict**\n- **React Router DOM 7** pour la navigation\n- **Vite** pour un développement rapide et un build optimisé\n- **Hooks personnalisés**, composants réutilisables et organisation modulaire\n- **Lazy loading** & **code splitting** pour des performances optimales\n- **UI responsive** avec support du **mode sombre**\n- **Parsing automatisé** du PDF officiel via des scripts Node.js\n\n🎯 Points d'attention & qualité\n\nUne attention particulière a été portée sur :\n\n- **La qualité du code** : ESLint, typage strict, structure propre\n- **La performance** : optimisation du bundle, HMR rapide, loading dynamique\n- **L'expérience utilisateur** : animations, ergonomie, interface claire et agréable\n- **La gestion des données** : 100 questions structurées, catégories, réponses multiples, images associées\n\n✨ Ce que ce projet m’a apporté\n\nCe projet m’a permis de renforcer mes compétences en **React**, **TypeScript**, **gestion d’état**, **logique métier avancée** et **architecture front-end scalable**. Travailler sur un outil que j’utilisais moi-même a été très motivant et m’a permis de concevoir une application utile, intuitive et techniquement solide."
+    },
+    {
+        "id": "28",
+        "imagePortrait": "/assets/images/ImagesPortrait/NO_portrait.png",
+        "imagesSlide": [
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide01.png",
+                "alt": "image de mon projet Noctis 1"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide02.png",
+                "alt": "image de mon projet Noctis 2"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide03.png",
+                "alt": "image de mon projet Noctis 3"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide04.png",
+                "alt": "image de mon projet Noctis 4"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide05.png",
+                "alt": "image de mon projet Noctis 5"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide06.png",
+                "alt": "image de mon projet Noctis 6"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide07.png",
+                "alt": "image de mon projet Noctis 7"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide08.png",
+                "alt": "image de mon projet Noctis 8"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide09.png",
+                "alt": "image de mon projet Noctis 9"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide10.png",
+                "alt": "image de mon projet Noctis 10"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide11.png",
+                "alt": "image de mon projet Noctis 11"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide12.png",
+                "alt": "image de mon projet Noctis 12"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide13.png",
+                "alt": "image de mon projet Noctis 13"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/NO/NO_slide14.png",
+                "alt": "image de mon projet Noctis 14"
+            }
+        ],
+        "tags": [
+            {
+                "item": "#HTML/CSS",
+                "style": "#4B5563"
+            },
+            {
+                "item": "#REACT",
+                "style": "#237C03"
+            },
+            {
+                "item": "#TYPESCRIPT",
+                "style": "#065973"
+            }
+        ],
+        "title": "Noctis",
+        "describe": "Un calendrier astrologique qui transforme l'astrologie en une expérience quotidienne simple, visuelle et intuitive.",
+        "link": "https://noctis-chi.vercel.app/",
+        "linkGit": "https://github.com/OliviaG-dev/Noctis",
+        "text": "🌌 Noctis — Le calendrier astrologique intelligent\n\nNoctis est une application web immersive qui transforme l’astrologie en une expérience quotidienne claire, élégante et interactive. Le projet centralise les grands rythmes du ciel — phases lunaires, rétrogrades, éclipses et ingrès planétaires — dans une interface moderne pensée comme un véritable calendrier cosmique.\n\nL’objectif est de rendre l’astrologie plus accessible, visuelle et utile au quotidien grâce à une architecture front-end modulaire, des données astrologiques structurées et une expérience utilisateur fluide orientée anticipation et compréhension.\n\n👉 Noctis, c’est le temps vu depuis la nuit.\n\n🎯 Fonctionnalités principales :\n- 📅 Calendrier astrologique interactif avec navigation mensuelle\n- 🌕 Suivi des phases lunaires (nouvelle lune, pleine lune, quartiers)\n- 🪐 Gestion des rétrogrades planétaires avec interprétations détaillées\n- 🌟 Ingrès planétaires organisés par sections : en cours, à venir et historique\n- 🌘 Gestion des éclipses avec typologie unifiée (solaire, lunaire, annulaire, pénombrale…)\n- ⭐ Événement astrologique du jour avec lecture rapide et guidée\n- 🎴 Cartes d’événements enrichies avec accordéons et sections détaillées\n- 📚 Navigation dédiée par catégorie astrologique\n- 📱 Expérience responsive mobile-first optimisée\n- 🌙 Interface sombre cosmique avec animations fluides\n\n✨ Nouvelles fonctionnalités ajoutées :\n- 🖱️ Jours du calendrier cliquables même sans nouvel événement\n- 📆 Accès rapide aux événements et planètes actives par date\n- 🗂️ Historique des ingrès repliable en accordéon\n- 📄 Pagination des événements astrologiques à venir\n- 🚀 Mise en avant automatique du prochain événement important\n- ♻️ Composant partagé EventTimelineSections pour mutualiser les timelines\n- ♿ Accordéons accessibles avec aria-expanded, aria-controls et role=\"region\"\n- 🧪 Tests UI de non-régression sur les pages timeline\n- ✅ Validation avancée de la cohérence des données astrologiques\n- 🌌 Nouveau schéma éditorial v2 avec métadonnées astrologiques enrichies\n\n🔮 Focus architecture & données astrologiques :\n- 🧩 Architecture React modulaire avec composants réutilisables\n- 📂 Données astrologiques séparées par type d’événement (JSON structurés)\n- 🧠 Validation métier automatique des datasets via npm run validate:data\n- 📊 Contrôle des doublons et cohérence des plages temporelles\n- 🌍 Métadonnées astrologiques enrichies : timezone, source, niveau de confiance\n- 🎯 Conseils contextualisés selon les domaines de vie (pro, relationnel, bien-être)\n- 👤 Ciblage léger selon le profil astrologique (solaire, lunaire, ascendant)\n\n🛠️ Stack technique :\n- ⚛️ React 19 + TypeScript\n- ⚡ Vite\n- 🔀 React Router\n- 📅 Day.js\n- 🎨 CSS3 avec animations cubic-bezier\n- 🧪 Tests UI et validation de données\n\n✨ Ce que démontre ce projet\n\nNoctis met en avant ma capacité à construire une application front-end riche, modulaire et orientée expérience utilisateur autour d’un domaine complexe : l’astrologie.\n\nLe projet démontre :\n- la structuration et la validation de gros jeux de données JSON\n- la création d’interfaces interactives et immersives\n- l’architecture de composants réutilisables et maintenables\n- la gestion de timelines et de contenus temporels complexes\n- l’amélioration de l’accessibilité UI\n- la mise en place de tests de non-régression\n- l’optimisation responsive mobile-first\n\n✨ En résumé\n\nNoctis est une application astrologique moderne qui transforme des données célestes complexes en une expérience élégante, fluide et compréhensible, grâce à une architecture front-end robuste, des contenus enrichis et une forte attention portée à l’expérience utilisateur."
     }
 ]
