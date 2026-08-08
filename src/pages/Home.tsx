@@ -259,6 +259,14 @@ function Home() {
                 ANGULAR
               </button>
               <button
+                className={`nx ${
+                  selectedTags.includes('#NX') ? 'active_tag' : 'button_tag'
+                }`}
+                onClick={() => handleTagClick('#NX')}
+              >
+                NX
+              </button>
+              <button
                 className={`supabase ${
                   selectedTags.includes('#SUPABASE')
                     ? 'active_tag'
