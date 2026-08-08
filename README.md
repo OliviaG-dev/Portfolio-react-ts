@@ -31,22 +31,7 @@ Site one-page : présentation, constellation « À propos », galerie de projets
 
 ## 📂 Projets
 
-Cette section présente une sélection de mes projets les plus récents, développés avec passion et rigueur technique.
-
-### 🌿 Lumiel
-
-Application moderne et clé en main pour les praticiens énergétiques : attirer des clients, gérer les rendez-vous et valoriser leur activité en toute simplicité (site vitrine, réservation, dashboard admin, Supabase).
-**Technologies :** React, TypeScript, Supabase
-
-### 🔮 TarotMind
-
-Une app qui utilise l’IA pour interpréter les tirages de tarot et offrir des analyses claires afin d’aider les utilisateurs à mieux comprendre leurs situations et leurs décisions.
-**Technologies :** React, TypeScript, Node.js, IA
-
-### 🎯 JobSniper
-
-JobSniper analyse, filtre et détecte automatiquement les offres qui correspondent vraiment à ton profil.
-**Technologies :** React, TypeScript, Node.js, Playwright, Cheerio
+Cette section présente une sélection de mes projets les plus récents, développés avec passion et rigueur technique. L’ordre suit la galerie du portfolio.
 
 ### 📌 PlanMyJob
 
@@ -58,10 +43,10 @@ Une app intelligente qui simplifie votre recherche d'emploi grâce à des outils
 Une expérience interactive de numérologie moderne, révélant tes énergies, cycles et chemins de vie.
 **Technologies :** React, TypeScript, CSS
 
-### 🌌 Noctis
+### 🐴 Stalloria
 
-Un calendrier astrologique qui transforme l'astrologie en une expérience quotidienne simple, visuelle et intuitive.
-**Technologies :** React, TypeScript, CSS
+Un jeu de simulation d'élevage de chevaux centré sur la génétique, la gestion et les compétitions.
+**Technologies :** Angular, TypeScript, Node.js
 
 ### 🎨 TerraCréa
 
@@ -73,20 +58,20 @@ Envie de partager vos créations artisanales, de découvrir celles des autres, d
 Chaque jour, un regard vers l'infini. Une image capturée par la NASA, un fragment d'univers livré à ton écran.
 **Technologies :** React, API NASA, CSS
 
-### 🔁 SkillLoop
+### 🔮 TarotMind
 
-Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables (loops journalières, XP, badges).
-**Technologies :** React, TypeScript, Zustand
-
-### 📝 RéviPermis
-
-Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.
-**Technologies :** React, TypeScript, CSS
+Une app qui utilise l’IA pour interpréter les tirages de tarot et offrir des analyses claires afin d’aider les utilisateurs à mieux comprendre leurs situations et leurs décisions.
+**Technologies :** React, TypeScript, Node.js, IA
 
 ### 💶 Track€r
 
 Track€r : l'app qui suit ton argent mieux que toi !!!
 **Technologies :** React, TypeScript, CSS
+
+### 🔁 SkillLoop
+
+Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables (loops journalières, XP, badges).
+**Technologies :** React, TypeScript, Zustand
 
 ### 🎬 Pick&Play
 
@@ -107,11 +92,6 @@ Ici, on partage les livres qui nous ont fait vibrer, réfléchir, pleurer ou rê
 
 Une API pour RandomSims, qui permet de récupérer des défis aléatoires pour Les Sims 4.
 **Technologies :** Node.js, Express, JSON
-
-### 🎲 RandomSims
-
-Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !
-**Technologies :** React, TypeScript, CSS
 
 ### 📊 Indicium
 
@@ -148,6 +128,11 @@ Wiki numérique dédié aux cartes divinatoires, conçu comme une base de connai
 DualArcana révèle la rencontre entre l'arcane de l'année et ton arcane personnel.
 **Technologies :** React, TypeScript, CSS
 
+### 🎲 RandomSims
+
+Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !
+**Technologies :** React, TypeScript, CSS
+
 ### 🪐 AllZodiacs
 
 Une app fun qui centralise instantanément les horoscopes du monde entier à partir d'une simple date de naissance !
@@ -158,6 +143,11 @@ Une app fun qui centralise instantanément les horoscopes du monde entier à par
 Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.
 **Technologies :** HTML, CSS, Sass
 
+### 🎯 JobSniper
+
+JobSniper analyse, filtre et détecte automatiquement les offres qui correspondent vraiment à ton profil.
+**Technologies :** React, TypeScript, Node.js, Playwright, Cheerio
+
 ### 💎 Crystal Swipe
 
 Swipe les situations et les émotions qui te ressemblent, et découvre les pierres qui résonnent le plus avec toi aujourd'hui. Simple, fun et inspirant !
@@ -167,6 +157,26 @@ Swipe les situations et les émotions qui te ressemblent, et découvre les pierr
 
 Votre CV, boosté par l’intelligence artificielle.
 **Technologies :** React, TypeScript, CSS, Node.js
+
+### 🌿 Lumiel
+
+Application moderne et clé en main pour les praticiens énergétiques : attirer des clients, gérer les rendez-vous et valoriser leur activité en toute simplicité (site vitrine, réservation, dashboard admin, Supabase).
+**Technologies :** React, TypeScript, Supabase
+
+### 📝 RéviPermis
+
+Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.
+**Technologies :** React, TypeScript, CSS
+
+### 🌌 Noctis
+
+Un calendrier astrologique qui transforme l'astrologie en une expérience quotidienne simple, visuelle et intuitive.
+**Technologies :** React, TypeScript, CSS
+
+### 📚 The Dev Book
+
+Ma bibliothèque vivante de projets — documentation, prompts IA, notes techniques et sync GitHub (premier projet Angular).
+**Technologies :** Angular, TypeScript
 
 ## ✨ Fonctionnalités
 
