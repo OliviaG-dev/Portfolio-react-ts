@@ -51,7 +51,9 @@ Les projets ne sont **pas** hardcodés dans les composants. Tout le contenu cata
 - `src/services/data.tsx` — chargement
 - `src/services/inteface.tsx` — types (`DataProjects`, slides, tags…)
 
-Chaque entrée typique contient : `id`, `title`, `describe`, `text`, `tags[]`, `imagePortrait`, `imagesSlide[]` (`src` + `alt`), `link`, `linkGit`.
+Chaque entrée typique contient : `id`, `title`, `describe`, `text`, `tags[]`, `imagePortrait`, `imagesSlide[]` (`src` + `alt`), `link`, `linkGit`. Un second dépôt est optionnel via `linkGitApi` (la modale affiche alors « GitHub API »). `hidden: true` retire la fiche de la galerie sans supprimer les données.
+
+RandomSims est un seul projet : l’app (`linkGit`) et l’API (`linkGitApi`), avec le tag `#NODEJS`. La fiche « RandomSims API » n’existe plus.
 
 Pourquoi externaliser :
 
@@ -74,6 +76,7 @@ Les assets images restent sous `public/assets/images/` (portraits + slides), ré
 - Les refs typées (`useRef<() => void>`) doivent coller au retour réel des handlers — sinon `tsc` casse le build Vercel.
 - Sur mobile, tester réellement les gestes ; le desktop ne suffit pas pour valider pinch / swipe / cache.
 - Une architecture one-page claire (Header / About / Projets / Contact / data) évite de mélanger contenu et présentation.
+- Front et API dans deux dépôts : une seule fiche (`linkGit` + `linkGitApi`) plutôt qu’une carte dupliquée.
 
 ## Prochaines explorations
 

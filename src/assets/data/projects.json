@@ -836,51 +836,6 @@
         "text": "📚 Booksy — Le mur collaboratif de recommandations de livres\n\nBooksy est une application web où chaque lecteur peut partager ses coups de cœur littéraires, explorer les recommandations des autres, et trouver l'inspiration pour sa prochaine lecture. Pas d'algorithme, pas de pub, juste des vraies recommandations humaines !\n\nCe projet a été mon **premier développement avec Vue.js et Supabase**, me permettant de découvrir l'écosystème Vue 3 et une base de données en temps réel avec Supabase.\n\n🚀 Fonctionnalités principales\n🏷️ Filtre par genre : Affiche uniquement les livres du genre qui t'intéresse (roman, fantasy, polar, etc.)\n❤️ Like sur les livres : Like ou retire ton like sur chaque recommandation\n🔢 Tri dynamique : Trie les livres par nombre de likes ou par nom (A-Z, Z-A)\n📄 Pagination : Parcours les livres page par page (6 par page)\n🖼️ UI moderne : Design responsive, tags colorés, animations sur les likes\n✍️ Ajout de recommandations : Propose facilement un nouveau livre à la communauté\n\n🛠️ Technologies utilisées\n- Vue 3 ⚡ (Composition API, Single File Components)\n- TypeScript\n- Vite : Serveur de développement ultra-rapide\n- Supabase : Base de données PostgreSQL + API en temps réel\n- pnpm : Gestionnaire de paquets rapide\n- CSS moderne : Flexbox, Grid, responsive design et animations"
     },
     {
-        "id": "12",
-        "imagePortrait": "/assets/images/ImagesPortrait/RSAPI_portrait.png",
-        "imagesSlide": [
-            {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide01.png",
-                "alt": "image de mon projet RandomSims API 1"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide02.png",
-                "alt": "image de mon projet RandomSims API 2"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide03.png",
-                "alt": "image de mon projet RandomSims API 3"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide04.png",
-                "alt": "image de mon projet RandomSims API 4"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide05.png",
-                "alt": "image de mon projet RandomSims API 5"
-            },
-            {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide06.png",
-                "alt": "image de mon projet RandomSims API 6"
-            }
-        ],
-        "tags": [
-            {
-                "item": "#TYPESCRIPT",
-                "style": "#065973"
-            },
-            {
-                "item": "#NODEJS",
-                "style": "#be8110"
-            }
-        ],
-        "title": "RandomSims API",
-        "describe": "Une API pour RandomSims, qui permet de récupérer des défis aléatoires pour Les Sims 4.",
-        "link": "https://random-sims.vercel.app/",
-        "linkGit": "https://github.com/OliviaG-dev/RandomSims-API",
-        "text": "🎮 RandomSims-API\n\nUne API RESTful pour le jeu *The Sims 4* qui permet de randomiser différents aspects du gameplay comme les aspirations, les traits, les défis et bien plus encore !\n\n🌟 Fonctionnalités :\n- 🎯 Aspirations – Gestion des aspirations de vie\n- 🎭 Traits – Collection de traits de personnalité\n- 🏢 Métiers – Liste des carrières disponibles\n- 🗺️ Maps – Sélection des mondes du jeu\n- 🎨 Couleurs – Palette de couleurs pour la personnalisation\n- 🏆 Défis – Collection de défis de jeu\n- 🌍 Défis Terrain – Défis spécifiques aux terrains\n- 🎯 Préférences de Tueur – Options pour les joueurs maléfiques 😈\n- 🌱 Traits de Terrain – Caractéristiques des terrains\n\n📡 Endpoints API :\n- `GET /data/aspiration` – Liste des aspirations\n- `GET /data/trait` – Liste des traits\n- `GET /data/job` – Liste des métiers\n- `GET /data/map` – Liste des maps\n- `GET /data/color` – Liste des couleurs\n- `GET /data/challenge` – Liste des défis\n- `GET /data/defiTerrain` – Liste des défis terrain\n- `GET /data/prefTue` – Liste des préférences de tueur\n- `GET /data/traitTerrain` – Liste des traits de terrain\n\n💡 Ce projet m'a permis de renforcer mes compétences en développement d'API avec **Express.js** et **TypeScript**, tout en améliorant ma rigueur sur la structuration de données et la documentation d'API REST. Il m'a également sensibilisé à la gestion des CORS et à la conception de routes claires et maintenables. Une expérience enrichissante à la croisée du code et de la créativité !\n\n🛠️ Technologies Utilisées :\n- ⚡ Express.js\n- 🔄 TypeScript\n- 🔒 CORS\n- 📦 Node.js"
-    },
-    {
         "id": "13",
         "imagePortrait": "/assets/images/ImagesPortrait/IN_portrait.png",
         "imagesSlide": [
@@ -1288,12 +1243,17 @@
             {
                 "item": "#TYPESCRIPT",
                 "style": "#065973"
+            },
+            {
+                "item": "#NODEJS",
+                "style": "#be8110"
             }
         ],
         "title": "RandomSims",
         "describe": "Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !",
         "link": "https://random-sims.vercel.app",
         "linkGit": "https://github.com/OliviaG-dev/RandomSims",
+        "linkGitApi": "https://github.com/OliviaG-dev/RandomSims-API",
         "text": "RandomSims est une application web et mobile 🎲 développée avec TypeScript, React et Vite, conçue pour générer des défis aléatoires et originaux dans *Les Sims 4*.\n\nCe projet reflète mon souci de qualité et d'expérience utilisateur, avec une architecture moderne (pnpm, ESLint, Prettier) et un code maintenable, scalable et performant 🛠️.\n\nIl s'agit d'une expérience interactive et responsive 📱 qui met l'accent à la fois sur la créativité et la rigueur technique.\n\n✨ **Fonctionnalités principales** :\n- 🎲 Génération aléatoire de défis pour divers aspects du jeu (Sims, lieux, scénarios)\n- 📸 Capture d'écran des combinaisons via html2canvas\n- 🌐 Navigation fluide grâce à React Router\n- 📱 Interface responsive adaptée aux mobiles et tablettes\n- 🧠 Défis thématiques selon les packs (ex: Amour Fou 💖, À la vie, à la mort 💀)\n- 🛠️ Code maintenu avec ESLint, Prettier et gestion via pnpm\n- ⚡ Lancement rapide et développement optimisé avec Vite\n\nUne app fun, bien pensée et prête à faire vivre des aventures inédites à vos Sims ! 🚀"
     },
     {

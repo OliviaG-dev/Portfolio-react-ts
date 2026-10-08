@@ -8,6 +8,7 @@ export interface DataProjects {
     describe: string;
     link: string;
     linkGit: string;
+    linkGitApi?: string;
     text:string;
     /** Kept in data but not shown on the portfolio */
     hidden?: boolean;

@@ -83,11 +83,6 @@ Une app qui permet de centraliser, trier et découvrir tes films, séries et liv
 Trace ton parcours. Maîtrise la route. Réussis ton permis. MapPermis rend la préparation simple, claire et motivante.
 **Technologies :** TypeScript, React
 
-### 🔧 RandomSims API
-
-Une API pour RandomSims, qui permet de récupérer des défis aléatoires pour Les Sims 4.
-**Technologies :** TypeScript, Node.js
-
 ### 📊 Indicium
 
 Le tableau de bord électoral qui parle vrai. Visualise les résultats, compare les années en un clin d’œil.
@@ -105,8 +100,9 @@ DualArcana révèle la rencontre entre l’arcane de l’année et ton arcane pe
 
 ### 🎲 RandomSims
 
-Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !
-**Technologies :** React, TypeScript
+Une app fun qui génère des défis aléatoires pour Les Sims 4, avec son API dédiée. De quoi pimenter vos parties avec des situations inédites !
+**Technologies :** React, TypeScript, Node.js
+**Dépôts :** [app](https://github.com/OliviaG-dev/RandomSims) · [API](https://github.com/OliviaG-dev/RandomSims-API)
 
 ### 🪐 AllZodiacs
 
@@ -172,6 +168,7 @@ Conservés dans `projects.json` avec `"hidden": true` : Booksy, LP - LOL, Portfo
   - Carrousel d’images + pagination (dots scrollables + compteur)
   - Images en `object-fit: contain` (pas de crop excessif)
   - Swipe mobile, navigation clavier
+  - Liens démo et GitHub (un second lien GitHub est possible, pour l’API)
 
 - **Contact**
 
