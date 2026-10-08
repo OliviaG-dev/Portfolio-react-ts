@@ -10,9 +10,9 @@
 
 ## 🚀 À propos
 
-**Mon portfolio** : un voyage au cœur de mes **créations web** et de mon **parcours de développeur**. Une expérience interactive qui vous raconte mon **histoire digitale**.💻✨
+Portfolio one-page d’**Olivia Gautheron** — fullstack builder : React, TypeScript, Node, Angular, Supabase et IA.
 
-Site one-page : présentation, constellation « À propos », galerie de projets filtrable, lightbox immersive et section contact.
+Expérience interactive en trois blocs : présentation (constellation « À propos »), galerie de projets filtrable, contact.
 
 ## 🛠️ Technologies utilisées
 
@@ -22,31 +22,31 @@ Site one-page : présentation, constellation « À propos », galerie de projets
   - TypeScript
   - Vite
   - CSS moderne
-  - React Router pour la navigation
+  - React Router
 
 - **Outils de développement**
   - ESLint
   - Prettier
-  - pnpm (gestionnaire de paquets)
+  - pnpm
 
-## 📂 Projets
+## 📂 Projets visibles
 
-Cette section présente une sélection de mes projets les plus récents, développés avec passion et rigueur technique. L’ordre suit la galerie du portfolio.
+Sélection affichée dans la galerie (ordre = `src/assets/data/projects.json`). Les projets masqués restent dans le JSON avec `"hidden": true`.
 
 ### 📌 PlanMyJob
 
-Une app intelligente qui simplifie votre recherche d'emploi grâce à des outils puissants pour candidater plus vite, mieux et plus efficacement.
+Une app intelligente qui simplifie votre recherche d’emploi grâce à des outils puissants pour candidater plus vite, mieux et plus efficacement.
 **Technologies :** React, TypeScript, Supabase
 
 ### 🔮 Numora
 
 Une expérience interactive de numérologie moderne, révélant tes énergies, cycles et chemins de vie.
-**Technologies :** React, TypeScript, CSS
+**Technologies :** React, TypeScript
 
 ### 🐴 Stalloria
 
-Un jeu de simulation d'élevage de chevaux centré sur la génétique, la gestion et les compétitions.
-**Technologies :** Angular, TypeScript, Node.js
+Un jeu de simulation d’élevage de chevaux centré sur la génétique, la gestion et les compétitions.
+**Technologies :** Angular, Nx, TypeScript, Node.js
 
 ### 🎨 TerraCréa
 
@@ -55,178 +55,145 @@ Envie de partager vos créations artisanales, de découvrir celles des autres, d
 
 ### 🌌 StarSnap
 
-Chaque jour, un regard vers l'infini. Une image capturée par la NASA, un fragment d'univers livré à ton écran.
-**Technologies :** React, API NASA, CSS
+Chaque jour, un regard vers l’infini. Une image capturée par la NASA, un fragment d’univers livré à ton écran.
+**Technologies :** React, TypeScript, Tailwind
 
 ### 🔮 TarotMind
 
-Une app qui utilise l’IA pour interpréter les tirages de tarot et offrir des analyses claires afin d’aider les utilisateurs à mieux comprendre leurs situations et leurs décisions.
+Une app qui utilise l’IA pour interpréter les tirages de tarot et offrir des analyses claires.
 **Technologies :** React, TypeScript, Node.js, IA
 
 ### 💶 Track€r
 
-Track€r : l'app qui suit ton argent mieux que toi !!!
-**Technologies :** React, TypeScript, CSS
+Track€r : l’app qui suit ton argent mieux que toi !!!
+**Technologies :** React, TypeScript
 
 ### 🔁 SkillLoop
 
-Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables (loops journalières, XP, badges).
-**Technologies :** React, TypeScript, Zustand
+Une application de formation qui transforme la pratique quotidienne en compétences concrètes et mesurables.
+**Technologies :** React, TypeScript
 
 ### 🎬 Pick&Play
 
 Une app qui permet de centraliser, trier et découvrir tes films, séries et livres grâce à une interface intuitive en drag & drop.
-**Technologies :** React, TypeScript, CSS
+**Technologies :** TypeScript, React
 
 ### 🗺️ MapPermis
 
 Trace ton parcours. Maîtrise la route. Réussis ton permis. MapPermis rend la préparation simple, claire et motivante.
-**Technologies :** React, TypeScript, CSS
-
-### 📚 Booksy
-
-Ici, on partage les livres qui nous ont fait vibrer, réfléchir, pleurer ou rêver.
-**Technologies :** React, Node.js, Express
+**Technologies :** TypeScript, React
 
 ### 🔧 RandomSims API
 
 Une API pour RandomSims, qui permet de récupérer des défis aléatoires pour Les Sims 4.
-**Technologies :** Node.js, Express, JSON
+**Technologies :** TypeScript, Node.js
 
 ### 📊 Indicium
 
-Le tableau de bord électoral qui parle vrai. Visualise les résultats, compare les années en un clin d'œil.
-**Technologies :** React, D3.js, TypeScript
-
-### 📱 LP - LOL
-
-Une app simple et sécurisée pour partager vos coordonnées personnelles avec vos proches, vos contacts professionnels.
-**Technologies :** React, CSS, LocalStorage
-
-### 💼 Portfolio
-
-Entre lignes de code et éclats de pixels, ce portfolio vous invite à voyager au cœur de mes créations numériques.
-**Technologies :** React, TypeScript, CSS
+Le tableau de bord électoral qui parle vrai. Visualise les résultats, compare les années en un clin d’œil.
+**Technologies :** React, TypeScript, Tailwind
 
 ### 🜁 Linea Arcana
 
 Une app qui révèle votre ligne de vie à travers les arcanes du Tarot de Marseille.
-**Technologies :** React, TypeScript, CSS
-
-### 🐱 ChatBlog
-
-Une app fullstack élégante. Publiez, organisez et modifiez vos articles en toute simplicité parfait pour partager votre amour félin !
-**Technologies :** React, Node.js, MongoDB
-
-### 📜 Le Grimoire d'Aether
-
-Wiki numérique dédié aux cartes divinatoires, conçu comme une base de connaissance structurée et évolutive.
-**Technologies :** React, TypeScript, Supabase, Clerk
+**Technologies :** React, TypeScript
 
 ### 🃏 DualArcana
 
-DualArcana révèle la rencontre entre l'arcane de l'année et ton arcane personnel.
-**Technologies :** React, TypeScript, CSS
+DualArcana révèle la rencontre entre l’arcane de l’année et ton arcane personnel.
+**Technologies :** React, TypeScript
 
 ### 🎲 RandomSims
 
 Une app fun qui génère des défis aléatoires pour Les Sims 4. De quoi pimenter vos parties avec des situations inédites !
-**Technologies :** React, TypeScript, CSS
+**Technologies :** React, TypeScript
 
 ### 🪐 AllZodiacs
 
-Une app fun qui centralise instantanément les horoscopes du monde entier à partir d'une simple date de naissance !
-**Technologies :** React, TypeScript, CSS
-
-### 🍽️ oh my food!
-
-Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.
-**Technologies :** HTML, CSS, Sass
+Une app fun qui centralise instantanément les horoscopes du monde entier à partir d’une simple date de naissance !
+**Technologies :** React, TypeScript
 
 ### 🎯 JobSniper
 
 JobSniper analyse, filtre et détecte automatiquement les offres qui correspondent vraiment à ton profil.
-**Technologies :** React, TypeScript, Node.js, Playwright, Cheerio
+**Technologies :** React, TypeScript
 
 ### 💎 Crystal Swipe
 
-Swipe les situations et les émotions qui te ressemblent, et découvre les pierres qui résonnent le plus avec toi aujourd'hui. Simple, fun et inspirant !
-**Technologies :** React, TypeScript, CSS
+Swipe les situations et les émotions qui te ressemblent, et découvre les pierres qui résonnent le plus avec toi aujourd’hui. Simple, fun et inspirant !
+**Technologies :** React, TypeScript
 
 ### 🚀 CVForgeAI
 
 Votre CV, boosté par l’intelligence artificielle.
-**Technologies :** React, TypeScript, CSS, Node.js
+**Technologies :** React, TypeScript, Node.js, IA
 
 ### 🌿 Lumiel
 
-Application moderne et clé en main pour les praticiens énergétiques : attirer des clients, gérer les rendez-vous et valoriser leur activité en toute simplicité (site vitrine, réservation, dashboard admin, Supabase).
+Une app moderne et clé en main pour les praticiens énergétiques, conçue pour attirer des clients, gérer les rendez-vous et valoriser leur activité en toute simplicité.
 **Technologies :** React, TypeScript, Supabase
 
 ### 📝 RéviPermis
 
 Une app moderne conçue pour aider les candidats au permis à réviser efficacement les 100 questions officielles.
-**Technologies :** React, TypeScript, CSS
+**Technologies :** React, TypeScript
 
 ### 🌌 Noctis
 
-Un calendrier astrologique qui transforme l'astrologie en une expérience quotidienne simple, visuelle et intuitive.
-**Technologies :** React, TypeScript, CSS
+Un calendrier astrologique qui transforme l’astrologie en une expérience quotidienne simple, visuelle et intuitive.
+**Technologies :** React, TypeScript
 
 ### 📚 The Dev Book
 
-Ma bibliothèque vivante de projets — documentation, prompts IA, notes techniques et sync GitHub (premier projet Angular).
+Ma bibliothèque vivante de projets.
 **Technologies :** Angular, TypeScript
+
+### Projets archivés (masqués)
+
+Conservés dans `projects.json` avec `"hidden": true` : Booksy, LP - LOL, Portfolio, ChatBlog, Le Grimoire d’Aether, oh my food!
 
 ## ✨ Fonctionnalités
 
-- **Header & identité**
-
-  - Branding Creator avec tagline et étoiles animées
-  - Avatar header net et responsive
-
 - **Présentation**
 
-  - Cartes Presentation / Quest interactives
-  - Constellation « À propos » animée
+  - Intro « Fullstack builder » + constellation SVG animée
+  - Cartes Presentation / Quest (easter eggs) avec fermeture ×
+  - Tags ABOUT / PROJECTS / CONTACT avec tiret animé
 
 - **Galerie de projets**
 
-  - Cartes projet avec flip (hover desktop / tap mobile)
-  - Filtrage par tags technologiques
+  - Cartes avec flip (hover desktop / tap mobile)
+  - Filtrage par tags : React, TypeScript, Node.js, Angular, Nx, React Native, Supabase, IA, Tailwind
   - Affichage progressif (aperçu puis « voir tout »)
-  - Liens vers les dépôts GitHub et les démos
+  - Données dans `src/assets/data/projects.json` (`hidden` pour masquer sans supprimer)
 
-- **Lightbox immersive**
+- **Modal projet**
 
-  - Carrousel d’images par projet
-  - Plein écran au clic
-  - Pinch-to-zoom net (redimensionnement depuis la résolution source)
-  - Pan, double-tap zoom, swipe entre slides (mobile)
-  - Navigation clavier (Escape, flèches)
+  - Carrousel d’images + pagination (dots scrollables + compteur)
+  - Images en `object-fit: contain` (pas de crop excessif)
+  - Swipe mobile, navigation clavier
 
 - **Contact**
 
-  - Orbes argentées (Profil, Code, Courriel, Parcours) avec reveal au scroll
-  - Liens email, GitHub, LinkedIn et CV
+  - Orbes (Profil, Code, Courriel, Parcours) avec reveal au scroll
+  - Liens LinkedIn, GitHub, email et CV
 
 - **Interface**
-  - Design responsive
+  - Design responsive (About centré sur mobile)
   - Animations et transitions soignées
-  - Navigation fluide entre sections
 
 ## 🏗️ Structure du projet
 
 ```
 src/
 ├── assets/
-│   ├── data/           # Données projets (JSON)
+│   ├── data/           # Projets & quêtes (JSON)
 │   └── images/         # Portraits, slides, icônes
 ├── components/
 │   ├── AboutConstellation/
 │   ├── Footer/
 │   ├── Header/
-│   ├── Modal/          # Détail projet + lightbox zoom
+│   ├── Modal/
 │   ├── PresentationCard/
 │   ├── ProgressBar/
 │   └── QuestCard/
@@ -287,4 +254,4 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 📫 Contact
 
-Pour toute question ou collaboration, n'hésitez pas à me contacter via [oliviagautherondev@gmail.com] ou sur [https://www.linkedin.com/in/olivia-gautheron-dev/].
+Pour toute question ou collaboration, n’hésitez pas à me contacter via [oliviagautherondev@gmail.com](mailto:oliviagautherondev@gmail.com) ou sur [LinkedIn](https://www.linkedin.com/in/olivia-gautheron-dev/).

@@ -185,16 +185,6 @@ function Home() {
           <div className="project_tag_container">
             <div className="button_container">
               <button
-                className={`black ${
-                  selectedTags.includes('#HTML/CSS')
-                    ? 'active_tag'
-                    : 'button_tag'
-                }`}
-                onClick={() => handleTagClick('#HTML/CSS')}
-              >
-                HTML/CSS
-              </button>
-              <button
                 className={`red ${
                   selectedTags.includes('#REACT NATIVE')
                     ? 'active_tag'
@@ -223,30 +213,12 @@ function Home() {
                 REACT
               </button>
               <button
-                className={`violet ${
-                  selectedTags.includes('#BOOTSTRAP')
-                    ? 'active_tag'
-                    : 'button_tag'
-                }`}
-                onClick={() => handleTagClick('#BOOTSTRAP')}
-              >
-                BOOTSTRAP
-              </button>
-              <button
                 className={`orange ${
                   selectedTags.includes('#NODEJS') ? 'active_tag' : 'button_tag'
                 }`}
                 onClick={() => handleTagClick('#NODEJS')}
               >
                 NODEJS
-              </button>
-              <button
-                className={`pink ${
-                  selectedTags.includes('#VUEJS') ? 'active_tag' : 'button_tag'
-                }`}
-                onClick={() => handleTagClick('#VUEJS')}
-              >
-                VUEJS
               </button>
               <button
                 className={`angular ${

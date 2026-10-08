@@ -9,6 +9,8 @@ export interface DataProjects {
     link: string;
     linkGit: string;
     text:string;
+    /** Kept in data but not shown on the portfolio */
+    hidden?: boolean;
 }
 
 export interface ModalProps {
