@@ -6,7 +6,7 @@ import Icon_email from '../assets/images/Icons/Icon_email.svg';
 import Icon_github from '../assets/images/Icons/Icon_github.svg';
 import Icon_linkedin from '../assets/images/Icons/Icon_linkedin.svg';
 import Icon_cv from '../assets/images/Icons/Icon_cv.svg';
-import Icon_lotus from '../assets/images/Icons/Icon_lotus.png';
+import Icon_lotus from '../assets/images/Icons/Icon_lotus.webp';
 import { Data } from '../services/data';
 import { DataProjects } from '../services/inteface';
 import Modal from '../components/Modal/Modal';
@@ -305,7 +305,10 @@ function Home() {
                         <article className="project_front">
                           <div className="front_up">
                             <div className="front_up_content">
-                              <div className="front_up_sakura" aria-hidden="true">
+                              <div
+                                className="front_up_sakura"
+                                aria-hidden="true"
+                              >
                                 <span className="sakura sakura-1">❀</span>
                                 <span className="sakura sakura-2">✿</span>
                                 <span className="sakura sakura-3">❀</span>
@@ -342,6 +345,8 @@ function Home() {
                             <img
                               src={project.imagePortrait}
                               alt={project.title}
+                              loading="lazy"
+                              decoding="async"
                             />
                           </div>
                         </article>

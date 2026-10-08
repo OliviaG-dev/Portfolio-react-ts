@@ -1,82 +1,82 @@
 [
     {
         "id": "01",
-        "imagePortrait": "/assets/images/ImagesPortrait/PMJ_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/PMJ_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide01.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide01.webp",
                 "alt": "image de mon projet PlanMyJob 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide02.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide02.webp",
                 "alt": "image de mon projet PlanMyJob 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide03.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide03.webp",
                 "alt": "image de mon projet PlanMyJob 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide04.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide04.webp",
                 "alt": "image de mon projet PlanMyJob 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide05.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide05.webp",
                 "alt": "image de mon projet PlanMyJob 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide06.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide06.webp",
                 "alt": "image de mon projet PlanMyJob 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide07.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide07.webp",
                 "alt": "image de mon projet PlanMyJob 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide08.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide08.webp",
                 "alt": "image de mon projet PlanMyJob 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide09.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide09.webp",
                 "alt": "image de mon projet PlanMyJob 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide10.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide10.webp",
                 "alt": "image de mon projet PlanMyJob 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide11.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide11.webp",
                 "alt": "image de mon projet PlanMyJob 11"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide12.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide12.webp",
                 "alt": "image de mon projet PlanMyJob 12"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide13.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide13.webp",
                 "alt": "image de mon projet PlanMyJob 13"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide14.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide14.webp",
                 "alt": "image de mon projet PlanMyJob 14"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide15.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide15.webp",
                 "alt": "image de mon projet PlanMyJob 15"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide16.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide16.webp",
                 "alt": "image de mon projet PlanMyJob 16"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide17.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide17.webp",
                 "alt": "image de mon projet PlanMyJob 17"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide18.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide18.webp",
                 "alt": "image de mon projet PlanMyJob 18"
             },
             {
-                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide19.png",
+                "src": "/assets/images/ImagesSlide/PMJ/PMJ_slide19.webp",
                 "alt": "image de mon projet PlanMyJob 19"
             }
         ],
@@ -102,114 +102,114 @@
     },
     {
         "id": "02",
-        "imagePortrait": "/assets/images/ImagesPortrait/NU_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/NU_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide01.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide01.webp",
                 "alt": "image de mon projet Numora 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide02.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide02.webp",
                 "alt": "image de mon projet Numora 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide03.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide03.webp",
                 "alt": "image de mon projet Numora 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide04.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide04.webp",
                 "alt": "image de mon projet Numora 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide05.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide05.webp",
                 "alt": "image de mon projet Numora 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide06.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide06.webp",
                 "alt": "image de mon projet Numora 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide07.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide07.webp",
                 "alt": "image de mon projet Numora 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide08.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide08.webp",
                 "alt": "image de mon projet Numora 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide09.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide09.webp",
                 "alt": "image de mon projet Numora 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide10.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide10.webp",
                 "alt": "image de mon projet Numora 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide11.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide11.webp",
                 "alt": "image de mon projet Numora 11"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide12.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide12.webp",
                 "alt": "image de mon projet Numora 12"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide13.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide13.webp",
                 "alt": "image de mon projet Numora 13"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide14.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide14.webp",
                 "alt": "image de mon projet Numora 14"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide15.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide15.webp",
                 "alt": "image de mon projet Numora 15"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide16.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide16.webp",
                 "alt": "image de mon projet Numora 16"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide17.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide17.webp",
                 "alt": "image de mon projet Numora 17"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide18.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide18.webp",
                 "alt": "image de mon projet Numora 18"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide19.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide19.webp",
                 "alt": "image de mon projet Numora 19"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide20.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide20.webp",
                 "alt": "image de mon projet Numora 20"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide21.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide21.webp",
                 "alt": "image de mon projet Numora 21"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide22.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide22.webp",
                 "alt": "image de mon projet Numora 22"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide23.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide23.webp",
                 "alt": "image de mon projet Numora 23"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide24.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide24.webp",
                 "alt": "image de mon projet Numora 24"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide25.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide25.webp",
                 "alt": "image de mon projet Numora 25"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide26.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide26.webp",
                 "alt": "image de mon projet Numora 26"
             },
             {
-                "src": "/assets/images/ImagesSlide/NU/NU_slide27.png",
+                "src": "/assets/images/ImagesSlide/NU/NU_slide27.webp",
                 "alt": "image de mon projet Numora 27"
             }
         ],
@@ -231,106 +231,106 @@
     },
     {
         "id": "03",
-        "imagePortrait": "/assets/images/ImagesPortrait/S_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/S_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide01.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide01.webp",
                 "alt": "image de mon projet Stalloria 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide02.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide02.webp",
                 "alt": "image de mon projet Stalloria 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide03.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide03.webp",
                 "alt": "image de mon projet Stalloria 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide04.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide04.webp",
                 "alt": "image de mon projet Stalloria 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide05.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide05.webp",
                 "alt": "image de mon projet Stalloria 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide06.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide06.webp",
                 "alt": "image de mon projet Stalloria 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide07.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide07.webp",
                 "alt": "image de mon projet Stalloria 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide08.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide08.webp",
                 "alt": "image de mon projet Stalloria 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide09.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide09.webp",
                 "alt": "image de mon projet Stalloria 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide10.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide10.webp",
                 "alt": "image de mon projet Stalloria 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide11.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide11.webp",
                 "alt": "image de mon projet Stalloria 11"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide12.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide12.webp",
                 "alt": "image de mon projet Stalloria 12"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide13.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide13.webp",
                 "alt": "image de mon projet Stalloria 13"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide14.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide14.webp",
                 "alt": "image de mon projet Stalloria 14"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide15.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide15.webp",
                 "alt": "image de mon projet Stalloria 15"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide16.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide16.webp",
                 "alt": "image de mon projet Stalloria 16"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide17.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide17.webp",
                 "alt": "image de mon projet Stalloria 17"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide18.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide18.webp",
                 "alt": "image de mon projet Stalloria 18"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide19.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide19.webp",
                 "alt": "image de mon projet Stalloria 19"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide20.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide20.webp",
                 "alt": "image de mon projet Stalloria 20"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide21.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide21.webp",
                 "alt": "image de mon projet Stalloria 21"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide22.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide22.webp",
                 "alt": "image de mon projet Stalloria 22"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide23.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide23.webp",
                 "alt": "image de mon projet Stalloria 23"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide24.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide24.webp",
                 "alt": "image de mon projet Stalloria 24"
             },
             {
-                "src": "/assets/images/ImagesSlide/S/S_slide25.png",
+                "src": "/assets/images/ImagesSlide/S/S_slide25.webp",
                 "alt": "image de mon projet Stalloria 25"
             }
         ],
@@ -360,30 +360,30 @@
     },
     {
         "id": "04",
-        "imagePortrait": "/assets/images/ImagesPortrait/TC_portrait.jpg",
+        "imagePortrait": "/assets/images/ImagesPortrait/TC_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/TC/TC_slide01.png",
+                "src": "/assets/images/ImagesSlide/TC/TC_slide01.webp",
                 "alt": "image de mon projet TerraCréa"
             },
             {
-                "src": "/assets/images/ImagesSlide/TC/TC_slide02.png",
+                "src": "/assets/images/ImagesSlide/TC/TC_slide02.webp",
                 "alt": "image de mon projet TerraCréa 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/TC/TC_slide03.png",
+                "src": "/assets/images/ImagesSlide/TC/TC_slide03.webp",
                 "alt": "image de mon projet TerraCréa 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/TC/TC_slide04.png",
+                "src": "/assets/images/ImagesSlide/TC/TC_slide04.webp",
                 "alt": "image de mon projet TerraCréa 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/TC/TC_slide05.png",
+                "src": "/assets/images/ImagesSlide/TC/TC_slide05.webp",
                 "alt": "image de mon projet TerraCréa 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/TC/TC_slide06.png",
+                "src": "/assets/images/ImagesSlide/TC/TC_slide06.webp",
                 "alt": "image de mon projet TerraCréa 6"
             }
         ],
@@ -409,30 +409,30 @@
     },
     {
         "id": "05",
-        "imagePortrait": "/assets/images/ImagesPortrait/SS_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/SS_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/SS/SS_slide01.png",
+                "src": "/assets/images/ImagesSlide/SS/SS_slide01.webp",
                 "alt": "image de mon projet Portfolio 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/SS/SS_slide02.png",
+                "src": "/assets/images/ImagesSlide/SS/SS_slide02.webp",
                 "alt": "image de mon projet Portfolio 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/SS/SS_slide03.png",
+                "src": "/assets/images/ImagesSlide/SS/SS_slide03.webp",
                 "alt": "image de mon projet Portfolio 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/SS/SS_slide04.png",
+                "src": "/assets/images/ImagesSlide/SS/SS_slide04.webp",
                 "alt": "image de mon projet Portfolio 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/SS/SS_slide05.png",
+                "src": "/assets/images/ImagesSlide/SS/SS_slide05.webp",
                 "alt": "image de mon projet Portfolio 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/SS/SS_slide06.png",
+                "src": "/assets/images/ImagesSlide/SS/SS_slide06.webp",
                 "alt": "image de mon projet Portfolio 6"
             }
         ],
@@ -458,62 +458,62 @@
     },
     {
         "id": "06",
-        "imagePortrait": "/assets/images/ImagesPortrait/TM_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/TM_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide01.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide01.webp",
                 "alt": "image de mon projet TarotMind 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide02.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide02.webp",
                 "alt": "image de mon projet TarotMind 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide03.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide03.webp",
                 "alt": "image de mon projet TarotMind 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide04.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide04.webp",
                 "alt": "image de mon projet TarotMind 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide05.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide05.webp",
                 "alt": "image de mon projet TarotMind 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide06.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide06.webp",
                 "alt": "image de mon projet TarotMind 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide07.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide07.webp",
                 "alt": "image de mon projet TarotMind 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide08.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide08.webp",
                 "alt": "image de mon projet TarotMind 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide09.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide09.webp",
                 "alt": "image de mon projet TarotMind 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide10.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide10.webp",
                 "alt": "image de mon projet TarotMind 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide11.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide11.webp",
                 "alt": "image de mon projet TarotMind 11"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide12.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide12.webp",
                 "alt": "image de mon projet TarotMind 12"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide13.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide13.webp",
                 "alt": "image de mon projet TarotMind 13"
             },
             {
-                "src": "/assets/images/ImagesSlide/TM/TM_slide14.png",
+                "src": "/assets/images/ImagesSlide/TM/TM_slide14.webp",
                 "alt": "image de mon projet TarotMind 14"
             }
         ],
@@ -543,66 +543,66 @@
     },
     {
         "id": "07",
-        "imagePortrait": "/assets/images/ImagesPortrait/TR_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/TR_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide01.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide01.webp",
                 "alt": "image de mon projet Track€r 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide02.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide02.webp",
                 "alt": "image de mon projet Track€r 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide03.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide03.webp",
                 "alt": "image de mon projet Track€r 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide04.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide04.webp",
                 "alt": "image de mon projet Track€r 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide05.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide05.webp",
                 "alt": "image de mon projet Track€r 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide06.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide06.webp",
                 "alt": "image de mon projet Track€r 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide07.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide07.webp",
                 "alt": "image de mon projet Track€r 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide08.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide08.webp",
                 "alt": "image de mon projet Track€r 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide09.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide09.webp",
                 "alt": "image de mon projet Track€r 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide10.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide10.webp",
                 "alt": "image de mon projet Track€r 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide11.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide11.webp",
                 "alt": "image de mon projet Track€r 11"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide12.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide12.webp",
                 "alt": "image de mon projet Track€r 12"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide13.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide13.webp",
                 "alt": "image de mon projet Track€r 13"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide14.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide14.webp",
                 "alt": "image de mon projet Track€r 14"
             },
             {
-                "src": "/assets/images/ImagesSlide/TR/TR_slide15.png",
+                "src": "/assets/images/ImagesSlide/TR/TR_slide15.webp",
                 "alt": "image de mon projet Track€r 15"
             }
         ],
@@ -624,54 +624,54 @@
     },
     {
         "id": "08",
-        "imagePortrait": "/assets/images/ImagesPortrait/SL_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/SL_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide01.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide01.webp",
                 "alt": "image de mon projet SkillLoop 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide02.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide02.webp",
                 "alt": "image de mon projet SkillLoop 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide03.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide03.webp",
                 "alt": "image de mon projet SkillLoop 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide04.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide04.webp",
                 "alt": "image de mon projet SkillLoop 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide05.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide05.webp",
                 "alt": "image de mon projet SkillLoop 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide06.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide06.webp",
                 "alt": "image de mon projet SkillLoop 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide07.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide07.webp",
                 "alt": "image de mon projet SkillLoop 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide08.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide08.webp",
                 "alt": "image de mon projet SkillLoop 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide09.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide09.webp",
                 "alt": "image de mon projet SkillLoop 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide10.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide10.webp",
                 "alt": "image de mon projet SkillLoop 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide11.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide11.webp",
                 "alt": "image de mon projet SkillLoop 11"
             },
             {
-                "src": "/assets/images/ImagesSlide/SL/SL_slide12.png",
+                "src": "/assets/images/ImagesSlide/SL/SL_slide12.webp",
                 "alt": "image de mon projet SkillLoop 12"
             }
         ],
@@ -693,38 +693,38 @@
     },
     {
         "id": "09",
-        "imagePortrait": "/assets/images/ImagesPortrait/PP_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/PP_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/PP/PP_slide01.png",
+                "src": "/assets/images/ImagesSlide/PP/PP_slide01.webp",
                 "alt": "image de mon projet Pick&Play 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/PP/PP_slide02.png",
+                "src": "/assets/images/ImagesSlide/PP/PP_slide02.webp",
                 "alt": "image de mon projet Pick&Play 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/PP/PP_slide03.png",
+                "src": "/assets/images/ImagesSlide/PP/PP_slide03.webp",
                 "alt": "image de mon projet Pick&Play 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/PP/PP_slide04.png",
+                "src": "/assets/images/ImagesSlide/PP/PP_slide04.webp",
                 "alt": "image de mon projet Pick&Play 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/PP/PP_slide05.png",
+                "src": "/assets/images/ImagesSlide/PP/PP_slide05.webp",
                 "alt": "image de mon projet Pick&Play 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/PP/PP_slide06.png",
+                "src": "/assets/images/ImagesSlide/PP/PP_slide06.webp",
                 "alt": "image de mon projet Pick&Play 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/PP/PP_slide07.png",
+                "src": "/assets/images/ImagesSlide/PP/PP_slide07.webp",
                 "alt": "image de mon projet Pick&Play 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/PP/PP_slide08.png",
+                "src": "/assets/images/ImagesSlide/PP/PP_slide08.webp",
                 "alt": "image de mon projet Pick&Play 8"
             }
         ],
@@ -746,26 +746,26 @@
     },
     {
         "id": "10",
-        "imagePortrait": "/assets/images/ImagesPortrait/MP_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/MP_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/MP/MP_slide01.png",
+                "src": "/assets/images/ImagesSlide/MP/MP_slide01.webp",
                 "alt": "image de mon projet MP 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/MP/MP_slide02.png",
+                "src": "/assets/images/ImagesSlide/MP/MP_slide02.webp",
                 "alt": "image de mon projet MP 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/MP/MP_slide03.png",
+                "src": "/assets/images/ImagesSlide/MP/MP_slide03.webp",
                 "alt": "image de mon projet MP 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/MP/MP_slide04.png",
+                "src": "/assets/images/ImagesSlide/MP/MP_slide04.webp",
                 "alt": "image de mon projet MP 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/MP/MP_slide05.png",
+                "src": "/assets/images/ImagesSlide/MP/MP_slide05.webp",
                 "alt": "image de mon projet MP 5"
             }
         ],
@@ -787,30 +787,30 @@
     },
     {
         "id": "11",
-        "imagePortrait": "/assets/images/ImagesPortrait/BO_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/BO_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/BO/BO_slide01.png",
+                "src": "/assets/images/ImagesSlide/BO/BO_slide01.webp",
                 "alt": "image de mon projet Booksy 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/BO/BO_slide02.png",
+                "src": "/assets/images/ImagesSlide/BO/BO_slide02.webp",
                 "alt": "image de mon projet Booksy 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/BO/BO_slide03.png",
+                "src": "/assets/images/ImagesSlide/BO/BO_slide03.webp",
                 "alt": "image de mon projet Booksy 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/BO/BO_slide04.png",
+                "src": "/assets/images/ImagesSlide/BO/BO_slide04.webp",
                 "alt": "image de mon projet Booksy 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/BO/BO_slide05.png",
+                "src": "/assets/images/ImagesSlide/BO/BO_slide05.webp",
                 "alt": "image de mon projet Booksy 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/BO/BO_slide06.png",
+                "src": "/assets/images/ImagesSlide/BO/BO_slide06.webp",
                 "alt": "image de mon projet Booksy 6"
             }
         ],
@@ -837,30 +837,30 @@
     },
     {
         "id": "13",
-        "imagePortrait": "/assets/images/ImagesPortrait/IN_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/IN_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/IN/IN_slide01.png",
+                "src": "/assets/images/ImagesSlide/IN/IN_slide01.webp",
                 "alt": "image de mon projet ohmyfood 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/IN/IN_slide02.png",
+                "src": "/assets/images/ImagesSlide/IN/IN_slide02.webp",
                 "alt": "image de mon projet ohmyfood 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/IN/IN_slide03.png",
+                "src": "/assets/images/ImagesSlide/IN/IN_slide03.webp",
                 "alt": "image de mon projet ohmyfood 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/IN/IN_slide04.png",
+                "src": "/assets/images/ImagesSlide/IN/IN_slide04.webp",
                 "alt": "image de mon projet ohmyfood 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/IN/IN_slide05.png",
+                "src": "/assets/images/ImagesSlide/IN/IN_slide05.webp",
                 "alt": "image de mon projet ohmyfood 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/IN/IN_slide06.png",
+                "src": "/assets/images/ImagesSlide/IN/IN_slide06.webp",
                 "alt": "image de mon projet ohmyfood 6"
             }
         ],
@@ -886,30 +886,30 @@
     },
     {
         "id": "14",
-        "imagePortrait": "/assets/images/ImagesPortrait/LP-LOL_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/LP-LOL_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide01.png",
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide01.webp",
                 "alt": "image de mon projet ohmyfood 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide02.png",
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide02.webp",
                 "alt": "image de mon projet ohmyfood 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide03.png",
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide03.webp",
                 "alt": "image de mon projet ohmyfood 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide04.png",
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide04.webp",
                 "alt": "image de mon projet ohmyfood 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide05.png",
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide05.webp",
                 "alt": "image de mon projet ohmyfood 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide06.png",
+                "src": "/assets/images/ImagesSlide/LP-LOL/LP-LOL_slide06.webp",
                 "alt": "image de mon projet ohmyfood 6"
             }
         ],
@@ -936,34 +936,34 @@
     },
     {
         "id": "15",
-        "imagePortrait": "/assets/images/ImagesPortrait/PO_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/PO_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/PO/PO_slide01.png",
+                "src": "/assets/images/ImagesSlide/PO/PO_slide01.webp",
                 "alt": "image de mon projet Portfolio 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/PO/PO_slide02.png",
+                "src": "/assets/images/ImagesSlide/PO/PO_slide02.webp",
                 "alt": "image de mon projet Portfolio 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/PO/PO_slide03.png",
+                "src": "/assets/images/ImagesSlide/PO/PO_slide03.webp",
                 "alt": "image de mon projet Portfolio 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/PO/PO_slide04.png",
+                "src": "/assets/images/ImagesSlide/PO/PO_slide04.webp",
                 "alt": "image de mon projet Portfolio 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/PO/PO_slide05.png",
+                "src": "/assets/images/ImagesSlide/PO/PO_slide05.webp",
                 "alt": "image de mon projet Portfolio 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/PO/PO_slide06.png",
+                "src": "/assets/images/ImagesSlide/PO/PO_slide06.webp",
                 "alt": "image de mon projet Portfolio 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/PO/PO_slide07.png",
+                "src": "/assets/images/ImagesSlide/PO/PO_slide07.webp",
                 "alt": "image de mon projet Portfolio 7"
             }
         ],
@@ -986,42 +986,42 @@
     },
     {
         "id": "16",
-        "imagePortrait": "/assets/images/ImagesPortrait/LA_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/LA_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/LA/LA_slide01.png",
+                "src": "/assets/images/ImagesSlide/LA/LA_slide01.webp",
                 "alt": "image de mon projet Linea Arcana 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/LA/LA_slide02.png",
+                "src": "/assets/images/ImagesSlide/LA/LA_slide02.webp",
                 "alt": "image de mon projet Linea Arcana 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/LA/LA_slide03.png",
+                "src": "/assets/images/ImagesSlide/LA/LA_slide03.webp",
                 "alt": "image de mon projet Linea Arcana 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/LA/LA_slide04.png",
+                "src": "/assets/images/ImagesSlide/LA/LA_slide04.webp",
                 "alt": "image de mon projet Linea Arcana 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/LA/LA_slide05.png",
+                "src": "/assets/images/ImagesSlide/LA/LA_slide05.webp",
                 "alt": "image de mon projet Linea Arcana 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/LA/LA_slide06.png",
+                "src": "/assets/images/ImagesSlide/LA/LA_slide06.webp",
                 "alt": "image de mon projet Linea Arcana 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/LA/LA_slide07.png",
+                "src": "/assets/images/ImagesSlide/LA/LA_slide07.webp",
                 "alt": "image de mon projet Linea Arcana 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/LA/LA_slide08.png",
+                "src": "/assets/images/ImagesSlide/LA/LA_slide08.webp",
                 "alt": "image de mon projet Linea Arcana 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/LA/LA_slide09.png",
+                "src": "/assets/images/ImagesSlide/LA/LA_slide09.webp",
                 "alt": "image de mon projet Linea Arcana 9"
             }
         ],
@@ -1043,30 +1043,30 @@
     },
     {
         "id": "17",
-        "imagePortrait": "/assets/images/ImagesPortrait/CB_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/CB_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/CB/CB_slide01.png",
+                "src": "/assets/images/ImagesSlide/CB/CB_slide01.webp",
                 "alt": "image de mon projet ChatBlog 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/CB/CB_slide02.png",
+                "src": "/assets/images/ImagesSlide/CB/CB_slide02.webp",
                 "alt": "image de mon projet ChatBlog 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/CB/CB_slide03.png",
+                "src": "/assets/images/ImagesSlide/CB/CB_slide03.webp",
                 "alt": "image de mon projet ChatBlog 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/CB/CB_slide04.png",
+                "src": "/assets/images/ImagesSlide/CB/CB_slide04.webp",
                 "alt": "image de mon projet ChatBlog 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/CB/CB_slide05.png",
+                "src": "/assets/images/ImagesSlide/CB/CB_slide05.webp",
                 "alt": "image de mon projet ChatBlog 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/CB/CB_slide06.png",
+                "src": "/assets/images/ImagesSlide/CB/CB_slide06.webp",
                 "alt": "image de mon projet ChatBlog 6"
             }
         ],
@@ -1093,50 +1093,50 @@
     },
     {
         "id": "18",
-        "imagePortrait": "/assets/images/ImagesPortrait/GA_portrait.jpg",
+        "imagePortrait": "/assets/images/ImagesPortrait/GA_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide01.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide01.webp",
                 "alt": "image de mon projet Grimoire d'Aether 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide02.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide02.webp",
                 "alt": "image de mon projet Grimoire d'Aether 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide03.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide03.webp",
                 "alt": "image de mon projet Grimoire d'Aether 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide04.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide04.webp",
                 "alt": "image de mon projet Grimoire d'Aether 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide05.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide05.webp",
                 "alt": "image de mon projet Grimoire d'Aether 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide06.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide06.webp",
                 "alt": "image de mon projet Grimoire d'Aether 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide07.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide07.webp",
                 "alt": "image de mon projet Grimoire d'Aether 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide08.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide08.webp",
                 "alt": "image de mon projet Grimoire d'Aether 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide09.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide09.webp",
                 "alt": "image de mon projet Grimoire d'Aether 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide10.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide10.webp",
                 "alt": "image de mon projet Grimoire d'Aether 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/GA/GA_slide11.png",
+                "src": "/assets/images/ImagesSlide/GA/GA_slide11.webp",
                 "alt": "image de mon projet Grimoire d'Aether 11"
             }
         ],
@@ -1163,30 +1163,30 @@
     },
     {
         "id": "19",
-        "imagePortrait": "/assets/images/ImagesPortrait/DA_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/DA_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/DA/DA_slide01.png",
+                "src": "/assets/images/ImagesSlide/DA/DA_slide01.webp",
                 "alt": "image de mon projet Dual Arcana 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/DA/DA_slide02.png",
+                "src": "/assets/images/ImagesSlide/DA/DA_slide02.webp",
                 "alt": "image de mon projet Dual Arcana 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/DA/DA_slide03.png",
+                "src": "/assets/images/ImagesSlide/DA/DA_slide03.webp",
                 "alt": "image de mon projet Dual Arcana 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/DA/DA_slide04.png",
+                "src": "/assets/images/ImagesSlide/DA/DA_slide04.webp",
                 "alt": "image de mon projet Dual Arcana 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/DA/DA_slide05.png",
+                "src": "/assets/images/ImagesSlide/DA/DA_slide05.webp",
                 "alt": "image de mon projet Dual Arcana 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/DA/DA_slide06.png",
+                "src": "/assets/images/ImagesSlide/DA/DA_slide06.webp",
                 "alt": "image de mon projet Détente Animée 6"
             }
         ],
@@ -1208,30 +1208,30 @@
     },
     {
         "id": "20",
-        "imagePortrait": "/assets/images/ImagesPortrait/RS_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/RS_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide01.png",
+                "src": "/assets/images/ImagesSlide/RS/RS_slide01.webp",
                 "alt": "image de mon projet RandomSims 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide02.png",
+                "src": "/assets/images/ImagesSlide/RS/RS_slide02.webp",
                 "alt": "image de mon projet RandomSims 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide03.png",
+                "src": "/assets/images/ImagesSlide/RS/RS_slide03.webp",
                 "alt": "image de mon projet RandomSims 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide04.png",
+                "src": "/assets/images/ImagesSlide/RS/RS_slide04.webp",
                 "alt": "image de mon projet RandomSims 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide05.png",
+                "src": "/assets/images/ImagesSlide/RS/RS_slide05.webp",
                 "alt": "image de mon projet RandomSims 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/RS/RS_slide06.png",
+                "src": "/assets/images/ImagesSlide/RS/RS_slide06.webp",
                 "alt": "image de mon projet RandomSims 6"
             }
         ],
@@ -1258,46 +1258,46 @@
     },
     {
         "id": "21",
-        "imagePortrait": "/assets/images/ImagesPortrait/AZ_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/AZ_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide01.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide01.webp",
                 "alt": "image de mon projet AllZodiacs 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide02.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide02.webp",
                 "alt": "image de mon projet AllZodiacs 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide03.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide03.webp",
                 "alt": "image de mon projet AllZodiacs 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide04.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide04.webp",
                 "alt": "image de mon projet AllZodiacs 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide05.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide05.webp",
                 "alt": "image de mon projet AllZodiacs 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide06.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide06.webp",
                 "alt": "image de mon projet AllZodiacs 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide07.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide07.webp",
                 "alt": "image de mon projet AllZodiacs 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide08.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide08.webp",
                 "alt": "image de mon projet AllZodiacs 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide09.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide09.webp",
                 "alt": "image de mon projet AllZodiacs 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/AZ/AZ_slide10.png",
+                "src": "/assets/images/ImagesSlide/AZ/AZ_slide10.webp",
                 "alt": "image de mon projet AllZodiacs 10"
             }
         ],
@@ -1319,30 +1319,30 @@
     },
     {
         "id": "22",
-        "imagePortrait": "/assets/images/ImagesPortrait/omf_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/omf_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/omf/omf_slide01.png",
+                "src": "/assets/images/ImagesSlide/omf/omf_slide01.webp",
                 "alt": "image de mon projet ohmyfood 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/omf/omf_slide02.png",
+                "src": "/assets/images/ImagesSlide/omf/omf_slide02.webp",
                 "alt": "image de mon projet ohmyfood 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/omf/omf_slide03.png",
+                "src": "/assets/images/ImagesSlide/omf/omf_slide03.webp",
                 "alt": "image de mon projet ohmyfood 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/omf/omf_slide04.png",
+                "src": "/assets/images/ImagesSlide/omf/omf_slide04.webp",
                 "alt": "image de mon projet ohmyfood 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/omf/omf_slide05.png",
+                "src": "/assets/images/ImagesSlide/omf/omf_slide05.webp",
                 "alt": "image de mon projet ohmyfood 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/omf/omf_slide06.png",
+                "src": "/assets/images/ImagesSlide/omf/omf_slide06.webp",
                 "alt": "image de mon projet ohmyfood 6"
             }
         ],
@@ -1356,30 +1356,30 @@
     },
     {
         "id": "23",
-        "imagePortrait": "/assets/images/ImagesPortrait/JS_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/JS_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/JS/JS_slide01.png",
+                "src": "/assets/images/ImagesSlide/JS/JS_slide01.webp",
                 "alt": "image de mon projet JobSniper 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/JS/JS_slide02.png",
+                "src": "/assets/images/ImagesSlide/JS/JS_slide02.webp",
                 "alt": "image de mon projet JobSniper 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/JS/JS_slide03.png",
+                "src": "/assets/images/ImagesSlide/JS/JS_slide03.webp",
                 "alt": "image de mon projet JobSniper 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/JS/JS_slide04.png",
+                "src": "/assets/images/ImagesSlide/JS/JS_slide04.webp",
                 "alt": "image de mon projet JobSniper 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/JS/JS_slide06.png",
+                "src": "/assets/images/ImagesSlide/JS/JS_slide06.webp",
                 "alt": "image de mon projet JobSniper 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/JS/JS_slide07.png",
+                "src": "/assets/images/ImagesSlide/JS/JS_slide07.webp",
                 "alt": "image de mon projet JobSniper 5"
             }
         ],
@@ -1401,50 +1401,50 @@
     },
     {
         "id": "24",
-        "imagePortrait": "/assets/images/ImagesPortrait/CS_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/CS_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide01.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide01.webp",
                 "alt": "image de mon projet Crystal Swipe 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide02.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide02.webp",
                 "alt": "image de mon projet Crystal Swipe 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide03.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide03.webp",
                 "alt": "image de mon projet Crystal Swipe 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide04.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide04.webp",
                 "alt": "image de mon projet Crystal Swipe 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide06.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide06.webp",
                 "alt": "image de mon projet Crystal Swipe 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide07.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide07.webp",
                 "alt": "image de mon projet Crystal Swipe 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide08.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide08.webp",
                 "alt": "image de mon projet Crystal Swipe 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide09.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide09.webp",
                 "alt": "image de mon projet Crystal Swipe 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide10.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide10.webp",
                 "alt": "image de mon projet Crystal Swipe 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide11.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide11.webp",
                 "alt": "image de mon projet Crystal Swipe 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/CS/CS_slide12.png",
+                "src": "/assets/images/ImagesSlide/CS/CS_slide12.webp",
                 "alt": "image de mon projet Crystal Swipe 5"
             }
         ],
@@ -1466,62 +1466,62 @@
     },
     {
         "id": "25",
-        "imagePortrait": "/assets/images/ImagesPortrait/CVF_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/CVF_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide01.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide01.webp",
                 "alt": "image de mon projet CVForgeAI 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide02.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide02.webp",
                 "alt": "image de mon projet CVForgeAI 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide03.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide03.webp",
                 "alt": "image de mon projet CVForgeAI 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide04.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide04.webp",
                 "alt": "image de mon projet CVForgeAI 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide05.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide05.webp",
                 "alt": "image de mon projet CVForgeAI 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide06.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide06.webp",
                 "alt": "image de mon projet CVForgeAI 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide07.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide07.webp",
                 "alt": "image de mon projet CVForgeAI 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide08.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide08.webp",
                 "alt": "image de mon projet CVForgeAI 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide09.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide09.webp",
                 "alt": "image de mon projet CVForgeAI 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide10.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide10.webp",
                 "alt": "image de mon projet CVForgeAI 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide11.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide11.webp",
                 "alt": "image de mon projet CVForgeAI 11"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide12.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide12.webp",
                 "alt": "image de mon projet CVForgeAI 12"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide13.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide13.webp",
                 "alt": "image de mon projet CVForgeAI 13"
             },
             {
-                "src": "/assets/images/ImagesSlide/CVF/CVF_slide14.png",
+                "src": "/assets/images/ImagesSlide/CVF/CVF_slide14.webp",
                 "alt": "image de mon projet CVForgeAI 14"
             }
         ],
@@ -1551,70 +1551,70 @@
     },
     {
         "id": "26",
-        "imagePortrait": "/assets/images/ImagesPortrait/LU_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/LU_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide01.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide01.webp",
                 "alt": "image de mon projet Lumiel 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide02.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide02.webp",
                 "alt": "image de mon projet Lumiel 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide03.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide03.webp",
                 "alt": "image de mon projet Lumiel 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide04.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide04.webp",
                 "alt": "image de mon projet Lumiel 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide05.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide05.webp",
                 "alt": "image de mon projet Lumiel 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide06.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide06.webp",
                 "alt": "image de mon projet Lumiel 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide07.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide07.webp",
                 "alt": "image de mon projet Lumiel 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide08.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide08.webp",
                 "alt": "image de mon projet Lumiel 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide09.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide09.webp",
                 "alt": "image de mon projet Lumiel 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide10.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide10.webp",
                 "alt": "image de mon projet Lumiel 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide11.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide11.webp",
                 "alt": "image de mon projet Lumiel 11"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide12.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide12.webp",
                 "alt": "image de mon projet Lumiel 12"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide13.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide13.webp",
                 "alt": "image de mon projet Lumiel 13"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide14.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide14.webp",
                 "alt": "image de mon projet Lumiel 14"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide15.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide15.webp",
                 "alt": "image de mon projet Lumiel 15"
             },
             {
-                "src": "/assets/images/ImagesSlide/LU/LU_slide16.png",
+                "src": "/assets/images/ImagesSlide/LU/LU_slide16.webp",
                 "alt": "image de mon projet lumiel 16"
             }
         ],
@@ -1640,38 +1640,38 @@
     },
     {
         "id": "27",
-        "imagePortrait": "/assets/images/ImagesPortrait/RP_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/RP_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide01.png",
+                "src": "/assets/images/ImagesSlide/RP/RP_slide01.webp",
                 "alt": "image de mon projet RP 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide02.png",
+                "src": "/assets/images/ImagesSlide/RP/RP_slide02.webp",
                 "alt": "image de mon projet RP 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide03.png",
+                "src": "/assets/images/ImagesSlide/RP/RP_slide03.webp",
                 "alt": "image de mon projet RP 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide04.png",
+                "src": "/assets/images/ImagesSlide/RP/RP_slide04.webp",
                 "alt": "image de mon projet RP 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide05.png",
+                "src": "/assets/images/ImagesSlide/RP/RP_slide05.webp",
                 "alt": "image de mon projet RP 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide06.png",
+                "src": "/assets/images/ImagesSlide/RP/RP_slide06.webp",
                 "alt": "image de mon projet RP 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide07.png",
+                "src": "/assets/images/ImagesSlide/RP/RP_slide07.webp",
                 "alt": "image de mon projet RP 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/RP/RP_slide08.png",
+                "src": "/assets/images/ImagesSlide/RP/RP_slide08.webp",
                 "alt": "image de mon projet RP 8"
             }
         ],
@@ -1693,62 +1693,62 @@
     },
     {
         "id": "28",
-        "imagePortrait": "/assets/images/ImagesPortrait/NO_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/NO_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide01.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide01.webp",
                 "alt": "image de mon projet Noctis 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide02.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide02.webp",
                 "alt": "image de mon projet Noctis 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide03.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide03.webp",
                 "alt": "image de mon projet Noctis 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide04.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide04.webp",
                 "alt": "image de mon projet Noctis 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide05.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide05.webp",
                 "alt": "image de mon projet Noctis 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide06.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide06.webp",
                 "alt": "image de mon projet Noctis 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide07.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide07.webp",
                 "alt": "image de mon projet Noctis 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide08.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide08.webp",
                 "alt": "image de mon projet Noctis 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide09.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide09.webp",
                 "alt": "image de mon projet Noctis 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide10.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide10.webp",
                 "alt": "image de mon projet Noctis 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide11.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide11.webp",
                 "alt": "image de mon projet Noctis 11"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide12.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide12.webp",
                 "alt": "image de mon projet Noctis 12"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide13.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide13.webp",
                 "alt": "image de mon projet Noctis 13"
             },
             {
-                "src": "/assets/images/ImagesSlide/NO/NO_slide14.png",
+                "src": "/assets/images/ImagesSlide/NO/NO_slide14.webp",
                 "alt": "image de mon projet Noctis 14"
             }
         ],
@@ -1770,50 +1770,50 @@
     },
     {
         "id": "29",
-        "imagePortrait": "/assets/images/ImagesPortrait/TDB_portrait.png",
+        "imagePortrait": "/assets/images/ImagesPortrait/TDB_portrait.webp",
         "imagesSlide": [
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide01.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide01.webp",
                 "alt": "image de mon projet TheDevBook 1"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide02.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide02.webp",
                 "alt": "image de mon projet TheDevBook 2"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide03.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide03.webp",
                 "alt": "image de mon projet TheDevBook 3"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide04.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide04.webp",
                 "alt": "image de mon projet TheDevBook 4"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide05.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide05.webp",
                 "alt": "image de mon projet TheDevBook 5"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide06.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide06.webp",
                 "alt": "image de mon projet TheDevBook 6"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide07.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide07.webp",
                 "alt": "image de mon projet TheDevBook 7"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide08.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide08.webp",
                 "alt": "image de mon projet TheDevBook 8"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide09.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide09.webp",
                 "alt": "image de mon projet TheDevBook 9"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide10.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide10.webp",
                 "alt": "image de mon projet TheDevBook 10"
             },
             {
-                "src": "/assets/images/ImagesSlide/TDB/TDB_slide11.png",
+                "src": "/assets/images/ImagesSlide/TDB/TDB_slide11.webp",
                 "alt": "image de mon projet TheDevBook 11"
             }
         ],

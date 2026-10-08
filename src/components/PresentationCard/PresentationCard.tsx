@@ -1,12 +1,16 @@
 import { useState, useEffect, type ReactNode, type SVGProps } from 'react';
 import './PresentationCard.css';
-import IconTrinityRings from '../../assets/images/Icons/Icon_trinity_rings.png';
+import IconTrinityRings from '../../assets/images/Icons/Icon_trinity_rings.webp';
 
 const CLOSE_ANIMATION_MS = 450;
 
 type IconProps = SVGProps<SVGSVGElement>;
 
-const IconBase = ({ children, className, ...props }: IconProps & { children: ReactNode }) => (
+const IconBase = ({
+  children,
+  className,
+  ...props
+}: IconProps & { children: ReactNode }) => (
   <svg
     className={`presentation_icon ${className ?? ''}`.trim()}
     viewBox="0 0 24 24"
@@ -385,7 +389,8 @@ const PresentationCard = ({ onClose }: { onClose?: () => void }) => {
             <br />
             Je les transforme en apps concrètes
             <br />
-            React, Angular, TypeScript, Node.js et zéro peur d’apprendre en live.
+            React, Angular, TypeScript, Node.js et zéro peur d’apprendre en
+            live.
           </p>
 
           <ul className="presentation_traits">
@@ -449,7 +454,9 @@ const PresentationCard = ({ onClose }: { onClose?: () => void }) => {
         </div>
 
         <div className="presentation_reward">
-          <strong className="presentation_reward_title">Talents spéciaux</strong>
+          <strong className="presentation_reward_title">
+            Talents spéciaux
+          </strong>
           <ul>
             {TALENTS.map((talent) => (
               <li key={talent.label}>
