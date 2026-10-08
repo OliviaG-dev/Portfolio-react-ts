@@ -7,6 +7,7 @@
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
 ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+[![CI](https://github.com/OliviaG-dev/Portfolio-react-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/OliviaG-dev/Portfolio-react-ts/actions/workflows/ci.yml)
 
 ## 🚀 À propos
 
@@ -244,6 +245,16 @@ pnpm lint
 # Aperçu du build en local
 pnpm preview
 ```
+
+## 👷 CI/CD
+
+Un workflow GitHub Actions (`.github/workflows/ci.yml`) s’exécute sur chaque `push` sur `master` et chaque pull request :
+
+1. `pnpm install --frozen-lockfile`
+2. `pnpm lint`
+3. `pnpm build`
+
+Le déploiement est assuré par Vercel à partir de `master`.
 
 ## 📝 Licence
 

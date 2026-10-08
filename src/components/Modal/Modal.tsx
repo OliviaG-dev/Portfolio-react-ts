@@ -1,6 +1,6 @@
 import './Modal.css';
 import { ModalProps } from '../../services/inteface';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Icon_githubnoir from '../../assets/images/Icons/Icon_githubnoir.svg';
 import Icon_internet from '../../assets/images/Icons/Icon_internet.svg';
 
@@ -131,23 +131,23 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
   const displayHeight =
     imageFit.fitHeight > 0 ? imageFit.fitHeight * zoom.scale : undefined;
 
-  const syncZoom = (nextZoom: ZoomState) => {
+  const syncZoom = useCallback((nextZoom: ZoomState) => {
     zoomRef.current = nextZoom;
     setZoom(nextZoom);
-  };
+  }, []);
 
-  const syncImageFit = (nextFit: ImageFit) => {
+  const syncImageFit = useCallback((nextFit: ImageFit) => {
     imageFitRef.current = nextFit;
     setImageFit(nextFit);
-  };
+  }, []);
 
-  const resetZoom = () => {
+  const resetZoom = useCallback(() => {
     pinchRef.current = null;
     panRef.current = null;
     syncZoom(INITIAL_ZOOM);
-  };
+  }, [syncZoom]);
 
-  const measureImageFit = () => {
+  const measureImageFit = useCallback(() => {
     const frame = lightboxFrameRef.current;
     const img = lightboxImgRef.current;
     if (!frame || !img || !img.naturalWidth || !img.naturalHeight) return;
@@ -165,7 +165,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
       fitWidth,
       fitHeight,
     });
-  };
+  }, [syncImageFit]);
 
   const goToSlide = (index: number) => {
     if (!project || index < 0 || index >= project.imagesSlide.length) return;
@@ -206,14 +206,14 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
   useEffect(() => {
     resetZoom();
     syncImageFit(INITIAL_FIT);
-  }, [currentSlide]);
+  }, [currentSlide, resetZoom, syncImageFit]);
 
   useEffect(() => {
     if (!isLightboxOpen) {
       resetZoom();
       syncImageFit(INITIAL_FIT);
     }
-  }, [isLightboxOpen]);
+  }, [isLightboxOpen, resetZoom, syncImageFit]);
 
   useEffect(() => {
     if (!isLightboxOpen) return;
@@ -241,7 +241,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
 
     observer.observe(frame);
     return () => observer.disconnect();
-  }, [isLightboxOpen, currentImage?.src]);
+  }, [isLightboxOpen, currentImage?.src, measureImageFit, syncZoom]);
 
   useEffect(() => {
     if (!isLightboxOpen) return;
@@ -472,7 +472,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
       frame.removeEventListener('touchend', onTouchEnd);
       frame.removeEventListener('touchcancel', onTouchEnd);
     };
-  }, [isLightboxOpen]);
+  }, [isLightboxOpen, resetZoom, syncZoom]);
 
   const handleClose = () => {
     if (isLightboxOpen) {
@@ -527,10 +527,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
       ? 'Pince pour zoomer · Swipe pour changer de photo'
       : 'Pince pour zoomer · Double-tap pour agrandir';
 
-  const dotsClassName = [
-    'slider_dots',
-    isDenseDots ? 'slider_dots--dense' : '',
-  ]
+  const dotsClassName = ['slider_dots', isDenseDots ? 'slider_dots--dense' : '']
     .filter(Boolean)
     .join(' ');
 
@@ -581,6 +578,7 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
                     className="slider_img"
                     src={currentImage.src}
                     alt={currentImage.alt}
+                    decoding="async"
                   />
                 </button>
                 <span className="swipe_hint">Swipe me</span>
