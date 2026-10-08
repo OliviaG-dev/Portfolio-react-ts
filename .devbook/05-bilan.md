@@ -7,6 +7,7 @@
 - Reveal au scroll via `IntersectionObserver` + classe CSS unique (`is-visible`)
 - SVG décoratif + animations CSS + `prefers-reduced-motion`
 - Données projets externalisées dans `src/assets/data/projects.json`
+- Un projet front + API = une fiche, avec `linkGitApi` pour le second dépôt
 - Découpage UI one-page : Header / About / Projets / Contact
 
 ### À améliorer la prochaine fois

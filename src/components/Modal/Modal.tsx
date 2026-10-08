@@ -649,6 +649,17 @@ const Modal: React.FC<ModalProps> = ({ closeModal, project }) => {
                     Voir le GitHub
                   </a>
                 )}
+                {project.linkGitApi && (
+                  <a
+                    className="link_slide"
+                    href={project.linkGitApi}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={Icon_githubnoir} alt="" />
+                    GitHub API
+                  </a>
+                )}
               </div>
               <ul className="down_list">
                 {project.tags.map((tag) => (
