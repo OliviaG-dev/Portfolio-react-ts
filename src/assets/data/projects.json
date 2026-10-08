@@ -221,10 +221,6 @@
             {
                 "item": "#TYPESCRIPT",
                 "style": "#065973"
-            },
-            {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
             }
         ],
         "title": "Numora",
@@ -276,6 +272,66 @@
             {
                 "src": "/assets/images/ImagesSlide/S/S_slide10.png",
                 "alt": "image de mon projet Stalloria 10"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide11.png",
+                "alt": "image de mon projet Stalloria 11"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide12.png",
+                "alt": "image de mon projet Stalloria 12"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide13.png",
+                "alt": "image de mon projet Stalloria 13"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide14.png",
+                "alt": "image de mon projet Stalloria 14"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide15.png",
+                "alt": "image de mon projet Stalloria 15"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide16.png",
+                "alt": "image de mon projet Stalloria 16"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide17.png",
+                "alt": "image de mon projet Stalloria 17"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide18.png",
+                "alt": "image de mon projet Stalloria 18"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide19.png",
+                "alt": "image de mon projet Stalloria 19"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide20.png",
+                "alt": "image de mon projet Stalloria 20"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide21.png",
+                "alt": "image de mon projet Stalloria 21"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide22.png",
+                "alt": "image de mon projet Stalloria 22"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide23.png",
+                "alt": "image de mon projet Stalloria 23"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide24.png",
+                "alt": "image de mon projet Stalloria 24"
+            },
+            {
+                "src": "/assets/images/ImagesSlide/S/S_slide25.png",
+                "alt": "image de mon projet Stalloria 25"
             }
         ],
         "tags": [
@@ -552,10 +608,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
                 "item": "#REACT",
                 "style": "#237C03"
             },
@@ -625,10 +677,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
                 "item": "#REACT",
                 "style": "#237C03"
             },
@@ -682,10 +730,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
                 "item": "#TYPESCRIPT",
                 "style": "#065973"
             },
@@ -726,10 +770,6 @@
             }
         ],
         "tags": [
-            {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
             {
                 "item": "#TYPESCRIPT",
                 "style": "#065973"
@@ -776,10 +816,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
                 "item": "#TYPESCRIPT",
                 "style": "#065973"
             },
@@ -792,6 +828,7 @@
                 "style": "#4A90E2"
             }
         ],
+        "hidden": true,
         "title": "Booksy",
         "describe": "Ici, on partage les livres qui nous ont fait vibrer, réfléchir, pleurer ou rêver.",
         "link": "https://booksy-navy.vercel.app/",
@@ -935,6 +972,7 @@
                 "style": "#9F1066"
             }
         ],
+        "hidden": true,
         "title": "LP - LOL",
         "describe": "Une app simple et sécurisée pour partager vos coordonnées personnelles avec vos proches, vos contacts professionnels.",
         "link": "",
@@ -976,10 +1014,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
                 "item": "#REACT",
                 "style": "#237C03"
             },
@@ -988,6 +1022,7 @@
                 "style": "#065973"
             }
         ],
+        "hidden": true,
         "title": "Portfolio",
         "describe": "Entre lignes de code et éclats de pixels, ce portfolio vous invite à voyager au cœur de mes créations numériques.",
         "link": "https://portfolio-react-ts-two.vercel.app/",
@@ -1037,10 +1072,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
                 "item": "#REACT",
                 "style": "#237C03"
             },
@@ -1086,10 +1117,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
                 "item": "#REACT",
                 "style": "#237C03"
             },
@@ -1102,6 +1129,7 @@
                 "style": "#be8110"
             }
         ],
+        "hidden": true,
         "title": "ChatBlog",
         "describe": "Une app fullstack élégante. Publiez, organisez et modifiez vos articles en toute simplicité parfait pour partager votre amour félin !",
         "link": "",
@@ -1159,10 +1187,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
                 "item": "#REACT",
                 "style": "#237C03"
             },
@@ -1175,6 +1199,7 @@
                 "style": "#4A90E2"
             }
         ],
+        "hidden": true,
         "title": "Le Grimoire d'Aether",
         "describe": "Wiki numérique dédié aux cartes divinatoires, conçu comme une base de connaissance structurée et évolutive.",
         "link": "https://grimoire-d-aether.vercel.app/",
@@ -1211,10 +1236,6 @@
             }
         ],
         "tags": [
-            {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
             {
                 "item": "#REACT",
                 "style": "#237C03"
@@ -1260,10 +1281,6 @@
             }
         ],
         "tags": [
-            {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
             {
                 "item": "#REACT",
                 "style": "#237C03"
@@ -1326,10 +1343,6 @@
         ],
         "tags": [
             {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
-            {
                 "item": "#REACT",
                 "style": "#237C03"
             },
@@ -1373,12 +1386,8 @@
                 "alt": "image de mon projet ohmyfood 6"
             }
         ],
-        "tags": [
-            {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            }
-        ],
+        "tags": [],
+        "hidden": true,
         "title": "oh my food!",
         "describe": "Un site entièrement mobile, dédié à la découverte des menus de restaurants gastronomiques.",
         "link": "https://oliviag-dev.github.io/OC_P3_11102021/index.html",
@@ -1415,10 +1424,6 @@
             }
         ],
         "tags": [
-            {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
             {
                 "item": "#REACT",
                 "style": "#237C03"
@@ -1484,10 +1489,6 @@
             }
         ],
         "tags": [
-            {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
             {
                 "item": "#REACT",
                 "style": "#237C03"
@@ -1722,10 +1723,6 @@
             {
                 "item": "#TYPESCRIPT",
                 "style": "#065973"
-            },
-            {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
             }
         ],
         "title": "RéviPermis",
@@ -1796,10 +1793,6 @@
             }
         ],
         "tags": [
-            {
-                "item": "#HTML/CSS",
-                "style": "#4B5563"
-            },
             {
                 "item": "#REACT",
                 "style": "#237C03"

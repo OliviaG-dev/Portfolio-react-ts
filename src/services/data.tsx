@@ -5,7 +5,7 @@ import { DataProjects, Quest } from './inteface';
 export class Data {
   [x: string]: any;
   getDataProjects = (): DataProjects[] => {
-    return projects as DataProjects[];
+    return (projects as DataProjects[]).filter((project) => !project.hidden);
   };
 }
 
